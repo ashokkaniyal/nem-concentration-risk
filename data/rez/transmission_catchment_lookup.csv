@@ -1,0 +1,561 @@
+site_name,transmission_catchment,catchment_confidence,rationale,matched_keyword,best_capacity_mw,technology,fuel,owner,owner_tier,phantom_risk,phantom_flags
+Abermain BESS,Unclassified,review,No rule matched — manual review needed,,200.0,Storage - Battery,Other - Other,FIrm Power P/L,tier_3,0,
+Aldi Brendale,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Aldi Brendale,0.931,Solar PV - Fixed,Solar,TBA,tier_3,0,
+Aldoga BESS Stage 1,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Aldoga,400.0,Storage - Battery,Other - Other,Acciona Energy Australia Global,tier_1,0,
+Aldoga Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Aldoga,535.21,Solar PV - Single axis tracking,Solar - Solar,Acciona Energy Australia Global Pty Ltd,tier_1,0,
+Alligator Creek BESS,Unclassified,review,No rule matched — manual review needed,,120.0,Storage - Battery,Other - Other,Alligator Creek BESS Pty Ltd,tier_3,0,
+Aramara Solar Farm,Unclassified,review,No rule matched — manual review needed,,101.4,Solar PV - Single axis tracking,Solar,Aramara Solar Pty Ltd,tier_3,0,
+Archer Point Wind Farm,FNQ,high,FNQ corridor (Townsville and north),Archer Point,120.0,Wind Turbine - Onshore,Wind,Wind Power Queensland Pty Ltd,tier_3,2,stale_proposed_4plus_releases
+Ardandra Solar Farm And BESS,Unclassified,review,No rule matched — manual review needed,,96.99,Solar PV - Single axis tracking,Solar - Solar,Ardandra SF Pty Ltd as trustee for Ardandra SF Trust,tier_3,0,
+Baking Board BESS (MMT),WD,high,WD substation/Chinchilla corridor,Baking Board,300.0,Storage - Battery,Other - Other,MMT Projects T/A Renewable Projects Management,tier_3,0,
+Baking Board Battery Storage - KCI,WD,high,WD substation/Chinchilla corridor,Baking Board,400.0,Storage - Battery,Solar - Solar, Solar Projects Australia Pty Ltd,tier_3,0,
+Baking Board Solar Farm,WD,high,WD substation/Chinchilla corridor,Baking Board,400.0,,Storage,Solar Projects Australia Pty Ltd,tier_3,2,stale_proposed_4plus_releases
+Baking Board Solar Farm (MMT),WD,high,WD substation/Chinchilla corridor,Baking Board,300.0,Solar PV - Fixed,Solar - Solar,MMT Projects T/A Renewable Projects Management,tier_3,0,
+Baking Board Solar Farm - KCI,WD,high,WD substation/Chinchilla corridor,Baking Board,250.0,Solar PV - Fixed,Solar - Solar, Solar Projects Australia Pty Ltd,tier_3,0,
+Baking Board Solar Farm Chinchilla,WD,high,WD substation/Chinchilla corridor,Chinchilla,14.7,Solar PV - Fixed,Solar,Chinchilla Solar Pty Ltd,tier_3,0,
+Banana Range Wind Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Banana Range,450.0,Wind Turbine - Onshore,Wind,Orange Creek Energy Pty Ltd,tier_3,2,stale_proposed_4plus_releases
+Banksia Solar Farm,Unclassified,review,No rule matched — manual review needed,,70.4,Solar PV - Single axis tracking,Solar - Solar,Venn Energy Pty / Banksia Solar Project Pty Ltd,tier_3,0,
+Baralaba Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Baralaba,130.0,Solar PV - Fixed,Solar,FRV Services Australia Pty Ltd,tier_3,2,stale_proposed_4plus_releases
+Barcaldine Power Station,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Barcaldine,37.0,Turbine - OCGT,Natural Gas Pipeline,Ergon Energy Queensland Pty Ltd,tier_3,0,
+Barcaldine Remote Community Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Barcaldine,20.0,Solar PV - Single axis tracking,Solar,Barcaldine Remote Community Solar Farm Pty Ltd,tier_3,0,
+Barron Gorge,FNQ,high,FNQ corridor (Townsville and north),Barron Gorge,35.0,Hydro - Run of River,Hydro - Water,CleanCo Queensland Limited,tier_1,0,
+Barunggam Solar Battery Farm,WD,medium,Western Downs region (judgement call),Barunggam,315.0,,Solar,Ubergy Pty Ltd,tier_3,2,stale_proposed_4plus_releases
+Barunggam Solar Battery Farm - Battery - KCI,WD,medium,Western Downs region (judgement call),Barunggam,100.0,Storage - Battery,Other - Other, Ubergy Pty Ltd ,tier_3,0,
+Barunggam Solar Farm - KCI,WD,medium,Western Downs region (judgement call),Barunggam,315.0,Solar PV - Fixed,Solar - Solar, Ubergy Pty Ltd,tier_3,0,
+Beebo Battary - KCI,SD,high,Southern Downs corridor (Karara/Warwick/Bulli Creek),Beebo,600.0,Storage - Battery,Other - Other,BEEBO SOLAR FARM PTY LTD as Trustee For BEEBO SOLAR FARM UNIT TRUST,tier_3,1,large_tier3
+Beebo Solar Farm - KCI,SD,high,Southern Downs corridor (Karara/Warwick/Bulli Creek),Beebo,600.0,Solar PV - Fixed,Solar - Solar,BEEBO SOLAR FARM PTY LTD as Trustee For BEEBO SOLAR FARM UNIT TRUST,tier_3,1,large_tier3
+Beelbee Solar Farm,DD,high,Darling Downs corridor (Dalby/Bell),Beelbee,200.0,Solar PV - Single axis tracking,Solar,Darling Downs Solar Farm Pty Ltd,tier_3,2,stale_proposed_4plus_releases
+Big G Pumped Hydro Project,Unclassified,review,No rule matched — manual review needed,,800.0,Storage - Pumped hydro,Hydro - Water,BE Power,tier_2,0,
+Big T Pumped Hydro Project,Unclassified,review,No rule matched — manual review needed,,400.0,Storage - Pumped hydro,Hydro - Water,BE Power,tier_2,0,
+Big-T Project,Unclassified,review,No rule matched — manual review needed,,400.0,Storage - Pumped hydro,Water,BE Power,tier_2,2,stale_proposed_4plus_releases
+Birkdale,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Birkdale,0.79,Reciprocating Engine - Spark ignition,Renewable Biomass or Waste - Landfill Gas,LMS ENERGY Pty Ltd,tier_3,0,
+Blackstone BESS,Unclassified,review,No rule matched — manual review needed,,331.2,Storage - Battery,Other - Other,FIrm Power P/L,tier_3,0,
+Blackstone BESS 2 - KCI,Unclassified,review,No rule matched — manual review needed,,331.2,Storage - Battery,Other - Other,FIrm Power P/L,tier_3,0,
+Blackwater Hybrid System,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Blackwater,270.0,Solar PV - Single axis tracking,Solar - Solar,Blackwater Project Nominees Pty Ltd as trustee for the Blackwater Project Trust,tier_3,2,stale_proposed_4plus_releases
+Blackwater Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Blackwater,270.0,,Solar PV,Total Eren,tier_3,0,
+Blair Athol Solar Power Station,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Blair Athol,60.0,Solar PV - Fixed,Solar,TerraCom Ltd,tier_3,2,stale_proposed_4plus_releases
+Blenheim BESS - KCI,Unclassified,review,No rule matched — manual review needed,,29.25,Storage - Battery,Solar - Solar, Gatton Solar Farm Pty Ltd,tier_3,0,
+Blenheim Solar Farm,Unclassified,review,No rule matched — manual review needed,,106.0,,Solar,Gatton Solar Farm Pty Ltd ,tier_3,2,stale_proposed_4plus_releases
+Blenheim Solar Farm - KCI,Unclassified,review,No rule matched — manual review needed,,106.0,Solar PV - Fixed,Solar - Solar, Gatton Solar Farm Pty Ltd,tier_3,0,
+Bluegrass Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Bluegrass,148.0,Solar PV - Single axis tracking,Solar,X-Elio Australia Pty Ltd,tier_1,0,
+Bluff Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Bluff Solar,85.0,Solar PV - Fixed,Solar,Iberdrola Australia Development Pty Ltd,tier_1,1,stale_proposed_4plus_releases
+Bogandilla Wind Farm,WD,medium,Western Downs region (judgement call),Bogandilla,530.0,Wind Turbine - Onshore,Wind - Wind,RES Australia Pty Ltd,tier_1,0,
+Boma Solar Farm,DD,high,Darling Downs corridor (Dalby/Bell),Boma Solar,15.0,Solar PV - Single axis tracking,Solar,Solis Industria,tier_3,2,stale_proposed_4plus_releases
+Boomber Green Energy Hub,WG,high,Woolooga corridor (Gympie/Maryborough),Boomber,1185.6,Wind Turbine - Onshore,Wind - Wind,Boomer Green Energy Hub Pty Ltd (a subsidiary of the Ark Energy Group),tier_2,2,manual_known_phantom
+Boomer Green Energy Hub,WG,high,Woolooga corridor (Gympie/Maryborough),Boomer,800.0,Other - Other,Other - Other,ARK Energy Corporation Pty Ltd,tier_2,0,
+Borumba,WG,high,Woolooga corridor (Gympie/Maryborough),Borumba,2000.0,Storage - Pumped hydro,Water,Queensland Hydro,tier_1,0,
+Borumba Dam Pumped Hydro Energy Storage,WG,high,Woolooga corridor (Gympie/Maryborough),Borumba,1000.0,Storage - Pumped hydro,Water,,unknown,0,
+Borumba Pumped Hydro,WG,high,Woolooga corridor (Gympie/Maryborough),Borumba,1998.0,Storage - Pumped hydro,Hydro - Water,Queensland Hydro,tier_1,0,
+Boulder Creek Wind Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Boulder Creek,372.0,Wind Turbine - Onshore,Wind,Boulder Creek Wind Farm Pty Ltd as trustee for BCWF Unit Trust ABN and BCWF 2 Pty Limited ,tier_3,0,
+Boulder Creek Wind Farm with BESS,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Boulder Creek,466.0,,Wind,Epuron Projects Pty Ltd,tier_3,0,
+Bouldercombe Battery,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Bouldercombe,100.0,Storage - Battery,Other,Genex Power Limited,tier_1,0,
+Bouldercombe Battery project,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Bouldercombe,50.0,Storage - Battery,Other,Genex Power Limited,tier_1,0,
+Bouldercombe Battery project - Stage 2 - KCI,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Bouldercombe,50.0,Storage - Battery,Other - Other,Genex Power Limited,tier_1,0,
+Bouldercombe North BESS - Quintas,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Bouldercombe,400.0,Storage - Battery,Other - Other,Bouldercombe North BESS Pty Ltd,tier_3,0,
+Bouldercombe Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Bouldercombe,200.0,Solar PV - Fixed,Solar,EEW Eco Energy World Ltd,tier_3,2,stale_proposed_4plus_releases
+Bouldercombe Solar Farm + BESS,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Bouldercombe,286.0,,Solar,ENEL Green Power Australia Pty Ltd,tier_1,1,stale_proposed_4plus_releases
+Bouldercombe Solar Farm - KCI,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Bouldercombe,286.0,Solar PV - Fixed,Solar - Solar, ENEL Green Power Australia Pty Ltd,tier_1,0,
+Bouldercombe Solar Farm BESS - KCI,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Bouldercombe,150.0,Storage - Battery,Solar - Solar, ENEL Green Power Australia Pty Ltd,tier_1,0,
+Bowen Basin Sun Farm - KCI,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Bowen,130.0,Solar PV - Fixed,Solar - Solar,Bowen Basin Sun Farm Pty Ltd,tier_3,0,
+Bowen PHES,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Bowen,750.0,Storage - Pumped hydro,Water,Blue Hydro Project Pty Ltd,tier_3,1,large_tier3
+Bowen PHES - KCI,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Bowen,750.0,Hydro - Dam,Hydro - Water, Blue Hydro Project Pty Ltd,tier_3,1,large_tier3
+Bracewell Energy Park,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Bracewell,500.11,Solar PV - Single axis tracking,Solar - Solar,TE H2 Australia,tier_1,0,
+Bracewell Energy Project,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Bracewell,500.11,Solar PV - Single axis tracking,Solar - Solar,TotalEnergies Renewables Australia,tier_3,1,large_tier3
+Braemar,DD,medium,DD region (Dalby corridor — judgement call),Braemar,188.0,Turbine - OCGT,Coal Seam Methane,Braemar Power Project Pty Ltd,tier_3,0,
+Braemar 2 Power Station,DD,medium,DD region (Dalby corridor — judgement call),Braemar,173.0,Turbine - OCGT,Coal Seam Methane,NewGen Braemar 2 Partnership comprising Arrow Braemar 2 Pty Ltd and Arrow Southern Generation Pty Ltd,tier_3,0,
+Braemar BESS,DD,medium,DD region (Dalby corridor — judgement call),Braemar,500.0,Storage - Battery,Other - Other,Braemar Power Project Pty Ltd,tier_3,1,large_tier3
+Brampton Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Brampton,58.0,Wind Turbine - Onshore,Wind - Wind,Edify Energy Pty Ltd,tier_2,0,
+Bremer Battery 1,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Bremer,212.0,Storage - Battery,Other - Other,Libra Energy Pty Ltd,tier_3,0,
+Bremer Battery 2,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Bremer,212.0,Storage - Battery,Other - Other,Libra Energy Pty Ltd,tier_3,0,
+Bremer Battery 3,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Bremer,212.0,Storage - Battery,Other - Other,Libra Energy Pty Ltd,tier_3,0,
+Bremer Battery 4,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Bremer,212.0,Storage - Battery,Other - Other,Libra Energy Pty Ltd,tier_3,0,
+Brendale BESS,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Brendale,204.96,Storage - Battery,Other - Other,Brendale Battery ProjectCo Pty Lt,tier_3,0,
+Brigalow GT (Kogan Creek GT),WD,high,WD substation/Chinchilla corridor,Kogan Creek,400.0,Turbine - OCGT,Fossil - Natural Gas,CSE H2 Pty Ltd,tier_3,0,
+Broadlea Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Broadlea,90.0,Solar PV - Single axis tracking,Solar,EEW Eco Energy World,tier_3,2,stale_proposed_4plus_releases
+Broadsound Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Broadsound,400.0,Solar PV - Single axis tracking,Solar - Solar,Broadsound Solar Farm Pty Ltd,tier_3,0,
+Broadsound_BESS,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Broadsound,240.0,Storage - Battery,Other - Other,Broadsound Solar Farm Pty Ltd,tier_3,0,
+Brooyer BESS,WG,high,Woolooga corridor (Gympie/Maryborough),Brooyer,250.0,,Storage,Res Group,tier_3,0,
+Browns Plains,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Browns Plains,1.15,Reciprocating Engine - Spark ignition,Landfill Gas,EDL LFG (Qld) Pty Ltd,tier_3,0,
+Bulli Creek BESS (Trina),SD,high,Southern Downs corridor (Karara/Warwick/Bulli Creek),Bulli Creek,450.0,Storage - Battery,Other - Other,Bulli Creek Hybrid Nominee Pty Ltd on behalf of Bulli Creek Hybrid Trust,tier_3,0,
+Bulli Creek Battery,SD,high,Southern Downs corridor (Karara/Warwick/Bulli Creek),Bulli Creek,400.0,Storage - Battery,Other - Other,Genex Power Limited,tier_1,0,
+Bulli Creek Solar Farm,SD,high,Southern Downs corridor (Karara/Warwick/Bulli Creek),Bulli Creek,1476.0,Solar PV - Single axis tracking,Solar,Genex Power Limited,tier_1,1,stale_proposed_4plus_releases
+Bulli Creek Solar Farm (Trina),SD,high,Southern Downs corridor (Karara/Warwick/Bulli Creek),Bulli Creek,450.0,Solar PV - Fixed,Solar - Solar,Bulli Creek Hybrid Nominee Pty Ltd on behalf of Bulli Creek Hybrid Trust,tier_3,0,
+Bulli Creek Solar Farm – Future Stages,SD,high,Southern Downs corridor (Karara/Warwick/Bulli Creek),Bulli Creek,1025.0,Solar PV - Single axis tracking,Solar,Solar Choice Pty Ltd,tier_3,1,large_tier3
+Bulli Creek Solar Farm – Stage 1,SD,high,Southern Downs corridor (Karara/Warwick/Bulli Creek),Bulli Creek,475.0,Solar PV - Single axis tracking,Solar,Solar Choice Pty Ltd,tier_3,0,
+Bullyard Solar Farm,Unclassified,review,No rule matched — manual review needed,,97.0,Solar PV - Single axis tracking,Solar,EE Solar 9 Pty Ltd as trustee for the EE Solar 9 Trust,tier_3,0,
+Bundaberg Renewable Energy Park,WG,medium,Wide Bay region (judgement call),Bundaberg,500.0,Storage - Battery,Other - Other,Bundaberg Renewable Energy Park,tier_3,2,manual_known_phantom
+Bundaberg Solar Farm,WG,medium,Wide Bay region (judgement call),Bundaberg,78.0,Solar PV - Single axis tracking,Solar - Solar,Bundaberg Development Pty Ltd,tier_3,0,
+Bungaban BESS,DD,high,Darling Downs corridor (Dalby/Bell),Bungaban,350.0,Storage - Battery,Other - Other,Windlab Developments Pty Ltd,tier_2,0,
+Bungaban Wind Farm,DD,high,Darling Downs corridor (Dalby/Bell),Bungaban,1400.0,Wind Turbine - Onshore,Wind - Wind, Windlab Developments Pty Ltd,tier_2,2,stale_proposed_4plus_releases
+Bunkers Hill Pumped Hydro,SD,high,Southern Downs corridor (Karara/Warwick/Bulli Creek),Bunkers Hill Pumped,296.0,Hydro - Dam,Hydro - Water,Pacific Hydro,tier_3,0,
+Bunkers Hill Wind Farm,SD,high,Southern Downs corridor (Karara/Warwick/Bulli Creek),Bunkers Hill Wind,500.0,Wind Turbine - Onshore,Wind - Wind,Pacific Hydro,tier_3,1,large_tier3
+Burdekin BESS,FNQ,high,FNQ corridor (Townsville and north),Burdekin,500.4,Storage - Battery,Other - Other,BURDEKIN SOLAR FARM PTY LTD ATF BURDEKIN GENESIS PROJECT TRUST,tier_3,1,large_tier3
+Burdekin Solar Farm,FNQ,high,FNQ corridor (Townsville and north),Burdekin,140.0,,Solar,Ace Power,tier_3,0,
+Burdekin Solar Farm - KCI,FNQ,high,FNQ corridor (Townsville and north),Burdekin,140.0,Solar PV - Single axis tracking,Solar - Solar,BURDEKIN SOLAR FARM PTY LTD ATF BURDEKIN GENESIS PROJECT TRUST,tier_3,0,
+Burrenbring Wind Farm,DD,medium,DD region (Dalby corridor — judgement call),Burrenbring,360.0,Wind Turbine - Onshore,Wind - Wind,Iberdrola Australia Development Pty Limited,tier_1,0,
+CQH2 Phase 1 - HPF,CQ,high,CQ corridor (Callide/Gladstone/Isaac),CQH2,500.0,Other - Other,Other,Stanwell Corporation Ltd,tier_1,0,
+Callide B,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Callide,350.0,Turbine - Steam Sub Critical,Black Coal,CS Energy,tier_1,0,
+Callide C,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Callide,424.0,Turbine - Steam Super Critical,Black Coal,Joint Venture; Callide Energy Pty Ltd and IG Power (Callide) Ltd. ,tier_3,0,
+Callide Energy Hub - KCI,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Callide,200.0,Storage - Battery,Other - Other,CSE BESS P/L,tier_3,0,
+Callide Gas Peaker - KCI,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Callide,750.0,Turbine - Other,Other - Other,CSE H2 Pty Ltd,tier_3,1,large_tier3
+Callide Power Station BESS,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Callide,200.0,Storage - Battery,Other - Other,Edify Energy Pty Ltd,tier_2,0,
+Callide Power Station Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Callide,200.0,Solar PV - Fixed,Solar - Solar,Edify Energy Pty Ltd,tier_2,0,
+Callide Solar Power Station BESS,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Callide,210.0,Storage - Battery,Other - Other,Edify Energy Pty Ltd,tier_2,0,
+Callide Wind Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Callide,450.0,,Wind,DP Green Energy Pty Limited,tier_3,2,stale_proposed_4plus_releases
+Callide Wind Farm - KCI,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Callide,450.0,Wind Turbine - Onshore,Wind - Wind, DP Energy Pty Ltd,tier_3,0,
+Calliope BESS,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Calliope,300.0,Other - Other,Other - Other,ekuenergy_nr,tier_3,1,owner_junk:_NR$; owner_junk:^[a-z]
+Caloundra Renewable Energy Facility,WG,medium,Wide Bay region (judgement call),Caloundra,0.85,Reciprocating Engine - Spark ignition,Landfill Gas,LMS_NR,tier_3,1,owner_junk:_NR$
+Calvale BESS,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Calvale,500.0,Storage - Battery,Other - Other,Lightsource BP,tier_1,0,
+Calvale LDES BESS,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Calvale,450.0,Storage - Battery,Other - Other,Released Energy Pty Ltd,tier_3,0,
+Calvale Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Calvale,500.0,Solar PV - Fixed,Solar - Solar,Lightsource BP,tier_1,0,
+Cape York Battery Power Plant - Solar,FNQ,high,FNQ corridor (Townsville and north),Cape York,54.985,Solar PV - Single axis tracking,Solar,Lyon Solar,tier_3,0,
+Cape York Battery Power Plant - Storage,FNQ,high,FNQ corridor (Townsville and north),Cape York,20.0,Storage - Battery,Other,Lyon Solar,tier_3,0,
+Capricorn BESS - KCI,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Capricorn,704.0,Storage - Battery,Other - Other,ENEL Green Power Australia,tier_1,0,
+Capricornia Energy Hub (CEH) PHES,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Capricorn,750.0,Storage - Pumped hydro,Hydro - Water,CI QLD PHES PTY LTD,tier_3,1,large_tier3
+Captains Mountain Wind Farm,DD,high,Darling Downs corridor (Dalby/Bell),Captains Mountain,403.2,Wind Turbine - Onshore,Wind,vestas_NR,tier_1,1,stale_proposed_4plus_releases
+Cattle Creek Wind Farm - KCI,FNQ,high,FNQ corridor (Townsville and north),Cattle Creek,798.0,Wind Turbine - Onshore,Wind - Wind,RWE Renewables Australia Pty Ltd,tier_1,1,stale_proposed_4plus_releases
+Central Renewable Energy Zone BESS,Unclassified,review,No rule matched — manual review needed,,150.0,Storage - Battery,Other,Stanwell Corporation Ltd,tier_1,0,
+Chalumbin Wind Farm,FNQ,high,FNQ corridor (Townsville and north),Chalumbin,658.0,Wind Turbine - Onshore,Wind,ARK Energy Corporation Pty Ltd,tier_2,2,stale_proposed_4plus_releases
+Chances Plain Solar Farm,Unclassified,review,No rule matched — manual review needed,,126.0,Solar PV - Single axis tracking,Solar,juwi Renewable Energy Pty Ltd,tier_3,2,stale_proposed_4plus_releases
+Childers Solar Farm,WG,medium,Wide Bay region (judgement call),Childers,64.38,Solar PV - Single axis tracking,Solar,Childers Solar Pty Ltd as trustee for the Childers Solar Trust,tier_3,0,
+Chillamurra Solar Farm,SD,high,Southern Downs corridor (Karara/Warwick/Bulli Creek),Chillamurra,3.6,Solar PV - Fixed,Solar,Chillamurra Solar Pty Ltd,tier_3,0,
+Chinchilla BESS,WD,high,WD substation/Chinchilla corridor,Chinchilla,100.0,Storage - Battery,Other,CSE BESS Pty Ltd,tier_3,0,
+Chinchilla Solar Farm,WD,high,WD substation/Chinchilla corridor,Chinchilla,113.16,Solar PV - Single axis tracking,Solar - Solar,First Solar Australia Pty Ltd,tier_3,0,
+Chinchilla Solar Farm - First Solar,WD,high,WD substation/Chinchilla corridor,Chinchilla,113.16,Solar PV - Single axis tracking,Solar,First Solar Australia Pty Ltd,tier_3,2,stale_proposed_4plus_releases
+Churchill Abattoir,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Churchill Abattoir,0.91,Solar PV - Fixed,Solar,TBA,tier_3,0,
+Clare Solar Farm,FNQ,high,FNQ corridor (Townsville and north),Clare Solar,110.4,Solar PV - Single axis tracking,Solar,Clare Asset Co Pty Ltd ATF Clare Asset Trust,tier_3,0,
+Clarke Creek 2 BESS - KCI,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Clarke Creek,,Storage - Battery,Other - Other,Isaac Wind and Solar Energy Pty Ltd,tier_3,0,
+Clarke Creek Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Clarke Creek,350.0,Solar PV - Single axis tracking,Solar,Pacific Hydro Australia Development Pty Ltd.,tier_3,2,stale_proposed_4plus_releases
+Clarke Creek Wind Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Clarke Creek,346.5,Wind Turbine - Onshore,Wind,Squadron Energy Services Pty Ltd,tier_1,0,
+Clarke Creek Wind Farm Stage 2,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Clarke Creek,696.0,Wind Turbine - Onshore,Wind - Wind,Squadron Energy Services Pty Ltd,tier_1,0,
+Clarke Creek Wind and Solar Farm - Solar,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Clarke Creek,200.0,Solar PV - Fixed,Solar,Squadron Energy,tier_1,1,stale_proposed_4plus_releases
+Clarke Creek Wind and Solar Farm - Wind,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Clarke Creek,,Wind Turbine - Onshore,Wind,Lacour Energy,tier_3,0,
+CleanCo Wind Farm (Small Mac),SD,medium,SD region (Millmerran/Inglewood corridor),CleanCo Wind,103.0,,Wind Turbine,ACCIONA Energy Australia Global Pty Ltd,tier_1,0,
+CleanCo Wind Farm - KCI,SD,medium,SD region (Millmerran/Inglewood corridor),CleanCo Wind,102.6,Wind Turbine - Onshore,Wind - Wind, ACCIONA Energy Australia Global Pty Ltd,tier_1,0,
+Clermont Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Clermont,92.5,Solar PV - Single axis tracking,Solar,Clermont Asset Co Pty Ltd as Trustee for Clerrmont Solar Unit Trust,tier_3,0,
+Collinsville Coal Fired Power Station Project,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Collinsville,990.0,,Other,Shine Energy,tier_3,2,manual_known_phantom
+Collinsville Coal Fired Power Station Project - KCI,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Collinsville,990.0,Other - Other,Fossil - Black Coal, Shine Energy,tier_3,1,large_tier3
+Collinsville Green Energy Hub,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Collinsville,2839.2,Wind Turbine - Onshore,Wind - Wind,COLLINSVILLE GREEN ENERGY HUB PTY LTD ,tier_3,2,manual_known_phantom
+Collinsville North Battery Project,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Collinsville,150.0,Storage - Battery,Other,TBSOL,tier_3,2,stale_proposed_4plus_releases
+Collinsville North Solar Project,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Collinsville,120.0,Solar PV - Fixed,Solar,Vena Energy,tier_1,0,
+Collinsville PV,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Collinsville,42.5,Solar PV - Fixed,Solar,Ratch Australia,tier_2,0,
+Colosseum Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Colosseum,400.0,Solar PV - Fixed,Solar - Solar,Global Power Generation Australia Pty Ltd,tier_3,0,
+Columboola BESS,WD,high,WD substation/Chinchilla corridor,Columboola,700.0,Storage - Battery,Other,Columboola BESS Nominees Pty Ltd,tier_3,1,large_tier3
+Columboola BESS - KCI,WD,high,WD substation/Chinchilla corridor,Columboola,400.0,Storage - Battery,Other - Other,StorEnergy P/L,tier_3,0,
+Columboola Solar Farm,WD,high,WD substation/Chinchilla corridor,Columboola,217.25,Solar PV - Single axis tracking,Solar,Luminous Energy,tier_3,0,
+Comet Energy Park,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Comet,120.0,Storage - Battery,Other - Other,Comet Energy Pty Ltd,tier_3,0,
+Comet Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Comet,159.5,Solar PV - Single axis tracking,Solar,Comet Solar Farm Pty Ltd,tier_3,0,
+Condamine A,WD,medium,Western Downs region (judgement call),Condamine A,87.4,Turbine - CCGT,Coal Seam Methane,QGC Sales QLD Pty Ltd,tier_3,0,
+Coopers Gap Wind Farm,TG,high,Tarong corridor (Tarong PS/Kingaroy),Coopers Gap,330.33,Wind Turbine - Onshore,Wind,PARF Company 6 Pty Limited,tier_3,0,
+Cooroy BESS,WG,high,Woolooga corridor (Gympie/Maryborough),Cooroy,100.0,Storage - Battery,Other - Other,Enervest Operations Pty Ltd,tier_3,0,
+Cross Roads Energy Solar Farm,DD,high,Darling Downs corridor (Dalby/Bell),Cross Roads,650.0,,Solar,Crossroads Energy Pty Ltd,tier_3,1,large_tier3
+Cross Roads Energy Solar Farm - KCI,DD,high,Darling Downs corridor (Dalby/Bell),Cross Roads,650.0,Solar PV - Fixed,Solar - Solar, Crossroads Energy Pty Ltd,tier_3,1,large_tier3
+Croydon Hybrid Facility - Solar And BESS,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Croydon,500.0,Solar PV - Fixed,Solar - Solar,ACEnergy Pty Ltd,tier_2,0,
+Daandine Power Station,WD,high,WD substation/Chinchilla corridor,Daandine,33.143,Reciprocating Engine - Compression ignition,Coal Seam Methane,APT Petroleum Pipeline Holdings Pty Ltd.,tier_3,0,
+Dalby Solar Farm,DD,medium,DD region (Dalby corridor — judgement call),Dalby,30.001,Solar PV - Single axis tracking,Solar,Dalby Asset Trust,tier_3,2,stale_proposed_4plus_releases
+Darling Downs,DD,high,Darling Downs corridor (Dalby/Bell),Darling Downs,364.5,Turbine - CCGT,Coal Seam Methane,Origin Energy Power Limited,tier_1,0,
+Darling Downs BESS (APA),DD,high,Darling Downs corridor (Dalby/Bell),Darling Downs,200.0,Storage - Battery,Other - Other,APA Group,tier_1,0,
+Darling Downs Battery,DD,high,Darling Downs corridor (Dalby/Bell),Darling Downs,500.0,Storage - Battery,Other,BORAL,tier_3,2,stale_proposed_4plus_releases
+Darling Downs Power Station 2,DD,high,Darling Downs corridor (Dalby/Bell),Darling Downs,500.0,Turbine - OCGT,Geothermal - Other,Origin Energy,tier_1,0,
+Darling Downs Solar Farm,DD,high,Darling Downs corridor (Dalby/Bell),Darling Downs,121.0,Solar PV - Fixed,Solar,Darling Downs Solar Farm Pty Ltd,tier_3,0,
+Dawson Wind Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Dawson Wind,560.0,Wind Turbine - Onshore,Wind - Wind,Highland Energy Australia Pty Ltd,tier_2,0,
+Daydream Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Daydream,167.75,Solar PV - Single axis tracking,Solar,The Daydream Solar Farm Trust,tier_3,0,
+Dingo Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Dingo,85.0,Solar PV - Fixed,Solar,ESCO Pacific,tier_2,2,stale_proposed_4plus_releases
+Dugald River Wind Faarm,FNQ,high,FNQ corridor (Townsville and north),Dugald River,144.0,Wind Turbine - Onshore,Wind - Wind,MMG,tier_3,0,
+Dulacca Solar,DD,high,Darling Downs corridor (Dalby/Bell),Dulacca,96.99,Solar PV - Single axis tracking,Solar - Solar,juwi Renewable Energy Pty Ltd,tier_3,1,owner_junk:^[a-z]
+Dulacca Solar Farm,DD,high,Darling Downs corridor (Dalby/Bell),Dulacca,84.0,Solar PV - Single axis tracking,Solar,juwi Renewable Energy Pty Ltd,tier_3,1,owner_junk:^[a-z]
+Dulacca Wind Farm,DD,high,Darling Downs corridor (Dalby/Bell),Dulacca,240.0,Wind Turbine - Onshore,Wind,Dulacca Energy Project Co Pty Ltd,tier_3,0,
+Dunblane Solar Farm,WD,high,WD substation/Chinchilla corridor,Dunblane,7.2,Solar PV - Fixed,Solar,Dunblane Solar Pty Ltd,tier_3,0,
+Dunmore BESS,Unclassified,review,No rule matched — manual review needed,,226.8,Storage - Battery,Other - Other,Samsung C&T,tier_3,0,
+Dunmore Solar Farm,Unclassified,review,No rule matched — manual review needed,,361.0,Solar PV - Single axis tracking,Solar - Solar,Samsung C&T,tier_3,0,
+Dunmore Solar PV,Unclassified,review,No rule matched — manual review needed,,400.0,Solar PV - Single axis tracking,Solar - Solar,"Samsung C&T Renewable Energy Australia Pty, Ltd",tier_3,2,stale_proposed_4plus_releases
+Dysart Solar Farm RED,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Dysart,100.0,Solar PV - Fixed,Solar,Tilt Renewables Australia Pty Ltd,tier_1,1,stale_proposed_4plus_releases
+EIWA Bundaberg Solar Farm,WG,medium,Wide Bay region (judgement call),Bundaberg,78.0,Solar PV - Fixed,Solar,EIWA Bundaberg Solar Pty Ltd,tier_3,2,stale_proposed_4plus_releases
+EIWA Gin Gin Renewable Energy Park,WG,medium,Wide Bay region (judgement call),EIWA,250.0,Storage - Battery,Solar - Solar,EIWA Gin Gin Renewable Energy Park Pty Ltd,tier_3,0,
+EIWA Golden Fleece Renewable Energy Park,WG,medium,Wide Bay region (judgement call),EIWA,300.0,Storage - Battery,Solar - Solar,EIWA Golden Fleece Renewable Energy Park Pty Ltd,tier_3,0,
+East End BESS,CQ,high,CQ corridor (Callide/Gladstone/Isaac),East End,500.0,Storage - Battery,Other - Other,TE H2 Australia Pty Ltd,tier_1,0,
+Edenvale Solar Park,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Edenvale,180.0,Solar PV - Single axis tracking,Solar,Edenvale Solar Park Pty Ltd,tier_3,0,
+Elai Genesis Battery Storage System,Unclassified,review,No rule matched — manual review needed,,120.0,Storage - Battery,Other - Other,Elai Energy Pty Ltd,tier_3,0,
+Emerald Solar Park,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Emerald,72.0,Solar PV - Single axis tracking,Solar,Lighthouse Infrastructure Management Limited,tier_3,0,
+Eurimbula Hybrid Facility - Battery Storage,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Eurimbula,1000.0,Storage - Battery,Other - Other,unitedgreen_NR,tier_3,1,owner_junk:_NR$; owner_junk:^[a-z]; large_tier3
+Eurimbula Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Eurimbula,607.75,Solar PV - Single axis tracking,Solar - Solar,Unitedgreen_NR,tier_3,2,stale_proposed_4plus_releases
+FNQ BESS 1 (KCI),Unclassified,review,No rule matched — manual review needed,,250.0,Storage - Battery,Other - Other,Solquartz Holdings Pty Ltd,tier_3,0,
+FNQ BESS 2 (KCI),Unclassified,review,No rule matched — manual review needed,,250.0,Storage - Battery,Other - Other,Solquartz Holdings Pty Ltd,tier_3,0,
+FNQ BESS 3 (KCI),Unclassified,review,No rule matched — manual review needed,,250.0,Storage - Battery,Other - Other,Solquartz Holdings Pty Ltd,tier_3,0,
+FPC Green Energy,Unclassified,review,No rule matched — manual review needed,,30.0,Turbine - Steam Sub Critical,Green and air dried wood, FPC 30 Limited as Trustee for FPC Green Fund Trust ,tier_3,0,
+Fiery Creek Wind Farm,Unclassified,review,No rule matched — manual review needed,,200.0,Wind Turbine - Onshore,Wind - Wind,Tilt Renewables Australia Pty Ltd,tier_1,0,
+Fletcher Creek Wind Farm & BESS,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Fletcher Creek,400.0,Wind Turbine - Onshore,Wind - Wind,Private Energy Partners,tier_3,0,
+Forest Wind,WG,high,Woolooga corridor (Gympie/Maryborough),Forest Wind,1200.0,Wind Turbine - Onshore,Wind - Wind,Forest Wind Holdings Pty Ltd,tier_3,1,large_tier3
+Forsayth Wind Farm,FNQ,high,FNQ corridor (Townsville and north),Forsayth,165.0,Wind Turbine - Onshore,Wind,Forsayth Wind Farm Pty Ltd,tier_3,2,stale_proposed_4plus_releases
+Fraser Coast Community Solar Farm,WG,medium,Wide Bay region (judgement call),Fraser Coast,0.401,Solar PV - Fixed,Solar,Wide Bay Water Corporation,tier_3,0,
+Fraser Coast Hybrid Plant,WG,medium,Wide Bay region (judgement call),Fraser Coast,310.8,Solar PV - Single axis tracking,Solar - Solar,FRASER COAST SOLAR DEVELOPMENT PTY LTD,tier_3,0,
+Fraser Coast Solar Park,WG,medium,Wide Bay region (judgement call),Fraser Coast,350.0,Solar PV - Single axis tracking,Solar,FRASER COAST SOLAR PARK PTY LTD,tier_3,2,stale_proposed_4plus_releases
+GEP - QRNB1,CQ,high,CQ corridor (Callide/Gladstone/Isaac),GEP,1012.0,Wind Turbine - Offshore,Wind - Wind,GEP Developments Pty Ltd,tier_3,1,large_tier3
+Gangarri Solar Farm,WD,high,WD substation/Chinchilla corridor,Gangarri,162.0,Solar PV - Single axis tracking,Solar,Shell New Energies Australia Pty Ltd,tier_3,0,
+Ganymirra Solar Power Station,Unclassified,review,No rule matched — manual review needed,,150.0,Solar PV - Single axis tracking,Solar - Solar,Edify Energy Pty Ltd,tier_2,0,
+Gawara Baya Wind And BESS,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Gawara Baya,408.0,Wind Turbine - Onshore,Wind - Wind,UPPER BURDEKIN WIND FARM PTY LTD,tier_3,0,
+Gawara Baya Wind Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Gawara Baya,408.0,Wind Turbine - Onshore,Wind - Wind,UPPER BURDEKIN WIND FARM PTY LTD,tier_3,0,
+Gayndah Wind Farm,WG,high,Woolooga corridor (Gympie/Maryborough),Gayndah Wind,560.0,Wind Turbine - Onshore,Wind - Wind,Mainstream Renewable Power Australia Pty Ltd,tier_1,0,
+German Creek,CQ,high,CQ corridor (Callide/Gladstone/Isaac),German Creek,31.81,Reciprocating Engine - Spark ignition,Fossil - Waste Coal Mine Gas,EDL CSM Qld Pty Ltd,tier_3,0,
+Gin Gin BESS,WG,medium,Wide Bay region (judgement call),Gin Gin,345.6,Storage - Battery,Other - Other,Iberdrola Australia Development Pty Limited,tier_1,0,
+Gladstone,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Gladstone,280.0,Turbine - Steam Sub Critical,Black Coal,Gladstone Power Station Participants,tier_3,0,
+Glenroy Hybrid Facility - Solar And BESS,Unclassified,review,No rule matched — manual review needed,,1000.0,Solar PV - Fixed,Solar - Solar,M Renewables Australia Developments Pty Ltd,tier_2,0,
+GoodNight Hybrid Facility - Solar And BESS,Unclassified,review,No rule matched — manual review needed,,200.0,Solar PV - Fixed,Solar - Solar,GoodNight One Pty Ltd,tier_3,0,
+Goombi Renewable Energy Hub,WD,high,WD substation/Chinchilla corridor,Goombi,657.0,Wind Turbine - Onshore,Wind - Wind,Tag Energy Australia Pty Ltd,tier_2,0,
+Green Poly BESS Project (KCI),Unclassified,review,No rule matched — manual review needed,,750.0,Storage - Battery,Other - Other,Solquartz Holdings Pty Ltd,tier_3,1,large_tier3
+Greenbank BESS,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Greenbank,200.0,,Storage,CSE BESS Pty Ltd,tier_3,0,
+Grosvenor 1,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Grosvenor,21.0,Reciprocating Engine - Spark ignition,Waste Coal Mine Gas,EDL Projects Australia Pty Ltd,tier_3,0,
+Grosvenor 2 Waste Coal Mine Gas Power Station,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Grosvenor,15.21,Reciprocating Engine - Spark ignition,Fossil - Coal Seam Methane,EDL Projects Australia Pty Ltd,tier_3,2,stale_proposed_4plus_releases
+Group Linen - Maryborough,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Group Linen,0.17,Solar PV - Fixed,Solar - Solar,Group Linen,tier_3,0,
+Group Linen - Prince Charles,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Group Linen,0.33,Solar PV - Fixed,Solar,Group Linen,tier_3,0,
+Gunsynd Solar Farm,SD,high,Southern Downs corridor (Karara/Warwick/Bulli Creek),Gunsynd,94.0,Solar PV - Fixed,Solar - Solar,ARP,tier_3,0,
+Gurambilbarra Energy Hub,Unclassified,review,No rule matched — manual review needed,,1186.0,Other - Other,Other,365 Future Energy,tier_3,2,manual_known_phantom
+Guthrie's Gap Solar Farm,Unclassified,review,No rule matched — manual review needed,,300.0,Solar PV - Fixed,Solar - Solar,Edify Energy Pty Ltd,tier_2,0,
+Gympie Regional Energy Hub - Stage 1,WG,high,Woolooga corridor (Gympie/Maryborough),Gympie,350.0,Solar PV - Fixed,Solar,SolarQ Pty Ltd,tier_3,0,
+Gympie Regional Energy Hub - Stage 2,WG,high,Woolooga corridor (Gympie/Maryborough),Gympie,1000.0,Storage - Battery,Other,SolarQ Pty Ltd,tier_3,2,stale_proposed_4plus_releases
+Gympie Regional Energy Hub - Stage 3,WG,high,Woolooga corridor (Gympie/Maryborough),Gympie,650.0,Solar PV - Fixed,Solar,SolarQ Pty Ltd,tier_3,2,stale_proposed_4plus_releases
+Halys BESS (Akaysha),WD,high,WD substation/Chinchilla corridor,Halys,1120.0,Storage - Battery,Other - Other,Halys BESS ProjectCo Pty Ltd,tier_3,1,large_tier3
+Halys BESS - Iberdrola,WD,high,WD substation/Chinchilla corridor,Halys,500.0,Storage - Battery,Other - Other,IBERDROLA AUSTRALIA DEVELOPMENT PTY LIMITED,tier_1,0,
+Halys BESS - Iberdrola -  KCI,WD,high,WD substation/Chinchilla corridor,Halys,500.0,Storage - Battery,Other - Other,Iberdrola Australia Development Pty,tier_1,0,
+Halys Hybrid Facility - BESS,WD,high,WD substation/Chinchilla corridor,Halys,750.0,Storage - Battery,Other - Other,Elements Green Australia Pty Ltd,tier_2,0,
+Halys Hybrid Facility - Solar,WD,high,WD substation/Chinchilla corridor,Halys,750.0,Solar PV - Fixed,Solar - Solar,Elements Green Australia Pty Ltd,tier_2,0,
+Halys to Chinchilla DCA Battery - KCI,WD,high,WD substation/Chinchilla corridor,Chinchilla,150.0,Storage - Battery,Other - Other, UGL Pty Ltd,tier_3,0,
+Halys to Chinchilla Dedicated Connection Asset (DCA): Battery,WD,high,WD substation/Chinchilla corridor,Chinchilla,150.0,,Other,UGL Pty Ltd ,tier_3,0,
+Hamilton Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Hamilton Solar,57.5,Solar PV - Single axis tracking,Solar,Hamilton Solar Farm Pty Ltd,tier_3,0,
+Harlin Solar Farm,Unclassified,review,No rule matched — manual review needed,,800.0,,Solar,Harlin Solar Pty Ltd,tier_3,2,stale_proposed_4plus_releases
+Harrami Wind Farm,Unclassified,review,No rule matched — manual review needed,,800.0,Wind Turbine - Onshore,Wind - Wind,Mainstream,tier_1,0,
+Haughton BESS,FNQ,high,FNQ corridor (Townsville and north),Haughton,200.0,Storage - Battery,Other - Other,Pacific Hydro Haughton Solar Farm Pty Ltd,tier_3,2,stale_proposed_4plus_releases
+Haughton BESS - KCI,FNQ,high,FNQ corridor (Townsville and north),Haughton,200.0,Storage - Battery,Other - Other,Pacific Hydro Australia Developments Pty Ltd,tier_3,0,
+Haughton Solar Farm - Stage 2,FNQ,high,FNQ corridor (Townsville and north),Haughton,250.0,,Other,Pacific Hydro Australia Pty Ltd,tier_3,0,
+Haughton Solar Farm Stage 1,FNQ,high,FNQ corridor (Townsville and north),Haughton,132.6,Solar PV - Single axis tracking,Solar - Solar,Pacific Hydro Haughton Solar Farm Pty Ltd,tier_3,0,
+Haughton Solar Farm Stage 2,FNQ,high,FNQ corridor (Townsville and north),Haughton,300.0,Solar PV - Fixed,Other - Other,Pacific Hydro Australia Pty Ltd,tier_3,0,
+Hayman Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Hayman Solar,57.75,Solar PV - Single axis tracking,Solar,The Hayman Solar Farm Trust,tier_3,0,
+Hazeldean BESS - Storage - KCI,Unclassified,review,No rule matched — manual review needed,,1100.0,Storage - Battery,Other - Other,Enervest Pty Ltd,tier_3,1,large_tier3
+Herries Range Wind Farm,SD,medium,SD region (Millmerran/Inglewood corridor),Herries Range,1000.0,Wind Turbine - Onshore,Wind - Wind,Acciona Energy Global Australia,tier_1,0,
+High Road,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),High Road,84.60000000000001,Wind Turbine - Onshore,Wind,Ratch Australia,tier_2,2,stale_proposed_4plus_releases
+Hookey Creek Hybrid - Solar And BESs - KCI,Unclassified,review,No rule matched — manual review needed,,200.0,Storage - Battery,Solar - Solar,Zen Energy Future Pty Ltd,tier_3,0,
+Hopeland BESS,WD,high,WD substation/Chinchilla corridor,Hopeland,230.4,Storage - Battery,Other - Other,Pacific Partnerships,tier_2,0,
+Hopeland Solar Farm,WD,high,WD substation/Chinchilla corridor,Hopeland,327.6,Solar PV - Fixed,Solar - Solar,Hopeland Solar Farm Pty Ltd as trustee for the Hopeland Solar Farm Trust,tier_3,0,
+Hopeland Solar Farm (Ulinda Park),WD,high,WD substation/Chinchilla corridor,Hopeland,2480.0,Solar PV - Fixed,Solar,Renewable Energy Partners,tier_3,2,mega_non_tier1
+Hughenden Sun Farm,FNQ,high,FNQ corridor (Townsville and north),Hughenden,20.97,Solar PV - Single axis tracking,Solar,Hughenden Solar Pty Ltd as Trustee for Hughenden Solar Trust,tier_3,0,
+Hughes Road BESS,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Hughes Road,200.0,Storage - Battery,Other - Other,BayWA r.e Projects Australia Pty Ltd,tier_2,0,
+ISIS Central Sugar Mill Co-generation Plant,WG,medium,Wide Bay region (judgement call),ISIS Central,25.0,Turbine - Steam Sub Critical,Bagasse,SUSTAINABLE ENERGY INFRASTRUCTURE ,tier_3,0,
+Inkerman Mill,FNQ,high,FNQ corridor (Townsville and north),Inkerman,10.0,Turbine - Steam Sub Critical,Bagasse,Wilmar Sugar Australia Limited,tier_3,0,
+Innes Park Solar Farm,WG,medium,Wide Bay region (judgement call),Innes Park,24.0,Solar PV - Single axis tracking,Solar,Enerparc Australia Pty Ltd,tier_3,2,stale_proposed_4plus_releases
+Invicta Mill,FNQ,high,FNQ corridor (Townsville and north),Invicta,38.8,Turbine - Steam Sub Critical,Bagasse,Haughton Sugar Company Pty Limited,tier_1,0,
+Ipswich Regional Energy Hub - Solar,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Ipswich,1000.0,Solar PV - Fixed,Solar,SolarQ Pty Ltd,tier_3,1,large_tier3
+Ipswich Regional Energy Hub - Storage,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Ipswich,1000.0,Storage - Battery,Other,SolarQ Pty Ltd,tier_3,1,large_tier3
+Iron Leaf Wind Farm,TG,high,Tarong corridor (Tarong PS/Kingaroy),Iron Leaf,900.0,,Wind,RES Australia Pty Ltd,tier_1,0,
+Ironbark Power Station 20MW Expansion,Unclassified,review,No rule matched — manual review needed,,20.0,Turbine - Other,Other - Other,Carbon Logica Pty Ltd,tier_3,0,
+Isaac Wind Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Isaac Wind,1064.0,,Wind Turbine,Squadron Energy Services Pty Ltd,tier_1,0,
+Isaac Wind Farm - KCI,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Isaac Wind,381.0,Wind Turbine - Onshore,Wind - Wind, Isaac Wind and Solar Energy Pty Ltd,tier_3,0,
+Jackson North BESS,Unclassified,review,No rule matched — manual review needed,,200.0,Storage - Battery,Other - Other,Equis Energy (Australia) Projects (Ngumi 6) Pty Ltd as trustee for the Equis Energy(Australia) Ngumi 6 Asset Trust,tier_3,0,
+Kaban Green Power Hub - BESS,FNQ,high,FNQ corridor (Townsville and north),Kaban,100.0,Storage - Battery,Other,Neoen,tier_1,0,
+Kaban Green Power Hub - Wind Farm,FNQ,high,FNQ corridor (Townsville and north),Kaban,156.8,Wind Turbine - Onshore,Wind,Kaban Wind Farm Pty Ltd as trustee for  Kaban Wind Farm Trust,tier_3,0,
+Kaban Wind Farm,FNQ,high,FNQ corridor (Townsville and north),Kaban,156.8,Wind Turbine - Onshore,Wind,Kaban Wind Farm Trust,tier_3,0,
+Kalamia Mill,FNQ,high,FNQ corridor (Townsville and north),Kalamia,9.0,Turbine - Steam Sub Critical,Bagasse,Wilmar Sugar Australia Limited,tier_3,0,
+Kaloya Moa Standalone BESS,Unclassified,review,No rule matched — manual review needed,,138.6,Storage - Battery,Other - Other,Samsung C&T Renewable Energy Australia Pty Ltd,tier_3,0,
+Karara,SD,high,Southern Downs corridor (Karara/Warwick/Bulli Creek),Karara,102.6,Wind Turbine - Onshore,Wind,CLEANCO,tier_1,0,
+Karara BESS - KCI,SD,high,Southern Downs corridor (Karara/Warwick/Bulli Creek),Karara,400.0,Storage - Battery,Other - Other,ACCIONA Energy,tier_1,0,
+Karara Wind Farm,SD,high,Southern Downs corridor (Karara/Warwick/Bulli Creek),Karara,102.6,Wind Turbine - Onshore,Wind - Wind,CLEANCO,tier_1,0,
+Kareeya,FNQ,high,FNQ corridor (Townsville and north),Kareeya,21.6,Hydro - Run of River,Water,CleanCo Queensland Limited,tier_1,0,
+Kareeya 5,FNQ,high,FNQ corridor (Townsville and north),Kareeya,7.0,Hydro - Dam,Water,CleanCo Queensland Limited,tier_1,0,
+Kariboe Wind Farm,Unclassified,review,No rule matched — manual review needed,,1020.0,Wind Turbine - Onshore,Wind - Wind,Kariboe Wind Farm Pty Ltd,tier_3,2,stale_proposed_4plus_releases
+Karma Wind Farm - KCI,Unclassified,review,No rule matched — manual review needed,,966.0,Wind Turbine - Onshore,Wind - Wind,NEMMCOCI Karma Pty Ltd as trustee for the CI Karma Trust,tier_3,1,large_tier3
+Kelsey Creek Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Kelsey Creek,50.0,Solar PV - Fixed,Solar,BayWa r.e. Solar Project Pty Ltd,tier_2,2,stale_proposed_4plus_releases
+Kelsey Creek Solar Farm_SS,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Kelsey Creek,50.0,Solar PV - Fixed,Solar - Solar,tetrisenergy_nr,tier_3,1,owner_junk:_NR$; owner_junk:^[a-z]
+Kennedy Energy Park - Phase 1 - Solar,FNQ,high,FNQ corridor (Townsville and north),Kennedy Energy,16.5,Solar PV - Single axis tracking,Solar,Windlab / Eurus,tier_2,0,
+Kennedy Energy Park - Phase 1 - Storage,FNQ,high,FNQ corridor (Townsville and north),Kennedy Energy,2.0,Storage - Battery,Other,Windlab/Eurus,tier_2,0,
+Kennedy Energy Park - Phase 1 - Wind,FNQ,high,FNQ corridor (Townsville and north),Kennedy Energy,43.2,Wind Turbine - Onshore,Wind,Windlab / Eurus,tier_2,0,
+Kennedy Energy Park - Phase 2 - Wind,FNQ,high,FNQ corridor (Townsville and north),Kennedy Energy,650.0,Wind Turbine - Onshore,Wind,Windlab Developments,tier_2,2,stale_proposed_4plus_releases
+Kensington Solar Farm,Unclassified,review,No rule matched — manual review needed,,42.0,Solar PV - Single axis tracking,Solar,DDN Green,tier_3,0,
+Kentucky Solar Farm,Unclassified,review,No rule matched — manual review needed,,,Confidential - Confidential,Confidential,CONFIDENTIAL,tier_3,0,
+Kidston Pumped Storage Hydro Project 250MW,FNQ,high,FNQ corridor (Townsville and north),Kidston,250.0,Storage - Pumped hydro,Water,Genex Power Ltd,tier_1,0,
+Kidston Solar Project Phase One 50MW,FNQ,high,FNQ corridor (Townsville and north),Kidston,50.0,Solar PV - Fixed,Solar,Genex Power Limited,tier_1,0,
+Kidston Solar Project Phase Two 270MW,FNQ,high,FNQ corridor (Townsville and north),Kidston,270.0,Solar PV - Fixed,Solar,Genex Power Limited,tier_1,1,stale_proposed_4plus_releases
+Kidston Stage 3 Wind Project,FNQ,high,FNQ corridor (Townsville and north),Kidston,258.0,Wind Turbine - Onshore,Wind - Wind,Genex Power Limited,tier_1,1,stale_proposed_4plus_releases
+Kidston Wind Farm,FNQ,high,FNQ corridor (Townsville and north),Kidston,204.0,,Wind Turbine, Kidston (Wind Farm) Pty Ltd,tier_3,0,
+Kidston Wind Farm - KCI,FNQ,high,FNQ corridor (Townsville and north),Kidston,204.0,Wind Turbine - Onshore,Wind - Wind,Kidston (Wind Farm) Pty Ltd,tier_3,0,
+Kingaroy Solar Farm,TG,high,Tarong corridor (Tarong PS/Kingaroy),Kingaroy,40.0,Solar PV - Single axis tracking,Solar - Solar,Kingaroy PropertyCo Pty Ltd as trustee for Kingaroy Property Trust,tier_3,0,
+Koberinga Solar Farm,Unclassified,review,No rule matched — manual review needed,,55.0,Solar PV - Fixed,Solar,ESCO Pacific,tier_2,2,stale_proposed_4plus_releases
+Kogan Battery Energy Storage System (BESS),WD,high,WD substation/Chinchilla corridor,Kogan Battery,200.0,,Other,CS Energy Ltd,tier_1,0,
+Kogan Creek,WD,high,WD substation/Chinchilla corridor,Kogan Creek,744.0,Turbine - Steam Super Critical,Black Coal,Kogan Creek Power Station Pty Ltd,tier_3,1,large_tier3
+Kumbarilla Renewable Energy Park (K-REP),WD,medium,Western Downs region (judgement call),Kumbarilla,96.8,Solar PV - Single axis tracking,Solar,Elecseed Pty Ltd,tier_3,2,stale_proposed_4plus_releases
+Lake Awoonga (Site B) Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Lake Awoonga,128.0,Solar PV - Fixed,Solar,Total Eren,tier_3,0,
+Lake Somerset,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Lake Somerset,4.3,Hydro - Dam,Water,Seqwater,tier_3,0,
+Lakeland 2,FNQ,high,FNQ corridor (Townsville and north),Lakeland,20.0,Solar PV - Fixed,Solar,Lakeland Solar and Storage Pty Ltd,tier_3,2,stale_proposed_4plus_releases
+Lakeland Solar and Storage,FNQ,high,FNQ corridor (Townsville and north),Lakeland,12.504,Solar PV - Fixed,Solar,Lakeland Solar and Storage Pty Limited,tier_3,0,
+Lakeland Wind Farm,FNQ,high,FNQ corridor (Townsville and north),Lakeland,73.1,Wind Turbine - Onshore,Wind,Lakeland Wind Farm Pty Ltd,tier_3,2,stale_proposed_4plus_releases
+Latitude Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Latitude,5.0,Solar PV - Fixed,Solar - Solar,Kentucky Solar Pty Ltd,tier_3,2,stale_proposed_4plus_releases
+Lilyvale BESS - KCI,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Lilyvale,440.0,Storage - Battery,Other - Other,Acen Australia,tier_2,0,
+Lilyvale Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Lilyvale,118.4,Solar PV - Single axis tracking,Solar,Lilyvale Asset Co Pty Ltd ATF Lilyvale Asset Trust,tier_3,0,
+Llewellyn Motors,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Llewellyn,0.34,Solar PV - Fixed,Solar - Solar,Llewellyn Land Pty Ltd ATF Llewellyn Land Unit Trust,tier_3,0,
+Lockyer BESS - KCI,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Lockyer,750.0,Storage - Battery,Other - Other, Lockyer Energy Management Pty,tier_3,1,large_tier3
+Lockyer Energy Management BESS and Generation Facility,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Lockyer,750.0,Storage - Battery,Other,Lockyer Energy Management Pty,tier_3,1,large_tier3
+Lockyer Valley Energy Project,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Lockyer,400.0,Storage - Battery,Solar - Solar,Lockyer Energy Management Pty Ltd,tier_3,0,
+Lockyer Valley Energy Project - Phase 1,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Lockyer,801.52,Storage - Battery,Solar,Quinbrook Asset Management as Trustee for The Australian Clean Power Trust,tier_1,1,stale_proposed_4plus_releases
+Longreach Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Longreach,15.0,Solar PV - Fixed,Solar - Solar,Longreach Asset Company,tier_3,0,
+Lotus Creek Wind Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Lotus Creek,341.0,Wind Turbine - Onshore,Wind,CS ENERGY,tier_1,0,
+Lower Wonga BESS,WG,high,Woolooga corridor (Gympie/Maryborough),Lower Wonga,200.0,Storage - Battery,Other - Other,Equis Energy (Australia) Projects (Ngumi 7) Pty Ltd as trustee for the Equis Energy(Australia) Ngumi 7 Asset Trust,tier_3,0,
+Lower Wonga Solar Farm (LightsourceBP),WG,high,Woolooga corridor (Gympie/Maryborough),Lower Wonga,353.0,Solar PV - Single axis tracking,Solar - Solar,Lower Wonga Solar Farm Pty Ltd,tier_3,0,
+Lower Wonga Solar Farm - KCI,WG,high,Woolooga corridor (Gympie/Maryborough),Lower Wonga,353.0,Solar PV - Single axis tracking,Solar - Solar,Lower Wonga Solar Farm Pty Ltd,tier_3,0,
+Lower Wonga Solar Farm and BESS,WG,high,Woolooga corridor (Gympie/Maryborough),Lower Wonga,300.0,,Solar,Lightsource BP,tier_1,0,
+MacIntyre Wind Farm,SD,high,Southern Downs corridor (Karara/Warwick/Bulli Creek),MacIntyre,923.4,Wind Turbine - Onshore,Wind,Macintyre Windfarm Pty Ltd and Arc Energy Macintyre Pty Ltd,tier_3,1,large_tier3
+Mackay GT,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Mackay GT,34.0,Turbine - OCGT,Diesel,Stanwell Corporation Limited,tier_1,0,
+Mackenzie River BESS,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Mackenzie,800.0,Storage - Battery,Solar - Solar,BSR EPC P/L,tier_2,0,
+Mackenzie River Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Mackenzie,800.0,Solar PV - Fixed,Solar - Solar,BSR EPC P/L,tier_2,0,
+Macknade Mill,FNQ,high,FNQ corridor (Townsville and north),Macknade,5.0,Turbine - Steam Sub Critical,Bagasse,Wilmar Sugar Australia LImited,tier_3,0,
+Madeline Downs BESS,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Madeline Downs,500.0,Storage - Battery,Other - Other,AGL Energy Limited,tier_1,0,
+Majors Creek Energy Storage System - KCI,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Majors Creek,500.0,Storage - Battery,Other - Other,Edify Energy Pty Ltd,tier_2,0,
+Majors Creek Solar And BESS,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Majors Creek,150.0,Solar PV - Single axis tracking,Solar - Solar,Edify Energy Pty Ltd,tier_2,0,
+Maranbah Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Maranbah,160.0,Solar PV - Single axis tracking,Solar - Solar,EEW ECO ENERGY WORLD PTY LTD,tier_3,0,
+Marmadua Wind Farm (KCI),DD,high,Darling Downs corridor (Dalby/Bell),Marmadua,950.0,Wind Turbine - Onshore,Wind - Wind,Cubico Sustainable Investments Australia Pty Ltd,tier_1,0,
+Maryborough Mill,WG,medium,Wide Bay region (judgement call),Maryborough Mill,4.0,Turbine - Steam Super Critical,Bagasse,MSF Sugar,tier_3,0,
+Maryrorough Solar Farm,Unclassified,review,No rule matched — manual review needed,,34.5,Solar PV - Single axis tracking,Solar,Maryrorough Solar Pty Ltd,tier_3,0,
+Matthew Flinders College Senior,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Matthew Flinders,0.2,Solar PV - Fixed,Solar - Solar,Matthew Flinders Anglican College,tier_3,0,
+McNamee Partners,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),McNamee,0.26,Solar PV - Fixed,Solar - Solar,McNamee Partners Pty Ltd,tier_3,0,
+Mica Creek Solar Farm,FNQ,high,FNQ corridor (Townsville and north),Mica Creek,88.0,Solar PV - Single axis tracking,Solar - Solar,APA Group,tier_1,0,
+Middle Creek Renewable Energy Hub - Wind,Unclassified,review,No rule matched — manual review needed,,750.0,Storage - Battery,Wind - Wind,Cubico Sustainable Investments Australia Pty Ltd,tier_1,0,
+Middlebrook Solar And BESS,Unclassified,review,No rule matched — manual review needed,,387.14,Storage - Battery,Solar - Solar,Middlebrook Solar Farm Pty Ltd as trustee for MSF Project Trust,tier_3,0,
+Middlebrook Solar Farm,Unclassified,review,No rule matched — manual review needed,,319.98,Solar PV - Single axis tracking,Solar - Solar,Middlebrook Solar Farm Pty Ltd as trustee for MSF Project Trust,tier_3,2,stale_proposed_4plus_releases
+Middlemount Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Middlemount,26.0,Solar PV - Single axis tracking,Solar,Capricorn SF No1 Pty Ltd,tier_3,0,
+Middlemount Sun Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Middlemount,26.0,Solar PV - Single axis tracking,Solar,Capricorn SF No1 Pty Ltd,tier_3,0,
+Miles BESS Project,WD,high,WD substation/Chinchilla corridor,Miles BESS,500.0,Storage - Battery,Other - Other,TBSOL,tier_3,1,large_tier3
+Miles Solar Project,WD,high,WD substation/Chinchilla corridor,Miles Solar,500.0,Solar PV - Fixed,Solar - Solar,Vena Energy,tier_1,1,stale_proposed_4plus_releases
+Millmerran BESS - Storage,SD,medium,SD region (Millmerran/Inglewood corridor),Millmerran,200.0,Storage - Battery,Other - Other,Millmerran Power Partners,tier_3,0,
+Millmerran Power Plant,SD,medium,SD region (Millmerran/Inglewood corridor),Millmerran,426.0,Turbine - Steam Super Critical,Black Coal,Millmerran Power Partners,tier_3,0,
+Millmerran Wind Farm,SD,medium,SD region (Millmerran/Inglewood corridor),Millmerran,400.0,Wind Turbine - Onshore,Wind - Wind,Millmerran Power Partners,tier_3,0,
+Mirani Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Mirani,60.0,Solar PV - Fixed,Solar,ESCO Pacific,tier_2,2,stale_proposed_4plus_releases
+Miriam Vale Renewable Energy Hub,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Miriam Vale,400.0,Storage - Battery,Other - Other,Private Energy Partners,tier_3,0,
+Miriam Vale Solar Farm And BESS - A,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Miriam Vale,200.0,Solar PV - Single axis tracking,Solar - Solar,Private Energy Partners Pty Ltd,tier_3,0,
+Miriam Vale Solar Farm And BESS - B,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Miriam Vale,200.0,Solar PV - Single axis tracking,Solar - Solar,Private Energy Partners Pty Ltd,tier_3,0,
+Moah Creek Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Moah Creek,390.0,Solar PV - Fixed,Solar - Solar,RES Australia Pty Ltd,tier_1,0,
+Moah Creek Wind Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Moah Creek,415.0,,Wind,Moah Creek Wind Farm Project Co Pty Ltd as trustee for the Moah Creek Wind Farm Project Trust,tier_3,2,stale_proposed_4plus_releases
+Molendinar,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Molendinar,0.48,Reciprocating Engine - Spark ignition,Landfill Methane / Landfill Gas,LMS Energy Pty Ltd,tier_3,0,
+Monduran BESS,WG,medium,Wide Bay region (judgement call),Monduran,300.0,Storage - Battery,Other - Other,Eku Energy Projects (Australia) Pty Ltd as trustee for the Eku Energy Projects (Australia) Trust,tier_3,0,
+Moonlight Range Wind Farm,Unclassified,review,No rule matched — manual review needed,,400.0,Storage - Battery,Other - Other,Brookfield,tier_1,1,stale_proposed_4plus_releases
+Moranbah Generation Project,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Moranbah,12.56,Reciprocating Engine - Compression ignition,Waste Coal Mine Gas,SUSTAINABLE ENERGY INFRASTRUCTURE ,tier_3,0,
+Moranbah North,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Moranbah,63.84,Reciprocating Engine - Spark ignition,Waste Coal Mine Gas,EDL Projects Australia Pty Ltd,tier_3,0,
+Moranbah Workers Solar,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Moranbah,0.214,Solar PV - Fixed,Solar,TBA,tier_3,0,
+Mount Britton BESS1,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Mount Britton,377.54,Storage - Battery,Other - Other,firmpower_NR,tier_3,1,owner_junk:_NR$; owner_junk:^[a-z]
+Mount Britton BESS2,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Mount Britton,377.54,Storage - Battery,Other - Other,firmpower_NR,tier_3,1,owner_junk:_NR$; owner_junk:^[a-z]
+Mount Emerald,FNQ,high,FNQ corridor (Townsville and north),Mount Emerald,180.52,Wind Turbine - Onshore,Wind - Wind,Ratch Australia,tier_2,0,
+Mount Hopeful BESS,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Mount Hopeful,300.0,Storage - Battery,Other - Other,Neoen Australia Pty Ltd,tier_1,0,
+Mount Hopeful Wind Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Mount Hopeful,370.0,Wind Turbine - Onshore,Wind - Wind,Mount Hopeful Wind Farm as trustee for Mount Hopeful Wind Farm Trust,tier_3,0,
+Mount Larcom (Site A) Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Mount Larcom,630.0,Solar PV - Fixed,Solar,Total Eren,tier_3,1,large_tier3
+Mount Sheridan Plaza,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Mount Sheridan,0.3,Solar PV - Fixed,Solar,TBA,tier_3,0,
+Mount Tom BESS,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Mount Tom,500.0,Storage - Battery,Other - Other,Samsung C&T Renewable Energy Australia Pty Ltd,tier_3,1,large_tier3
+Mount Tom Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Mount Tom,500.0,Solar PV - Fixed,Solar - Solar,Samsung C&T Renewable Energy Australia Pty Ltd,tier_3,1,large_tier3
+Mount Walsh Wind Farm,WG,high,Woolooga corridor (Gympie/Maryborough),Mount Walsh,365.0,Wind Turbine - Onshore,Wind - Wind,Mainstream,tier_1,0,
+Mount Walsh Wind Farm (Mainstream),WG,high,Woolooga corridor (Gympie/Maryborough),Mount Walsh,600.0,Wind Turbine - Onshore,Wind - Wind,Mainstream,tier_1,0,
+Moura Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Moura,99.0,Solar PV - Single axis tracking,Solar,Moura Solar Farm SPV Pty Ltd as the Trustee for Moura Solar Farm Unit Trust,tier_3,0,
+Mt Challenger BESS,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Mt Challenger,20.0,Storage - Battery,Other - Other,Tetris Energy,tier_3,0,
+Mt Challenger Solar Farm,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Mt Challenger,20.0,Solar PV - Fixed,Solar - Solar,Tetris Energy,tier_3,0,
+Mt Challenger Wind Farm,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Mt Challenger,115.0,Wind Turbine - Onshore,Wind - Wind,Tetris Energy,tier_3,0,
+Mt Cotton Biomass Cogeneration Power Station,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Mt Cotton,7.6,Turbine - Steam Sub Critical,Wood Waste,Darwalla Milling Co Pty Ltd,tier_3,2,stale_proposed_4plus_releases
+Mt Fox BESS - ARENA,FNQ,high,FNQ corridor (Townsville and north),Mt Fox,300.0,Storage - Battery,Other - Other, Mount Fox BESS Pty Ltd,tier_3,0,
+Mt Fox Energy Park,FNQ,high,FNQ corridor (Townsville and north),Mt Fox,342.0,,Wind,Mount Fox Energy Park Pty Ltd,tier_3,0,
+Mt Fox Energy Park - KCI,FNQ,high,FNQ corridor (Townsville and north),Mt Fox,342.0,Wind Turbine - Onshore,Wind - Wind, Mount Fox Energy Park Pty Ltd,tier_3,0,
+Mt Fox Wind Farm,FNQ,high,FNQ corridor (Townsville and north),Mt Fox,291.4,Wind Turbine - Onshore,Wind - Wind, Mount Fox Energy Park Pty Ltd,tier_3,0,
+Mt Rawdon Pumped Hydro Energy Storage Project,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Mt Rawdon,1000.0,,Water,ICA Partners Pty Ltd,tier_2,0,
+Mt Rawdon Pumped Hydro Energy Storage Project - KCI,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Mt Rawdon,2040.0,Storage - Pumped hydro,Hydro - Water, Mount Rawdon Pty Ltd,tier_3,2,mega_non_tier1
+Mt Stuart,FNQ,high,FNQ corridor (Townsville and north),Mt Stuart,146.0,Turbine - OCGT,Diesel,Origin Energy Mt Stuart,tier_1,0,
+Mulgrave Central Mill,FNQ,high,FNQ corridor (Townsville and north),Mulgrave,9.0,Turbine - Steam Super Critical,Bagasse,MSF Sugar,tier_3,0,
+Munna Creek,WG,high,Woolooga corridor (Gympie/Maryborough),Munna Creek,120.0,Solar PV - Fixed,Solar,Renewable Energy System Technologies,tier_3,0,
+Munna Creek Solar Farm,WG,high,Woolooga corridor (Gympie/Maryborough),Munna Creek,154.0,Solar PV - Single axis tracking,Solar,Munna Creek Solar Farm Investments Pty Ltd as trustee for the Munna Creek Solar Farm Trust,tier_3,0,
+Murilla Energy Hub,WD,medium,Western Downs region (judgement call),Murilla,1155.0,Other - Other,Other - Other,APA Power Holdings Pty Ltd,tier_1,0,
+Nebo BESS,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Nebo,900.0,Storage - Battery,Other - Other,Nebo BESS Pty Ltd,tier_3,1,large_tier3
+Nebo BESS (Baywa),CQ,high,CQ corridor (Callide/Gladstone/Isaac),Nebo,500.0,Storage - Battery,Other - Other,BayWA r.e Projects Australia Pty Ltd,tier_2,0,
+Nebo BESS (Iberdrola) - KCI,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Nebo,280.0,Storage - Battery,Other - Other,Iberdrola Australia Development Pty Ltd.,tier_1,0,
+Noblevale BESS (KCI),Unclassified,review,No rule matched — manual review needed,,180.0,Storage - Battery,Other - Other,Zen Energy Future Pty Ltd,tier_3,0,
+Normanton Solar Farm,FNQ,high,FNQ corridor (Townsville and north),Normanton,4.96,Solar PV - Single axis tracking,Solar,TBA,tier_3,0,
+North Burnett Renewable Hub - BESS,WG,high,Woolooga corridor (Gympie/Maryborough),North Burnett,720.0,Storage - Battery,Other - Other,X-Elio Australia Pty Ltd,tier_1,0,
+North Burnett Renewable Hub - Solar,WG,high,Woolooga corridor (Gympie/Maryborough),North Burnett,720.0,Solar PV - Fixed,Solar - Solar,X-Elio Australia Pty Ltd,tier_1,0,
+North Qld Bio-Energy Plant,Unclassified,review,No rule matched — manual review needed,,110.0,Turbine - Steam Sub Critical,Biomass,North Queensland Bio-Energy Corporation Limited,tier_3,2,stale_proposed_4plus_releases
+Oakey 1 Solar Farm,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Oakey,25.0,Solar PV - Fixed,Solar,Oakey1 Asset Co Pty Ltd,tier_3,0,
+Oakey 2 Solar Farm,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Oakey,55.64,Solar PV - Single axis tracking,Solar,RE Oakey Pty Ltd,tier_3,0,
+Oakey Power Station,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Oakey,173.0,Turbine - OCGT,Natural Gas Pipeline,Oakey Power Holdings Pty Ltd,tier_3,0,
+Oakey Solar Farm,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Oakey,25.0,Solar PV - Fixed,Solar - Solar,Oakey1 Asset Co Pty Ltd,tier_3,0,
+Oakville BESS,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Oakville,450.0,Storage - Battery,Other - Other,Samsung C&T Renewable Energy Australia Pty Ltd,tier_3,0,
+Oakville Solar Farm,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Oakville,450.0,Solar PV - Fixed,Solar - Solar,Samsung C&T Renewable Energy Australia Pty Ltd,tier_3,0,
+Oaky Creek,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Oaky Creek,14.91,Reciprocating Engine - Spark ignition,Waste Coal Mine Gas,EDL OCI Pty Ltd,tier_3,0,
+Oaky Creek 2,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Oaky Creek,15.0,Reciprocating Engine - Spark ignition,Waste Coal Mine Gas,EDL OCI PTY LTD,tier_3,0,
+Pikedale Wind Farm (KCI),SD,high,Southern Downs corridor (Karara/Warwick/Bulli Creek),Pikedale,1500.0,Wind Turbine - Onshore,Wind - Wind,Squadron Energy Developments Pty Ltd,tier_1,0,
+Pinnacles BESS - Storage - KCI,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Pinnacles,400.0,Storage - Battery,Other - Other,Enervest Pty Ltd,tier_3,0,
+Pioneer BESS - KCI,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Pioneer BESS,240.0,Storage - Battery,Other - Other,Edify Energy Pty Ltd,tier_2,0,
+Pioneer Sugar Mill,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Pioneer Sugar,36.9,Turbine - Steam Sub Critical,Bagasse,Pioneer Sugar Mills P/L,tier_1,0,
+Pioneer-Burdekin Pumped Hydro Energy Storage,FNQ,high,FNQ corridor (Townsville and north),Burdekin,5000.0,Storage - Pumped hydro,Hydro - Water,Queensland Hydro,tier_1,0,
+Plane Creek Mill,FNQ,high,FNQ corridor (Townsville and north),Plane Creek,10.0,Turbine - Steam Sub Critical,Bagasse,Wilmar Sugar Australia Limited,tier_3,0,
+Pleasant Hills Solar Farm - KCI,Unclassified,review,No rule matched — manual review needed,,80.0,Solar PV - Fixed,Solar - Solar,TotalEnergies Renewables Australia Pty Ltd,tier_3,0,
+Pleystowe BESS,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Pleystowe,200.0,Storage - Battery,Other - Other,PLEYSTOWE BESS PTY LTD,tier_3,0,
+Pleystowe BESS (KCI),CQ,high,CQ corridor (Callide/Gladstone/Isaac),Pleystowe,200.0,Storage - Battery,Other - Other,Pleystowe BESS P/L,tier_3,0,
+Powerlink Teebar Creek Substation,WG,high,Woolooga corridor (Gympie/Maryborough),Teebar,250.0,,Solar,Fraser Coast Solar Park Pty Ltd (FCSP) ,tier_3,0,
+Prairie WF & Wongalee WF,Unclassified,review,No rule matched — manual review needed,,1200.0,Wind Turbine - Onshore,Wind - Wind,Prairie Wind Farm Pty Ltd,tier_3,2,stale_proposed_4plus_releases
+Proserpine,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Proserpine,11.0,Turbine - Steam Sub Critical,Bagasse,Wimar Sugar Proserpine Pty Ltd,tier_3,0,
+Proserpine Wind Farm - KCI,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Proserpine,1360.0,Wind Turbine - Onshore,Wind - Wind,CI Proserpine Pty Ltd as trustee for the CI Proserpine Trust,tier_3,1,large_tier3
+Punch's Creek Renewable Energy,SD,medium,SD region (Millmerran/Inglewood corridor),Punch,798.72,Solar PV - Single axis tracking,Solar - Solar,Skylab,tier_3,1,large_tier3
+Punch's Creek Renewable Energy Stage 2,SD,medium,SD region (Millmerran/Inglewood corridor),Punch,400.0,Solar PV - Single axis tracking,Solar - Solar,skylabgroup_NR,tier_3,1,owner_junk:_NR$; owner_junk:^[a-z]
+Punchs Creek (Millmerran) Solar Farm,SD,medium,SD region (Millmerran/Inglewood corridor),Millmerran,600.0,Solar PV - Fixed,Solar,Skylab,tier_3,1,large_tier3
+Punchs Creek (Milmerran) BESS - New,SD,medium,SD region (Millmerran/Inglewood corridor),Punch,400.0,Storage - Battery,Solar - Solar,Skylab,tier_3,0,
+QCLNG Curtis Island Electrification - KCI,Unclassified,review,No rule matched — manual review needed,,90.0,Turbine - OCGT,Fossil - Natural Gas,QCLNG Operating Company Pty Ltd ,tier_3,0,
+QLS Offshore Wind Energy,Unclassified,review,No rule matched — manual review needed,,1500.0,Wind Turbine - Offshore,Wind,GEP Developments Pty Ltd,tier_3,2,offshore_australia
+Queensland Renewable Park,Unclassified,review,No rule matched — manual review needed,,750.0,Other - Other,Other,EEW Eco Energy World Pty Ltd,tier_3,1,large_tier3
+Racecourse Mill,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Racecourse Mill,38.0,Turbine - Steam Sub Critical,Bagasse,Mackay Sugar Ltd,tier_3,0,
+Raglan BESS,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Raglan,500.0,Storage - Battery,Other - Other,acepower_NR,tier_3,1,owner_junk:_NR$; owner_junk:^[a-z]; large_tier3
+Raglan Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Raglan,300.0,Solar PV - Single axis tracking,Solar - Solar,EEW Eco Energy World Ltd,tier_3,2,stale_proposed_4plus_releases
+Rangemore BESS,Unclassified,review,No rule matched — manual review needed,,20.0,Storage - Battery,Other - Other,Tetris Energy,tier_3,0,
+Rangemore Solar Farm,Unclassified,review,No rule matched — manual review needed,,20.0,Solar PV - Fixed,Solar - Solar,Tetris Energy,tier_3,0,
+Rangemore Wind Farm,Unclassified,review,No rule matched — manual review needed,,185.0,Wind Turbine - Onshore,Wind - Wind,Tetris Energy,tier_3,0,
+Reedy Creek,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Reedy Creek,0.85,Reciprocating Engine - Spark ignition,Landfill Gas,LMS_NR,tier_3,1,owner_junk:_NR$
+Renewable Power Australia Limited,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Renewable Power Australia,30.0,Turbine - Steam Sub Critical,Green and air dried wood,Renewable Power Australia Limited as Trustee for FPC Green Fund Trust,tier_3,0,
+Riverstone Rise BESS (KCI),Unclassified,review,No rule matched — manual review needed,,520.8,Storage - Battery,Other - Other,Pacific Partnerships Pty Ltd,tier_2,0,
+Rochedale B,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Rochedale,2.25,Reciprocating Engine - Spark ignition,Renewable Biomass or Waste - Landfill Gas,LMS_NR,tier_3,1,owner_junk:_NR$
+Rochedale Renewable Energy Facility,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Rochedale,4.492,Other - Spark ignition,Landfill Methane / Landfill Gas,LMS Energy Pty Ltd,tier_3,0,
+Rocky Point Sugar Mill Cogeneration Plant,Unclassified,review,No rule matched — manual review needed,,30.0,Other - Other,Renewable Biomass or Waste - Bagasse,W.H.Heck and Sons Pty Ltd,tier_3,0,
+Rodds Bay Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Rodds Bay,497.75,Solar PV - Single axis tracking,Solar,RBSF NewCo Pty Ltd,tier_3,0,
+Roghan Road,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Roghan Road,1.15,Reciprocating Engine - Spark ignition,Landfill Gas,EDL LFG Qld Pty Ltd,tier_3,0,
+Rolleston Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Rolleston,90.0,Solar PV - Fixed,Solar,RES Australia Pty Ltd,tier_1,1,stale_proposed_4plus_releases
+Rollingstone Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Rollingstone,117.4,Solar PV - Fixed,Solar,ESCO Pacific,tier_2,2,stale_proposed_4plus_releases
+Roma,DD,medium,DD region (Dalby corridor — judgement call),Roma,40.0,Turbine - OCGT,Natural Gas Pipeline,Origin Energy Power Limited,tier_1,0,
+Ross River Solar Farm,FNQ,high,FNQ corridor (Townsville and north),Ross River,128.0,Solar PV - Single axis tracking,Solar,Ross River Operations Pty Ltd as the Trustee for the Ross River Operations Trust,tier_3,0,
+Rugby Run Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Rugby Run,65.0,Solar PV - Single axis tracking,Solar,Adani Rugby Run Pty Ltd,tier_3,0,
+Rutherglen Battery - KCI,Unclassified,review,No rule matched — manual review needed,,400.0,Storage - Battery,Other - Other,Red Hill Renewable Energy Pty Ltd,tier_3,0,
+Rutherglen Solar Farm - KCI,Unclassified,review,No rule matched — manual review needed,,400.0,Solar PV - Fixed,Solar - Solar,Red Hill Renewable Energy Pty Ltd,tier_3,0,
+SIPS Staypylton Industrial Power Station,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Staypylton,0.15,Solar PV - Fixed,Solar,TBA,tier_3,0,
+SRI/Mirabou (Braemar) BESS,DD,medium,DD region (Dalby corridor — judgement call),Braemar,100.0,Storage - Battery,Other,Miraabou Energy Ltd,tier_3,0,
+SRI/Mirabou (Braemar) BESS - KCI,DD,medium,DD region (Dalby corridor — judgement call),Braemar,500.0,Storage - Battery,Other - Other, Miraabou Energy Ltd,tier_3,1,large_tier3
+Smoky Creek Energy Storage System - KCI,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Smoky Creek,400.0,Storage - Battery,Other - Other,Edify Energy Pty Ltd,tier_2,0,
+Smoky Creek Hybrid Facility - Solar And BESS,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Smoky Creek,720.0,Solar PV - Single axis tracking,Solar - Solar,Edify Energy Pty Ltd,tier_2,0,
+Smoky Creek Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Smoky Creek,700.0,Solar PV - Single axis tracking,Solar,Edify Energy Pty Ltd,tier_2,2,stale_proposed_4plus_releases
+Somerset Dam,Unclassified,review,No rule matched — manual review needed,,3.2,Solar PV - Fixed,Solar,Seqwater,tier_3,0,
+South Burnett BESS,TG,high,Tarong corridor (Tarong PS/Kingaroy),South Burnett,300.0,Storage - Battery,Other - Other,X-Elio Australia Pty Ltd,tier_1,0,
+South Johnstone Mill,FNQ,high,FNQ corridor (Townsville and north),South Johnstone,28.5,Turbine - Steam Sub Critical,Bagasse,MSF Sugar,tier_3,0,
+South Johnstone Mill (expansion),FNQ,high,FNQ corridor (Townsville and north),South Johnstone,32.0,Turbine - Steam Sub Critical,Bagasse,MSF Sugar,tier_3,2,stale_proposed_4plus_releases
+South Nanango BESS,TG,high,Tarong corridor (Tarong PS/Kingaroy),South Nanango,630.0,Storage - Battery,Other - Other,RTB Renewables Pty Ltd,tier_2,0,
+South Pine BESS - KCI,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),South Pine,300.0,Storage - Battery,Other - Other, Neon Australia Pty Ltd,tier_3,0,
+South Pine Battery Energy Storage System,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),South Pine,400.0,Storage - Battery,Other,Neoen Australia Pty Ltd,tier_1,0,
+Southbank Institute of Technology Unit 1 Plant,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Southbank,1.0,Reciprocating Engine - Compression ignition,Diesel,Southbank Institute of Technology,tier_3,0,
+Southern Renewable Energy Zone BESS,Unclassified,review,No rule matched — manual review needed,,150.0,Storage - Battery,Other - Other,Stanwell Corporation Limited,tier_1,0,
+Specimen Hill BESS - Storage - KCI,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Specimen Hill,100.0,Storage - Battery,Other - Other,ARK Energy Corporation Pty Ltd,tier_2,0,
+Specimen Hill Wind Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Specimen Hill,336.0,Wind Turbine - Onshore,Wind,ARK Energy Corporation Pty Ltd,tier_2,2,stale_proposed_4plus_releases
+Springdale Wind Farm,SD,medium,SD region (Millmerran/Inglewood corridor),Springdale Wind,480.0,,Wind,Ratch Australia,tier_2,0,
+Springlands Wind Farm,SD,medium,SD region (Millmerran/Inglewood corridor),Springlands Wind,798.6,Wind Turbine - Onshore,Wind - Wind, Ratch Australia,tier_2,0,
+St Ursula's College Yeppoon,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),St Ursula,0.174,Solar PV - Fixed,Solar,TBA,tier_3,0,
+Stanmore WCMG power station,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Stanmore,20.16,Reciprocating Engine - Spark ignition,Fossil - Coal Seam Methane,Stanmore Resources and Enernet Australia (JV),tier_3,0,
+Stanwell,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Stanwell,365.0,Turbine - Steam Sub Critical,Black Coal,Stanwell Corporation Limited,tier_1,0,
+Stanwell BESS,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Stanwell,300.0,Storage - Battery,Other - Other,Stanwell Corporation Limited,tier_1,0,
+Stanwell Energy Park - BESS connected to Stanwell Substation,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Stanwell,350.0,,Storage,Stanwell Corporation Ltd,tier_1,0,
+Stanwell Energy Park - BESS connected to Tarong Substation,TG,high,Tarong corridor (Tarong PS/Kingaroy),Tarong,350.0,,Storage,Stanwell Corporation Ltd,tier_1,0,
+Stanwell Power Station BESS,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Stanwell,150.0,Storage - Battery,Other - Other,Stanwell Corporation Limited,tier_1,0,
+Stapylton Renewable Energy Facility,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Stapylton,4.24,Reciprocating Engine - Spark ignition,Landfill Gas,LMS Energy Pty Ltd,tier_3,0,
+Stony Creek Wind Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Stony Creek Wind,400.0,Wind Turbine - Onshore,Wind - Wind,Greenleaf Renewable,tier_3,0,
+Sun Metals Corporation Solar Farm,FNQ,high,FNQ corridor (Townsville and north),Sun Metals,143.0,Solar PV - Fixed,Solar,Sun Metals Corporation Pty Ltd,tier_3,0,
+Sunshine Coast Solar Farm,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Sunshine Coast,15.0,Solar PV - Fixed,Solar,Sunshine Coast Regional Council,tier_3,0,
+Sunshine Energy Solar Farm,Unclassified,review,No rule matched — manual review needed,,1500.0,Solar PV - Single axis tracking,Solar,Sunshine Energy,tier_3,2,manual_known_phantom
+Sunshine State Solar Farm and BESS,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Sunshine State,110.0,Solar PV - Fixed,Solar - Solar,ESCO Pacific,tier_2,0,
+Sunshine State Solar Farm and BESS (Rollingstone),CQ,high,CQ corridor (Callide/Gladstone/Isaac),Rollingstone,500.0,Solar PV - Fixed,Solar,Rollingstone Solar Farm Pty Ltd,tier_3,1,large_tier3
+Suntown Renewable Energy Facility,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Suntown,1.025,Reciprocating Engine - Spark ignition,Landfill Methane / Landfill Gas,LMS Energy Pty Ltd,tier_3,0,
+Supernode BESS,Unclassified,review,No rule matched — manual review needed,,260.0,Storage - Battery,Other - Other,Supernode Operations Pty Ltd as the trustee for Supernode BESS 1 Project Trust,tier_3,0,
+Supernode Project,Unclassified,review,No rule matched — manual review needed,,250.0,Storage - Battery,Solar - Solar,Quinbrook Asset Management as Trustee for The Australian Clean Power Trust 2A,tier_1,1,stale_proposed_4plus_releases
+Susan River Solar Farm,WG,medium,Wide Bay region (judgement call),Susan River,85.26,Solar PV - Single axis tracking,Solar,Susan River Solar Pty Ltd as trustee for the Susan River Solar Trust,tier_3,0,
+Swanbank BESS,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Swanbank,250.0,Storage - Battery,Other - Other,CleanCo QLD Limited,tier_1,0,
+Swanbank E GT,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Swanbank,385.0,Turbine - CCGT,Coal Seam Methane,CleanCo Queensland Limited,tier_1,0,
+Swanbank JV,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Swanbank,1.123,Reciprocating Engine - Spark ignition,Landfill Methane / Landfill Gas,LMS ENERGY Pty Ltd,tier_3,0,
+Tableland Mill,FNQ,high,FNQ corridor (Townsville and north),Tableland Mill,24.0,Turbine - Steam Sub Critical,Other,MSF Sugar,tier_3,0,
+Tangkam BESS,Unclassified,review,No rule matched — manual review needed,,100.0,Storage - Battery,Other,Atria Energy Ltd,tier_3,0,
+Tangkam BESS - KCI,Unclassified,review,No rule matched — manual review needed,,100.0,Storage - Battery,Other - Other, Atria Energy Ltd,tier_3,0,
+Tara Wind Farm - KCI,WD,medium,Western Downs region (judgement call),Tara Wind,1800.0,Wind Turbine - Onshore,Wind - Wind,Tara Wind Farm Pty Ltd,tier_3,2,mega_non_tier1
+Tarong,TG,high,Tarong corridor (Tarong PS/Kingaroy),Tarong,350.0,Turbine - Steam Sub Critical,Black Coal,Stanwell Corporation Limited,tier_1,0,
+Tarong BESS - Stanwell,TG,high,Tarong corridor (Tarong PS/Kingaroy),Tarong,300.0,Storage - Battery,Other - Other,Stanwell Corporation Limited,tier_1,0,
+Tarong GT,TG,high,Tarong corridor (Tarong PS/Kingaroy),Tarong,15.0,Turbine - OCGT,Fuel Oil,Stanwell Corporation Limited,tier_1,0,
+Tarong North,TG,high,Tarong corridor (Tarong PS/Kingaroy),Tarong,450.0,Turbine - Steam Super Critical,Black Coal,Stanwell Corporation Limited,tier_1,0,
+Tarong West Wind Farm (Ironleaf),TG,high,Tarong corridor (Tarong PS/Kingaroy),Tarong,900.0,Wind Turbine - Onshore,Wind - Wind,Tarong West Project Co Pty Ltd as trustee for the Tarong West Project Trust ,tier_3,1,large_tier3
+Teebar Creek Battery Storage - KCI,WG,high,Woolooga corridor (Gympie/Maryborough),Teebar,400.0,Storage - Battery,Other - Other,ATMOS DEVELOPMENTS PTY LTD,tier_3,0,
+Teebar Solar One,WG,high,Woolooga corridor (Gympie/Maryborough),Teebar,52.5,Solar PV - Fixed,Solar,Teebar Clean Energy Pty Ltd,tier_3,0,
+The Block BESS,Unclassified,review,No rule matched — manual review needed,,324.0,Storage - Battery,Other - Other,Samsung C&T Renewable Energy Australia Pty Ltd,tier_3,0,
+The Central BESS - KCI,Unclassified,review,No rule matched — manual review needed,,648.0,Storage - Battery,Other - Other,ACEnergy Pty Ltd,tier_2,0,
+Theodore BESS,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Theodore,240.0,Storage - Battery,Other - Other,RWE,tier_1,0,
+Theodore Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Theodore,84.0,Solar PV - Single axis tracking,Solar,Theodore SF Pty Ltd as trustee for Theodore SF Trust  ,tier_3,2,stale_proposed_4plus_releases
+Theodore Wind Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Theodore,1152.0,Wind Turbine - Onshore,Wind - Wind,RWE Renewables Australia,tier_1,0,
+Three Rivers BESS,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Three Rivers,500.0,Storage - Battery,Other - Other,Iberdrola Australia Development Pty Ltd.,tier_1,0,
+Three Rivers Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Three Rivers,700.0,Solar PV - Fixed,Solar - Solar,Iberdrola Australia Development Pty Ltd.,tier_1,0,
+Ti Tree Bioenergy,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Ti Tree,4.4,Reciprocating Engine - Spark ignition,Biomass,Ti Tree Bioenergy,tier_3,0,
+Ticoba BESS,Unclassified,review,No rule matched — manual review needed,,550.0,Storage - Battery,Other - Other,European Energy Australia P/L,tier_1,0,
+Ticoba Solar Farm,Unclassified,review,No rule matched — manual review needed,,550.0,Solar PV - Fixed,Solar - Solar,European Energy Australia P/L,tier_1,0,
+Tieri BESS,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Tieri,103.2,Storage - Battery,Other - Other,FRV Service Australia Pty Ltd,tier_3,0,
+Tieri Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Tieri,95.0,Solar PV - Fixed,Solar,FRV Service Australia Pty Ltd,tier_3,2,stale_proposed_4plus_releases
+Todae Solar - DHP 1MW,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Todae,0.9541,Solar PV - Fixed,Solar,TBA,tier_3,0,
+Todae Solar SV - Holy Spirit Northside,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Todae,0.3932,Solar PV - Fixed,Solar,TBA,tier_3,0,
+Todae Solar SV - Mitchelton,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Todae,0.18,Solar PV - Fixed,Solar - Solar,TBA,tier_3,0,
+Todae Solar SV - Private Brisbane,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Brisbane,0.1705,Solar PV - Fixed,Solar,TBA,tier_3,0,
+Todae Solar SV - Toowoomba,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Toowoomba,0.2601,Solar PV - Fixed,Solar,TBA,tier_3,0,
+Todae Solar SV Lourdes,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Todae,0.264,Solar PV - Fixed,Solar,TBA,tier_3,0,
+Tong Park - Agricultural Waste,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Tong Park,1.23,Other - Other,Renewable Biomass or Waste - Bagasse,TBA,tier_3,0,
+Toowoomba Pumped Storage Project,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Toowoomba,400.0,Storage - Battery,Other - Other,BE Power,tier_2,0,
+Townsville BESS,FNQ,high,FNQ corridor (Townsville and north),Townsville,200.0,Storage - Battery,Other - Other,ACEnergy Pty Ltd,tier_2,0,
+Townsville Power Station,FNQ,high,FNQ corridor (Townsville and north),Townsville,160.0,Turbine - CCGT,Natural Gas Pipeline,RATCH-Australia,tier_2,0,
+Townsville Power Station.,FNQ,high,FNQ corridor (Townsville and north),Townsville,160.0,Turbine - CCGT,Fossil - Natural Gas Pipeline,RATCH-Australia,tier_2,0,
+Tuckeroo BESS - KCI,Unclassified,review,No rule matched — manual review needed,,500.0,Storage - Battery,Other - Other,Tuckeroo BESS Pty Ltd,tier_3,1,large_tier3
+Tully BESS,FNQ,high,FNQ corridor (Townsville and north),Tully,200.0,Storage - Battery,Other - Other,RWE Renewables Australia Pty Ltd,tier_1,0,
+Tully Sugar Mill,FNQ,high,FNQ corridor (Townsville and north),Tully,32.0,Turbine - Steam Super Critical,Renewable Biomass or Waste - Bagasse,Tully Sugar Limited,tier_1,0,
+Tummaville Hybrid Facility - BESS (KCI),SD,medium,SD region (Millmerran/Inglewood corridor),Tummaville,500.0,Storage - Battery,Other - Other,Elements Green Australia Pty Ltd,tier_2,0,
+Tummaville Hybrid Facility - Solar (KCI),SD,medium,SD region (Millmerran/Inglewood corridor),Tummaville,500.0,Solar PV - Fixed,Solar - Solar,Elements Green Australia Pty Ltd,tier_2,0,
+Tumuruu BESS,Unclassified,review,No rule matched — manual review needed,,295.0,Storage - Battery,Other - Other,Austraiian Solar,tier_3,0,
+Tumuruu Solar Farm,Unclassified,review,No rule matched — manual review needed,,464.0,Solar PV - Fixed,Solar - Solar,Austraiian Solar,tier_3,0,
+Tyrone BESS,Unclassified,review,No rule matched — manual review needed,,400.0,Storage - Battery,Other - Other,European Energy Australia P/L,tier_1,0,
+Tyrone Solar,Unclassified,review,No rule matched — manual review needed,,400.0,Solar PV - Fixed,Solar - Solar,European Energy Australia P/L,tier_1,0,
+Ulinda Park BESS,WD,high,WD substation/Chinchilla corridor,Ulinda Park,156.0,Storage - Battery,Other,Ulinda Park ProjectCo Pty Ltd,tier_3,0,
+University of Southern Queensland Toowoomba,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Toowoomba,1.09,Solar PV - Fixed,Solar,TBA,tier_3,0,
+Upper Burdekin Wind Farm,FNQ,high,FNQ corridor (Townsville and north),Upper Burdekin,500.0,,Wind,Windlab Developments,tier_2,0,
+Upper Burdekin Wind Farm - KCI,FNQ,high,FNQ corridor (Townsville and north),Upper Burdekin,355.0,Wind Turbine - Onshore,Wind - Wind,UPPER BURDEKIN WIND FARM PTY LTD,tier_3,0,
+Upper Calliope Solar Farm (side A),CQ,high,CQ corridor (Callide/Gladstone/Isaac),Calliope,291.0,Solar PV - Fixed,Solar - Solar,European Energy S/A,tier_1,0,
+Valdora Solar Farm,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Valdora,15.0,Solar PV - Fixed,Solar - Solar,Diamond Energy Pty Ltd,tier_3,0,
+Victoria Mill,FNQ,high,FNQ corridor (Townsville and north),Victoria Mill,19.0,Turbine - Steam Sub Critical,Bagasse,Wilmar Sugar (Herbet) Pty Ltd,tier_3,0,
+Vulcan Yatala,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Vulcan Yatala,0.2,Solar PV - Fixed,Solar - Solar,TBA,tier_3,0,
+Wambo Wind Farm,DD,high,Darling Downs corridor (Dalby/Bell),Wambo Wind,500.0,,Wind, Cubico Sustainable Investments Australia Pty Ltd,tier_1,0,
+Wamuran BESS - KCI,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Wamuran,630.0,Storage - Battery,Other - Other,RTB Renewables Pty Ltd,tier_2,0,
+Wandoan South BESS,WD,high,WD substation/Chinchilla corridor,Wandoan,100.0,Storage - Battery,Other,Vena Evergy,tier_3,0,
+Wandoan South Solar,WD,high,WD substation/Chinchilla corridor,Wandoan,650.0,Solar PV - Single axis tracking,Solar,Vena Evergy,tier_3,1,large_tier3
+Wandoan South Solar Stage 1,WD,high,WD substation/Chinchilla corridor,Wandoan,160.0,Solar PV - Single axis tracking,Solar,Vena Evergy,tier_3,0,
+Wandoan South Solar Stage 2,WD,high,WD substation/Chinchilla corridor,Wandoan,240.0,Solar PV - Single axis tracking,Solar - Solar,TBSOL,tier_3,0,
+Wantirna Mini Hydro,Unclassified,review,No rule matched — manual review needed,,0.132,Hydro - Dam,Water,TBA,tier_3,0,
+Warwick Solar Farm,SD,high,Southern Downs corridor (Karara/Warwick/Bulli Creek),Warwick Solar,64.208,Solar PV - Single axis tracking,Solar,The University of Queensland,tier_3,0,
+Western Downs Battery,WD,high,WD substation/Chinchilla corridor,Western Downs,259.2,Storage - Battery,Other - Other,Western Downs BESS Trust,tier_3,0,
+Western Downs Battery - Stage 1 And 2,WD,high,WD substation/Chinchilla corridor,Western Downs,254.94,Storage - Battery,Other - Other,Western Downs BESS Pty Ltd as trustee for Western Downs BESS Trust,tier_3,0,
+Western Downs Battery Connection,WD,high,WD substation/Chinchilla corridor,Western Downs,1000.0,,Storage,Neoen,tier_1,1,stale_proposed_4plus_releases
+Western Downs Battery Connection - KCI,WD,high,WD substation/Chinchilla corridor,Western Downs,1000.0,Storage - Battery,Other - Other,Neoen Australia Pty Ltd,tier_1,0,
+Western Downs Gas Peaking Plant,WD,high,WD substation/Chinchilla corridor,Western Downs,207.0,,Natural Gas Pipeline,PowerGen P51 Pty Ltd,tier_3,0,
+Western Downs Gas Peaking Plant - KCI,WD,high,WD substation/Chinchilla corridor,Western Downs,207.0,Turbine - CCGT,Other - Other, PowerGen P51 Pty Ltd,tier_3,0,
+Western Downs Green Power Hub,WD,high,WD substation/Chinchilla corridor,Western Downs,400.0,Solar PV - Single axis tracking,Solar,Western Downs Green Power Hub Pty Ltd,tier_3,0,
+Western Downs Green Power Hub P/L,WD,high,WD substation/Chinchilla corridor,Western Downs,399.97,Solar PV - Single axis tracking,Solar - Solar,Western Downs Green Power Hub Pty Ltd,tier_3,0,
+Whitsunday Solar Farm,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Whitsunday,57.5,Solar PV - Single axis tracking,Solar,Whitsunday Solar Farm Pty Ltd,tier_3,0,
+Whitwood Road,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Whitwood,1.123,Reciprocating Engine - Spark ignition,Landfill Methane / Landfill Gas,LMS Energy Pty Ltd,tier_3,0,
+Windy Hill,FNQ,high,FNQ corridor (Townsville and north),Windy Hill,12.0,Wind Turbine - Onshore,Wind,Ratch Australia,tier_2,0,
+Wivenhoe,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Wivenhoe,285.0,Storage - Pumped hydro,Water,CleanCo Queensland Limited,tier_1,0,
+Wivenhoe Regional Energy Hub - Solar,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Wivenhoe,1000.0,Solar PV - Single axis tracking,Solar,SolarQ Pty Ltd,tier_3,1,large_tier3
+Wivenhoe Regional Energy Hub - Storage,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Wivenhoe,1000.0,Storage - Battery,Other,SolarQ Pty Ltd,tier_3,1,large_tier3
+Wivenhoe Small Hydro,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Wivenhoe,4.5,Hydro - Dam,Water,Stanwell Corporation Limited,tier_1,0,
+Wooderson Solar Farm,WG,medium,Wide Bay region (judgement call),Wooderson,450.18,Solar PV - Single axis tracking,Solar - Solar,Wooderson Solar Development Company Pty Ltd,tier_3,0,
+Woodstock BESS,Unclassified,review,No rule matched — manual review needed,,500.0,Storage - Battery,Other,AGL Energy Limited,tier_1,0,
+Woodstock Renewable Energy Hub - BESS,Unclassified,review,No rule matched — manual review needed,,528.0,Storage - Battery,Other - Other,Private Energy Partners,tier_3,2,large_tier3; generic_name
+Woodstock Renewable Energy Hub - Solar,Unclassified,review,No rule matched — manual review needed,,528.0,Solar PV - Fixed,Solar - Solar,Private Energy Partners,tier_3,2,large_tier3; generic_name
+Woolcock Centre,FNQ,high,FNQ corridor (Townsville and north),Woolcock,0.3,Solar PV - Fixed,Solar - Solar,TBA,tier_3,0,
+Woolooga BESS,WG,high,Woolooga corridor (Gympie/Maryborough),Woolooga,280.96,Storage - Battery,Other - Other,Woolooga BESS Fund Pty Limited as trustee for the Woolooga BESS Trust,tier_3,0,
+Woolooga BESS - KCI,WG,high,Woolooga corridor (Gympie/Maryborough),Woolooga,400.0,Storage - Battery,Other - Other,Elements Green Australia Pty Ltd,tier_2,0,
+Woolooga Battery Energy Storage System (BESS),WG,high,Woolooga corridor (Gympie/Maryborough),Woolooga,176.0,,Other,LightsourceBP,tier_1,0,
+Woolooga Solar Farm,WG,high,Woolooga corridor (Gympie/Maryborough),Woolooga,222.5,Solar PV - Single axis tracking,Solar,Woolooga Fund Pty Ltd,tier_3,0,
+Woonga Creek BESS,Unclassified,review,No rule matched — manual review needed,,750.0,Storage - Battery,Other - Other,Lightsource BP,tier_1,0,
+Wooroora Station  Wind Farm,FNQ,high,FNQ corridor (Townsville and north),Wooroora,322.4,Wind Turbine - Onshore,Wind - Wind,ARK Energy Corporation Pty Ltd,tier_2,0,
+Wooroora Station Wind Farm,FNQ,high,FNQ corridor (Townsville and north),Wooroora,322.4,Wind Turbine - Onshore,Wind - Wind,ARK Energy Corporation Pty Ltd,tier_2,0,
+Wurdong BESS,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Wurdong,404.8,Storage - Battery,Other - Other,Wurdong ProjectCo Pty Ltd,tier_3,0,
+Wurdong BESS (Baywa) - KCI,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Wurdong,320.0,Storage - Battery,Other - Other,BayWA r.e Projects Australia Pty Ltd,tier_2,0,
+X-Elio - Sixteen Mile SF BESS,WD,high,WD substation/Chinchilla corridor,Sixteen Mile,1100.0,Solar PV - Single axis tracking,Solar - Solar,The Trustee for X-ELIO SIXTEEN MILE TRUST,tier_1,0,
+Yabulu BESS,FNQ,high,FNQ corridor (Townsville and north),Yabulu,264.0,Storage - Battery,Other - Other,Yabulu BESS Pty Ltd,tier_3,0,
+Yabulu Battery Energy Storage Systems,FNQ,high,FNQ corridor (Townsville and north),Yabulu,40.0,,Storage,Genex Power Limited,tier_1,0,
+Yabulu Solar Farm,FNQ,high,FNQ corridor (Townsville and north),Yabulu,92.4,Solar PV - Single axis tracking,Solar - Solar,Yabulu Solar Farm Pty Ltd,tier_3,0,
+Yabulu Solar Fram,FNQ,high,FNQ corridor (Townsville and north),Yabulu,108.0,,Solar,Ace Power,tier_3,0,
+Yabulu South BESS,FNQ,high,FNQ corridor (Townsville and north),Yabulu,200.0,Storage - Battery,Other - Other,Yabulu South BESS Pty Ltd,tier_3,0,
+Yarranlea Solar Farm,SEQ,high,SEQ corridor (Brisbane/Ipswich/Toowoomba),Yarranlea,121.0,Solar PV - Single axis tracking,Solar - Solar,Yarranlea Solar Pty Ltd,tier_3,0,
+Yarwun 1,CQ,high,CQ corridor (Callide/Gladstone/Isaac),Yarwun,180.0,Turbine - CCGT,Natural Gas Pipeline,RTA Yarwun Pty Ltd,tier_3,0,
+Yelarbon SF and BESS - KCI,SD,high,Southern Downs corridor (Karara/Warwick/Bulli Creek),Yelarbon,200.0,Solar PV - Fixed,Solar - Solar,Elgin Energy,tier_3,2,stale_proposed_4plus_releases
+Yuleba North Solar Project,DD,high,Darling Downs corridor (Dalby/Bell),Yuleba,300.0,Solar PV - Fixed,Solar,Vena Energy,tier_1,1,stale_proposed_4plus_releases
