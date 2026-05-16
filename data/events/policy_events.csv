@@ -1,0 +1,43 @@
+event_id,date,jurisdiction,event_type,category,coupling_layer,information_unification,scope,rez,description,source_url,confidence,notes
+e001,2020-11-09,NSW,roadmap_release,information,both,3,state,ALL_NSW,NSW Electricity Infrastructure Roadmap released - sets framework for REZs and 12GW renewable target,https://www.energy.nsw.gov.au/nsw-plans-and-progress/government-strategies-and-frameworks/electricity-infrastructure-roadmap,verified,Foundational document that created the REZ framework
+e002,2020-12-08,NSW,act_passage,commitment,both,3,state,ALL_NSW,Electricity Infrastructure Investment Act 2020 assented,https://legislation.nsw.gov.au/view/html/inforce/current/act-2020-044,verified,Legal basis for REZ designation and access schemes
+e003,2020-11-30,NSW,rez_designation,commitment,both,3,rez,CWO,Central-West Orana REZ declared (first NSW REZ),https://www.energyco.nsw.gov.au/renewable-energy-zones/central-west-orana-rez,needs_verify,Check exact gazettal date - may be slightly different from announcement
+e004,2021-08-XX,NSW,rez_designation,commitment,both,3,rez,NER,New England REZ declared,https://www.energyco.nsw.gov.au/renewable-energy-zones/new-england-rez,needs_verify,Date needs precise verification - somewhere mid-2021
+e005,2021-12-XX,NSW,rez_designation,commitment,both,3,rez,SWN,South West NSW REZ declared,https://www.energyco.nsw.gov.au/renewable-energy-zones/south-west-rez,needs_verify,Late 2021
+e006,2022-XX-XX,NSW,rez_designation,commitment,both,3,rez,HCC,Hunter-Central Coast REZ declared,https://www.energyco.nsw.gov.au/renewable-energy-zones/hunter-central-coast-rez,needs_verify,2022
+e007,2022-02-XX,NSW,rez_designation,commitment,both,2,rez,ILW,Illawarra offshore wind zone designated,,needs_verify,Federal offshore wind declaration interacts with state policy
+e008,2022-08-19,NSW,eoi_round,competitive,direct,2,rez,CWO,Central-West Orana access rights EOI round opens,https://www.energyco.nsw.gov.au,needs_verify,Verify exact date
+e009,2023-11-08,NSW,access_rights_award,competitive,direct,2,rez,CWO,Central-West Orana access rights awarded (6 projects selected),https://www.energyco.nsw.gov.au,needs_verify,Major competitive event - check exact date and projects
+e010,2024-XX-XX,NSW,eoi_round,competitive,direct,2,rez,NER,New England REZ access scheme EOI process,https://www.energyco.nsw.gov.au/renewable-energy-zones/new-england-rez,needs_verify,Multiple rounds - register each separately
+e011,2024-07-23,FED,cis_auction_announcement,competitive,both,3,federal,ALL_NSW,Capacity Investment Scheme Tender 2 (variable renewables) opens for NSW,https://www.dcceew.gov.au/energy/renewable/capacity-investment-scheme,verified,32 GW national target - state allocations matter
+e012,2024-06-XX,FED,cis_auction_result,competitive,direct,2,federal,ALL_NSW,CIS Tender 1 results announced (storage),https://www.dcceew.gov.au,needs_verify,First tranche results
+e013,2024-08-29,AEMO,isp_release,information,both,3,nem-wide,,2024 Integrated System Plan released,https://aemo.com.au/energy-systems/major-publications/integrated-system-plan-isp/2024-integrated-system-plan-isp,verified,Major biennial signal - probably highest single-event coupling
+e014,2022-06-30,AEMO,isp_release,information,both,3,nem-wide,,2022 Integrated System Plan released,https://aemo.com.au/energy-systems/major-publications/integrated-system-plan-isp/2022-integrated-system-plan-isp,verified,Step change to faster transition pathway
+e015,2020-07-30,AEMO,isp_release,information,both,3,nem-wide,,2020 Integrated System Plan released,https://aemo.com.au/energy-systems/major-publications/integrated-system-plan-isp/2020-integrated-system-plan-isp,verified,First ISP under new regulatory framework
+e016,2025-XX-XX,AEMO,esoo_release,information,informational,2,nem-wide,,2025 Electricity Statement of Opportunities (annual),https://aemo.com.au,needs_verify,Annual reliability outlook - moderate coupling
+e017,2024-08-XX,AEMO,esoo_release,information,informational,2,nem-wide,,2024 Electricity Statement of Opportunities,https://aemo.com.au,needs_verify,
+e018,2023-08-XX,AEMO,esoo_release,information,informational,2,nem-wide,,2023 Electricity Statement of Opportunities,https://aemo.com.au,needs_verify,
+e019,2022-07-22,AEMC,rule_change,information,informational,2,nem-wide,,Transmission Access Reform - directions paper,https://www.aemc.gov.au,needs_verify,Long-running reform affecting investment signals
+e020,2023-XX-XX,AEMC,rule_change,information,informational,2,nem-wide,,Connection process reform draft determination,https://www.aemc.gov.au,needs_verify,Affects connection queue dynamics
+e021,2023-09-XX,NSW,transmission_fid,commitment,both,3,corridor,CWO,Central-West Orana REZ Transmission Project early works approval,https://www.energyco.nsw.gov.au,needs_verify,Major transmission FID signal
+e022,2024-XX-XX,NSW,transmission_fid,commitment,both,3,corridor,CWO,CWO REZ Transmission Project main works FID,https://www.energyco.nsw.gov.au,needs_verify,Verify timing of main works approval
+e023,2023-07-25,FED,transmission_fid,commitment,both,3,corridor,,Marinus Link Stage 1 FID,https://www.marinuslink.com.au,verified,Tas-Vic interconnector commitment
+e024,2024-XX-XX,FED/NSW/VIC,transmission_fid,commitment,both,3,corridor,,VNI West FID and route announcement,https://www.transgrid.com.au,needs_verify,Major NSW-VIC interconnector
+e025,2022-07-XX,FED/NSW/SA,transmission_milestone,information,informational,2,corridor,,EnergyConnect (PEC) construction milestones,https://www.transgrid.com.au,needs_verify,Multiple milestones - decide whether to register separately
+e026,2024-07-XX,NSW,humelink_fid,commitment,both,3,corridor,,HumeLink FID,https://www.transgrid.com.au/projects-innovation/humelink,needs_verify,Major NSW transmission project
+e027,2023-XX-XX,QLD,energy_roadmap,information,both,3,state,ALL_QLD,Queensland Energy and Jobs Plan released,https://www.epw.qld.gov.au/about/initiatives/energy-and-jobs-plan,needs_verify,QLD equivalent of NSW Roadmap - check exact release date
+e028,2024-XX-XX,QLD,rez_designation,commitment,both,3,rez,QLD_NORTH,Northern Queensland REZ identified in QEJP,,needs_verify,QLD REZ framework less mature than NSW
+e029,2024-XX-XX,QLD,rez_designation,commitment,both,3,rez,QLD_CENTRAL,Central Queensland REZ identified,,needs_verify,
+e030,2024-XX-XX,QLD,rez_designation,commitment,both,3,rez,QLD_SOUTH,Southern Queensland REZ identified,,needs_verify,Includes Western Downs area
+e031,2023-XX-XX,QLD,publicly_owned_assets,commitment,both,2,state,ALL_QLD,Queensland announces public ownership model for renewables,https://www.epw.qld.gov.au,needs_verify,Significant for QLD investment signal
+e032,2024-10-26,QLD,election,information,both,3,state,ALL_QLD,QLD state election - LNP wins; energy policy implications,https://www.ecq.qld.gov.au,verified,Major political signal - LNP review of energy policy
+e033,2025-XX-XX,QLD,policy_review,adverse,both,3,state,ALL_QLD,LNP review of Energy and Jobs Plan announced,,needs_verify,Reduces confidence in QLD trajectory
+e034,2024-XX-XX,NSW,mlf_reset,adverse,informational,2,nem-wide,,Annual MLF reset published by AEMO,https://aemo.com.au,needs_verify,Annual event - register separately each year
+e035,2023-XX-XX,NSW,mlf_reset,adverse,informational,2,nem-wide,,Annual MLF reset published by AEMO,https://aemo.com.au,needs_verify,
+e036,2022-XX-XX,NSW,mlf_reset,adverse,informational,2,nem-wide,,Annual MLF reset published by AEMO,https://aemo.com.au,needs_verify,Western Downs MLF impact notable this year
+e037,2021-XX-XX,NSW,mlf_reset,adverse,informational,2,nem-wide,,Annual MLF reset published by AEMO,https://aemo.com.au,needs_verify,
+e038,2023-XX-XX,FED,rewiring_nation,commitment,both,3,federal,,Rewiring the Nation funding allocations announced,https://www.dcceew.gov.au,needs_verify,$20B fund for transmission - check specific announcement dates
+e039,2022-12-09,FED,cis_announcement,commitment,both,3,federal,,Capacity Investment Scheme announced (initial 6GW),https://www.dcceew.gov.au,verified,Major federal commitment signal
+e040,2023-11-23,FED,cis_expansion,commitment,both,3,federal,,CIS expanded to 32GW national target,https://www.dcceew.gov.au,verified,Significantly increased scope
+e041,2024-XX-XX,NSW,access_rights_award,competitive,direct,2,rez,NER,New England REZ access rights round 1 awards,https://www.energyco.nsw.gov.au,needs_verify,Verify dates - rolling award process
+e042,2022-12-XX,NSW,cwo_developer_panel,information,direct,1,rez,CWO,CWO project announcements (commissioning + financial close events),,needs_verify,Cluster of individual project events - may handle as continuous rather than discrete

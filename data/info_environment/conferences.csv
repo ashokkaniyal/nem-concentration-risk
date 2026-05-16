@@ -1,0 +1,10 @@
+year,conference,date_start,date_end,location,rez,session_count,total_energy_sessions,programme_url,notes
+2024,All-Energy Australia,2024-10-23,2024-10-24,Melbourne,CWO,,,https://all-energy.com.au/,Count sessions whose title or abstract references the REZ
+2024,All-Energy Australia,2024-10-23,2024-10-24,Melbourne,NER,,,,
+2024,All-Energy Australia,2024-10-23,2024-10-24,Melbourne,SWN,,,,
+2024,All-Energy Australia,2024-10-23,2024-10-24,Melbourne,HCC,,,,
+2024,All-Energy Australia,2024-10-23,2024-10-24,Melbourne,QLD_SOUTH,,,,
+2024,All-Energy Australia,2024-10-23,2024-10-24,Melbourne,QLD_CENTRAL,,,,
+2024,All-Energy Australia,2024-10-23,2024-10-24,Melbourne,QLD_NORTH,,,,
+2024,AFR Energy & Climate Summit,2024-10-XX,2024-10-XX,Sydney,CWO,,,,
+2024,Australian Energy Week,2024-06-XX,2024-06-XX,Melbourne,CWO,,,,

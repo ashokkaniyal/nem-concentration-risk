@@ -1,0 +1,31 @@
+actor_id,actor_name,actor_type,listed,ticker,parent,jurisdiction_focus,active_in_rez,notes
+a001,AGL Energy,utility,yes,AGL.AX,,national,"CWO,NER,HCC",Major incumbent gentailer; significant retirement of coal generation
+a002,Origin Energy,utility,yes,ORG.AX,,national,"CWO,NER,SWN,HCC","Acquired by Brookfield/EIG 2024; integrated gentailer"
+a003,Squadron Energy,developer,no,,Tattarang (Forrest family),national,"NER,SWN,QLD_SOUTH",Acquired CWP Renewables Aus + Tilt portfolio; one of largest developers
+a004,Tilt Renewables (pre-2022),developer,no,,Powering Australian Renewables,national,"CWO,NER","Delisted Aug 2022; portfolio split between Powering Aus Renewables and Mercury"
+a005,Acen Australia,developer,no,,Acen Corporation (Philippines),national,"NER,QLD_SOUTH","Formerly UPC AC Renewables; pipeline includes New England Solar"
+a006,Lightsource bp,developer,no,,bp,national,"CWO,QLD_SOUTH","Major solar developer; bp absorbed Lightsource fully 2024"
+a007,Neoen Australia,developer,no,,Neoen SA (France),national,"NER,QLD_SOUTH","Subject of Brookfield acquisition 2024"
+a008,Iberdrola Australia,developer,no,,Iberdrola SA (Spain),national,"NER,QLD_SOUTH","Acquired Infigen 2020"
+a009,Engie Australia,utility,no,,Engie SA (France),national,"NER,CWO,SWN",Both retail and generation
+a010,EDF Renewables Australia,developer,no,,EDF SA (France),national,"NER,QLD_SOUTH",
+a011,Stanwell Corporation,utility,no,,QLD Government,QLD,"QLD_SOUTH,QLD_CENTRAL",State-owned QLD generator; expanding into renewables
+a012,CleanCo,utility,no,,QLD Government,QLD,"QLD_SOUTH,QLD_CENTRAL,QLD_NORTH",State-owned QLD renewable energy entity; LNP review uncertainty
+a013,CS Energy,utility,no,,QLD Government,QLD,"QLD_SOUTH,QLD_CENTRAL",State-owned QLD generator
+a014,Genex Power,developer,yes,GNX.AX,,national,"NER,QLD_NORTH",Kidston pumped hydro + solar; takeover by Skip Capital/Stonepeak
+a015,Quinbrook Infrastructure Partners,fund,no,,,national,"NER,QLD_SOUTH",Infrastructure fund with significant Aus renewables pipeline
+a016,Octopus Investments Australia,fund,no,,Octopus Group UK,national,"NER,CWO,SWN",Yield-focused renewables platform
+a017,Palisade Investment Partners,fund,no,,,national,"CWO,NER",Mid-market infrastructure fund
+a018,Powering Australian Renewables,yieldco,no,,QIC/Future Fund/AGL,national,"CWO,NER","Owns ex-Tilt assets; pension-fund backed yieldco"
+a019,Mercury NZ,yieldco,no,MCY.NZ,,Aus secondary,"NER",Owns ex-Tilt Australian portfolio
+a020,Ark Energy,developer,no,,Korea Zinc / SunMetals,QLD,"QLD_NORTH",MacIntyre wind farm developer; vertical integration with smelter
+a021,Andrew Forrest entities,developer,no,,Tattarang,national,"NER,QLD_SOUTH",Squadron + Fortescue Energy + Windlab acquisition
+a022,Brookfield Renewable Partners,fund,no,,Brookfield Asset Management,national,"NER,QLD_SOUTH","Origin acquisition; Neoen acquisition"
+a023,EnergyAustralia,utility,no,,CLP Group HK,national,"NER,SWN",Major gentailer; Mt Piper coal closure aligned with REZ buildout
+a024,Snowy Hydro,utility,no,,Federal Government,national,"national","Snowy 2.0 + Hunter Power Project; not a REZ developer but affects investment context"
+a025,SunCable,developer,no,,Andrew Forrest / Brookfield (post-administration),national,"national","Australia-Asia Power Link; speculative but signal-relevant"
+a026,Vena Energy Australia,developer,no,,Global Infrastructure Partners,national,"NER,QLD_SOUTH",
+a027,RES Australia,developer,no,,RES Group UK,national,"NER,SWN",
+a028,CWP Renewables (pre-2022),developer,no,,Various PE,national,"NER",Acquired by Squadron 2022
+a029,Goldwind Australia,developer,no,,Goldwind (China),national,"NER",OEM-developer hybrid
+a030,Vestas Australia,oem,no,,Vestas (Denmark),national,national,Equipment supplier; pipeline announcements signal market direction

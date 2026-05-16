@@ -1,0 +1,9 @@
+rez_code,rez_name,jurisdiction,nem_region,declared_date,target_capacity_mw,notes
+CWO,Central-West Orana,NSW,NSW1,2020-11-30,4500,First NSW REZ - access rights awarded Nov 2023
+NER,New England,NSW,NSW1,2021-08-XX,8000,Largest NSW REZ by ambition - includes UPC NE and Glen Innes areas
+SWN,South West NSW,NSW,NSW1,2021-12-XX,2500,Buronga / Wagga area - serviced by EnergyConnect
+HCC,Hunter-Central Coast,NSW,NSW1,2022-XX-XX,1000,Lower capacity target - includes coastal areas
+ILW,Illawarra (offshore),NSW,NSW1,2022-02-XX,,Offshore wind zone - federal declaration interacts with state framework
+QLD_NORTH,Northern Queensland REZ,QLD,QLD1,2024-XX-XX,,Less mature framework than NSW - capacity targets indicative
+QLD_CENTRAL,Central Queensland REZ,QLD,QLD1,2024-XX-XX,,Includes CopperString-related capacity
+QLD_SOUTH,Southern Queensland REZ,QLD,QLD1,2024-XX-XX,,Includes Western Downs - historical cluster predating formal REZ
