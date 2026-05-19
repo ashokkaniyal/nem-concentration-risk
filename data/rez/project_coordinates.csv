@@ -1,0 +1,64 @@
+region,site_name,lat,lon,source,source_url_or_ref,confidence,spike_class,expected_catchment,spike_rationale
+NSW1,Pottinger Energy Park - Wind - KCI,-31.3,150.5,manual,AGL Pottinger EP planning docs (Liverpool Plains),medium,prior,SW-NSW,NSW prior — Liverpool Plains
+NSW1,Pottinger Energy Park - Battery - KCI,-31.3,150.5,manual,AGL Pottinger EP planning docs (Liverpool Plains),medium,prior,SW-NSW,NSW prior — Liverpool Plains
+NSW1,Pottinger Energy Park - Solar - KCI,-31.3,150.5,manual,AGL Pottinger EP planning docs (Liverpool Plains),medium,prior,SW-NSW,NSW prior — Liverpool Plains
+NSW1,Hanworth Battery,-31.8,150.85,manual,NSW Major Projects portal — Murrurundi area,medium,prior,Unclassified,NSW prior — Liverpool Plains BTM (skip/excl)
+NSW1,Glenbawn Pumped Hydro Project,-32.1,151.1,manual,Lake Glenbawn coords — Scone area,high,prior,Unclassified,NSW prior — Bayswater area (review)
+NSW1,Goulburn River Solar Farm And BESS,-32.35,150.1,manual,Goulburn River National Park area — Bylong,medium,prior,CWO,NSW prior
+NSW1,Yarrabee Solar Power Project,-32.4,151.05,manual,NSW DPIE Major Projects — Singleton area,medium,prior,SW-NSW,NSW prior
+NSW1,Bayswater,-32.395,150.95,manual,Bayswater PS Wikipedia / OSM,high,prior,NEW,NSW prior — per Transgrid TAPR NEW REZ collector
+VIC1,LYA BESS,-38.26,146.59,manual,Loy Yang A PS coords,high,prior,GIP,VIC prior — Loy Yang A area
+VIC1,Koorangie Energy Storage System,-35.85,143.91,manual,Edify Koorangie ESS — Kerang area,high,prior,MR,VIC prior — Kerang area
+VIC1,Koorangie BESS Stage 2,-35.85,143.91,manual,Edify Koorangie ESS — Kerang area,high,prior,MR,VIC prior — Kerang area
+SA1,Cathedral Rocks,-34.856,135.582,manual,Cathedral Rocks WF OSM (Port Lincoln),high,prior,EYR,SA prior — Port Lincoln Eyre Pen
+VIC1,Salt Creek Wind Farm,-37.917,142.782,manual,Salt Creek WF OSM relation,high,prior,SW-VIC,VIC prior — Hamilton area
+SA1,Mannum Adelaide Pumping Station No 2 - MAPL2 (Palmer),-34.92,139.3,manual,"Mannum, eastern SA",high,prior,EXCLUDE-pumping,Pumping station — should be excluded by filter
+SA1,Morgan To Whyalla Pipeline No 1 PS And Water Filtration Plant,-34.0,139.66,manual,Morgan SA (pipeline origin),high,prior,EXCLUDE-pipeline,Pipeline PS — should be excluded by filter
+SA1,Morgan To Whyalla Pipeline No 2 PS,-34.0,138.7,manual,Pipeline midpoint near Burra,medium,prior,EXCLUDE-pipeline,Pipeline PS — should be excluded by filter
+SA1,Morgan To Whyalla Pipeline No 3 PS,-33.5,138.1,manual,Pipeline midpoint,medium,prior,EXCLUDE-pipeline,Pipeline PS — should be excluded by filter
+SA1,Morgan To Whyalla Pipeline No 4 PS,-33.2,137.8,manual,Pipeline near Whyalla,medium,prior,EXCLUDE-pipeline,Pipeline PS — should be excluded by filter
+QLD1,Western Downs Green Power Hub,-26.674,150.58,manual,Neoen Western Downs GPH — Brigalow,high,qld_control,WD,QLD canonical control — Darling Downs area
+QLD1,MacIntyre Wind Farm,-28.396,151.205,manual,MacIntyre WF EIS — Karara/Warwick area,high,qld_control,SD,QLD canonical control — Southern Downs
+QLD1,Kogan Creek,-26.828,150.745,manual,Kogan Creek PS Wikipedia,high,qld_control,WD,QLD canonical control — Chinchilla/Kogan
+QLD1,Aldoga Solar Farm,-23.946,151.16,manual,Aldoga SF EIS — Gladstone area,high,qld_control,CQ,QLD canonical control — Gladstone area
+QLD1,Stanwell,-23.546,150.336,manual,Stanwell PS Wikipedia,high,qld_control,CQ,QLD canonical control — Stanwell Rockhampton
+NSW1,Pottinger Energy Park - Wind - KCI,-31.3,150.5,manual,AGL Pottinger EP planning docs (Liverpool Plains),medium,shared_boundary,NEW,keyword: Pottinger Energy Park; capacity: 1300.0
+NSW1,Hanworth Battery,-31.8,150.85,manual,NSW Major Projects portal — Murrurundi area,medium,shared_boundary,CWO,keyword: Hanworth; capacity: 1200.0
+NSW1,Glenbawn Pumped Hydro Project,-32.1,151.1,manual,Lake Glenbawn coords — Scone area,high,shared_boundary,NEW,keyword: Glenbawn Pumped Hydro; capacity: 770.0
+NSW1,Bayswater,-32.395,150.95,manual,Bayswater PS Wikipedia / OSM,high,shared_boundary,NEW,keyword: Bayswater; capacity: 685.0
+NSW1,Goulburn River Solar Farm And BESS,-32.35,150.1,manual,Goulburn River National Park area — Bylong,medium,shared_boundary,HCC,keyword: Goulburn River Solar; capacity: 588.0
+NSW1,Yarrabee Solar Power Project,-32.4,151.05,manual,NSW DPIE Major Projects — Singleton area,medium,shared_boundary,CWO,keyword: Yarrabee Solar; capacity: 584.43
+NSW1,Pottinger Energy Park - Battery - KCI,-31.3,150.5,manual,AGL Pottinger EP planning docs (Liverpool Plains),medium,shared_boundary,NEW,keyword: Pottinger Energy Park; capacity: 499.8
+NSW1,Stratford Renewable Energy Hub,-32.2,151.95,manual,Gloucester/Stratford NSW Major Projects,medium,shared_boundary,HCC,keyword: Stratford; capacity: 400.0
+NSW1,Bowmans Creek Wind Farm,-32.4,151.1,manual,Bowmans Creek WF EIS — Singleton,high,shared_boundary,NEW,keyword: Bowmans Creek; capacity: 346.64
+SA1,Port Augusta Solar Farm (KCI),-32.5,137.78,manual,Port Augusta city centre,high,shared_boundary,MN,keyword: Port Augusta; capacity: 300.0
+NSW1,Maxwell Downs Solar Farm - KCI,-32.3,150.95,manual,"Maxwell Coal Mine area, Upper Hunter",medium,shared_boundary,CWO,keyword: Maxwell Downs; capacity: 300.0
+NSW1,Pottinger Energy Park - Solar - KCI,-31.3,150.5,manual,AGL Pottinger EP planning docs (Liverpool Plains),medium,shared_boundary,NEW,keyword: Pottinger Energy Park; capacity: 299.52
+NSW1,Mullion Creek Wind Farm,-33.25,149.11,manual,Mullion Creek WF EIS — Orange area,high,shared_boundary,CWO,keyword: Mullion Creek; capacity: 250.14
+SA1,Yoorndoo Ilga Solar - KCI,-33.4,138.95,manual,"Hallett area, MN",low,shared_boundary,MN,keyword: Yoorndoo Ilga; capacity: 250.0
+NSW1,Shoalhaven Expansion,-34.78,150.4,manual,Tallowa Dam / Shoalhaven scheme,high,shared_boundary,ILW,keyword: Shoalhaven Expansion; capacity: 235.0
+SA1,Port Augusta Renewable Energy Park - Wind,-32.5981951,137.904187,OSM_plant,OSM:relation/12767276,medium,shared_boundary,MN,keyword: Port Augusta; capacity: 201.0
+VIC1,LYA BESS,-38.26,146.59,manual,Loy Yang A PS coords,high,shared_boundary,CN-VIC,keyword: LYA; capacity: 200.0
+VIC1,Koorangie Energy Storage System,-35.85,143.91,manual,Edify Koorangie ESS — Kerang area,high,shared_boundary,CN-VIC,keyword: Koorangie; capacity: 185.0
+VIC1,Koorangie BESS Stage 2,-35.85,143.91,manual,Edify Koorangie ESS — Kerang area,high,shared_boundary,CN-VIC,keyword: Koorangie; capacity: 150.0
+SA1,Whyalla,-33.9735697,139.1934863,OSM_plant,OSM:way/983912336,medium,shared_boundary,MN,keyword: Whyalla; capacity: 140.0
+NSW1,Bodangora Wind Farm,-32.398724,149.0685725,OSM_plant,OSM:relation/10076471,medium,shared_boundary,CWO,keyword: Bodangora; capacity: 113.19
+SA1,Morgan Solar,-34.025,139.66,manual,Morgan SA — Riverland,high,shared_boundary,MN,keyword: Morgan Solar; capacity: 108.0
+SA1,Whyalla BESS - KCI,-33.03,137.58,manual,Whyalla city centre,high,shared_boundary,MN,keyword: Whyalla; capacity: 100.0
+SA1,Port Augusta Renewable Energy Park - Solar,-32.5572169,137.8589026,OSM_plant,OSM:relation/12767275,medium,shared_boundary,MN,keyword: Port Augusta; capacity: 99.0
+SA1,Cathedral Rocks,-34.856,135.582,manual,Cathedral Rocks WF OSM (Port Lincoln),high,shared_boundary,MN,keyword: Cathedral Rocks; capacity: 62.0
+VIC1,Salt Creek Wind Farm,-37.917,142.782,manual,Salt Creek WF OSM relation,high,shared_boundary,WV,keyword: Salt Creek Wind Farm; capacity: 54.0
+SA1,Mannum Adelaide Pumping Station No 2 - MAPL2 (Palmer),-34.92,139.3,manual,"Mannum, eastern SA",high,shared_boundary,MN,keyword: Adelaide; capacity: 16.5
+SA1,Morgan To Whyalla Pipeline No 3 PS,-33.5,138.1,manual,Pipeline midpoint,medium,shared_boundary,MN,keyword: Whyalla; capacity: 7.5
+SA1,Morgan To Whyalla Pipeline No 4 PS,-33.2,137.8,manual,Pipeline near Whyalla,medium,shared_boundary,MN,keyword: Whyalla; capacity: 5.5
+SA1,Morgan To Whyalla Pipeline No 2 PS,-34.0,138.7,manual,Pipeline midpoint near Burra,medium,shared_boundary,MN,keyword: Whyalla; capacity: 5.5
+SA1,Morgan To Whyalla Pipeline No 1 PS And Water Filtration Plant,-34.0,139.66,manual,Morgan SA (pipeline origin),high,shared_boundary,MN,keyword: Whyalla; capacity: 5.5
+NSW1,Maxwell Solar Farm,-32.3,150.95,manual,"Maxwell Coal Mine area, Upper Hunter",medium,shared_boundary,CWO,keyword: Maxwell; capacity: nan
+SA1,SSE Whyalla Solar Farm,-33.03,137.58,manual,Whyalla city centre,high,shared_boundary,MN,keyword: Whyalla; capacity: nan
+SA1,Whyalla Solar Farm,-33.03,137.58,manual,Whyalla city centre,high,shared_boundary,MN,keyword: Whyalla; capacity: nan
+NSW1,Goulburn River BESS,-32.35,150.1,manual,Goulburn River National Park area — Bylong,medium,shared_boundary,CWO,keyword: Goulburn River; capacity: nan
+NSW1,Goulburn River SF,-32.35,150.1,manual,Goulburn River National Park area — Bylong,medium,shared_boundary,CWO,keyword: Goulburn River; capacity: nan
+SA1,Emeroo BESS (Bungala),-32.475,137.9,manual,"Bungala SF area, Port Augusta — Emeroo BESS",medium,shared_boundary,MN,keyword: Bungala; capacity: nan
+SA1,Whyalla BESS,-33.03,137.58,manual,Whyalla city centre,high,shared_boundary,MN,keyword: Whyalla; capacity: nan
+NSW1,Maxwell Downs Bess - KCI,-32.3,150.95,manual,"Maxwell Coal Mine area, Upper Hunter",medium,shared_boundary,CWO,keyword: Maxwell Downs; capacity: nan
+NSW1,Hanworth BESS - KCI,-31.8,150.85,manual,NSW Major Projects portal — Murrurundi area,medium,shared_boundary,CWO,keyword: Hanworth; capacity: nan
