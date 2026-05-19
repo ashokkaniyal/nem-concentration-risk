@@ -2,6 +2,11 @@
 data/projects/
 data/aemo_cache/
 
+# REZ source PDFs (Transgrid TAPR, ElectraNet TAPR, TasNetworks APR, AEMO ISP A3 etc.)
+# 100+ MB — re-download via curl with browser User-Agent. URLs are in
+# scripts/build_nem_catchment_lookup.py source_document column references.
+data/rez/sources/
+
 # Python
 __pycache__/
 *.py[cod]
