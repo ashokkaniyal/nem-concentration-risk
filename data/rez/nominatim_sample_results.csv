@@ -1,0 +1,50 @@
+region,site_name,status_bucket,stratum,classification,query_used,lat,lon,osm_type,osm_class,display_name,dist_centre_km
+NSW1,Jindabyne,Existing less Announced Withdrawal,Existing/Operational,acceptable,"Jindabyne, New South Wales, Australia",-36.4170899,148.61996,administrative,,"Jindabyne, New South Wales, 2627, Australia",422.7
+NSW1,Bango 973 Wind Farm,Existing less Announced Withdrawal,Existing/Operational,acceptable,"bango 973, New South Wales, Australia",-34.7541667,148.9638889,administrative,,"Bango, New South Wales, 2582, Australia",271.6
+VIC1,CARINA WEST H2E,Existing less Announced Withdrawal,Existing/Operational,unresolved,,,,,,,
+SA1,Blyth BESS,Existing less Announced Withdrawal,Existing/Operational,acceptable,"blyth, South Australia, Australia",-33.8450989,138.4894622,administrative,,"Blyth, South Australia, 5462, Australia",305.7
+TAS1,Hobart,Existing less Announced Withdrawal,Existing/Operational,ambiguous_town,"Hobart, Tasmania, Australia",-42.8825088,147.3281233,city,,"Hobart, Tasmania, Australia",138.3
+VIC1,Wyndham Renewable Energy Facility,Existing less Announced Withdrawal,Existing/Operational,unresolved,,,,,,,
+VIC1,Glenrowan Solar Farm,Existing less Announced Withdrawal,Existing/Operational,acceptable,"glenrowan, Victoria, Australia",-36.4622687,146.2256668,administrative,,"Glenrowan, Victoria, 3675, Australia",158.5
+SA1,Hornsdale Wind Farm Stage 2,Existing less Announced Withdrawal,Existing/Operational,acceptable,"hornsdale, South Australia, Australia",-33.0398943,138.5254303,administrative,,"Hornsdale, South Australia, 5491, Australia",285.1
+VIC1,Philip Island Community Energy Storage System,Committed,Committed,unresolved,,,,,,,
+NSW1,Tilbuster Solar Farm,Committed,Committed,acceptable,"tilbuster, New South Wales, Australia",-30.4017508,151.6972878,administrative,,"Tilbuster, New South Wales, 2350, Australia",502.4
+VIC1,Horsham Solar Farm,Committed,Committed,acceptable,"horsham, Victoria, Australia",-36.7148099,142.2018105,administrative,,"Horsham, Victoria, 3400, Australia",205.0
+SA1,Clements Gap - BESS,Committed,Committed,acceptable,"clements gap -, South Australia, Australia",-33.5084391,138.0644427,administrative,,"Clements Gap, South Australia, 5523, Australia",255.2
+NSW1,Orana BESS,Committed,Committed,ambiguous_town,"orana, New South Wales, Australia",-32.2028744,149.432799,farm,,"Orana, 2162, Tallawang, New South Wales, 2852, Australia",219.7
+NSW1,Quorn Park Hybrid,Committed,Committed,unresolved,,,,,,,
+SA1,SA Government Virtual Power Plant - stage 2,Committed,Committed,unresolved,,,,,,,
+SA1,Tailem Bend Battery Project,Committed,Committed,acceptable,"tailem bend, South Australia, Australia",-35.2529335,139.4533779,administrative,,"Tailem Bend, South Australia, 5260, Australia",462.0
+VIC1,Ravenswood Solar Farm - FRV,Anticipated,Anticipated,unresolved,,,,,,,
+SA1,Temporary Generation South (Bolivar),Anticipated,Anticipated,unresolved,,,,,,,
+VIC1,Inverleigh Wind Farm,Anticipated,Anticipated,acceptable,"inverleigh, Victoria, Australia",-38.1016454,144.0573333,administrative,,"Inverleigh, Victoria, 3321, Australia",149.9
+TAS1,Port Latta Wind Farm,Anticipated,Anticipated,acceptable,"port latta, Tasmania, Australia",-40.8517723,145.3818738,administrative,,"Port Latta, Tasmania, 7321, Australia",140.8
+NSW1,Tamworth BESS Project 1 Pty Ltd,Anticipated,Anticipated,unresolved,,,,,,,
+NSW1,Tamworth BESS Project 2 Pty Ltd,Anticipated,Anticipated,unresolved,,,,,,,
+VIC1,Terang BESS,Anticipated,Anticipated,acceptable,"terang, Victoria, Australia",-38.2467665,142.8768744,administrative,,"Terang, Victoria, 3264, Australia",215.3
+VIC1,Lancaster Solar Farm,Anticipated,Anticipated,acceptable,"lancaster, Victoria, Australia",-36.298938,145.136072,administrative,,"Lancaster, Victoria, 3620, Australia",79.6
+SA1,Hydrogen Jobs Plan,Anticipated,Anticipated,unresolved,,,,,,,
+NSW1,Coppabella Wind Farm,Anticipated,Anticipated,acceptable,"coppabella, New South Wales, Australia",-35.7316667,147.7177778,administrative,,"Coppabella, New South Wales, 2644, Australia",329.4
+NSW1,Maryvale Solar and Energy Storage System,Anticipated,Anticipated,unresolved,,,,,,,
+TAS1,Northern Midlands Solar Farm - KCI,Anticipated,Anticipated,acceptable,"northern midlands, Tasmania, Australia",-41.8798625,147.4362844,administrative,,"Northern Midlands, Tasmania, Australia",78.1
+VIC1,Nyaninyuk Wind Farm,Proposed,Proposed,unresolved,,,,,,,
+NSW1,Sapphire Solar Farm (Submitted via XL),Proposed,Proposed,unresolved,,,,,,,
+NSW1,Narrandera Solar Farm,Proposed,Proposed,acceptable,"narrandera, New South Wales, Australia",-34.5926463,146.7000438,administrative,,"Narrandera Shire Council, New South Wales, 2700, Australia",204.6
+NSW1,Ben Bullen BESS,Proposed,Proposed,acceptable,"ben bullen, New South Wales, Australia",-33.215,150.0177778,administrative,,"Ben Bullen, New South Wales, 2790, Australia",266.8
+NSW1,Hills of Gold Wind Farm,Proposed,Proposed,ambiguous_town,"hills of gold, New South Wales, Australia",-31.4612733,151.1280806,motel,,"Hills of Gold, Jenkins Street, Nundle, New South Wales, 2340, Australia",398.7
+NSW1,Bannaby BESS,Proposed,Proposed,acceptable,"bannaby, New South Wales, Australia",-34.4415205,149.995079,administrative,,"Bannaby, New South Wales, 2580, Australia",316.7
+NSW1,Peninsula Solar Farm,Proposed,Proposed,ambiguous_town,"peninsula, New South Wales, Australia",-33.8706761,151.2387029,apartments,,"Peninsula, 107, Darling Point Road, Darling Point, Eastern Suburbs, Sydney, New South Wales, 2027, Australia",393.6
+SA1,Ceduna BESS,Proposed,Proposed,acceptable,"ceduna, South Australia, Australia",-32.1263581,133.6742187,administrative,,"Ceduna, South Australia, 5690, Australia",182.9
+SA1,Chaff Mill (Mintaro) Solar Farm,Proposed,Proposed,ambiguous_town,"chaff mill (mintaro), South Australia, Australia",-33.8922697,138.7633441,track,,"Chaff Mill Road, Stanley, Mintaro, Clare and Gilbert Valleys Council, South Australia, 5415, Australia",331.0
+VIC1,Birkins Solar Farm - Solar - KCI,Proposed,Proposed,ambiguous_town,"birkins -, Victoria, Australia",-37.6965739,148.3762614,unclassified,,"Birkins Road, Bete Bolong, Victoria, 3888, Australia",357.3
+SA1,Pacific Green Energy Park - Limestone Coast West,Proposed,Proposed,unresolved,,,,,,,
+NSW1,Upper Hunter Energy Park - Solar,Proposed,Proposed,unresolved,,,,,,,
+SA1,Carmody's Hill Wind Farm,Proposed,Proposed,unresolved,,,,,,,
+NSW1,Gerogery Battery - KCI,Proposed,Proposed,acceptable,"gerogery, New South Wales, Australia",-35.8337235,146.9938918,administrative,,"Gerogery, New South Wales, 2642, Australia",337.9
+NSW1,Queanbeyan Battery,Proposed,Proposed,ambiguous_town,"queanbeyan, New South Wales, Australia",-35.3524518,149.2337634,city,,"Queanbeyan, Queanbeyan-Palerang Regional Council, New South Wales, 2619, Australia",340.0
+SA1,Snuggery,Announced Withdrawal,Publicly Announced/Other,acceptable,"Snuggery, South Australia, Australia",-37.6648131,140.4155865,industrial,,"Snuggery Power Station, Millicent, South Australia, 5280, Australia",709.9
+VIC1,Loy Yang B Upgrade,Upgrade / Expansion,Publicly Announced/Other,unresolved,,,,,,,
+SA1,Port Lincoln GT,Announced Withdrawal,Publicly Announced/Other,unresolved,,,,,,,
+SA1,Torrens Island B,Announced Withdrawal,Publicly Announced/Other,acceptable,"Torrens Island B, South Australia, Australia",-34.787563,138.5259139,administrative,,"Torrens Island, South Australia, 5960, Australia",363.5
+NSW1,Liddell,Withdrawn,Withdrawn,acceptable,"Liddell, New South Wales, Australia",-32.4363889,151.0041667,administrative,,"Liddell, New South Wales, 2333, Australia",358.6
+NSW1,20 Bond St,Withdrawn,Withdrawn,ambiguous_town,"20 Bond St, New South Wales, Australia",-33.8643522,151.2084952,commercial,,"20, Bond Street, Quay Quarter, Sydney, Sydney CBD, Sydney, New South Wales, 2000, Australia",390.7

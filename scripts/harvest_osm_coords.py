@@ -71,6 +71,27 @@ def normalise(s: str) -> str:
     return s
 
 
+MIN_OSM_TOKEN_LEN = 4  # OSM names shorter than this after normalisation are too generic to match safely
+
+
+def is_safe_osm_name(norm: str) -> bool:
+    """Reject names that would substring-match too liberally.
+
+    Filters out short/generic names like "A", "Bay", "Power", numeric-only
+    designations, and single-letter substation labels. These produce
+    false-positive matches against our lookup substations.
+    """
+    if not norm or len(norm) < MIN_OSM_TOKEN_LEN:
+        return False
+    # Single-token generic names
+    GENERIC = {"power", "bay", "main", "north", "south", "east", "west", "central",
+               "switch", "yard", "kv", "hv", "lv"}
+    tokens = norm.split()
+    if len(tokens) == 1 and tokens[0] in GENERIC:
+        return False
+    return True
+
+
 def match_substations(states: list[str]) -> pd.DataFrame:
     """Try to match each lookup substation to an OSM substation in the same state."""
     subs = pd.read_csv(SUB_CSV)
@@ -99,18 +120,25 @@ def match_substations(states: list[str]) -> pd.DataFrame:
             coord = el_coord(e)
             if coord is None:
                 continue
+            norm = normalise(name)
+            if not is_safe_osm_name(norm):
+                continue  # skip too-generic OSM names that would match many lookup rows
             records.append({
-                "name": name, "norm": normalise(name),
+                "name": name, "norm": norm,
                 "lat": coord[0], "lon": coord[1], "id": el_id(e),
                 "voltage": (e.get("tags") or {}).get("voltage", ""),
             })
         osm_subs_by_state[st] = pd.DataFrame(
             records, columns=["name", "norm", "lat", "lon", "id", "voltage"]
         )
-        print(f"  {st}/substation: {len(records)} OSM records", file=sys.stderr)
+        print(f"  {st}/substation: {len(records)} OSM records (after generic-name filter)", file=sys.stderr)
 
+    n_subs = len(subs)
     matched = 0
-    for i, row in subs.iterrows():
+    progress_every = max(100, n_subs // 20)
+    for counter, (i, row) in enumerate(subs.iterrows(), start=1):
+        if counter % progress_every == 0:
+            print(f"    substation match progress: {counter}/{n_subs} (matched so far: {matched})", file=sys.stderr)
         if pd.notna(row.get("lat")) and pd.notna(row.get("lon")):
             continue  # already geocoded
         st = row["state"]
@@ -120,11 +148,17 @@ def match_substations(states: list[str]) -> pd.DataFrame:
         ntarget = normalise(target)
         if len(ntarget) < 3:
             continue
-        # Substring match either way (OSM name often "Wollar Substation"; lookup says "Wollar")
-        cands = osm_subs_by_state[st][
-            osm_subs_by_state[st].norm.str.contains(re.escape(ntarget), regex=True, na=False)
-            | osm_subs_by_state[st].norm.apply(lambda n: n in ntarget if n else False)
-        ]
+        # Match priorities (most specific to least):
+        # 1. Exact normalised equality (best)
+        # 2. Target name fully contains OSM name (OSM name appears as a complete
+        #    token sequence in target — e.g. lookup "Bayswater" inside OSM "Bayswater Substation")
+        # 3. OSM name contains target as a complete word boundary (e.g. lookup "Wollar"
+        #    inside OSM "Wollar Substation" after normalisation)
+        # We DO NOT do generic substring matching anymore — it false-positives.
+        osm_df = osm_subs_by_state[st]
+        # Word-boundary regex: \b around the target on both sides
+        wb = r"(?:^|\s)" + re.escape(ntarget) + r"(?:\s|$)"
+        cands = osm_df[osm_df.norm.str.contains(wb, regex=True, na=False)]
         if len(cands) == 0:
             continue
         # Prefer the highest-voltage match (typically the real transmission substation)
@@ -145,7 +179,13 @@ def match_substations(states: list[str]) -> pd.DataFrame:
 
 
 def match_projects(states: list[str]) -> pd.DataFrame:
-    """Try to match each spike project to an OSM power=plant in the same state."""
+    """Try to match each spike project to an OSM power=plant in the same state.
+
+    Per-state, pre-compile a single alternation regex over all eligible OSM
+    plant names (length ≥ 6) once, then run one regex.search per project
+    instead of N regex compilations per project. This is the difference
+    between O(projects × OSM_names) regex ops and O(projects) at scale.
+    """
     proj = pd.read_csv(PROJ_CSV)
     if "lat" not in proj.columns:
         proj["lat"] = pd.NA
@@ -176,13 +216,42 @@ def match_projects(states: list[str]) -> pd.DataFrame:
                 "source": (e.get("tags") or {}).get("plant:source", "")
                           or (e.get("tags") or {}).get("power:source", ""),
             })
+        # Filter plants the same way to be safe
+        records = [r for r in records if is_safe_osm_name(r["norm"])]
         osm_plants_by_state[st] = pd.DataFrame(
             records, columns=["name", "norm", "lat", "lon", "id", "source"]
         )
-        print(f"  {st}/plant: {len(records)} OSM records", file=sys.stderr)
+        print(f"  {st}/plant: {len(records)} OSM records (after generic-name filter)", file=sys.stderr)
 
+    # Pre-compile per-state alternation regex over OSM names (length ≥ 6).
+    # One compiled regex per state -> O(1) search per project.
+    osm_alt_re = {}
+    for st, df in osm_plants_by_state.items():
+        if len(df) == 0:
+            osm_alt_re[st] = None
+            continue
+        long_names = df[df.norm.str.len() >= 6].copy()
+        if len(long_names) == 0:
+            osm_alt_re[st] = None
+            continue
+        # Dedup on norm — multiple OSM features can share the same normalised
+        # name (e.g. several "Tamworth ..." substations); keep the first.
+        long_names = long_names.drop_duplicates(subset=["norm"])
+        # Sort by descending length so longer/more-specific match first in regex alternation
+        long_names = (long_names.assign(_len=long_names.norm.str.len())
+                                .sort_values("_len", ascending=False)
+                                .drop(columns=["_len"]))
+        names_sorted = long_names.norm.tolist()
+        alt = "|".join(re.escape(n) for n in names_sorted)
+        pat = re.compile(r"(?:^|\s)(" + alt + r")(?:\s|$)")
+        osm_alt_re[st] = (pat, long_names.set_index("norm")[["lat", "lon", "id"]].to_dict("index"))
+
+    n_projects = len(proj)
     matched = 0
-    for i, row in proj.iterrows():
+    progress_every = max(100, n_projects // 20)
+    for counter, (i, row) in enumerate(proj.iterrows(), start=1):
+        if counter % progress_every == 0:
+            print(f"    project match progress: {counter}/{n_projects} (matched so far: {matched})", file=sys.stderr)
         if pd.notna(row.get("lat")) and pd.notna(row.get("lon")) and str(row.get("lat")).strip():
             continue
         region = row["region"]
@@ -193,13 +262,23 @@ def match_projects(states: list[str]) -> pd.DataFrame:
         ntarget = normalise(target)
         if len(ntarget) < 4:
             continue
-        # Try substring both ways; prefer longest OSM match
         df = osm_plants_by_state[st]
-        # Direct: target name appears in OSM name
-        cands_a = df[df.norm.apply(lambda n: ntarget in n if n else False)]
-        # Inverse: OSM name appears in target (catches "Bayswater Power Station" matching "Bayswater")
-        cands_b = df[df.norm.apply(lambda n: bool(n) and len(n) >= 5 and n in ntarget)]
-        cands = pd.concat([cands_a, cands_b]).drop_duplicates(subset=["id"])
+        # Forward match: project's normalised name appears as a token sequence in any OSM name
+        wb_target = r"(?:^|\s)" + re.escape(ntarget) + r"(?:\s|$)"
+        cands_a = df[df.norm.str.contains(wb_target, regex=True, na=False)]
+        # Reverse match: precompiled alternation finds the FIRST OSM long-name embedded in target
+        cands_b_records = []
+        pair = osm_alt_re.get(st)
+        if pair:
+            pat, lookup = pair
+            mm = pat.search(ntarget)
+            if mm:
+                osm_norm = mm.group(1)
+                hit = lookup.get(osm_norm)
+                if hit:
+                    cands_b_records.append({"norm": osm_norm, **hit})
+        cands_b = pd.DataFrame(cands_b_records)
+        cands = pd.concat([cands_a, cands_b], ignore_index=True).drop_duplicates(subset=["id"])
         if len(cands) == 0:
             continue
         cands = cands.copy()
@@ -211,7 +290,7 @@ def match_projects(states: list[str]) -> pd.DataFrame:
         proj.at[i, "source_url_or_ref"] = best["id"]
         proj.at[i, "confidence"] = "medium"  # name-substring match; needs sanity check
         matched += 1
-    print(f"  Matched {matched} of {len(proj)} project rows to OSM plants", file=sys.stderr)
+    print(f"  Matched {matched} of {n_projects} project rows to OSM plants", file=sys.stderr)
     return proj
 
 

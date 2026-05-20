@@ -1,0 +1,2054 @@
+{
+  "Jindabyne, New South Wales, Australia": [
+    {
+      "place_id": 20419257,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 6007743,
+      "lat": "-36.4170899",
+      "lon": "148.6199600",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 18,
+      "importance": 0.3363461829037416,
+      "addresstype": "town",
+      "name": "Jindabyne",
+      "display_name": "Jindabyne, New South Wales, 2627, Australia",
+      "address": {
+        "town": "Jindabyne",
+        "state": "New South Wales",
+        "ISO3166-2-lvl4": "AU-NSW",
+        "postcode": "2627",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "place": "town",
+        "wikidata": "Q1020373",
+        "population": "2233",
+        "ref:nswgnb": "25526",
+        "linked_place": "town",
+        "place:nswgnb": "LOCALITY",
+        "population:date": "2021",
+        "ref:nswlpi:cadid": "108029913",
+        "ref:psma:loc_pid": "loca9c930fd11de",
+        "admin_level": "9"
+      },
+      "boundingbox": [
+        "-36.5324246",
+        "-36.3449485",
+        "148.5271118",
+        "148.7119674"
+      ]
+    }
+  ],
+  "Bango 973 Wind Farm, New South Wales, Australia": [],
+  "Bango 973 Wind Farm, Australia": [],
+  "bango 973, New South Wales, Australia": [
+    {
+      "place_id": 23706541,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 6074463,
+      "lat": "-34.7541667",
+      "lon": "148.9638889",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 18,
+      "importance": 0.16004798580910962,
+      "addresstype": "locality",
+      "name": "Bango",
+      "display_name": "Bango, New South Wales, 2582, Australia",
+      "address": {
+        "locality": "Bango",
+        "state": "New South Wales",
+        "ISO3166-2-lvl4": "AU-NSW",
+        "postcode": "2582",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "place": "locality",
+        "ref:nswgnb": "81311",
+        "linked_place": "hamlet",
+        "place:nswgnb": "LOCALITY",
+        "ref:nswlpi:cadid": "108032714",
+        "ref:psma:loc_pid": "loc751d15886bc8",
+        "admin_level": "9"
+      },
+      "boundingbox": [
+        "-34.8164979",
+        "-34.7039632",
+        "148.8704278",
+        "149.0466926"
+      ]
+    }
+  ],
+  "CARINA WEST H2E, Victoria, Australia": [],
+  "CARINA WEST H2E, Australia": [],
+  "carina west h2e, Victoria, Australia": [],
+  "Blyth BESS, South Australia, Australia": [],
+  "Blyth BESS, Australia": [],
+  "blyth, South Australia, Australia": [
+    {
+      "place_id": 19496076,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 6603895,
+      "lat": "-33.8450989",
+      "lon": "138.4894622",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 18,
+      "importance": 0.2885983973306146,
+      "addresstype": "village",
+      "name": "Blyth",
+      "display_name": "Blyth, South Australia, 5462, Australia",
+      "address": {
+        "village": "Blyth",
+        "state": "South Australia",
+        "ISO3166-2-lvl4": "AU-SA",
+        "postcode": "5462",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "wikidata": "Q4930845",
+        "wikipedia": "en:Blyth, South Australia",
+        "population": "442",
+        "linked_place": "village",
+        "population:date": "2021",
+        "ref:psma:loc_pid": "locf04fe48a6da6",
+        "ref:dpti:suburb_num": "546201",
+        "admin_level": "9"
+      },
+      "boundingbox": [
+        "-33.8949914",
+        "-33.7752613",
+        "138.3645008",
+        "138.5512837"
+      ]
+    }
+  ],
+  "Hobart, Tasmania, Australia": [
+    {
+      "place_id": 24337559,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 10632745,
+      "lat": "-42.8825088",
+      "lon": "147.3281233",
+      "category": "place",
+      "type": "city",
+      "place_rank": 16,
+      "importance": 0.6232599963964325,
+      "addresstype": "city",
+      "name": "Hobart",
+      "display_name": "Hobart, Tasmania, Australia",
+      "address": {
+        "city": "Hobart",
+        "state": "Tasmania",
+        "ISO3166-2-lvl4": "AU-TAS",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "ele": "54",
+        "capital": "4",
+        "website": "https://www.hobartcity.com.au/",
+        "wikidata": "Q40191",
+        "wikipedia": "en:Hobart",
+        "population": "197451",
+        "linked_place": "city",
+        "population:date": "2021"
+      },
+      "boundingbox": [
+        "-43.1036150",
+        "-42.6553760",
+        "147.0916880",
+        "147.6455880"
+      ]
+    },
+    {
+      "place_id": 24287992,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 10625466,
+      "lat": "-42.8938510",
+      "lon": "147.2720858",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 12,
+      "importance": 0.38656660986684044,
+      "addresstype": "municipality",
+      "name": "City of Hobart",
+      "display_name": "City of Hobart, Tasmania, Australia",
+      "address": {
+        "municipality": "City of Hobart",
+        "state": "Tasmania",
+        "ISO3166-2-lvl4": "AU-TAS",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "email": "hcc@hobartcity.com.au",
+        "phone": "+61 3 6238 2711",
+        "place": "municipality",
+        "website": "https://www.hobartcity.com.au",
+        "wikidata": "Q1621560",
+        "wikipedia": "en:City of Hobart",
+        "ref:psma:lga_pid": "TAS90",
+        "admin_level": "6"
+      },
+      "boundingbox": [
+        "-42.9431440",
+        "-42.8445880",
+        "147.1957490",
+        "147.3621330"
+      ]
+    }
+  ],
+  "Wyndham Renewable Energy Facility, Victoria, Australia": [],
+  "Wyndham Renewable Energy Facility, Australia": [],
+  "wyndham renewable energy facility, Victoria, Australia": [],
+  "Glenrowan Solar Farm, Victoria, Australia": [],
+  "Glenrowan Solar Farm, Australia": [],
+  "glenrowan, Victoria, Australia": [
+    {
+      "place_id": 20476103,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 2557234,
+      "lat": "-36.4622687",
+      "lon": "146.2256668",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 18,
+      "importance": 0.31620884567581686,
+      "addresstype": "town",
+      "name": "Glenrowan",
+      "display_name": "Glenrowan, Victoria, 3675, Australia",
+      "address": {
+        "town": "Glenrowan",
+        "state": "Victoria",
+        "ISO3166-2-lvl4": "AU-VIC",
+        "postcode": "3675",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "wikidata": "Q2358411",
+        "wikipedia": "en:Glenrowan, Victoria",
+        "population": "963",
+        "linked_place": "town",
+        "ref:vicmap:pfi": "205408759",
+        "population:date": "2021",
+        "ref:psma:loc_pid": "loc88a71999fe7a",
+        "admin_level": "9"
+      },
+      "boundingbox": [
+        "-36.5064700",
+        "-36.4111000",
+        "146.1676920",
+        "146.2539340"
+      ]
+    }
+  ],
+  "Hornsdale Wind Farm Stage 2, South Australia, Australia": [],
+  "Hornsdale Wind Farm Stage 2, Australia": [],
+  "hornsdale, South Australia, Australia": [
+    {
+      "place_id": 19164170,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 6525768,
+      "lat": "-33.0398943",
+      "lon": "138.5254303",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 18,
+      "importance": 0.20813244289121335,
+      "addresstype": "city_district",
+      "name": "Hornsdale",
+      "display_name": "Hornsdale, South Australia, 5491, Australia",
+      "address": {
+        "city_district": "Hornsdale",
+        "state": "South Australia",
+        "ISO3166-2-lvl4": "AU-SA",
+        "postcode": "5491",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "wikidata": "Q48790353",
+        "ref:psma:loc_pid": "loc0adec122990b",
+        "ref:dpti:suburb_num": "549107",
+        "admin_level": "9"
+      },
+      "boundingbox": [
+        "-33.0987384",
+        "-32.9855819",
+        "138.4696838",
+        "138.5775387"
+      ]
+    }
+  ],
+  "Philip Island Community Energy Storage System, Victoria, Australia": [],
+  "Philip Island Community Energy Storage System, Australia": [],
+  "philip island community, Victoria, Australia": [],
+  "Tilbuster Solar Farm, New South Wales, Australia": [],
+  "Tilbuster Solar Farm, Australia": [],
+  "tilbuster, New South Wales, Australia": [
+    {
+      "place_id": 28520479,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 6063824,
+      "lat": "-30.4017508",
+      "lon": "151.6972878",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 18,
+      "importance": 0.16004646295872432,
+      "addresstype": "locality",
+      "name": "Tilbuster",
+      "display_name": "Tilbuster, New South Wales, 2350, Australia",
+      "address": {
+        "locality": "Tilbuster",
+        "state": "New South Wales",
+        "ISO3166-2-lvl4": "AU-NSW",
+        "postcode": "2350",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "place": "locality",
+        "linked_place": "locality",
+        "ref:nswlpi:cadid": "108032897",
+        "ref:psma:loc_pid": "locd84230c01eb2",
+        "admin_level": "9"
+      },
+      "boundingbox": [
+        "-30.4497597",
+        "-30.3832176",
+        "151.6543164",
+        "151.7471800"
+      ]
+    }
+  ],
+  "Horsham Solar Farm, Victoria, Australia": [],
+  "Horsham Solar Farm, Australia": [],
+  "horsham, Victoria, Australia": [
+    {
+      "place_id": 19128621,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 3169693,
+      "lat": "-36.7148099",
+      "lon": "142.2018105",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 18,
+      "importance": 0.45219581606325543,
+      "addresstype": "town",
+      "name": "Horsham",
+      "display_name": "Horsham, Victoria, 3400, Australia",
+      "address": {
+        "town": "Horsham",
+        "state": "Victoria",
+        "ISO3166-2-lvl4": "AU-VIC",
+        "postcode": "3400",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "ele": "128",
+        "place": "town",
+        "wikidata": "Q1629019",
+        "wikipedia": "en:Horsham, Victoria",
+        "population": "14543",
+        "linked_place": "town",
+        "ref:vicmap:pfi": "205409378",
+        "population:date": "2016",
+        "ref:psma:loc_pid": "loc1aad23bceb79",
+        "admin_level": "9"
+      },
+      "boundingbox": [
+        "-36.7409900",
+        "-36.6935320",
+        "142.1687120",
+        "142.2237030"
+      ]
+    }
+  ],
+  "Clements Gap - BESS, South Australia, Australia": [],
+  "Clements Gap - BESS, Australia": [],
+  "clements gap -, South Australia, Australia": [
+    {
+      "place_id": 19044184,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 6610895,
+      "lat": "-33.5084391",
+      "lon": "138.0644427",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 18,
+      "importance": 0.2507397701059262,
+      "addresstype": "city_district",
+      "name": "Clements Gap",
+      "display_name": "Clements Gap, South Australia, 5523, Australia",
+      "address": {
+        "city_district": "Clements Gap",
+        "state": "South Australia",
+        "ISO3166-2-lvl4": "AU-SA",
+        "postcode": "5523",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "wikidata": "Q30627093",
+        "ref:psma:loc_pid": "loc942ac80479ff",
+        "ref:dpti:suburb_num": "552305",
+        "admin_level": "9"
+      },
+      "boundingbox": [
+        "-33.5520077",
+        "-33.4689127",
+        "137.9749261",
+        "138.1337674"
+      ]
+    },
+    {
+      "place_id": 19038931,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3068360433,
+      "lat": "-33.4918200",
+      "lon": "138.1092200",
+      "category": "natural",
+      "type": "saddle",
+      "place_rank": 22,
+      "importance": 0.10670971007858394,
+      "addresstype": "saddle",
+      "name": "Clements Gap",
+      "display_name": "Clements Gap, South Australia, 5523, Australia",
+      "address": {
+        "saddle": "Clements Gap",
+        "city_district": "Clements Gap",
+        "state": "South Australia",
+        "ISO3166-2-lvl4": "AU-SA",
+        "postcode": "5523",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": null,
+      "boundingbox": [
+        "-33.4918700",
+        "-33.4917700",
+        "138.1091700",
+        "138.1092700"
+      ]
+    }
+  ],
+  "Orana BESS, New South Wales, Australia": [],
+  "Orana BESS, Australia": [],
+  "orana, New South Wales, Australia": [
+    {
+      "place_id": 23230324,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3587503054,
+      "lat": "-32.2028744",
+      "lon": "149.4327990",
+      "category": "place",
+      "type": "farm",
+      "place_rank": 22,
+      "importance": 0.10671473029678795,
+      "addresstype": "farm",
+      "name": "Orana",
+      "display_name": "Orana, 2162, Tallawang, New South Wales, 2852, Australia",
+      "address": {
+        "farm": "Orana",
+        "house_number": "2162",
+        "hamlet": "Tallawang",
+        "state": "New South Wales",
+        "ISO3166-2-lvl4": "AU-NSW",
+        "postcode": "2852",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": null,
+      "boundingbox": [
+        "-32.2128744",
+        "-32.1928744",
+        "149.4227990",
+        "149.4427990"
+      ]
+    },
+    {
+      "place_id": 23593390,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 9523184414,
+      "lat": "-33.4315315",
+      "lon": "147.7113867",
+      "category": "place",
+      "type": "farm",
+      "place_rank": 22,
+      "importance": 0.10671257419699395,
+      "addresstype": "farm",
+      "name": "Orana",
+      "display_name": "Orana, New South Wales, Australia",
+      "address": {
+        "farm": "Orana",
+        "state": "New South Wales",
+        "ISO3166-2-lvl4": "AU-NSW",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": null,
+      "boundingbox": [
+        "-33.4415315",
+        "-33.4215315",
+        "147.7013867",
+        "147.7213867"
+      ]
+    },
+    {
+      "place_id": 28735549,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 7904010909,
+      "lat": "-29.1982688",
+      "lon": "146.7936310",
+      "category": "place",
+      "type": "farm",
+      "place_rank": 22,
+      "importance": 0.10670666742961774,
+      "addresstype": "farm",
+      "name": "Orana",
+      "display_name": "Orana, 18338, Weilmoringle, New South Wales, 2839, Australia",
+      "address": {
+        "farm": "Orana",
+        "house_number": "18338",
+        "village": "Weilmoringle",
+        "state": "New South Wales",
+        "ISO3166-2-lvl4": "AU-NSW",
+        "postcode": "2839",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": null,
+      "boundingbox": [
+        "-29.2082688",
+        "-29.1882688",
+        "146.7836310",
+        "146.8036310"
+      ]
+    }
+  ],
+  "Quorn Park Hybrid, New South Wales, Australia": [],
+  "Quorn Park Hybrid, Australia": [],
+  "quorn park hybrid, New South Wales, Australia": [],
+  "SA Government Virtual Power Plant - stage 2, South Australia, Australia": [],
+  "SA Government Virtual Power Plant - stage 2, Australia": [],
+  "sa government virtual power plant -, South Australia, Australia": [],
+  "Tailem Bend Battery Project, South Australia, Australia": [],
+  "Tailem Bend Battery Project, Australia": [],
+  "tailem bend, South Australia, Australia": [
+    {
+      "place_id": 19337905,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 7071383,
+      "lat": "-35.2529335",
+      "lon": "139.4533779",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 18,
+      "importance": 0.34081317763107843,
+      "addresstype": "town",
+      "name": "Tailem Bend",
+      "display_name": "Tailem Bend, South Australia, 5260, Australia",
+      "address": {
+        "town": "Tailem Bend",
+        "state": "South Australia",
+        "ISO3166-2-lvl4": "AU-SA",
+        "postcode": "5260",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "wikidata": "Q988010",
+        "wikipedia": "en:Tailem Bend, South Australia",
+        "population": "1412",
+        "linked_place": "town",
+        "population:date": "2021",
+        "ref:psma:loc_pid": "loc624a2596208a",
+        "ref:dpti:suburb_num": "526001",
+        "admin_level": "9"
+      },
+      "boundingbox": [
+        "-35.3792608",
+        "-35.1829555",
+        "139.3580654",
+        "139.6197132"
+      ]
+    }
+  ],
+  "Ravenswood Solar Farm - FRV, Victoria, Australia": [],
+  "Ravenswood Solar Farm - FRV, Australia": [],
+  "ravenswood - frv, Victoria, Australia": [],
+  "Temporary Generation South (Bolivar), South Australia, Australia": [],
+  "Temporary Generation South (Bolivar), Australia": [],
+  "temporary generation south (bolivar), South Australia, Australia": [],
+  "Inverleigh Wind Farm, Victoria, Australia": [],
+  "Inverleigh Wind Farm, Australia": [],
+  "inverleigh, Victoria, Australia": [
+    {
+      "place_id": 19248227,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 3124409,
+      "lat": "-38.1016454",
+      "lon": "144.0573333",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 18,
+      "importance": 0.16004731593804836,
+      "addresstype": "village",
+      "name": "Inverleigh",
+      "display_name": "Inverleigh, Victoria, 3321, Australia",
+      "address": {
+        "village": "Inverleigh",
+        "state": "Victoria",
+        "ISO3166-2-lvl4": "AU-VIC",
+        "postcode": "3321",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "place": "village",
+        "wikidata": "Q2399392",
+        "wikipedia": "en:Inverleigh, Victoria",
+        "population": "1474",
+        "linked_place": "town",
+        "ref:vicmap:pfi": "205407610",
+        "population:date": "2021",
+        "ref:psma:loc_pid": "loc5f554e877a66",
+        "admin_level": "9"
+      },
+      "boundingbox": [
+        "-38.1750100",
+        "-38.0418790",
+        "143.8996400",
+        "144.1069360"
+      ]
+    }
+  ],
+  "Port Latta Wind Farm, Tasmania, Australia": [],
+  "Port Latta Wind Farm, Australia": [],
+  "port latta, Tasmania, Australia": [
+    {
+      "place_id": 23788616,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 10593509,
+      "lat": "-40.8517723",
+      "lon": "145.3818738",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 18,
+      "importance": 0.14389741120638372,
+      "addresstype": "hamlet",
+      "name": "Port Latta",
+      "display_name": "Port Latta, Tasmania, 7321, Australia",
+      "address": {
+        "hamlet": "Port Latta",
+        "state": "Tasmania",
+        "ISO3166-2-lvl4": "AU-TAS",
+        "postcode": "7321",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "place": "hamlet",
+        "wikidata": "Q19877177",
+        "linked_place": "hamlet",
+        "ref:psma:loc_pid": "locb5d6efb8ec87",
+        "ref:list:local_id": "100054",
+        "admin_level": "9"
+      },
+      "boundingbox": [
+        "-40.8650830",
+        "-40.8496430",
+        "145.3710144",
+        "145.3986340"
+      ]
+    }
+  ],
+  "Tamworth BESS Project 1 Pty Ltd, New South Wales, Australia": [],
+  "Tamworth BESS Project 1 Pty Ltd, Australia": [],
+  "tamworth 1 pty ltd, New South Wales, Australia": [],
+  "Tamworth BESS Project 2 Pty Ltd, New South Wales, Australia": [],
+  "Tamworth BESS Project 2 Pty Ltd, Australia": [],
+  "tamworth 2 pty ltd, New South Wales, Australia": [],
+  "Terang BESS, Victoria, Australia": [],
+  "Terang BESS, Australia": [],
+  "terang, Victoria, Australia": [
+    {
+      "place_id": 19550043,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 3152390,
+      "lat": "-38.2467665",
+      "lon": "142.8768744",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 18,
+      "importance": 0.2702882353650111,
+      "addresstype": "city_district",
+      "name": "Terang",
+      "display_name": "Terang, Victoria, 3264, Australia",
+      "address": {
+        "city_district": "Terang",
+        "state": "Victoria",
+        "ISO3166-2-lvl4": "AU-VIC",
+        "postcode": "3264",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "wikidata": "Q2752921",
+        "wikipedia": "en:Terang",
+        "population": "2288",
+        "ref:vicmap:pfi": "205407912",
+        "ref:psma:loc_pid": "loce53fd4b5ef55",
+        "admin_level": "9"
+      },
+      "boundingbox": [
+        "-38.2970080",
+        "-38.1953730",
+        "142.7827240",
+        "142.9878180"
+      ]
+    },
+    {
+      "place_id": 19403045,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1215867850,
+      "lat": "-38.2399682",
+      "lon": "142.9146792",
+      "category": "place",
+      "type": "town",
+      "place_rank": 18,
+      "importance": 0.2702882353650111,
+      "addresstype": "town",
+      "name": "Terang",
+      "display_name": "Terang, Victoria, 3264, Australia",
+      "address": {
+        "town": "Terang",
+        "state": "Victoria",
+        "ISO3166-2-lvl4": "AU-VIC",
+        "postcode": "3264",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "wikipedia": "en:Terang",
+        "population": "2020",
+        "population:date": "2021"
+      },
+      "boundingbox": [
+        "-38.2799682",
+        "-38.1999682",
+        "142.8746792",
+        "142.9546792"
+      ]
+    },
+    {
+      "place_id": 19399404,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1874051995,
+      "lat": "-38.2362597",
+      "lon": "142.9113957",
+      "category": "railway",
+      "type": "station",
+      "place_rank": 30,
+      "importance": 0.22898814784265079,
+      "addresstype": "railway",
+      "name": "Terang",
+      "display_name": "Terang, Lyons Street, Terang, Victoria, 3264, Australia",
+      "address": {
+        "railway": "Terang",
+        "road": "Lyons Street",
+        "city_district": "Terang",
+        "town": "Terang",
+        "state": "Victoria",
+        "ISO3166-2-lvl4": "AU-VIC",
+        "postcode": "3264",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "operator": "Public Transport Victoria - Regional",
+        "wikidata": "Q7701577",
+        "public_transport": "station"
+      },
+      "boundingbox": [
+        "-38.2412597",
+        "-38.2312597",
+        "142.9063957",
+        "142.9163957"
+      ]
+    }
+  ],
+  "Lancaster Solar Farm, Victoria, Australia": [],
+  "Lancaster Solar Farm, Australia": [],
+  "lancaster, Victoria, Australia": [
+    {
+      "place_id": 23113028,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 2503019,
+      "lat": "-36.2989380",
+      "lon": "145.1360720",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 18,
+      "importance": 0.2827546027204031,
+      "addresstype": "city_district",
+      "name": "Lancaster",
+      "display_name": "Lancaster, Victoria, 3620, Australia",
+      "address": {
+        "city_district": "Lancaster",
+        "state": "Victoria",
+        "ISO3166-2-lvl4": "AU-VIC",
+        "postcode": "3620",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "wikidata": "Q6483088",
+        "wikipedia": "en:Lancaster, Victoria",
+        "population": "393",
+        "ref:vicmap:pfi": "205408750",
+        "ref:psma:loc_pid": "loc3d451791a2bc",
+        "admin_level": "9"
+      },
+      "boundingbox": [
+        "-36.3430820",
+        "-36.2547330",
+        "145.1035940",
+        "145.1865530"
+      ]
+    },
+    {
+      "place_id": 23114272,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 691465598,
+      "lat": "-36.3131975",
+      "lon": "145.1316580",
+      "category": "place",
+      "type": "hamlet",
+      "place_rank": 20,
+      "importance": 0.13338120164797435,
+      "addresstype": "hamlet",
+      "name": "Lancaster",
+      "display_name": "Lancaster, Victoria, 3620, Australia",
+      "address": {
+        "hamlet": "Lancaster",
+        "city_district": "Lancaster",
+        "state": "Victoria",
+        "ISO3166-2-lvl4": "AU-VIC",
+        "postcode": "3620",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": null,
+      "boundingbox": [
+        "-36.3331975",
+        "-36.2931975",
+        "145.1116580",
+        "145.1516580"
+      ]
+    },
+    {
+      "place_id": 20174996,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 11343179756,
+      "lat": "-38.0532302",
+      "lon": "145.9668978",
+      "category": "place",
+      "type": "hamlet",
+      "place_rank": 20,
+      "importance": 0.13338059128709848,
+      "addresstype": "hamlet",
+      "name": "Crossover",
+      "display_name": "Crossover, Victoria, 3821, Australia",
+      "address": {
+        "hamlet": "Crossover",
+        "city_district": "Crossover",
+        "state": "Victoria",
+        "ISO3166-2-lvl4": "AU-VIC",
+        "postcode": "3821",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": null,
+      "boundingbox": [
+        "-38.0732302",
+        "-38.0332302",
+        "145.9468978",
+        "145.9868978"
+      ]
+    }
+  ],
+  "Hydrogen Jobs Plan, South Australia, Australia": [],
+  "Hydrogen Jobs Plan, Australia": [],
+  "hydrogen jobs plan, South Australia, Australia": [],
+  "Coppabella Wind Farm, New South Wales, Australia": [],
+  "Coppabella Wind Farm, Australia": [],
+  "coppabella, New South Wales, Australia": [
+    {
+      "place_id": 23063902,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 5970906,
+      "lat": "-35.7316667",
+      "lon": "147.7177778",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 18,
+      "importance": 0.16005007934691384,
+      "addresstype": "hamlet",
+      "name": "Coppabella",
+      "display_name": "Coppabella, New South Wales, 2644, Australia",
+      "address": {
+        "hamlet": "Coppabella",
+        "state": "New South Wales",
+        "ISO3166-2-lvl4": "AU-NSW",
+        "postcode": "2644",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "place": "hamlet",
+        "wikidata": "Q51218020",
+        "ref:nswgnb": "14246",
+        "linked_place": "hamlet",
+        "place:nswgnb": "LOCALITY",
+        "ref:nswlpi:cadid": "108033384",
+        "ref:psma:loc_pid": "loc9e38e0954d1d",
+        "admin_level": "9"
+      },
+      "boundingbox": [
+        "-35.8306170",
+        "-35.6715390",
+        "147.6820996",
+        "147.8196574"
+      ]
+    }
+  ],
+  "Maryvale Solar and Energy Storage System, New South Wales, Australia": [],
+  "Maryvale Solar and Energy Storage System, Australia": [],
+  "maryvale and, New South Wales, Australia": [],
+  "Northern Midlands Solar Farm - KCI, Tasmania, Australia": [],
+  "Northern Midlands Solar Farm - KCI, Australia": [],
+  "northern midlands, Tasmania, Australia": [
+    {
+      "place_id": 24171853,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 10604255,
+      "lat": "-41.8798625",
+      "lon": "147.4362844",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 12,
+      "importance": 0.3463314325418498,
+      "addresstype": "municipality",
+      "name": "Northern Midlands",
+      "display_name": "Northern Midlands, Tasmania, Australia",
+      "address": {
+        "municipality": "Northern Midlands",
+        "state": "Tasmania",
+        "ISO3166-2-lvl4": "AU-TAS",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "email": "council@northernmidlands.tas.gov.au",
+        "phone": "+61 3 6397 7303",
+        "place": "municipality",
+        "website": "https://www.northernmidlands.tas.gov.au",
+        "wikidata": "Q964717",
+        "wikipedia": "en:Northern Midlands Council",
+        "ref:psma:lga_pid": "TAS81",
+        "admin_level": "6"
+      },
+      "boundingbox": [
+        "-42.2812830",
+        "-41.4784880",
+        "146.7693000",
+        "148.1466290"
+      ]
+    }
+  ],
+  "Nyaninyuk Wind Farm, Victoria, Australia": [],
+  "Nyaninyuk Wind Farm, Australia": [],
+  "nyaninyuk, Victoria, Australia": [],
+  "Sapphire Solar Farm (Submitted via XL), New South Wales, Australia": [],
+  "Sapphire Solar Farm (Submitted via XL), Australia": [],
+  "sapphire (submitted via xl), New South Wales, Australia": [],
+  "Narrandera Solar Farm, New South Wales, Australia": [],
+  "Narrandera Solar Farm, Australia": [],
+  "narrandera, New South Wales, Australia": [
+    {
+      "place_id": 22878482,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 6322034,
+      "lat": "-34.5926463",
+      "lon": "146.7000438",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 12,
+      "importance": 0.4499234675436917,
+      "addresstype": "municipality",
+      "name": "Narrandera Shire Council",
+      "display_name": "Narrandera Shire Council, New South Wales, 2700, Australia",
+      "address": {
+        "municipality": "Narrandera Shire Council",
+        "state": "New South Wales",
+        "ISO3166-2-lvl4": "AU-NSW",
+        "postcode": "2700",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "email": "council@narrandera.nsw.gov.au",
+        "phone": "+61 2 6959 5510",
+        "place": "municipality",
+        "website": "https://www.narrandera.nsw.gov.au/",
+        "wikidata": "Q820304",
+        "nswlpi:cadid": "108012492",
+        "ref:psma:lga_pid": "NSW201",
+        "admin_level": "6"
+      },
+      "boundingbox": [
+        "-35.0984051",
+        "-34.0837459",
+        "146.1523841",
+        "146.9115280"
+      ]
+    },
+    {
+      "place_id": 22923559,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 5831187,
+      "lat": "-34.7483333",
+      "lon": "146.5511111",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 18,
+      "importance": 0.41761525391502413,
+      "addresstype": "town",
+      "name": "Narrandera",
+      "display_name": "Narrandera, New South Wales, 2700, Australia",
+      "address": {
+        "town": "Narrandera",
+        "state": "New South Wales",
+        "ISO3166-2-lvl4": "AU-NSW",
+        "postcode": "2700",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "place": "town",
+        "wikidata": "Q2218166",
+        "population": "3783",
+        "linked_place": "town",
+        "population:date": "2021",
+        "ref:nswlpi:cadid": "108031481",
+        "ref:psma:loc_pid": "loc0c9542430b96",
+        "admin_level": "9"
+      },
+      "boundingbox": [
+        "-34.8078680",
+        "-34.5410497",
+        "146.4841910",
+        "146.7154821"
+      ]
+    }
+  ],
+  "Ben Bullen BESS, New South Wales, Australia": [],
+  "Ben Bullen BESS, Australia": [],
+  "ben bullen, New South Wales, Australia": [
+    {
+      "place_id": 23113335,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 6056405,
+      "lat": "-33.2150000",
+      "lon": "150.0177778",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 18,
+      "importance": 0.16004728694590675,
+      "addresstype": "locality",
+      "name": "Ben Bullen",
+      "display_name": "Ben Bullen, New South Wales, 2790, Australia",
+      "address": {
+        "locality": "Ben Bullen",
+        "state": "New South Wales",
+        "ISO3166-2-lvl4": "AU-NSW",
+        "postcode": "2790",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "place": "locality",
+        "ref:nswgnb": "4026",
+        "linked_place": "suburb",
+        "place:nswgnb": "SUBURB",
+        "ref:nswlpi:cadid": "108030067",
+        "ref:psma:loc_pid": "loc0841847238ae",
+        "admin_level": "9"
+      },
+      "boundingbox": [
+        "-33.2883731",
+        "-33.1779388",
+        "149.9590302",
+        "150.1084589"
+      ]
+    },
+    {
+      "place_id": 22951296,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 2270174494,
+      "lat": "-32.0806536",
+      "lon": "151.4328483",
+      "category": "natural",
+      "type": "peak",
+      "place_rank": 18,
+      "importance": 0.16004638056000609,
+      "addresstype": "peak",
+      "name": "Ben Bullen",
+      "display_name": "Ben Bullen, New South Wales, Australia",
+      "address": {
+        "peak": "Ben Bullen",
+        "state": "New South Wales",
+        "ISO3166-2-lvl4": "AU-NSW",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": null,
+      "boundingbox": [
+        "-32.0807036",
+        "-32.0806036",
+        "151.4327983",
+        "151.4328983"
+      ]
+    },
+    {
+      "place_id": 23054361,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 7857886150,
+      "lat": "-33.2197463",
+      "lon": "150.0209696",
+      "category": "place",
+      "type": "hamlet",
+      "place_rank": 20,
+      "importance": 0.13338062027924008,
+      "addresstype": "hamlet",
+      "name": "Ben Bullen",
+      "display_name": "Ben Bullen, New South Wales, 2790, Australia",
+      "address": {
+        "hamlet": "Ben Bullen",
+        "suburb": "Ben Bullen",
+        "state": "New South Wales",
+        "ISO3166-2-lvl4": "AU-NSW",
+        "postcode": "2790",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": null,
+      "boundingbox": [
+        "-33.2397463",
+        "-33.1997463",
+        "150.0009696",
+        "150.0409696"
+      ]
+    }
+  ],
+  "Hills of Gold Wind Farm, New South Wales, Australia": [],
+  "Hills of Gold Wind Farm, Australia": [],
+  "hills of gold, New South Wales, Australia": [
+    {
+      "place_id": 28313735,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 11290204283,
+      "lat": "-31.4612733",
+      "lon": "151.1280806",
+      "category": "tourism",
+      "type": "motel",
+      "place_rank": 30,
+      "importance": 4.87075608453043e-05,
+      "addresstype": "tourism",
+      "name": "Hills of Gold",
+      "display_name": "Hills of Gold, Jenkins Street, Nundle, New South Wales, 2340, Australia",
+      "address": {
+        "tourism": "Hills of Gold",
+        "road": "Jenkins Street",
+        "town": "Nundle",
+        "state": "New South Wales",
+        "ISO3166-2-lvl4": "AU-NSW",
+        "postcode": "2340",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": null,
+      "boundingbox": [
+        "-31.4613233",
+        "-31.4612233",
+        "151.1280306",
+        "151.1281306"
+      ]
+    }
+  ],
+  "Bannaby BESS, New South Wales, Australia": [],
+  "Bannaby BESS, Australia": [],
+  "bannaby, New South Wales, Australia": [
+    {
+      "place_id": 24060794,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 6074464,
+      "lat": "-34.4415205",
+      "lon": "149.9950790",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 18,
+      "importance": 0.1570394422394589,
+      "addresstype": "locality",
+      "name": "Bannaby",
+      "display_name": "Bannaby, New South Wales, 2580, Australia",
+      "address": {
+        "locality": "Bannaby",
+        "state": "New South Wales",
+        "ISO3166-2-lvl4": "AU-NSW",
+        "postcode": "2580",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "place": "locality",
+        "wikidata": "Q4856856",
+        "ref:nswgnb": "2540",
+        "linked_place": "hamlet",
+        "place:nswgnb": "LOCALITY",
+        "ref:nswlpi:cadid": "108033327",
+        "ref:psma:loc_pid": "locfbab1053f871",
+        "admin_level": "9"
+      },
+      "boundingbox": [
+        "-34.4840017",
+        "-34.3328105",
+        "149.8658559",
+        "150.1232220"
+      ]
+    },
+    {
+      "place_id": 24063819,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3008338689,
+      "lat": "-34.4052800",
+      "lon": "149.8905000",
+      "category": "natural",
+      "type": "peak",
+      "place_rank": 18,
+      "importance": 0.16004821622034027,
+      "addresstype": "peak",
+      "name": "Bannaby Hill",
+      "display_name": "Bannaby Hill, New South Wales, Australia",
+      "address": {
+        "peak": "Bannaby Hill",
+        "state": "New South Wales",
+        "ISO3166-2-lvl4": "AU-NSW",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": null,
+      "boundingbox": [
+        "-34.4053300",
+        "-34.4052300",
+        "149.8904500",
+        "149.8905500"
+      ]
+    }
+  ],
+  "Peninsula Solar Farm, New South Wales, Australia": [],
+  "Peninsula Solar Farm, Australia": [],
+  "peninsula, New South Wales, Australia": [
+    {
+      "place_id": 24427225,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 623362184,
+      "lat": "-33.8706761",
+      "lon": "151.2387029",
+      "category": "building",
+      "type": "apartments",
+      "place_rank": 30,
+      "importance": 8.246051728079679e-05,
+      "addresstype": "building",
+      "name": "Peninsula",
+      "display_name": "Peninsula, 107, Darling Point Road, Darling Point, Eastern Suburbs, Sydney, New South Wales, 2027, Australia",
+      "address": {
+        "building": "Peninsula",
+        "house_number": "107",
+        "road": "Darling Point Road",
+        "suburb": "Darling Point",
+        "borough": "Eastern Suburbs",
+        "city": "Sydney",
+        "state": "New South Wales",
+        "ISO3166-2-lvl4": "AU-NSW",
+        "postcode": "2027",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "roof:shape": "flat",
+        "building:levels": "9",
+        "building:material": "plaster"
+      },
+      "boundingbox": [
+        "-33.8707606",
+        "-33.8705828",
+        "151.2385637",
+        "151.2388154"
+      ]
+    },
+    {
+      "place_id": 23789238,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 25954732,
+      "lat": "-32.7174742",
+      "lon": "152.1601015",
+      "category": "tourism",
+      "type": "motel",
+      "place_rank": 30,
+      "importance": 4.8228427557748036e-05,
+      "addresstype": "tourism",
+      "name": "Peninsula",
+      "display_name": "Peninsula, Shoal Bay Road, Nelson Bay, New South Wales, 2315, Australia",
+      "address": {
+        "tourism": "Peninsula",
+        "road": "Shoal Bay Road",
+        "town": "Nelson Bay",
+        "state": "New South Wales",
+        "ISO3166-2-lvl4": "AU-NSW",
+        "postcode": "2315",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "internet_access": "wlan"
+      },
+      "boundingbox": [
+        "-32.7175242",
+        "-32.7174242",
+        "152.1600515",
+        "152.1601515"
+      ]
+    },
+    {
+      "place_id": 28207878,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 6069760,
+      "lat": "-29.6536111",
+      "lon": "152.9027778",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 18,
+      "importance": 0.16005359044785228,
+      "addresstype": "locality",
+      "name": "Carrs Peninsula",
+      "display_name": "Carrs Peninsula, New South Wales, 2460, Australia",
+      "address": {
+        "locality": "Carrs Peninsula",
+        "state": "New South Wales",
+        "ISO3166-2-lvl4": "AU-NSW",
+        "postcode": "2460",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "place": "locality",
+        "ref:nswgnb": "81480",
+        "linked_place": "locality",
+        "place:nswgnb": "LOCALITY",
+        "ref:nswlpi:cadid": "108031428",
+        "ref:psma:loc_pid": "loc8b0355377365",
+        "admin_level": "9"
+      },
+      "boundingbox": [
+        "-29.6698733",
+        "-29.6324298",
+        "152.8966630",
+        "152.9149644"
+      ]
+    }
+  ],
+  "Ceduna BESS, South Australia, Australia": [],
+  "Ceduna BESS, Australia": [],
+  "ceduna, South Australia, Australia": [
+    {
+      "place_id": 18636513,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 6199031,
+      "lat": "-32.1263581",
+      "lon": "133.6742187",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 18,
+      "importance": 0.38710122944099107,
+      "addresstype": "town",
+      "name": "Ceduna",
+      "display_name": "Ceduna, South Australia, 5690, Australia",
+      "address": {
+        "town": "Ceduna",
+        "state": "South Australia",
+        "ISO3166-2-lvl4": "AU-SA",
+        "postcode": "5690",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "place": "town",
+        "wikidata": "Q200777",
+        "wikipedia": "en:Ceduna, South Australia",
+        "population": "2290",
+        "linked_place": "town",
+        "population:date": "2021",
+        "ref:psma:loc_pid": "loc609cf4397af7",
+        "ref:dpti:suburb_num": "569002",
+        "admin_level": "9"
+      },
+      "boundingbox": [
+        "-32.2079135",
+        "-31.9496495",
+        "133.4574111",
+        "133.7572895"
+      ]
+    },
+    {
+      "place_id": 18646851,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 7106028,
+      "lat": "-32.1483706",
+      "lon": "134.0967216",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 12,
+      "importance": 0.3618648643770844,
+      "addresstype": "administrative",
+      "name": "The District Council of Ceduna",
+      "display_name": "The District Council of Ceduna, South Australia, Australia",
+      "address": {
+        "administrative": "The District Council of Ceduna",
+        "state": "South Australia",
+        "ISO3166-2-lvl4": "AU-SA",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "wikidata": "Q179717",
+        "ref:psma:lga_pid": "SA111",
+        "admin_level": "6"
+      },
+      "boundingbox": [
+        "-32.5446361",
+        "-31.7521056",
+        "133.2129997",
+        "134.5130362"
+      ]
+    }
+  ],
+  "Chaff Mill (Mintaro) Solar Farm, South Australia, Australia": [],
+  "Chaff Mill (Mintaro) Solar Farm, Australia": [],
+  "chaff mill (mintaro), South Australia, Australia": [
+    {
+      "place_id": 17795987,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 196659869,
+      "lat": "-33.8922697",
+      "lon": "138.7633441",
+      "category": "highway",
+      "type": "track",
+      "place_rank": 26,
+      "importance": 0.053376631570916266,
+      "addresstype": "road",
+      "name": "Chaff Mill Road",
+      "display_name": "Chaff Mill Road, Stanley, Mintaro, Clare and Gilbert Valleys Council, South Australia, 5415, Australia",
+      "address": {
+        "road": "Chaff Mill Road",
+        "city_district": "Stanley",
+        "village": "Mintaro",
+        "municipality": "Clare and Gilbert Valleys Council",
+        "state": "South Australia",
+        "ISO3166-2-lvl4": "AU-SA",
+        "postcode": "5415",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "surface": "unpaved"
+      },
+      "boundingbox": [
+        "-33.9040672",
+        "-33.8804723",
+        "138.7616224",
+        "138.7650709"
+      ]
+    }
+  ],
+  "Birkins Solar Farm - Solar - KCI, Victoria, Australia": [],
+  "Birkins Solar Farm - Solar - KCI, Australia": [],
+  "birkins -, Victoria, Australia": [
+    {
+      "place_id": 20378309,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 199764473,
+      "lat": "-37.6965739",
+      "lon": "148.3762614",
+      "category": "highway",
+      "type": "unclassified",
+      "place_rank": 26,
+      "importance": 0.05338177080949107,
+      "addresstype": "road",
+      "name": "Birkins Road",
+      "display_name": "Birkins Road, Bete Bolong, Victoria, 3888, Australia",
+      "address": {
+        "road": "Birkins Road",
+        "city_district": "Bete Bolong",
+        "state": "Victoria",
+        "ISO3166-2-lvl4": "AU-VIC",
+        "postcode": "3888",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "surface": "unpaved"
+      },
+      "boundingbox": [
+        "-37.7011902",
+        "-37.6918825",
+        "148.3614685",
+        "148.3911627"
+      ]
+    },
+    {
+      "place_id": 19133295,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 138381908,
+      "lat": "-34.4222725",
+      "lon": "142.2426075",
+      "category": "highway",
+      "type": "unclassified",
+      "place_rank": 26,
+      "importance": 0.05337570534828714,
+      "addresstype": "road",
+      "name": "Birkins Road",
+      "display_name": "Birkins Road, Iraak, Victoria, 3494, Australia",
+      "address": {
+        "road": "Birkins Road",
+        "hamlet": "Iraak",
+        "state": "Victoria",
+        "ISO3166-2-lvl4": "AU-VIC",
+        "postcode": "3494",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "oneway": "no",
+        "surface": "unpaved",
+        "maxspeed": "100"
+      },
+      "boundingbox": [
+        "-34.4515712",
+        "-34.4152097",
+        "142.1977692",
+        "142.2957745"
+      ]
+    }
+  ],
+  "Pacific Green Energy Park - Limestone Coast West, South Australia, Australia": [],
+  "Pacific Green Energy Park - Limestone Coast West, Australia": [],
+  "pacific green energy park - limestone coast west, South Australia, Australia": [],
+  "Upper Hunter Energy Park - Solar, New South Wales, Australia": [],
+  "Upper Hunter Energy Park - Solar, Australia": [],
+  "upper hunter energy park -, New South Wales, Australia": [],
+  "Carmody's Hill Wind Farm, South Australia, Australia": [],
+  "Carmody's Hill Wind Farm, Australia": [],
+  "carmody's hill, South Australia, Australia": [],
+  "Gerogery Battery - KCI, New South Wales, Australia": [],
+  "Gerogery Battery - KCI, Australia": [],
+  "gerogery, New South Wales, Australia": [
+    {
+      "place_id": 23145763,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 5903765,
+      "lat": "-35.8337235",
+      "lon": "146.9938918",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 18,
+      "importance": 0.3754795826599041,
+      "addresstype": "village",
+      "name": "Gerogery",
+      "display_name": "Gerogery, New South Wales, 2642, Australia",
+      "address": {
+        "village": "Gerogery",
+        "state": "New South Wales",
+        "ISO3166-2-lvl4": "AU-NSW",
+        "postcode": "2642",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "place": "village",
+        "wikidata": "Q5552378",
+        "ref:nswgnb": "20109",
+        "linked_place": "village",
+        "place:nswgnb": "LOCALITY",
+        "ref:nswlpi:cadid": "108030336",
+        "ref:psma:loc_pid": "locfca07eba99df",
+        "admin_level": "9"
+      },
+      "boundingbox": [
+        "-35.9121404",
+        "-35.7702591",
+        "146.9063203",
+        "147.0815540"
+      ]
+    }
+  ],
+  "Queanbeyan Battery, New South Wales, Australia": [],
+  "Queanbeyan Battery, Australia": [],
+  "queanbeyan, New South Wales, Australia": [
+    {
+      "place_id": 19779553,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 40817809,
+      "lat": "-35.3524518",
+      "lon": "149.2337634",
+      "category": "place",
+      "type": "city",
+      "place_rank": 16,
+      "importance": 0.47955511960520114,
+      "addresstype": "city",
+      "name": "Queanbeyan",
+      "display_name": "Queanbeyan, Queanbeyan-Palerang Regional Council, New South Wales, 2619, Australia",
+      "address": {
+        "city": "Queanbeyan",
+        "municipality": "Queanbeyan-Palerang Regional Council",
+        "state": "New South Wales",
+        "ISO3166-2-lvl4": "AU-NSW",
+        "postcode": "2619",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "wikidata": "Q606385",
+        "population": "37511",
+        "population:date": "2021"
+      },
+      "boundingbox": [
+        "-35.5124518",
+        "-35.1924518",
+        "149.0737634",
+        "149.3937634"
+      ]
+    },
+    {
+      "place_id": 19834927,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 6068053,
+      "lat": "-35.3530411",
+      "lon": "149.2308944",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 18,
+      "importance": 0.1600725818265049,
+      "addresstype": "suburb",
+      "name": "Queanbeyan",
+      "display_name": "Queanbeyan, Queanbeyan-Palerang Regional Council, New South Wales, Australia",
+      "address": {
+        "suburb": "Queanbeyan",
+        "city": "Queanbeyan",
+        "municipality": "Queanbeyan-Palerang Regional Council",
+        "state": "New South Wales",
+        "ISO3166-2-lvl4": "AU-NSW",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "place": "suburb",
+        "linked_place": "suburb",
+        "ref:nswlpi:cadid": "108033874",
+        "ref:psma:loc_pid": "loc4f58d1418181",
+        "admin_level": "9"
+      },
+      "boundingbox": [
+        "-35.3628807",
+        "-35.3418444",
+        "149.2192041",
+        "149.2398556"
+      ]
+    }
+  ],
+  "Snuggery, South Australia, Australia": [
+    {
+      "place_id": 19333221,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1053325083,
+      "lat": "-37.6648131",
+      "lon": "140.4155865",
+      "category": "landuse",
+      "type": "industrial",
+      "place_rank": 24,
+      "importance": 0.26244239079806453,
+      "addresstype": "industrial",
+      "name": "Snuggery Power Station",
+      "display_name": "Snuggery Power Station, Millicent, South Australia, 5280, Australia",
+      "address": {
+        "industrial": "Snuggery Power Station",
+        "town": "Millicent",
+        "state": "South Australia",
+        "ISO3166-2-lvl4": "AU-SA",
+        "postcode": "5280",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "end_date": "2024-07-01",
+        "operator": "Engie",
+        "wikidata": "Q28220286",
+        "start_date": "1978",
+        "disused:power": "plant",
+        "operator:wikidata": "Q13416787",
+        "operator:wikipedia": "en:Engie",
+        "disused:plant:method": "combustion",
+        "disused:plant:output:electricity": "63 MW"
+      },
+      "boundingbox": [
+        "-37.6655978",
+        "-37.6640126",
+        "140.4146306",
+        "140.4165399"
+      ]
+    }
+  ],
+  "Loy Yang B Upgrade, Victoria, Australia": [],
+  "Loy Yang B Upgrade, Australia": [],
+  "loy yang b upgrade, Victoria, Australia": [],
+  "Port Lincoln GT, South Australia, Australia": [],
+  "Port Lincoln GT, Australia": [],
+  "port lincoln gt, South Australia, Australia": [],
+  "Torrens Island B, South Australia, Australia": [
+    {
+      "place_id": 18955713,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 9045616,
+      "lat": "-34.7875630",
+      "lon": "138.5259139",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 18,
+      "importance": 0.14670416800183103,
+      "addresstype": "suburb",
+      "name": "Torrens Island",
+      "display_name": "Torrens Island, South Australia, 5960, Australia",
+      "address": {
+        "suburb": "Torrens Island",
+        "state": "South Australia",
+        "ISO3166-2-lvl4": "AU-SA",
+        "postcode": "5960",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "place": "suburb",
+        "wikidata": "Q24089754",
+        "linked_place": "suburb",
+        "ref:psma:loc_pid": "loc4cf6d1c6529e",
+        "ref:dpti:suburb_num": "596001",
+        "admin_level": "9"
+      },
+      "boundingbox": [
+        "-34.8105896",
+        "-34.7447310",
+        "138.4696541",
+        "138.5478854"
+      ]
+    }
+  ],
+  "Liddell, New South Wales, Australia": [
+    {
+      "place_id": 22966885,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 6059113,
+      "lat": "-32.4363889",
+      "lon": "151.0041667",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 18,
+      "importance": 0.1600466918440528,
+      "addresstype": "locality",
+      "name": "Liddell",
+      "display_name": "Liddell, New South Wales, 2333, Australia",
+      "address": {
+        "locality": "Liddell",
+        "state": "New South Wales",
+        "ISO3166-2-lvl4": "AU-NSW",
+        "postcode": "2333",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "place": "locality",
+        "ref:nswgnb": "32916",
+        "linked_place": "hamlet",
+        "place:nswgnb": "LOCALITY",
+        "ref:nswlpi:cadid": "108034072",
+        "ref:psma:loc_pid": "loc94b26f624f69",
+        "admin_level": "9"
+      },
+      "boundingbox": [
+        "-32.4728404",
+        "-32.3718863",
+        "150.9727531",
+        "151.0353851"
+      ]
+    },
+    {
+      "place_id": 22911244,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 171863885,
+      "lat": "-32.3718203",
+      "lon": "150.9779565",
+      "category": "landuse",
+      "type": "brownfield",
+      "place_rank": 24,
+      "importance": 0.3940013458892202,
+      "addresstype": "brownfield",
+      "name": "Liddell Power Station",
+      "display_name": "Liddell Power Station, Muswellbrook, New South Wales, 2333, Australia",
+      "address": {
+        "brownfield": "Liddell Power Station",
+        "town": "Muswellbrook",
+        "state": "New South Wales",
+        "ISO3166-2-lvl4": "AU-NSW",
+        "postcode": "2333",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "end_date": "2023-04-28",
+        "operator": "Macquarie Generation",
+        "wikidata": "Q6543608",
+        "start_date": "1971",
+        "disused:power": "plant",
+        "disused:plant:method": "combustion",
+        "disused:plant:output:electricity": "2000 MW"
+      },
+      "boundingbox": [
+        "-32.3745372",
+        "-32.3691035",
+        "150.9756641",
+        "150.9802489"
+      ]
+    },
+    {
+      "place_id": 22914172,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 173271564,
+      "lat": "-32.3695019",
+      "lon": "150.9927347",
+      "category": "water",
+      "type": "basin",
+      "place_rank": 22,
+      "importance": 0.3759021037005979,
+      "addresstype": "basin",
+      "name": "Lake Liddell",
+      "display_name": "Lake Liddell, Muswellbrook, New South Wales, 2333, Australia",
+      "address": {
+        "basin": "Lake Liddell",
+        "town": "Muswellbrook",
+        "state": "New South Wales",
+        "ISO3166-2-lvl4": "AU-NSW",
+        "postcode": "2333",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "basin": "cooling",
+        "natural": "water",
+        "wikidata": "Q6476625"
+      },
+      "boundingbox": [
+        "-32.3924234",
+        "-32.3465476",
+        "150.9649856",
+        "151.0091881"
+      ]
+    }
+  ],
+  "20 Bond St, New South Wales, Australia": [
+    {
+      "place_id": 23731036,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 85690882,
+      "lat": "-33.8643522",
+      "lon": "151.2084952",
+      "category": "building",
+      "type": "commercial",
+      "place_rank": 30,
+      "importance": 8.246051728079679e-05,
+      "addresstype": "building",
+      "name": "",
+      "display_name": "20, Bond Street, Quay Quarter, Sydney, Sydney CBD, Sydney, New South Wales, 2000, Australia",
+      "address": {
+        "house_number": "20",
+        "road": "Bond Street",
+        "neighbourhood": "Quay Quarter",
+        "suburb": "Sydney",
+        "borough": "Sydney CBD",
+        "city": "Sydney",
+        "state": "New South Wales",
+        "ISO3166-2-lvl4": "AU-NSW",
+        "postcode": "2000",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "building:levels": "30"
+      },
+      "boundingbox": [
+        "-33.8645230",
+        "-33.8642404",
+        "151.2082588",
+        "151.2087285"
+      ]
+    },
+    {
+      "place_id": 23716778,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 5896240135,
+      "lat": "-33.8644802",
+      "lon": "151.2086059",
+      "category": "leisure",
+      "type": "fitness_centre",
+      "place_rank": 30,
+      "importance": 8.246051728079679e-05,
+      "addresstype": "leisure",
+      "name": "Fitness First",
+      "display_name": "Fitness First, 20, Bond Street, Quay Quarter, Sydney, Sydney CBD, Sydney, New South Wales, 2000, Australia",
+      "address": {
+        "leisure": "Fitness First",
+        "house_number": "20",
+        "road": "Bond Street",
+        "neighbourhood": "Quay Quarter",
+        "suburb": "Sydney",
+        "borough": "Sydney CBD",
+        "city": "Sydney",
+        "state": "New South Wales",
+        "ISO3166-2-lvl4": "AU-NSW",
+        "postcode": "2000",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "check_date": "2025-05-17",
+        "brand:wikidata": "Q127120",
+        "brand:wikipedia": "en:Fitness First"
+      },
+      "boundingbox": [
+        "-33.8645302",
+        "-33.8644302",
+        "151.2085559",
+        "151.2086559"
+      ]
+    },
+    {
+      "place_id": 24169895,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 11255235864,
+      "lat": "-33.8643850",
+      "lon": "151.2085264",
+      "category": "office",
+      "type": "company",
+      "place_rank": 30,
+      "importance": 8.246051728079679e-05,
+      "addresstype": "office",
+      "name": "Airdocs",
+      "display_name": "Airdocs, 20, Bond Street, Quay Quarter, Sydney, Sydney CBD, Sydney, New South Wales, 2000, Australia",
+      "address": {
+        "office": "Airdocs",
+        "house_number": "20",
+        "road": "Bond Street",
+        "neighbourhood": "Quay Quarter",
+        "suburb": "Sydney",
+        "borough": "Sydney CBD",
+        "city": "Sydney",
+        "state": "New South Wales",
+        "ISO3166-2-lvl4": "AU-NSW",
+        "postcode": "2000",
+        "country": "Australia",
+        "country_code": "au"
+      },
+      "extratags": {
+        "email": "contact@airdocs.io",
+        "image": "https://airdocs.io/wp-content/uploads/2023/05/new-logo.png",
+        "phone": "+61 2 8052 9506",
+        "website": "https://airdocs.io/"
+      },
+      "boundingbox": [
+        "-33.8644350",
+        "-33.8643350",
+        "151.2084764",
+        "151.2085764"
+      ]
+    }
+  ]
+}

@@ -1,64 +1,1556 @@
-region,site_name,lat,lon,source,source_url_or_ref,confidence,spike_class,expected_catchment,spike_rationale
-NSW1,Pottinger Energy Park - Wind - KCI,-31.3,150.5,manual,AGL Pottinger EP planning docs (Liverpool Plains),medium,prior,SW-NSW,NSW prior — Liverpool Plains
-NSW1,Pottinger Energy Park - Battery - KCI,-31.3,150.5,manual,AGL Pottinger EP planning docs (Liverpool Plains),medium,prior,SW-NSW,NSW prior — Liverpool Plains
-NSW1,Pottinger Energy Park - Solar - KCI,-31.3,150.5,manual,AGL Pottinger EP planning docs (Liverpool Plains),medium,prior,SW-NSW,NSW prior — Liverpool Plains
-NSW1,Hanworth Battery,-31.8,150.85,manual,NSW Major Projects portal — Murrurundi area,medium,prior,Unclassified,NSW prior — Liverpool Plains BTM (skip/excl)
-NSW1,Glenbawn Pumped Hydro Project,-32.1,151.1,manual,Lake Glenbawn coords — Scone area,high,prior,Unclassified,NSW prior — Bayswater area (review)
-NSW1,Goulburn River Solar Farm And BESS,-32.35,150.1,manual,Goulburn River National Park area — Bylong,medium,prior,CWO,NSW prior
-NSW1,Yarrabee Solar Power Project,-32.4,151.05,manual,NSW DPIE Major Projects — Singleton area,medium,prior,SW-NSW,NSW prior
-NSW1,Bayswater,-32.395,150.95,manual,Bayswater PS Wikipedia / OSM,high,prior,NEW,NSW prior — per Transgrid TAPR NEW REZ collector
-VIC1,LYA BESS,-38.26,146.59,manual,Loy Yang A PS coords,high,prior,GIP,VIC prior — Loy Yang A area
-VIC1,Koorangie Energy Storage System,-35.85,143.91,manual,Edify Koorangie ESS — Kerang area,high,prior,MR,VIC prior — Kerang area
-VIC1,Koorangie BESS Stage 2,-35.85,143.91,manual,Edify Koorangie ESS — Kerang area,high,prior,MR,VIC prior — Kerang area
-SA1,Cathedral Rocks,-34.856,135.582,manual,Cathedral Rocks WF OSM (Port Lincoln),high,prior,EYR,SA prior — Port Lincoln Eyre Pen
-VIC1,Salt Creek Wind Farm,-37.917,142.782,manual,Salt Creek WF OSM relation,high,prior,SW-VIC,VIC prior — Hamilton area
-SA1,Mannum Adelaide Pumping Station No 2 - MAPL2 (Palmer),-34.92,139.3,manual,"Mannum, eastern SA",high,prior,EXCLUDE-pumping,Pumping station — should be excluded by filter
-SA1,Morgan To Whyalla Pipeline No 1 PS And Water Filtration Plant,-34.0,139.66,manual,Morgan SA (pipeline origin),high,prior,EXCLUDE-pipeline,Pipeline PS — should be excluded by filter
-SA1,Morgan To Whyalla Pipeline No 2 PS,-34.0,138.7,manual,Pipeline midpoint near Burra,medium,prior,EXCLUDE-pipeline,Pipeline PS — should be excluded by filter
-SA1,Morgan To Whyalla Pipeline No 3 PS,-33.5,138.1,manual,Pipeline midpoint,medium,prior,EXCLUDE-pipeline,Pipeline PS — should be excluded by filter
-SA1,Morgan To Whyalla Pipeline No 4 PS,-33.2,137.8,manual,Pipeline near Whyalla,medium,prior,EXCLUDE-pipeline,Pipeline PS — should be excluded by filter
-QLD1,Western Downs Green Power Hub,-26.674,150.58,manual,Neoen Western Downs GPH — Brigalow,high,qld_control,WD,QLD canonical control — Darling Downs area
-QLD1,MacIntyre Wind Farm,-28.396,151.205,manual,MacIntyre WF EIS — Karara/Warwick area,high,qld_control,SD,QLD canonical control — Southern Downs
-QLD1,Kogan Creek,-26.828,150.745,manual,Kogan Creek PS Wikipedia,high,qld_control,WD,QLD canonical control — Chinchilla/Kogan
-QLD1,Aldoga Solar Farm,-23.946,151.16,manual,Aldoga SF EIS — Gladstone area,high,qld_control,CQ,QLD canonical control — Gladstone area
-QLD1,Stanwell,-23.546,150.336,manual,Stanwell PS Wikipedia,high,qld_control,CQ,QLD canonical control — Stanwell Rockhampton
-NSW1,Pottinger Energy Park - Wind - KCI,-31.3,150.5,manual,AGL Pottinger EP planning docs (Liverpool Plains),medium,shared_boundary,NEW,keyword: Pottinger Energy Park; capacity: 1300.0
-NSW1,Hanworth Battery,-31.8,150.85,manual,NSW Major Projects portal — Murrurundi area,medium,shared_boundary,CWO,keyword: Hanworth; capacity: 1200.0
-NSW1,Glenbawn Pumped Hydro Project,-32.1,151.1,manual,Lake Glenbawn coords — Scone area,high,shared_boundary,NEW,keyword: Glenbawn Pumped Hydro; capacity: 770.0
-NSW1,Bayswater,-32.395,150.95,manual,Bayswater PS Wikipedia / OSM,high,shared_boundary,NEW,keyword: Bayswater; capacity: 685.0
-NSW1,Goulburn River Solar Farm And BESS,-32.35,150.1,manual,Goulburn River National Park area — Bylong,medium,shared_boundary,HCC,keyword: Goulburn River Solar; capacity: 588.0
-NSW1,Yarrabee Solar Power Project,-32.4,151.05,manual,NSW DPIE Major Projects — Singleton area,medium,shared_boundary,CWO,keyword: Yarrabee Solar; capacity: 584.43
-NSW1,Pottinger Energy Park - Battery - KCI,-31.3,150.5,manual,AGL Pottinger EP planning docs (Liverpool Plains),medium,shared_boundary,NEW,keyword: Pottinger Energy Park; capacity: 499.8
-NSW1,Stratford Renewable Energy Hub,-32.2,151.95,manual,Gloucester/Stratford NSW Major Projects,medium,shared_boundary,HCC,keyword: Stratford; capacity: 400.0
-NSW1,Bowmans Creek Wind Farm,-32.4,151.1,manual,Bowmans Creek WF EIS — Singleton,high,shared_boundary,NEW,keyword: Bowmans Creek; capacity: 346.64
-SA1,Port Augusta Solar Farm (KCI),-32.5,137.78,manual,Port Augusta city centre,high,shared_boundary,MN,keyword: Port Augusta; capacity: 300.0
-NSW1,Maxwell Downs Solar Farm - KCI,-32.3,150.95,manual,"Maxwell Coal Mine area, Upper Hunter",medium,shared_boundary,CWO,keyword: Maxwell Downs; capacity: 300.0
-NSW1,Pottinger Energy Park - Solar - KCI,-31.3,150.5,manual,AGL Pottinger EP planning docs (Liverpool Plains),medium,shared_boundary,NEW,keyword: Pottinger Energy Park; capacity: 299.52
-NSW1,Mullion Creek Wind Farm,-33.25,149.11,manual,Mullion Creek WF EIS — Orange area,high,shared_boundary,CWO,keyword: Mullion Creek; capacity: 250.14
-SA1,Yoorndoo Ilga Solar - KCI,-33.4,138.95,manual,"Hallett area, MN",low,shared_boundary,MN,keyword: Yoorndoo Ilga; capacity: 250.0
-NSW1,Shoalhaven Expansion,-34.78,150.4,manual,Tallowa Dam / Shoalhaven scheme,high,shared_boundary,ILW,keyword: Shoalhaven Expansion; capacity: 235.0
-SA1,Port Augusta Renewable Energy Park - Wind,-32.5981951,137.904187,OSM_plant,OSM:relation/12767276,medium,shared_boundary,MN,keyword: Port Augusta; capacity: 201.0
-VIC1,LYA BESS,-38.26,146.59,manual,Loy Yang A PS coords,high,shared_boundary,CN-VIC,keyword: LYA; capacity: 200.0
-VIC1,Koorangie Energy Storage System,-35.85,143.91,manual,Edify Koorangie ESS — Kerang area,high,shared_boundary,CN-VIC,keyword: Koorangie; capacity: 185.0
-VIC1,Koorangie BESS Stage 2,-35.85,143.91,manual,Edify Koorangie ESS — Kerang area,high,shared_boundary,CN-VIC,keyword: Koorangie; capacity: 150.0
-SA1,Whyalla,-33.9735697,139.1934863,OSM_plant,OSM:way/983912336,medium,shared_boundary,MN,keyword: Whyalla; capacity: 140.0
-NSW1,Bodangora Wind Farm,-32.398724,149.0685725,OSM_plant,OSM:relation/10076471,medium,shared_boundary,CWO,keyword: Bodangora; capacity: 113.19
-SA1,Morgan Solar,-34.025,139.66,manual,Morgan SA — Riverland,high,shared_boundary,MN,keyword: Morgan Solar; capacity: 108.0
-SA1,Whyalla BESS - KCI,-33.03,137.58,manual,Whyalla city centre,high,shared_boundary,MN,keyword: Whyalla; capacity: 100.0
-SA1,Port Augusta Renewable Energy Park - Solar,-32.5572169,137.8589026,OSM_plant,OSM:relation/12767275,medium,shared_boundary,MN,keyword: Port Augusta; capacity: 99.0
-SA1,Cathedral Rocks,-34.856,135.582,manual,Cathedral Rocks WF OSM (Port Lincoln),high,shared_boundary,MN,keyword: Cathedral Rocks; capacity: 62.0
-VIC1,Salt Creek Wind Farm,-37.917,142.782,manual,Salt Creek WF OSM relation,high,shared_boundary,WV,keyword: Salt Creek Wind Farm; capacity: 54.0
-SA1,Mannum Adelaide Pumping Station No 2 - MAPL2 (Palmer),-34.92,139.3,manual,"Mannum, eastern SA",high,shared_boundary,MN,keyword: Adelaide; capacity: 16.5
-SA1,Morgan To Whyalla Pipeline No 3 PS,-33.5,138.1,manual,Pipeline midpoint,medium,shared_boundary,MN,keyword: Whyalla; capacity: 7.5
-SA1,Morgan To Whyalla Pipeline No 4 PS,-33.2,137.8,manual,Pipeline near Whyalla,medium,shared_boundary,MN,keyword: Whyalla; capacity: 5.5
-SA1,Morgan To Whyalla Pipeline No 2 PS,-34.0,138.7,manual,Pipeline midpoint near Burra,medium,shared_boundary,MN,keyword: Whyalla; capacity: 5.5
-SA1,Morgan To Whyalla Pipeline No 1 PS And Water Filtration Plant,-34.0,139.66,manual,Morgan SA (pipeline origin),high,shared_boundary,MN,keyword: Whyalla; capacity: 5.5
-NSW1,Maxwell Solar Farm,-32.3,150.95,manual,"Maxwell Coal Mine area, Upper Hunter",medium,shared_boundary,CWO,keyword: Maxwell; capacity: nan
-SA1,SSE Whyalla Solar Farm,-33.03,137.58,manual,Whyalla city centre,high,shared_boundary,MN,keyword: Whyalla; capacity: nan
-SA1,Whyalla Solar Farm,-33.03,137.58,manual,Whyalla city centre,high,shared_boundary,MN,keyword: Whyalla; capacity: nan
-NSW1,Goulburn River BESS,-32.35,150.1,manual,Goulburn River National Park area — Bylong,medium,shared_boundary,CWO,keyword: Goulburn River; capacity: nan
-NSW1,Goulburn River SF,-32.35,150.1,manual,Goulburn River National Park area — Bylong,medium,shared_boundary,CWO,keyword: Goulburn River; capacity: nan
-SA1,Emeroo BESS (Bungala),-32.475,137.9,manual,"Bungala SF area, Port Augusta — Emeroo BESS",medium,shared_boundary,MN,keyword: Bungala; capacity: nan
-SA1,Whyalla BESS,-33.03,137.58,manual,Whyalla city centre,high,shared_boundary,MN,keyword: Whyalla; capacity: nan
-NSW1,Maxwell Downs Bess - KCI,-32.3,150.95,manual,"Maxwell Coal Mine area, Upper Hunter",medium,shared_boundary,CWO,keyword: Maxwell Downs; capacity: nan
-NSW1,Hanworth BESS - KCI,-31.8,150.85,manual,NSW Major Projects portal — Murrurundi area,medium,shared_boundary,CWO,keyword: Hanworth; capacity: nan
+region,site_name,lat,lon,source,source_url_or_ref,confidence,spike_class,expected_catchment,spike_rationale,best_capacity_mw,technology,fuel,owner,duid,status
+NSW1,101 Miller Street,,,,,,,,,,,,,,
+NSW1,133 Castlereagh St,,,,,,,,,,,,,,
+NSW1,20 Bond St,,,,,,,,,,,,,,
+NSW1,275 Kent St,,,,,,,,,,,,,,
+NSW1,40 Mount St,,,,,,,,,,,,,,
+NSW1,8 Chifley Place,,,,,,,,,,,,,,
+NSW1,ACT Renewables Battery Storage,,,,,,,,,,,,,,
+NSW1,Acacia SF,,,,,,,,,,,,,,
+NSW1,Albury Renewable Energy Facility,,,,,,,,,,,,,,
+NSW1,Appin,,,,,,,,,55.62,Reciprocating Engine - Spark ignition,Fossil - Waste Coal Mine Gas,EDL CSM NSW Pty Ltd,APPIN,In Service
+NSW1,Apsley BESS Project,,,,,,,,,120.0,Storage - Battery,Other - Other, ACENergy Pty Ltd ,,Publicly Announced
+NSW1,Aquila Wind,,,,,,,,,200.0,Wind Turbine - Onshore,Wind - Wind,ACEN Australia Pty Ltd,,Publicly Announced
+NSW1,Aquila Wind Farm,,,,,,,,,,,,,,
+NSW1,Argoon Wind Farm (RES Group) - KCI,,,,,,,,,612.0,Wind Turbine - Onshore,Wind - Wind,RES Australia Pty Ltd,,Publicly Announced
+NSW1,Argyle Solar Farm,,,,,,,,,59.8,Solar PV - Single axis tracking,Solar - Solar,Argyle Solar Farm Pty Ltd,,Publicly Announced
+NSW1,Armidale BESS,,,,,,,,,150.0,Storage - Battery,Other - Other,Armidale BESS Project Pty Ltd,,Publicly Announced
+NSW1,Armidale BESS (100),,,,,,,,,,,,,,
+NSW1,Armidale BESS (150),,,,,,,,,,,,,,
+NSW1,Armidale BESS (300),,,,,,,,,,,,,,
+NSW1,Armidale BESS (Elgin),,,,,,,,,200.0,Storage - Battery,Other - Other,Elgin EnergyP/L,,Publicly Announced
+NSW1,Armidale BESS - 150,,,,,,,,,,,,,,
+NSW1,Armidale Big BESS,,,,,,,,,,,,,,
+NSW1,Armidale East BESS,,,,,,,,,449.4,Storage - Battery,Other - Other,FRV,,Publicly Announced
+NSW1,Armidale Pumped Hydro,,,,,,,,,,,,,,
+NSW1,Arundel BESS,,,,,,,,,300.0,Storage - Battery,Other - Other,Eku Energy Projects (Australia) Trust,,Publicly Announced
+NSW1,Avonlie Solar Farm,-34.9134452,146.5926128,OSM_plant,OSM:way/1149136624,medium,,,,254.1,Solar PV - Single axis tracking,Solar - Solar,Iberdrola Australia Limited,AVLSF1,In Service
+NSW1,Awaba,,,,,,,,,,,,,,
+NSW1,Awaba BESS,,,,,,,,,67.2,Storage - Battery,Other - Other,firmpower_NR,,Publicly Announced
+NSW1,BESS Finley,,,,,,,,,100.0,Storage - Battery,Other - Other,BESS Finley P/L,,Publicly Announced
+NSW1,BESS Styx - Storage - KCI,,,,,,,,,,,,,,
+NSW1,Bakers Maison,,,,,,,,,,,,,,
+NSW1,Baldon Wind Farm,,,,,,,,,360.0,Wind Turbine - Onshore,Wind - Wind,Baldon Wind Farm Pty Ltd,,Publicly Announced
+NSW1,Baldon Wind Farm Stage 2,,,,,,,,,1040.0,Wind Turbine - Onshore,Wind - Wind,Baldon Wind Farm Pty Ltd,,Publicly Announced
+NSW1,Baldon Wind Farm Stage 2 - BESS,,,,,,,,,500.0,Storage - Battery,Other - Other,Baldon Wind Farm Pty Ltd,,Publicly Announced
+NSW1,Bango 973 Wind Farm,,,,,,,,,159.0,Wind Turbine - Onshore,Wind - Wind,BWF Nominees Pty Ltd as trustee for the BWF Trust,BANGOWF1,In Service
+NSW1,Bango 999 Wind Farm,,,,,,,,,84.8,Wind Turbine - Onshore,Wind - Wind,BWF Nominees Pty Ltd as trustee for the BWF Trust,BANGOWF2,In Service
+NSW1,Bango Wind Farm,-34.5770062,148.8304402,OSM_plant,OSM:relation/13986215,medium,,,,,,,,,
+NSW1,Bankstown Sports Club,,,,,,,,,,,,,,
+NSW1,Bannaby BESS,,,,,,,,,700.0,Storage - Battery,Other - Other,Penso Power Australia Pty Ltd.,,Publicly Announced
+NSW1,Bannaby BESS (AMPYR) - KCI,,,,,,,,,,,,,,
+NSW1,Barwon Solar Farm & BESS,,,,,,,,,250.0,Solar PV - Single axis tracking,Solar - Solar,Elgin Energy Pty Ltd,,Publicly Announced
+NSW1,Bayswater,-32.395,150.95,manual,Bayswater PS Wikipedia / OSM,high,prior,NEW,NSW prior — per Transgrid TAPR NEW REZ collector,685.0,Turbine - Steam Sub Critical,Fossil - Black Coal,AGL Macquarie Pty Limited,BW01,In Service
+NSW1,Belconnen,,,,,,,,,,,,,,
+NSW1,Belhaven Renewable Project,,,,,,,,,408.0,Storage - Battery,Other - Other,Vena Energy Services (Australia) Pty Ltd,,Publicly Announced
+NSW1,Bellambi Heights Renewables Project,,,,,,,,,408.0,Storage - Battery,Other - Other,Vena Energy,,Publicly Announced
+NSW1,Bells Mountain,,,,,,,,,,,,,,
+NSW1,Bells Mountain Pumped Hydro,,,,,,,,,,,,,,
+NSW1,Belrose,,,,,,,,,,,,,,
+NSW1,Ben Bullen BESS,,,,,,,,,200.0,Storage - Battery,Other - Other,Tetris Energy,,Publicly Announced
+NSW1,Ben Bullen Solar Farm,,,,,,,,,,,,,,
+NSW1,Ben Bullen Wind Farm,,,,,,,,,,,,,,
+NSW1,Bendemeer Renewable Energy Hub - Solar - KCI,,,,,,,,,218.0,Solar PV - Fixed,Solar - Solar,Athena Energy Australia (Holdings) Pty Ltd,,Publicly Announced
+NSW1,Bendemeer Renewable Energy Hub - Storage - KCI,,,,,,,,,100.0,Storage - Battery,Other - Other,Athena Energy Australia (Holdings) Pty Ltd,,Publicly Announced
+NSW1,Bendemeer Renewable Energy Hub - Wind - KCI,,,,,,,,,380.0,Wind Turbine - Onshore,Wind - Wind,Athena Energy Australia (Holdings) Pty Ltd,,Publicly Announced
+NSW1,Beresfield BESS,,,,,,,,,225.6,Storage - Battery,Other - Other,firmpower_NR,,Publicly Announced
+NSW1,Beryl BESS,,,,,,,,,100.0,Storage - Battery,Other - Other,Ratch-Australia Corporation,,Publicly Announced
+NSW1,Beryl Solar Farm,-32.3548399,149.4717426,OSM_plant,OSM:way/948166814,medium,,,,98.4,Solar PV - Single axis tracking,Solar - Solar,FS NSW Project No 1 AT Pty Ltd as trustee of FS NSW Project No 1 Asset Trust,BERYLSF1,In Service
+NSW1,Biala Wind Farm,-34.5902289,149.3533473,OSM_plant,OSM:relation/17885572,medium,,,,,,,,,
+NSW1,Birriwa BESS,,,,,,,,,600.0,Storage - Battery,Solar - Solar,ACEN RENEWABLES,,Publicly Announced
+NSW1,Birriwa Solar Farm,,,,,,,,,600.0,Solar PV - Fixed,Solar - Solar,ACEN RENEWABLES,,Publicly Announced
+NSW1,Blackmores,,,,,,,,,,,,,,
+NSW1,Blayney,-33.6243564,149.1979416,OSM_plant,OSM:relation/11358377,medium,,,,,,,,,
+NSW1,Blind Creek SF,,,,,,,,,,,,,,
+NSW1,Blind Creek Solar Farm,,,,,,,,,,,,,,
+NSW1,Blind Creek Solar Farm and Battery Energy Storage System,,,,,,,,,378.0,Solar PV - Single axis tracking,Solar - Solar,Ms BCSF Holdings Pty Ltd as trustee for the Blind Creek Solar Farm Trust,,Publicly Announced
+NSW1,Blowering,-35.3985715,148.2462035,OSM_plant,OSM:way/439868270,medium,,,,80.0,Hydro - Dam,Hydro - Water,Snowy Hydro Ltd,BLOWERNG,In Service
+NSW1,Boco Rock Wind Farm,-36.599737,149.1122643,OSM_plant,OSM:relation/8500607,medium,,,,98.6,Wind Turbine - Onshore,Wind - Wind,South Pacific Power Pty Ltd,BOCOROC2,Publicly Announced
+NSW1,Bodangora Wind Farm,-32.398724,149.0685725,OSM_plant,OSM:relation/10076471,medium,shared_boundary,CWO,keyword: Bodangora; capacity: 113.19,113.19,Wind Turbine - Onshore,Wind - Wind,Bodangora Wind Farm Pty Ltd,BODWF1,In Service
+NSW1,Bogan River,,,,,,,,,,,,,,
+NSW1,Boggabri solar and storage project,,,,,,,,,9.8,Storage - Battery,Solar - Solar,Photon Energy,,Publicly Announced
+NSW1,Boiling Down BESS,,,,,,,,,260.0,Storage - Battery,Other - Other,Hanwha Energy Australia Pty Ltd,,Publicly Announced
+NSW1,Bomen Solar Farm,-35.0475321,147.441094,OSM_plant,OSM:relation/12774603,medium,,,,121.0,Solar PV - Single axis tracking,Solar - Solar,Spark Infrastructure Holdings No. 6 Pty Limited,BOMENSF1,In Service
+NSW1,Bonnie Brae Hybrid Plant,,,,,,,,,70.0,Storage - Battery,Solar - Solar,Barathrum Energy Pty Ltd,,Publicly Announced
+NSW1,Bonshaw Hybrid Solar Farm,,,,,,,,,,,,,,
+NSW1,Bonshaw Solar Farm,,,,,,,,,100.0,Solar PV - Single axis tracking,Solar - Solar,GAIA Australia Pty Ltd,,Publicly Announced
+NSW1,Bookham WF & BESS,,,,,,,,,760.0,Storage - Battery,Other - Other,Bookham Wind Farm Pty Ltd,,Publicly Announced
+NSW1,Boree Solar Project,,,,,,,,,180.4,Solar PV - Single axis tracking,Solar - Solar,Venn Energy Pty Ltd,,Publicly Announced
+NSW1,Bowmans Creek Wind Farm,-32.4,151.1,manual,Bowmans Creek WF EIS — Singleton,high,shared_boundary,NEW,keyword: Bowmans Creek; capacity: 346.64,346.64,Wind Turbine - Onshore,Wind - Wind,ARK Energy Corporation Pty Ltd,,Publicly Announced
+NSW1,Brewongle Solar Farm,,,,,,,,,100.0,Solar PV - Fixed,Solar - Solar,Edify Energy Pty Ltd,,Publicly Announced
+NSW1,Broadwater,,,,,,,,,38.0,Turbine - Steam Sub Critical,Renewable Biomass or Waste - Biomass,Cape Byron Management PTY LTD,BWTR1,In Service
+NSW1,Brocklehurst Solar Farm,,,,,,,,,,,,,,
+NSW1,Broken Hill,-31.9862486,141.4194412,OSM_plant,OSM:way/219398853,medium,,,,50.0,Storage - Battery,Other - Other,MACQGEN,BHB1,In Service
+NSW1,Broken Hill Energy Storage Centre,,,,,,,,,,,,,,
+NSW1,Broken Hill GT,,,,,,,,,50.0,Turbine - OCGT,Fossil - Diesel,Transgrid,GB01,In Service
+NSW1,Broken Hill Solar Plant,-31.9873817,141.3927678,OSM_plant,OSM:way/392513578,medium,,,,53.0,Solar PV - Fixed,Solar - Solar,PARF Company 6 Pty Limited,BROKENH1,In Service
+NSW1,Brown Mountain Hydro Power Station,,,,,,,,,5.0,Hydro - Dam,Hydro - Water,Cochrane Dam Pty Ltd, BROWNMT,In Service
+NSW1,Bullawah Wind Farm – Stage 1,,,,,,,,,313.5,Wind Turbine - Onshore,Wind - Wind,Bullawah Wind Farm Pty Ltd,,Publicly Announced
+NSW1,Burgmanns BESS,,,,,,,,,200.0,Storage - Battery,Other - Other,Burgmanns BESS Pty Ltd,,Publicly Announced
+NSW1,Buronga BESS - Storage - KCI,,,,,,,,,300.0,Storage - Battery,Other - Other,BESS Clyde North Pty Ltd,,Publicly Announced
+NSW1,Burrawong BESS – Stage 2,,,,,,,,,,,,,,
+NSW1,Burrawong Wind Farm,,,,,,,,,,,,,,
+NSW1,Burrawong Wind Farm BESS – Stage 1,,,,,,,,,,,,,,
+NSW1,Burrawong Wind Farm – Stage 1,,,,,,,,,,,,,,
+NSW1,Burrawong Wind Farm – Stage 2,,,,,,,,,,,,,,
+NSW1,Burrendong,-32.6646245,149.1079587,OSM_plant,OSM:way/996021098,medium,,,,19.0,Hydro - Dam,Hydro - Water,AGL Hydro Partnership,BDONGHYD,In Service
+NSW1,Burrendong WF,,,,,,,,,,,,,,
+NSW1,Burrendong Wind Farm,,,,,,,,,434.0,Wind Turbine - Onshore,Wind - Wind,ARK Energy Corporation Pty Ltd,,Publicly Announced
+NSW1,Burrinjuck,-35.0030084,148.5828644,OSM_plant,OSM:way/480673874,medium,,,,20.0,Hydro - Dam,Hydro - Water,GSP Energy Pty Ltd,BURRIN,In Service
+NSW1,Burroway BESS,,,,,,,,,100.0,Storage - Battery,Other - Other,Edify Energy Pty Ltd,,Publicly Announced
+NSW1,Bushranger Hybrid Facility - Battery,,,,,,,,,,,,,,
+NSW1,Bushranger Hybrid Facility - Solar,,,,,,,,,300.33,Solar PV - Fixed,Solar - Solar,SynCo Global,,Publicly Announced
+NSW1,CRS Canberra,,,,,,,,,,,,,,
+NSW1,Calala Battery Energy Storage System 1 (CABESS1),,,,,,,,,100.0,Storage - Battery,Other - Other,EquisEquis Energy (Australia) Projects (Ngumi 4) Pty Ltd,,Committed
+NSW1,Calala Battery Energy Storage System 2 (CABESS2),,,,,,,,,150.0,Storage - Battery,Other - Other,EquisEquis Energy (Australia) Projects (Ngumi 4) Pty Ltd,,Committed
+NSW1,Canyonleigh BESS,,,,,,,,,300.0,Storage - Battery,Other - Other,X-Elio Australia Pty Ltd,,Publicly Announced
+NSW1,Capital 2 Wind Farm,,,,,,,,,134.4,Wind Turbine - Onshore,Wind - Wind,Capital Wind Farm 2 Pty Ltd,,Publicly Announced
+NSW1,Capital Battery,-35.3382597,149.2155373,OSM_plant,OSM:way/1289037737,medium,,,,100.32,Storage - Battery,Other - Other,Capital Battery Pty Ltd,CAPBES1,In Commissioning
+NSW1,Capital East Solar Farm P1,-35.1808439,149.5474901,OSM_plant,OSM:way/1049860681,medium,,,,2.0,Solar PV - Fixed,Solar - Solar,IBERDROLA AUSTRALIA HOLDINGS PTY LIMITED,CESF1,In Service
+NSW1,Capital East Solar Farm P2,-35.1808439,149.5474901,OSM_plant,OSM:way/1049860681,medium,,,,,,,,,
+NSW1,Capital Solar Farm,,,,,,,,,,,,,,
+NSW1,Capital Wind Farm,-35.1310585,149.5042747,OSM_plant,OSM:relation/9722329,medium,,,,140.7,Wind Turbine - Onshore,Wind - Wind,Renewable Power Ventures Pty Ltd,CAPTL_WF,In Service
+NSW1,Carag Solar Farm,,,,,,,,,16.0,Solar PV - Fixed,Solar - Solar,Enerparc Australia Pty Ltd,,Publicly Announced
+NSW1,Carrick Solar Farm,,,,,,,,,,,,,,
+NSW1,Central Para Wind Farm (KCI),,,,,,,,,399.0,Wind Turbine - Onshore,Wind - Wind,Macleay Ventures Pty Ltd.,,Publicly Announced
+NSW1,Central West Pumped Hydro,,,,,,,,,325.0,Hydro - Dam,Hydro - Water, ATCO Australia Pumped Hydro Pty Ltd,,Publicly Announced
+NSW1,"Channel Nine - Willoughby, NSW",,,,,,,,,,,,,,
+NSW1,Chillamurra,,,,,,,,,,,,,,
+NSW1,Chipping Norton Waste to Energy,,,,,,,,,8.0,Turbine - Steam Sub Critical,Other - Other,Benedict Indistries P/L,,Publicly Announced
+NSW1,Club Merrylands,,,,,,,,,,,,,,
+NSW1,Cobbora BESS,,,,,,,,,520.8,Storage - Battery,Other - Other,Pacific Partnerships,,Publicly Announced
+NSW1,Cobbora Solar Farm,,,,,,,,,818.4,Solar PV - Fixed,Solar - Solar,pacificp_NR,,Publicly Announced
+NSW1,Coleambally BESS,,,,,,,,,100.0,Storage - Battery,Other - Other,Coleambally BESS Trust ,,Publicly Announced
+NSW1,Coleambally Solar Farm,-34.7616824,145.9342105,OSM_plant,OSM:relation/17857599,medium,,,,150.3,Solar PV - Single axis tracking,Solar - Solar,Coleambally Solar Pty Ltd,COLEASF1,In Service
+NSW1,Collector,-34.8580181,149.385912,OSM_plant,OSM:way/1331938742,medium,,,,226.8,Wind Turbine - Onshore,Wind - Wind,Ratch Australia,COLWF01,In Service
+NSW1,Colongra,-33.2097952,151.5450571,OSM_plant,OSM:way/257571176,medium,,,,181.0,Turbine - OCGT,Fossil - Natural Gas Pipeline,Snowy Hydro Ltd,CG1,In Service
+NSW1,Combined Cycle Gas,,,,,,,,,,,,,,
+NSW1,Comet Park BESS - KCI,,,,,,,,,189.0,Storage - Battery,Other - Other,Samsung C&T Renewable Energy Australia Pty Ltd.,,Publicly Announced
+NSW1,Condong,,,,,,,,,30.0,Turbine - Steam Sub Critical,Renewable Biomass or Waste - Bagasse,Cape Byron Management PTY LTD,CONDONG1,In Service
+NSW1,Conroys Gap,,,,,,,,,,,,,,
+NSW1,Conroys Gap WF - KCI,,,,,,,,,30.0,Wind Turbine - Onshore,Wind - Wind,Waldren Construction Pty Ltd.,,Publicly Announced
+NSW1,Cooma BESS (ACEN),,,,,,,,,,,,,,
+NSW1,Cooma Hybrid BESS and Solar Farm (ACEN),,,,,,,,,100.0,Solar PV - Fixed,Solar - Solar,ACEN RENEWABLES,,Publicly Announced
+NSW1,Cooma Solar And BESS (ACEN),,,,,,,,,100.0,Solar PV - Single axis tracking,Solar - Solar,ACEN RENEWABLES,,Publicly Announced
+NSW1,Cooma Solar Farm,,,,,,,,,,,,,,
+NSW1,Cooma Solar Farm (ACEN),,,,,,,,,,,,,,
+NSW1,Cooma Solar Farm (Lightsource),,,,,,,,,100.0,Solar PV - Fixed,Solar - Solar, Lightsource Development Services Australia Pty Ltd,,Publicly Announced
+NSW1,Cooma Solar Farm (Risen),,,,,,,,,,,,,,
+NSW1,Copeton,-29.9101747,150.9234796,OSM_plant,OSM:way/364498743,medium,,,,20.0,Hydro - Dam,Hydro - Water,AGL,COPTNHYD,In Service
+NSW1,Coppabella Wind Farm,,,,,,,,,289.8,Wind Turbine - Onshore,Wind - Wind,Coppabella Wind Farm Pty Ltd,COPBEL,Anticipated
+NSW1,Corowa Solar Farm,-35.980211,146.3595909,OSM_plant,OSM:way/948950448,medium,,,,36.01,Solar PV - Single axis tracking,Solar - Solar,Corowa Operationsco Pty Ltd as trustee for Corowa Operations Trust,CRWASF1,In Service
+NSW1,Crookwell,-34.5418043,149.573661,OSM_plant,OSM:relation/12592560,medium,,,,,,,,,
+NSW1,Crookwell 2 Wind Farm,-34.5418043,149.573661,OSM_plant,OSM:relation/12592560,medium,,,,96.04,Wind Turbine - Onshore,Wind - Wind,Crookwell Development Pty Ltd,CROOKWF2,In Service
+NSW1,Crookwell 3 Wind Farm,-34.5531957,149.6479605,OSM_plant,OSM:relation/17847395,medium,,,,57.6,Wind Turbine - Onshore,Wind - Wind,Crookwell 3 Development Pty Ltd,CROOKWF3,In Commissioning
+NSW1,Crudine Ridge Wind Farm,-32.910241,149.6773963,OSM_plant,OSM:relation/14254673,medium,,,,141.71,Wind Turbine - Onshore,Wind - Wind,CRWF Nominees Pty Ltd as trustee of the CRWF Trust,CRURWF1,In Service
+NSW1,Culcairn Solar Farm,-35.7059665,146.9624109,OSM_plant,OSM:way/1304066718,medium,,,,349.98,Solar PV - Single axis tracking,Solar - Solar,Culcairn Solar Farm Pty Ltd as trustee for Culcairn Solar Farm Trust,CUSF1,Committed
+NSW1,Cullerin Range Wind Farm,-34.8061138,149.3978121,OSM_plant,OSM:way/1331938712,medium,,,,30.0,Wind Turbine - Onshore,Wind - Wind,Cullerin Range Wind Farm Pty Ltd,CULLRGWF,In Service
+NSW1,Currawarra Solar Farm,,,,,,,,,,,,,,
+NSW1,DHL6 Solar Horsley Park,,,,,,,,,,,,,,
+NSW1,Dalton,,,,,,,,,,,,,,
+NSW1,Dapper Solar Farm,,,,,,,,,4.2,Solar PV - Single axis tracking,Solar - Solar,BORAL,,Publicly Announced
+NSW1,Darlington Point BESS,,,,,,,,,,,,,,
+NSW1,Darlington Point Energy Storage System,-34.6470142,146.0352367,OSM_plant,OSM:way/1302379773,medium,,,,25.0,Storage - Battery,Other - Other,DPESS Pty Ltd,DPNTB1,In Service
+NSW1,Darlington Point Solar Farm,-34.6492267,146.0631793,OSM_plant,OSM:way/706999783,medium,,,,274.97,Solar PV - Single axis tracking,Solar - Solar,Darlington Point Solar Farm Pty Ltd,DARLSF1,In Service
+NSW1,Daroobalgie Solar Farm,,,,,,,,,100.0,Solar PV - Single axis tracking,Solar - Solar,Pacific Hydro Australia Developments Pty Ltd,,Publicly Announced
+NSW1,Daroobalgie Solar Farm - KCI,,,,,,,,,,,,,,
+NSW1,De Bortoli Wines,,,,,,,,,,,,,,
+NSW1,Deargee,,,,,,,,,,,,,,
+NSW1,Deargee Solar And BESS,,,,,,,,,700.0,Solar PV - Single axis tracking,Solar - Solar,ACEN Renewables,,Publicly Announced
+NSW1,Deepwater BESS,,,,,,,,,139.84,Storage - Battery,Other - Other,Ib vogt Development Australia Pty Ltd,,Publicly Announced
+NSW1,Deepwater Solar Farm,,,,,,,,,139.84,Solar PV - Fixed,Solar - Solar,Ib vogt Development Australia Pty Ltd,,Publicly Announced
+NSW1,Deniliquin BESS - Storage - KCI,,,,,,,,,150.0,Storage - Battery,Other - Other,Enervest Pty Ltd,,Publicly Announced
+NSW1,Deniliquin East BESS,,,,,,,,,100.0,Storage - Battery,Other - Other,BESS Arctic Pty Ltd,,Publicly Announced
+NSW1,Denman BESS - KCI,,,,,,,,,2402.4,Storage - Battery,Other - Other,NEMMCOM Renewables Australia Developments Pty Ltd,,Publicly Announced
+NSW1,Devlins Bridge Battery Storage,,,,,,,,,600.0,Storage - Battery,Wind - Wind,Devlins Bridge Wind Farm Holdco Pty Ltd ,,Publicly Announced
+NSW1,Devlins Wind Farm,,,,,,,,,662.7,Wind Turbine - Onshore,Wind - Wind,Devlins Bridge Wind Farm Holdco Pty Ltd ,,Publicly Announced
+NSW1,Dinawan Energy Hub,,,,,,,,,381.6,Solar PV - Single axis tracking,Solar - Solar,Spark Renewables Pty Ltd,,Publicly Announced
+NSW1,Donnybrook project,,,,,,,,,,,,,,
+NSW1,Drayton's Family Wines Solar,,,,,,,,,,,,,,
+NSW1,Dubbo Solar Hub,-32.2729058,148.6586267,OSM_plant,OSM:way/881597200,medium,,,,,,,,,
+NSW1,Dumaresq Solar Farm,,,,,,,,,188.0,Solar PV - Single axis tracking,Solar - Solar,Dumaresq Solar Farm Pty Limited,,Publicly Announced
+NSW1,Dunedoo Solar Farm,,,,,,,,,55.0,Solar PV - Single axis tracking,Solar - Solar,ib vogt GmbH / Sun Spot 4,,Publicly Announced
+NSW1,"Dungowan 3,000 MWH PHES",,,,,,,,,300.0,Storage - Pumped hydro,Hydro - Water,Dungowan Pumped Hydro Pty Ltd,,Publicly Announced
+NSW1,Dungowan 3000 MWH PHES,,,,,,,,,,,,,,
+NSW1,EIWA Richmond Valley BESS,,,,,,,,,300.0,Storage - Battery,Other - Other,EIWA RICHMOND VALLEY BESS PTY LTD,,Publicly Announced
+NSW1,Earthpower Technologies Sydney,,,,,,,,,,,,,,
+NSW1,Eastern Creek,,,,,,,,,5.06,Reciprocating Engine - Spark ignition,Renewable Biomass or Waste - Landfill Gas,EDL LFG NSW Pty Ltd,EASTCRK,In Service
+NSW1,Eastern Creek 2 Gas Utilisation Facility,,,,,,,,,4.49,Reciprocating Engine - Spark ignition,Renewable Biomass or Waste - Landfill Gas,LMS Energy Pty Ltd,,In Service
+NSW1,Eastern Rise Offshore Wind,,,,,,,,,1725.0,Wind Turbine - Offshore,Wind - Wind,Eastern Rise OWP Project Pty Ltd,,Publicly Announced
+NSW1,Ebor BESS,,,,,,,,,100.0,Storage - Battery,Other - Other,Bridge Energy Pty Ltd,,Publicly Announced
+NSW1,Edderton Hybrid Faciility - Solar,,,,,,,,,350.28,Solar PV - Fixed,Solar - Solar,Voltere Pty Ltd.,,Publicly Announced
+NSW1,Edderton Hybrid Facility - BESS,,,,,,,,,350.0,Storage - Battery,Other - Other,Voltere Pty Ltd.,,Publicly Announced
+NSW1,Eden Offshore Wind Farm,,,,,,,,,2000.0,Wind Turbine - Offshore,Wind - Wind,OceanEx Energy,,Publicly Announced
+NSW1,Eglington Solar Farm,,,,,,,,,,,,,,
+NSW1,Emu Park BESS,,,,,,,,,199.8,Storage - Battery,Other - Other,M Renweables Australia,,Publicly Announced
+NSW1,Emu Park Solar Farm,,,,,,,,,300.0,Solar PV - Fixed,Solar - Solar,M Renweables Australia,,Publicly Announced
+NSW1,Eraring,-33.0618215,151.5166993,OSM_plant,OSM:way/395531577,medium,,,,720.0,Turbine - Steam Sub Critical,Fossil - Black Coal,Origin Energy Eraring Pty Ltd,ER01,In Service - Announced Withdrawal (Permanent)
+NSW1,Eraring Big Battery,,,,,,,,,460.0,Storage - Battery,Other - Other,Origin Energy Electricity Limited,,Anticipated
+NSW1,Eraring Big Battery – Stage 1,,,,,,,,,,,,,,
+NSW1,Eraring Big Battery – Stage 2,,,,,,,,,,,,,,
+NSW1,Eraring Big Battery – Stage 3,,,,,,,,,,,,,,
+NSW1,Eraring GT,,,,,,,,,41.5,Turbine - OCGT,Fossil - Diesel,Origin Energy Eraring Pty Ltd,ERGT01,In Service
+NSW1,Erskine Park,,,,,,,,,,,,,,
+NSW1,Euston Wind Farm - KCI,,,,,,,,,330.0,Wind Turbine - Onshore,Wind - Wind,Balranald Wind Farm Pty Ltd,,Publicly Announced
+NSW1,Finley Solar Farm,-35.6499632,145.5051327,OSM_plant,OSM:way/728782196,medium,,,,162.36,Solar PV - Single axis tracking,Solar - Solar,Finley Solar Farm Pty Ltd as The trustee for Finley Solar Trust,FINLYSF1,In Service
+NSW1,Finley Solar Project,,,,,,,,,,,,,,
+NSW1,Flyers Creek Wind Farm,-33.5531137,149.0826423,OSM_plant,OSM:relation/17776158,medium,,,,145.54,Wind Turbine - Onshore,Wind - Wind,Flyers Creek Wind Farm Pty Ltd,FLYCRKWF,In Service
+NSW1,Forbes Solar Farm,,,,,,,,,,,,,,
+NSW1,Forbes Solar Farm & BESS,,,,,,,,,4.6,Solar PV - Single axis tracking,Solar - Solar, Forbes Solar Farm Pty Ltd ATF Forbes Genesis Project Trust,,Publicly Announced
+NSW1,Forest Glen Solar Farm,,,,,,,,,90.0,Solar PV - Single axis tracking,Solar - Solar,X-Elio Roma Hub Solar Farm Pty Ltd,,Publicly Announced
+NSW1,GEP - NMLLY1,,,,,,,,,,,,,,
+NSW1,GEP - NWNG2,,,,,,,,,,,,,,
+NSW1,Galore Energy Project - Solar And BESS - KCI,,,,,,,,,,,,,,
+NSW1,Galore Hybrid Facility - Battery,,,,,,,,,,,,,,
+NSW1,Galore Hybrid Facility - Solar,,,,,,,,,,,,,,
+NSW1,Gara BESS,,,,,,,,,521.28,Storage - Battery,Other - Other,ACEnergy Pty Ltd,,Publicly Announced
+NSW1,Garoo BESS,,,,,,,,,539.6,Storage - Battery,Other - Other,Greenpulse solar farm and BESS as trustee for Greenpulse Solar Farm & Bess Unit Trust,,Publicly Announced
+NSW1,Garoo Solar Farm,,,,,,,,,167.2,Solar PV - Fixed,Solar - Solar,Greenpulse solar farm and BESS as trustee for Greenpulse Solar Farm & Bess Unit Trust,,Publicly Announced
+NSW1,Gerogery Battery - KCI,,,,,,,,,125.06,Storage - Battery,Other - Other,Elgin Energy Pty Ltd,,Publicly Announced
+NSW1,Gerogery Solar Farm - KCI,,,,,,,,,125.12,Solar PV - Fixed,Solar - Solar,Elgin Energy Pty Ltd,,Publicly Announced
+NSW1,Gidginbung,,,,,,,,,,,,,,
+NSW1,Gilgandara Solar Farm,,,,,,,,,,,,,,
+NSW1,Gilgandra Solar Farm,,,,,,,,,,,,,,
+NSW1,Glanmire Solar Farm,,,,,,,,,60.0,Solar PV - Single axis tracking,Solar - Solar,Elgin Energy Pty Ltd,,Anticipated
+NSW1,Glen Innes Wind Farm,,,,,,,,,,,,,,
+NSW1,Glen Inness BESS - KCI,,,,,,,,,152.0,Storage - Battery,Other - Other,FIrm Power P/L,,Publicly Announced
+NSW1,Glenbawn,-32.1096551,150.9982617,OSM_plant,OSM:way/995973876,medium,,,,5.0,Hydro - Dam,Hydro - Water,AGL,-,In Service
+NSW1,Glenbawn Pumped Hydro Project,-32.1,151.1,manual,Lake Glenbawn coords — Scone area,high,prior,Unclassified,NSW prior — Bayswater area (review),770.0,Storage - Pumped hydro,Hydro - Water,Water NSW,,Publicly Announced
+NSW1,Glenellen Solar Farm,,,,,,,,,200.0,Solar PV - Fixed,Solar - Solar, Glenellen Solar Farm Pty Ltd,,Publicly Announced
+NSW1,Glennies Creek,-32.4598758,151.12872,OSM_plant,OSM:way/1365860022,medium,,,,12.78,Reciprocating Engine - Spark ignition,Fossil - Waste Coal Mine Gas,EDL OCI Pty Ltd,,In Service
+NSW1,Glennis Creek Pumped Hydro Project,,,,,,,,,642.0,Storage - Pumped hydro,Hydro - Water,Water NSW,,Publicly Announced
+NSW1,Gol Gol Wind Farm,,,,,,,,,499.66,Wind Turbine - Onshore,Wind - Wind,Squadron Energy Developments Pty Ltd,,Publicly Announced
+NSW1,Goldwind battery,,,,,,,,,,,,,,
+NSW1,Goldwind reciprocating engine,,,,,,,,,,,,,,
+NSW1,Goonumbla Solar Farm,-33.1100011,148.0905841,OSM_plant,OSM:way/948343172,medium,,,,69.75,Solar PV - Single axis tracking,Solar - Solar,Goonumbla Asset Co Pty Ltd as trustee for the Goonumbla Asset Trust,GOONSF1,In Service
+NSW1,Goulburn Bioenergy,,,,,,,,,,,,,,
+NSW1,Goulburn River BESS,-32.35,150.1,manual,Goulburn River National Park area — Bylong,medium,shared_boundary,CWO,keyword: Goulburn River; capacity: nan,,,,,,
+NSW1,Goulburn River SF,-32.35,150.1,manual,Goulburn River National Park area — Bylong,medium,shared_boundary,CWO,keyword: Goulburn River; capacity: nan,,,,,,
+NSW1,Goulburn River Solar Farm And BESS,-32.35,150.1,manual,Goulburn River National Park area — Bylong,medium,prior,CWO,NSW prior,588.0,Solar PV - Single axis tracking,Solar - Solar,Goulburn River Fund Pty Ltd,,Committed
+NSW1,Grafton Rd BESS (KCI),,,,,,,,,,,,,,
+NSW1,Grange Avenue,,,,,,,,,1.26,Reciprocating Engine - Spark ignition,Renewable Biomass or Waste - Landfill Gas,EDL LFG NSW Pty Ltd,GRANGEAV,In Service
+NSW1,Granite Hills Wind Farm,,,,,,,,,121.0,Wind Turbine - Onshore,Wind - Wind,Akuo Energy,,Publicly Announced
+NSW1,Great Western Battery Project,,,,,,,,,500.0,Storage - Battery,Other - Other,Neoen Australia Pty Ltd,,Publicly Announced
+NSW1,Greenpulse BESS (KCI),,,,,,,,,,,,,,
+NSW1,Greenpulse Solar Farm (KCI),,,,,,,,,,,,,,
+NSW1,Gregadoo Solar Farm,,,,,,,,,45.0,Solar PV - Fixed,Solar - Solar,Gregadoo Solar Farm Pty Ltd,,Publicly Announced
+NSW1,Griffith BESS,,,,,,,,,100.0,Storage - Battery,Other - Other,Eku Energy Projects (Australia) Trust,,Publicly Announced
+NSW1,Griffith BESS - KCI,,,,,,,,,,,,,,
+NSW1,Griffith Solar Farm,-34.3175815,146.1227047,OSM_plant,OSM:relation/12770760,medium,,,,27.19,Solar PV - Single axis tracking,Solar - Solar,Griffith Solar Farm Pty Ltd,GRIFSF1,In Service
+NSW1,Gulgong Solar Project,,,,,,,,,,,,,,
+NSW1,Gullen Range Battery Energy System,,,,,,,,,500.0,Storage - Battery,Other - Other,goldwindaustralia_NR,,Publicly Announced
+NSW1,Gullen Range Solar Farm,,,,,,,,,10.0,Solar PV - Fixed,Solar - Solar,New Gullen Range Wind Farm Pty Ltd,GULLRSF1,In Service
+NSW1,Gullen Range Wind Farm,-34.6065059,149.4553254,OSM_plant,OSM:relation/7762672,medium,,,,140.0,Wind Turbine - Onshore,Wind - Wind,New Gullen Range Wind Farm Pty Ltd,GULLRWF1,In Service
+NSW1,Gullen Range Wind Farm 2,-34.6065059,149.4553254,OSM_plant,OSM:relation/7762672,medium,,,,110.67,Wind Turbine - Onshore,Wind - Wind,BEIJING JINGNENG CLEAN ENERGY (AUSTRALIA) HOLDING PTY LTD,GULLRWF2,In Service
+NSW1,Gullen Range Wind Farm 2 _x000D_,-34.6065059,149.4553254,OSM_plant,OSM:relation/7762672,medium,,,,,,,,,
+NSW1,Gundary Solar Farm,,,,,,,,,,,,,,
+NSW1,Gundary Solar Farm - KCI,,,,,,,,,400.0,Solar PV - Fixed,Solar - Solar, Lightsource Development Services Australia Pty Ltd,,Publicly Announced
+NSW1,Gunnedah BESS,,,,,,,,,70.0,Storage - Battery,Other - Other, Gunnedah Battery Subco Pty Ltd,,Publicly Announced
+NSW1,Gunnedah East BESS (Green Leap) - KCI,,,,,,,,,100.0,Storage - Battery,Other - Other,Green Leap P/L,,Publicly Announced
+NSW1,Gunnedah Solar Farm,-30.9390584,150.3420751,OSM_plant,OSM:way/953626573,medium,,,,110.0,Solar PV - Single axis tracking,Solar - Solar,Gunnedah SF Pty Ltd atf Gunnedah Asset Trust,GNNDHSF1,In Service
+NSW1,Gunning Solar Farm,,,,,,,,,,,,,,
+NSW1,Gunning Solar Farm (Canadian),,,,,,,,,294.0,Solar PV - Fixed,Solar - Solar, Canadian Solar,,Publicly Announced
+NSW1,Gunning Solar Farm (Photon),,,,,,,,,,,,,,
+NSW1,Gunning Wind Farm,-34.6857898,149.3686054,OSM_plant,OSM:way/1331938715,medium,,,,30.0,Wind Turbine - Onshore,Wind - Wind,Gunning Wind Energy Developments,GUNNING1,In Service
+NSW1,Guthega,-36.3501059,148.4136149,OSM_plant,OSM:way/208498230,medium,,,,60.0,Hydro - Dam,Hydro - Water,Snowy Hydro Ltd,GUTHEGA,In Service
+NSW1,Guunedah Solar Farm,,,,,,,,,,,,,,
+NSW1,Hanworth BESS - KCI,-31.8,150.85,manual,NSW Major Projects portal — Murrurundi area,medium,shared_boundary,CWO,keyword: Hanworth; capacity: nan,,,,,,
+NSW1,Hanworth Battery,-31.8,150.85,manual,NSW Major Projects portal — Murrurundi area,medium,prior,Unclassified,NSW prior — Liverpool Plains BTM (skip/excl),1200.0,Storage - Battery,Solar - Solar,Hanworth BESS Pty Ltd,,Publicly Announced
+NSW1,Hargraves BESS,,,,,,,,,300.0,Storage - Battery,Wind - Wind,Tilt Renewables DevCo Pty Ltd as the trustee for Development Hold Trust,,Publicly Announced
+NSW1,Hargraves Wind Farm,,,,,,,,,299.88,Wind Turbine - Onshore,Wind - Wind,Tilt Renewables DevCo Pty Ltd as the trustee for Development Hold Trust,,Publicly Announced
+NSW1,Hay Sun Farm,,,,,,,,,110.0,Solar PV - Single axis tracking,Solar - Solar,Plains SF No1 Pty Ltd,,Anticipated
+NSW1,Hills of Gold Wind Farm,,,,,,,,,400.0,Wind Turbine - Onshore,Wind - Wind,Hills of Gold Wind Farm Pty Ltd,,Publicly Announced
+NSW1,Hillston Sun Farm,-33.5340092,145.5223922,OSM_plant,OSM:way/954204783,medium,,,,110.0,Solar PV - Single axis tracking,Solar - Solar,Hillston Sun Farm Operations Pty Ltd ATF Hillston,HILLSTN1,In Service
+NSW1,Holbrook SF,,,,,,,,,,,,,,
+NSW1,Holloway - Battery,,,,,,,,,300.33,Storage - Battery,Other - Other,SynCo Global,,Publicly Announced
+NSW1,Holloway BESS - KCI,,,,,,,,,561.6,Storage - Battery,Other - Other,Bushranger Project Pty Ltd.,,Publicly Announced
+NSW1,Hume BESS,,,,,,,,,10.0,Storage - Battery,Other - Other,GSP Energy Pty Ltd,,Publicly Announced
+NSW1,Hume Bess (ARIF),,,,,,,,,75.0,Storage - Battery,Other - Other,The Trustee for the ARIF Hume BESS Holdings Trust,,Publicly Announced
+NSW1,Hume Dam NSW,,,,,,,,,29.0,Hydro - Dam,Hydro - Water,GSPOWER,HUMENSW,In Service
+NSW1,Hume North Battery Energy Storage System,,,,,,,,,75.0,Storage - Battery,Other - Other,Infrastructure Capital Services Pty Ltd as trustee for the ARIF Hume BESS Holdings Trust,,Publicly Announced
+NSW1,Hunter Central Coast Offshore Energy (Wind),,,,,,,,,1400.0,Wind Turbine - Offshore,Wind - Wind,Energy Estate,,Publicly Announced
+NSW1,Hunter Coast Offshore Wind,,,,,,,,,,,,,,
+NSW1,Hunter EconomicZone,,,,,,,,,20.8,Reciprocating Engine - Compression ignition,Fossil - Diesel,Snowy Hydro Ltd,HEZ1,In Service
+NSW1,Hunter Power Station,,,,,,,,,375.0,Turbine - OCGT,Fossil - Natural Gas Pipeline,Snowy Hydro Limited,HUNTER1,Committed
+NSW1,Hunter Valley GT,,,,,,,,,,,,,,
+NSW1,Ilford Green Energy Hub,,,,,,,,,359.98,Solar PV - Single axis tracking,Solar - Solar,brightnightpower_NR,,Publicly Announced
+NSW1,Illawarra Offshore Wind Farm,,,,,,,,,2000.0,Wind Turbine - Offshore,Wind - Wind,OceanEx Energy,,Publicly Announced
+NSW1,Inverell Battery Energy Storage System,,,,,,,,,150.0,Storage - Battery,Other - Other,Inverell BESS Development Pty Ltd,,Publicly Announced
+NSW1,Ivanhoe BESS,,,,,,,,,702.0,Storage - Battery,Other - Other,Ivanhoe Coal Pty Ltd,,Publicly Announced
+NSW1,Jacks Gully,,,,,,,,,2.3,Reciprocating Engine - Spark ignition,Renewable Biomass or Waste - Landfill Gas,EDL LFG NSW Pty Ltd,JGULLY,In Service
+NSW1,Jemalong Solar,-33.4055355,147.6444039,OSM_plant,OSM:relation/12627476,medium,,,,55.0,Solar PV - Single axis tracking,Solar - Solar,Genex Power,JEMALNG1,In Service
+NSW1,Jeremiah WF,,,,,,,,,,,,,,
+NSW1,Jeremiah Wind Farm,,,,,,,,,288.0,Wind Turbine - Onshore,Wind - Wind,Squadron Energy Services Pty Ltd,,Publicly Announced
+NSW1,Jindabyne,,,,,,,,,1.1,Hydro - Dam,Hydro - Water,Snowy Hydro Ltd,JNDABNE1,In Service
+NSW1,Jindera BESS - Storage - KCI,,,,,,,,,250.0,Storage - Battery,Other - Other,BESS Atlantic,,Publicly Announced
+NSW1,Jindera Solar Farm,,,,,,,,,120.08,Solar PV - Fixed,Solar - Solar,Jindera Solar Farm Pty Ltd,,Publicly Announced
+NSW1,Jounama,-35.5620147,148.3054928,OSM_plant,OSM:way/601184493,medium,,,,14.4,Hydro - Dam,Hydro - Water,Snowy Hydro Ltd,JOUNAMA1,In Service
+NSW1,Junction Rivers,,,,,,,,,,,,,,
+NSW1,Junction Rivers BESS – Stage 1,,,,,,,,,,,,,,
+NSW1,Junction Rivers BESS – Stage 2,,,,,,,,,,,,,,
+NSW1,Junction Rivers Wind And BESS,,,,,,,,,595.2,Storage - Battery,Other - Other,Junction Rivers Pty Ltd,JRBATT1,Publicly Announced
+NSW1,Junction Rivers Wind Farm – Stage 1,,,,,,,,,,,,,,
+NSW1,Junction Rivers Wind Farm – Stage 2,,,,,,,,,,,,,,
+NSW1,Junee Solar Farm,-34.8139741,147.571545,OSM_plant,OSM:way/1049653087,medium,,,,36.01,Solar PV - Single axis tracking,Solar - Solar,Junee Operationsco Pty Ltd as trustee for Junee Operations Trust,JUNEESF1,In Service
+NSW1,Juno BESS,,,,,,,,,200.0,Storage - Battery,Other - Other,Tilt Renewables Australia Pty Ltd,,Publicly Announced
+NSW1,Juno Wind Farm,,,,,,,,,299.88,Wind Turbine - Onshore,Wind - Wind,Tilt Renewables Australia Pty Ltd,,Publicly Announced
+NSW1,Kangaroo Hills BESS,,,,,,,,,,,,,,
+NSW1,Kangaroo Hills Wind Farm,,,,,,,,,155.0,Storage - Battery,Wind - Wind,Origin Energy Pty Ltd,,Publicly Announced
+NSW1,Kangaroo Valley BESS,,,,,,,,,364.8,Storage - Battery,Other - Other,FIrm Power P/L,,Publicly Announced
+NSW1,Kanowna Solar Farm,,,,,,,,,,,,,,
+NSW1,Keepit,-30.879198,150.4914435,OSM_plant,OSM:way/366327512,medium,,,,7.2,Hydro - Dam,Hydro - Water,GSP Energy Pty Ltd,KEEPIT,In Service
+NSW1,Kerrawary Power Station,,,,,,,,,770.0,Turbine - OCGT,Fossil - Natural Gas Pipeline,Origin Energy,,Publicly Announced
+NSW1,Kerrs Creek Wind Farm,,,,,,,,,330.0,Wind Turbine - Onshore,Wind - Wind, RES Australia Pty Ltd,,Publicly Announced
+NSW1,Kings Plain Wind Farm,,,,,,,,,399.61,Wind Turbine - Onshore,Wind - Wind,Enerfin Energy Services Pty Ltd.,,Publicly Announced
+NSW1,Kingswood BESS,,,,,,,,,250.0,Storage - Battery,Other - Other,Iberdrola Australia Development Pty Ltd.,,Publicly Announced
+NSW1,Koorakee Wind Farm,,,,,,,,,300.0,Wind Turbine - Onshore,Wind - Wind,Squadron Energy Services Pty Ltd,,Publicly Announced
+NSW1,Kurri Kurri Battery,,,,,,,,,1200.0,Storage - Battery,Other - Other,CEP Energy,,Publicly Announced
+NSW1,Kurri Kurri OCGT,,,,,,,,,,,,,,
+NSW1,LMCC - Works Depot Power Station,,,,,,,,,,,,,,
+NSW1,Lake Lyell PHES,,,,,,,,,,,,,,
+NSW1,Lake Lyell Pumped Hydro,,,,,,,,,385.0,Storage - Pumped hydro,Hydro - Water,EnergyAustralia NSW Pty Ltd,,Publicly Announced
+NSW1,Lake Victoria Energy Park - KCI,,,,,,,,,1087.5,Storage - Battery,Other - Other,Lake Victoria Wind Farm Pty Ltd atf Lake Victoria Wind Farm unit trust,,Publicly Announced
+NSW1,Lambruk Solar Farm,,,,,,,,,,,,,,
+NSW1,Lambruk Solar Project,,,,,,,,,360.8,Solar PV - Single axis tracking,Solar - Solar, Venn Energy Pty Ltd / Acacia Solar Project Pty Ltd.,,Publicly Announced
+NSW1,Lerida BESS,,,,,,,,,250.32,Storage - Battery,Other - Other,Elgin EnergyP/L,,Publicly Announced
+NSW1,Lerida Solar Farm,,,,,,,,,249.84,Solar PV - Fixed,Solar - Solar,Elgin EnergyP/L,,Publicly Announced
+NSW1,Liddell,,,,,,,,,,,,,,
+NSW1,Liddell BESS,,,,,,,,,500.0,Storage - Battery,Other - Other,MACQGEN,,Committed*
+NSW1,Liddell Solar Farm - KCI,,,,,,,,,,,,,,
+NSW1,Limondale BESS,,,,,,,,,50.0,Storage - Battery,Other - Other,LIMONDALE BATTERY PTY. LTD,,Committed
+NSW1,Limondale Solar Farm 1,-34.7710283,143.5016614,OSM_plant,OSM:way/710073323,medium,,,,230.0,Solar PV - Single axis tracking,Solar - Solar,Limondale Sun Farm Pty Ltd,LIMOSF11,In Service
+NSW1,Limondale Solar Farm 2,-34.7710283,143.5016614,OSM_plant,OSM:way/710073323,medium,,,,28.98,Solar PV - Single axis tracking,Solar - Solar,Limondale Sun Farm Pty Ltd,LIMOSF21,In Service
+NSW1,Lindsay Gap BESS,,,,,,,,,450.0,Storage - Battery,Other - Other,Acciona Energy Australia Global,,Publicly Announced
+NSW1,Lismore BESS,,,,,,,,,,,,,,
+NSW1,Liverpool Range Wind Farm,,,,,,,,,1332.0,Wind Turbine - Onshore,Wind - Wind,Liverpool Range Wind Farm Pty Ltd,,Publicly Announced
+NSW1,Lockhart Hybrid Facility - Battery,,,,,,,,,10.0,Storage - Battery,Solar - Solar,Better Energy Technology Pty Ltd,,Committed
+NSW1,Lockhart Hybrid Facility - Solar,,,,,,,,,10.0,Solar PV - Single axis tracking,Solar - Solar,Better Energy Technology Pty Ltd,,Committed
+NSW1,Lucas Heights 2,,,,,,,,,12.65,Reciprocating Engine - Spark ignition,Renewable Biomass or Waste - Landfill Gas,EDL LFG NSW Pty Ltd,LUCAS2S2,In Service
+NSW1,Lucas Heights I,,,,,,,,,,,,,,
+NSW1,MNC000116 - Dubbo Firming Power Station,,,,,,,,,57.0,Other - Other,Fossil - Natural Gas,Squadron Energy Services Pty Ltd,,Publicly Announced
+NSW1,Maison Dieu BESS,,,,,,,,,500.0,Storage - Battery,Other - Other,Graviatas Now Pty Ltd,,Publicly Announced
+NSW1,Maison Dieu Solar Farm,,,,,,,,,76.82,Solar PV - Fixed,Solar - Solar,Terrain Solar,,Publicly Announced
+NSW1,Mallee Wind Farm,,,,,,,,,501.6,Storage - Battery,Wind - Wind,Mallee Wind PTY LTD,,Publicly Announced
+NSW1,Mallee Wind Farm - Storage - KCI,,,,,,,,,,,,,,
+NSW1,Mandurama BESS,,,,,,,,,20.0,Storage - Battery,Other - Other,tetrisenergy_nr,,Publicly Announced
+NSW1,Mandurama Wind Farm,,,,,,,,,250.0,Wind Turbine - Onshore,Wind - Wind,tetrisenergy_nr,,Publicly Announced
+NSW1,Mangoplah BESS - KCI,,,,,,,,,104.0,Storage - Battery,Other - Other,Samsung C&T Renewable Energy Australia Pty Ltd.,,Publicly Announced
+NSW1,Manildra Solar Farm,-33.1735929,148.7193094,OSM_plant,OSM:way/948165030,medium,,,,50.0,Solar PV - Single axis tracking,Solar - Solar,Manildra Prop Pty Ltd as trustee for the Manildra Asset Trust,MANSLR1,In Service
+NSW1,Maoneng Battery,,,,,,,,,,,,,,
+NSW1,Marulan,,,,,,,,,,,,,,
+NSW1,Marulan - OCGT/CCGT,,,,,,,,,800.0,Turbine - Other,Fossil - Natural Gas Pipeline,EnergyAustralia Marulan Pty Ltd,,Publicly Announced
+NSW1,Marulan BESS,,,,,,,,,84.0,Storage - Battery,Other - Other,Ratch Australia,,Publicly Announced
+NSW1,Marulan Solar Farm,,,,,,,,,207.2,Solar PV - Dual axis tracking,Solar - Solar,Marulan Solar Farm Pty Ltd,,Publicly Announced
+NSW1,Maryvale Solar Farm,,,,,,,,,,,,,,
+NSW1,Maryvale Solar and Energy Storage System,,,,,,,,,172.02,Solar PV - Single axis tracking,Solar - Solar,Maryvale Solar Farm Pty Ltd ,,Anticipated
+NSW1,Mates Gully Solar Farm,,,,,,,,,,,,,,
+NSW1,Maules Creek BESS,,,,,,,,,81.0,Storage - Battery,Other - Other,FRV Services Australia Pty Ltd,,Publicly Announced
+NSW1,Maules Creek Solar Farm,,,,,,,,,63.0,Solar PV - Fixed,Solar - Solar,FRV Services Australia Pty Ltd,,Publicly Announced
+NSW1,Maxwell Downs Bess - KCI,-32.3,150.95,manual,"Maxwell Coal Mine area, Upper Hunter",medium,shared_boundary,CWO,keyword: Maxwell Downs; capacity: nan,,,,,,
+NSW1,Maxwell Downs Solar Farm - KCI,-32.3,150.95,manual,"Maxwell Coal Mine area, Upper Hunter",medium,shared_boundary,CWO,keyword: Maxwell Downs; capacity: 300.0,300.0,Solar PV - Single axis tracking,Solar - Solar,X-Elio Holbrook Trust,,Publicly Announced
+NSW1,Maxwell Solar Farm,-32.3,150.95,manual,"Maxwell Coal Mine area, Upper Hunter",medium,shared_boundary,CWO,keyword: Maxwell; capacity: nan,,,,,,
+NSW1,McCullys Gap BESS,,,,,,,,,400.0,Storage - Battery,Other - Other,BW ESS,,Publicly Announced
+NSW1,McMahons Reef Solar Farm,,,,,,,,,123.2,Solar PV - Single axis tracking,Solar - Solar,Enerparc Australia Pty Ltd,,Publicly Announced
+NSW1,Merino Solar Farm,,,,,,,,,338.0,Solar PV - Fixed,Solar - Solar,Merino Solar Farm Pty Ltd as trustee for Merino Solar Farm Trust,,Publicly Announced
+NSW1,Merriwa BESS 1,,,,,,,,,,,,,,
+NSW1,Merriwa SF,,,,,,,,,,,,,,
+NSW1,Merriwa Solar Farm,,,,,,,,,,,,,,
+NSW1,Merriwa Solar Farm - BESS,,,,,,,,,,,,,,
+NSW1,Merriwa Solar Farm and BESS,,,,,,,,,500.0,Solar PV - Single axis tracking,Solar - Solar,Valent Energy Developments Pty Ltd,,Publicly Announced
+NSW1,Metz Solar Farm,-30.5112227,151.8615629,OSM_plant,OSM:relation/18860264,medium,,,,135.0,Solar PV - Single axis tracking,Solar - Solar,Metz ProjectCo Pty Ltd as trustee for Metz ProjectCo Trust ,METZSF1,In Service
+NSW1,Middlebrook SF & BESS,,,,,,,,,,,,,,
+NSW1,Midwest BESS,,,,,,,,,53.0,Storage - Battery,Solar - Solar,Midwest Solar Pty Ltd,,Publicly Announced
+NSW1,Midwest Solar Farm,,,,,,,,,75.6,Solar PV - Fixed,Solar - Solar,Midwest Solar Pty Ltd,,Publicly Announced
+NSW1,Milpulling Wind Farm,,,,,,,,,7.2,Wind Turbine - Onshore,Wind - Wind,Milpulling Wind Farm Pty Ltd,,Publicly Announced
+NSW1,Moah Creek Solar Farm (RES),,,,,,,,,350.0,Solar PV - Fixed,Solar - Solar,Moah Creek Solar Development Co Pty Ltd,,Publicly Announced
+NSW1,Moama Solar Farm,,,,,,,,,36.01,Solar PV - Single axis tracking,Solar - Solar,Moama Propertyco Pty Ltd as trustee for the Moama Property Trust,,Publicly Announced
+NSW1,Molong BESS (KCI),,,,,,,,,150.24,Storage - Battery,Other - Other,StorEnergy 3 Pty Ltd,,Publicly Announced
+NSW1,Molong Solar Farm,-33.0898106,148.9121968,OSM_plant,OSM:way/948634829,medium,,,,36.08,Solar PV - Single axis tracking,Solar - Solar,Molong Operations co Pty Ltd ATF Molong Operations Trust,MOLNGSF1,In Service
+NSW1,Molong System Strength Battery Pilot,,,,,,,,,,,,,,
+NSW1,Molonglo BESS,,,,,,,,,11.5,Storage - Battery,Other - Other,ITP Developments P/L,,Publicly Announced
+NSW1,Monaro Solar Farm,,,,,,,,,,,,,,
+NSW1,Monaro Solar Farm - KCI,,,,,,,,,,,,,,
+NSW1,Moorambilla Solar Farm,,,,,,,,,,,,,,
+NSW1,Moorebank Logistics Park Project,,,,,,,,,200.0,Solar PV - Fixed,Solar - Solar,Energy Bay Fund Management,,Publicly Announced
+NSW1,Moree BESS,,,,,,,,,120.0,Storage - Battery,Other - Other,AE BESS 2 PTY LTD AS TRUSTEE FOR AE BESS 2 UNIT TRUST ,,Publicly Announced
+NSW1,Moree Solar Farm,-29.5686141,149.8664035,OSM_plant,OSM:way/658931246,medium,,,,56.0,Solar PV - Single axis tracking,Solar - Solar,Moree Solar Farm Pty Ltd,MOREESF1,In Service
+NSW1,Morundah Battery Storage,,,,,,,,,300.0,Storage - Battery,Solar - Solar,Photon Energy Engineering Australia Pty Ltd.,,Publicly Announced
+NSW1,Morundah Solar Power Plant (Thermal),,,,,,,,,600.0,Solar Thermal - Central collector,Solar - Solar,Photon Energy Engineering Australia Pty Ltd.,,Publicly Announced
+NSW1,Mount Lambie BESS,,,,,,,,,100.0,Storage - Battery,Other - Other,tetrisenergy_nr,,Publicly Announced
+NSW1,Mount Lambie Wind Farm,,,,,,,,,200.0,Wind Turbine - Onshore,Wind - Wind,tetrisenergy_nr,,Publicly Announced
+NSW1,Mount Majura,,,,,,,,,,,,,,
+NSW1,Mt Piper,,,,,,,,,730.0,Turbine - Steam Sub Critical,Fossil - Black Coal,EnergyAustralia NSW Pty Ltd,MP1,In Service
+NSW1,Mt Piper BESS,,,,,,,,,249.9,Storage - Battery,Other - Other,Energy Australia Development Pty Ltd,,Publicly Announced
+NSW1,Mt View Wind Farm (KCI),,,,,,,,,750.0,Wind Turbine - Onshore,Wind - Wind,Woodside Energy Technologies Pty Ltd,,Publicly Announced
+NSW1,Mugga Lane,-35.3998818,149.1460065,OSM_plant,OSM:way/1052560517,medium,,,,,,,,,
+NSW1,Mugga Lane BESS,,,,,,,,,12.0,Storage - Battery,Other - Other,LGI,,Publicly Announced
+NSW1,Mugga Lane Renewable Hybrid,,,,,,,,,6.39,Other - Other,Renewable Biomass or Waste - Landfill Gas,LGIGEN,MLLFRHF1,Publicly Announced
+NSW1,Mugga Lane Solar Park,,,,,,,,,,,,,,
+NSW1,Mullion Creek Wind Farm,-33.25,149.11,manual,Mullion Creek WF EIS — Orange area,high,shared_boundary,CWO,keyword: Mullion Creek; capacity: 250.14,250.14,Solar PV - Fixed,Solar - Solar,Mullion Creek Wind Farm P/L,,Publicly Announced
+NSW1,Mulwala Solar Farm,,,,,,,,,25.0,Solar PV - Single axis tracking,Solar - Solar,ESCO Solar Farm 1 Pty Ltd as trustee for the ESCO Solar Farm 1 Trust,,Publicly Announced
+NSW1,Mumbil Solar Farm,,,,,,,,,,,,,,
+NSW1,Munmorah BESS,,,,,,,,,,,,,,
+NSW1,Murrumburrah BESS - KCI,,,,,,,,,152.0,Storage - Battery,Other - Other,FIrm Power P/L,,Publicly Announced
+NSW1,Murrurundi Wind Farm,,,,,,,,,,,,,,
+NSW1,Muswellbrook BESS,,,,,,,,,196.8,Storage - Battery,Other - Other,firmpower_NR,,Publicly Announced
+NSW1,Muswellbrook PRO BESS,,,,,,,,,400.0,Storage - Battery,Other - Other,Penso Power Australia P/L,,Publicly Announced
+NSW1,Muswellbrook Pumped Hydro,,,,,,,,,400.0,Storage - Pumped hydro,Hydro - Water,AGL Energy Limited,,Publicly Announced
+NSW1,Muswellbrook Pumped Hydro - Storage - KCI,,,,,,,,,,,,,,
+NSW1,Muswellbrook Solar Farm,,,,,,,,,135.0,Solar PV - Fixed,Solar - Solar,Ox2,,Publicly Announced
+NSW1,Myrtle Creek BESS,,,,,,,,,275.0,Storage - Battery,Other - Other,ARK Energy Corporation Pty Ltd,,Publicly Announced
+NSW1,Myrtle Creek Solar Farm,,,,,,,,,,,,,,
+NSW1,NSW Diverse Battery,,,,,,,,,,,,,,
+NSW1,NSW Energy Cluster,,,,,,,,,,,,,,
+NSW1,NSW Gas Peaker,,,,,,,,,500.0,Reciprocating Engine - Compression ignition,Fossil - Natural Gas,AGL Energy Limited,,Publicly Announced
+NSW1,Narrabri Hybrid Project,,,,,,,,,4.6,Solar PV - Single axis tracking,Solar - Solar, Narrabri Genesis Hold Pty Ltd ATF Narrabri Genesis Hold Trust,,Publicly Announced
+NSW1,Narrabri Solar Farm,,,,,,,,,,,,,,
+NSW1,Narrabri Solar Farm & BESS,,,,,,,,,,,,,,
+NSW1,Narrabri South Solar Farm,,,,,,,,,50.0,Solar PV - Fixed,Solar - Solar,Canadian Solar,,Publicly Announced
+NSW1,Narrandera BESS,,,,,,,,,400.14,Storage - Battery,Other - Other,Potentia Energy Group P/L,,Publicly Announced
+NSW1,Narrandera Solar Farm,,,,,,,,,125.0,Solar PV - Fixed,Solar - Solar,Potentia Energy Group P/L,,Publicly Announced
+NSW1,Narromine Solar Farm,-32.2201974,148.2548919,OSM_plant,OSM:way/881601318,medium,,,,9.2,Solar PV - Single axis tracking,Solar - Solar,Dubbo Solar Hub Pty Ltd,NASF1,In Service
+NSW1,Nevertire Solar Farm,-31.8223632,147.7027627,OSM_plant,OSM:way/948343956,medium,,,,104.64,Solar PV - Single axis tracking,Solar - Solar,Nevertire Solar Pty Ltd as Trustee for the Nevertire Solar Trust,NEVERSF1,In Service
+NSW1,New England Solar Farm,-30.6145168,151.5999398,OSM_plant,OSM:relation/14989667,medium,,,,320.0,Solar PV - Single axis tracking,Solar - Solar,ACEN AUSTRALIA,NEWENSF1,In Service
+NSW1,New England Solar Farm BESS,-30.6145168,151.5999398,OSM_plant,OSM:relation/14989667,medium,,,,100.0,Storage - Battery,Other - Other,ACEN RENEWABLES,,Anticipated
+NSW1,Newcastle Gas Peaker,,,,,,,,,,,,,,
+NSW1,Newcastle Offshore Wind,,,,,,,,,,,,,,
+NSW1,Nine Network Willoughby,,,,,,,,,,,,,,
+NSW1,Nine Network Willoughby_x000D_,,,,,,,,,,,,,,
+NSW1,Nonowie Wind Farm,,,,,,,,,1015.0,Wind Turbine - Onshore,Wind - Wind,Tilt Renewables Australia Pty Ltd,,Publicly Announced
+NSW1,Northern Tablelands Wind Farm,,,,,,,,,8.0,Wind Turbine - Onshore,Wind - Wind,BORAL,,Publicly Announced
+NSW1,Nottingham Park Solar Farm - KCI,,,,,,,,,210.0,Solar PV - Fixed,Solar - Solar,NPSF Renewables Pty Ltd,,Publicly Announced
+NSW1,Novocastrian Offshore Wind Farm,,,,,,,,,2000.0,Wind Turbine - Offshore,Wind - Wind,OceanEx Energy,,Publicly Announced
+NSW1,Nymboida,-29.9256913,152.7415522,OSM_plant,OSM:way/363537504,medium,,,,,,,,,
+NSW1,Nyngan Solar Plant,-31.5554905,147.0862012,OSM_plant,OSM:way/392445480,medium,,,,102.03,Solar PV - Fixed,Solar - Solar,PARF Company 6 Pty Limited,NYNGAN1,In Service
+NSW1,Oaky,-30.5773082,152.0605405,OSM_plant,OSM:way/364194644,medium,,,,,,,,,
+NSW1,Orana BESS,,,,,,,,,414.85,Storage - Battery,Other - Other,Wellington Battery ProjectCo Pty Ltd,ORANA,Committed
+NSW1,Orange Grove Sun Farm,,,,,,,,,80.0,Solar PV - Single axis tracking,Solar - Solar,Overland Sun Farm Holdings Pty Ltd,,Publicly Announced
+NSW1,Oven Mountain Pumped Storage,,,,,,,,,900.0,Storage - Pumped hydro,Hydro - Water,Oven Mountain Pumped Storage,,Publicly Announced
+NSW1,Oxley Solar Farm,,,,,,,,,300.0,Solar PV - Fixed,Solar - Solar,Oxley Solar Development Pty Ltd,,Publicly Announced
+NSW1,Paling Yards Wind Farm,,,,,,,,,286.7,Wind Turbine - Onshore,Wind - Wind,Paling Yards Development Pty Ltd,,Publicly Announced
+NSW1,Panorama BESS,,,,,,,,,100.0,Storage - Battery,Other - Other, PANORAMA BESS SUBCO PTY LTD as trustee for the PANORAMA BESS UNIT TRUST,,Publicly Announced
+NSW1,Parkes Shire Council STP,,,,,,,,,,,,,,
+NSW1,Parkes Shire Council WTP,,,,,,,,,,,,,,
+NSW1,Parkes Solar Farm,-33.1167198,148.079284,OSM_plant,OSM:way/658933071,medium,,,,49.5,Solar PV - Single axis tracking,Solar - Solar,Parkes Solar Farm Pty Ltd,PARSF1,In Service
+NSW1,Peel Valley BESS,,,,,,,,,449.75,Storage - Battery,Other - Other,Potentia Energy Group P/L,,Publicly Announced
+NSW1,Peel Valley Solar Farm,,,,,,,,,150.0,Solar PV - Fixed,Solar - Solar,Potentia Energy Group P/L,,Publicly Announced
+NSW1,Peninsula Solar Farm,,,,,,,,,,,,,,
+NSW1,Peninsula Solar Farm & BESS,,,,,,,,,80.0,Solar PV - Single axis tracking,Solar - Solar,Edify Energy Pty Ltd,,Publicly Announced
+NSW1,Penrith RSL Solar,,,,,,,,,,,,,,
+NSW1,Phoenix Pumped Hydro Project,,,,,,,,,810.0,Storage - Pumped hydro,Hydro - Water,ACEN Phoenix Pty Ltd,,Publicly Announced
+NSW1,Photon Energy Leeton,,,,,,,,,,,,,,
+NSW1,Piambong Wind Farm,,,,,,,,,,,,,,
+NSW1,Piambong Wind Farm - KCI,,,,,,,,,632.4,Wind Turbine - Onshore,Wind - Wind,Piambong Wind Farm Pty Ltd,,Publicly Announced
+NSW1,Pindari,-29.3892649,151.2451916,OSM_plant,OSM:way/366249341,medium,,,,5.77,Hydro - Dam,Hydro - Water,AGL Hydro Partnership,PINDARI,In Service
+NSW1,Pint Pot BESS,,,,,,,,,424.0,Storage - Battery,Other - Other,FRV Services Australia Pty Ltd,,Publicly Announced
+NSW1,Port Kembla Power Station,,,,,,,,,660.0,Other - Other,Other - Other, Australian Industrial Power,,Publicly Announced
+NSW1,Port Kembla/Wollongong Offshore Wind,,,,,,,,,,,,,,
+NSW1,Pottinger Energy Park - Battery - KCI,-31.3,150.5,manual,AGL Pottinger EP planning docs (Liverpool Plains),medium,prior,SW-NSW,NSW prior — Liverpool Plains,499.8,Storage - Battery,Other - Other,Pottinger Renewables P/L,,Publicly Announced
+NSW1,Pottinger Energy Park - Solar - KCI,-31.3,150.5,manual,AGL Pottinger EP planning docs (Liverpool Plains),medium,prior,SW-NSW,NSW prior — Liverpool Plains,299.52,Solar PV - Fixed,Solar - Solar,Pottinger Renewables P/L,,Publicly Announced
+NSW1,Pottinger Energy Park - Wind - KCI,-31.3,150.5,manual,AGL Pottinger EP planning docs (Liverpool Plains),medium,prior,SW-NSW,NSW prior — Liverpool Plains,1300.0,Wind Turbine - Onshore,Wind - Wind,Pottinger Renewables P/L,,Publicly Announced
+NSW1,Project Brandy BESS,,,,,,,,,96.6,Storage - Battery,Other - Other,Evolution Pty Ltd,,Publicly Announced
+NSW1,Proten - Farm 60,,,,,,,,,,,,,,
+NSW1,Proten - Farm 61,,,,,,,,,,,,,,
+NSW1,Proten - Farm 74,,,,,,,,,,,,,,
+NSW1,Proten - Farm 75 - 79,,,,,,,,,,,,,,
+NSW1,Queanbeyan BESS,,,,,,,,,10.0,Storage - Battery,Other - Other,Berrybank 2 Asset Pty Ltd as Trustee for Berrybank 2 Asset Trust,QBYNB1,In Service
+NSW1,Queanbeyan BESS (Global Power),,,,,,,,,,,,,,
+NSW1,Queanbeyan BESS (Neoen),,,,,,,,,,,,,,
+NSW1,Queanbeyan Battery,,,,,,,,,,,,,,
+NSW1,Quorn Park Hybrid,,,,,,,,,,,,,,
+NSW1,Quorn Park Solar Farm,-33.0795981,148.0902894,OSM_plant,OSM:way/1378872767,medium,,,,,,,,,
+NSW1,Quorn Park Solar Hybrid,,,,,,,,,96.8,Storage - Battery,Other - Other,Quorn Park Solar Farm Pty Ltd as the trustee for Quorn Park Solar Farm Trust,QPBESS,Committed
+NSW1,Rangoon Wind Farm,,,,,,,,,114.0,Wind Turbine - Onshore,Wind - Wind,Rangoon Energy Park Pty Ltd,,Publicly Announced
+NSW1,Redbank,-32.5793518,151.0717078,OSM_plant,OSM:way/879020826,medium,,,,151.0,Turbine - Steam Sub Critical,Renewable Biomass or Waste - Wood Waste,Verdant Earth Technologies Limited,REDBANK1,Publicly Announced
+NSW1,Revesby Workers Club,,,,,,,,,,,,,,
+NSW1,Richmond Valley BESS,,,,,,,,,275.0,Storage - Battery,Other - Other,ARK ENERGY CORPORATION PTY LTD ,,Anticipated
+NSW1,Richmond Valley BESS (EIWA),,,,,,,,,,,,,,
+NSW1,Richmond Valley Solar Farm,,,,,,,,,252.0,Solar PV - Single axis tracking,Solar - Solar,ARK ENERGY CORPORATION PTY LTD ,,Publicly Announced
+NSW1,Ridgey Creek BESS,,,,,,,,,130.0,Storage - Battery,Other - Other, Ridgey Creek BESS Pty Ltd,,Publicly Announced
+NSW1,Riverina Energy Storage System,-34.6463487,146.0350155,OSM_plant,OSM:way/1302379772,medium,,,,,,,,,
+NSW1,Riverina Energy Storage System 1,-34.6463487,146.0350155,OSM_plant,OSM:way/1302379772,medium,,,,60.0,Storage - Battery,Other - Other,Shell New Energies Australia Pty Ltd,RESS1G,In Service
+NSW1,Riverina Energy Storage System 2,-34.6463487,146.0350155,OSM_plant,OSM:way/1302379772,medium,,,,65.0,Storage - Battery,Other - Other,RESS 2 Pty Ltd,RIVNB2,In Service
+NSW1,Riverina Solar Farm,,,,,,,,,32.4,Solar PV - Single axis tracking,Solar - Solar,Riverina Solar Pty Ltd,,Committed
+NSW1,Rollsville Hybrid Facility - Battery,,,,,,,,,110.0,Storage - Battery,Other - Other,X-Elio Australia Pty Ltd,,Publicly Announced
+NSW1,Rollsville Hybrid Facility - Solar,,,,,,,,,220.0,Solar PV - Fixed,Solar - Solar,X-Elio Australia Pty Ltd,,Publicly Announced
+NSW1,Romani BESS,,,,,,,,,216.0,Storage - Battery,Other - Other,Samsung C&T Renewable Energy Australia Pty Ltd,,Publicly Announced
+NSW1,Romani Solar Farm,,,,,,,,,302.4,Solar PV - Single axis tracking,Solar - Solar,Samsung C&T Renewable Energy Australia Pty Ltd,,Publicly Announced
+NSW1,Romani Standalone BESS,,,,,,,,,240.0,Storage - Battery,Other - Other,Samsung C&T Renewable Energy Australia Pty Ltd,,Publicly Announced
+NSW1,Rosedale SF,,,,,,,,,,,,,,
+NSW1,Rothby BESS,,,,,,,,,120.0,Storage - Battery,Other - Other,"Avenis Energy Pty Ltd, on behalf of AE BESS 11 Pty Ltd ATF AE BESS 11 Unit Trust ",,Publicly Announced
+NSW1,Royalla Solar Farm,-35.489885,149.1430223,OSM_plant,OSM:way/480673864,medium,,,,20.0,Solar PV - Fixed,Solar - Solar,Royalla Asset Pty Ltd ATF Royalla Asset Trust,ROYALLA1,In Service
+NSW1,Ruby Hills North BESS,,,,,,,,,48.0,Storage - Battery,Wind - Wind,Walcha Energy Pty Ltd,,Publicly Announced
+NSW1,Ruby Hills North Wind Farm,,,,,,,,,248.0,Wind Turbine - Onshore,Wind - Wind,Origin energy,,Publicly Announced
+NSW1,Ruby Hills South BESS,,,,,,,,,48.0,Storage - Battery,Wind - Wind,Origin Energy Pty Ltd,,Publicly Announced
+NSW1,Ruby Hills South Wind Farm,,,,,,,,,496.0,Wind Turbine - Onshore,Wind - Wind,Origin Energy Pty Ltd,,Publicly Announced
+NSW1,Ruby Hills Wind Farm 700MW,,,,,,,,,,,,,,
+NSW1,Rye Park Wind Farm,-34.6077003,148.9760029,OSM_plant,OSM:relation/15527202,medium,,,,396.0,Wind Turbine - Onshore,Wind - Wind,Tilt Renewables Australia Pty Ltd,RYEPARK1,In Service
+NSW1,Salisbury BESS,,,,,,,,,200.0,Storage - Battery,Other - Other,Origin Energy Pty Ltd,,Publicly Announced
+NSW1,Salisbury East Solar 350MW,,,,,,,,,,,,,,
+NSW1,Salisbury Solar 450MW,,,,,,,,,280.0,Solar PV - Single axis tracking,Solar - Solar,Origin Energy Pty Ltd,,Publicly Announced
+NSW1,Salisbury West Solar 350MW,,,,,,,,,,,,,,
+NSW1,Salisbury West Solar 450MW,,,,,,,,,,,,,,
+NSW1,Sandigo Solar Farm,,,,,,,,,300.0,Solar PV - Fixed,Solar - Solar,ESCO Pacific,,Publicly Announced
+NSW1,Sandy Creek Solar Farm,,,,,,,,,700.0,Solar PV - Single axis tracking,Solar - Solar,Sandy Creek Solar Fund Pty Ltd,,Publicly Announced
+NSW1,Sandy Point Hybrid - Solar,,,,,,,,,180.6,Solar PV - Single axis tracking,Solar - Solar,Samsung C&T Renewable Energy Australia Pty Ltd.,,Publicly Announced
+NSW1,Sandy Point Hybrid - Storage,,,,,,,,,201.6,Storage - Battery,Other - Other,Samsung C&T Renewable Energy Australia Pty Ltd.,,Publicly Announced
+NSW1,Sapphire Solar Farm,,,,,,,,,,,,,,
+NSW1,Sapphire Solar Farm (Submitted via XL),,,,,,,,,,,,,,
+NSW1,Sapphire Wind Farm,-29.706321,151.4444143,OSM_plant,OSM:relation/9789421,medium,,,,270.0,Wind Turbine - Onshore,Wind - Wind,SWF1 Operations Holdings Pty Ltd as trustee for SWF1 Hold Trust,SAPHWF1,In Service
+NSW1,Sebastopol Solar Farm,-34.6099831,147.5592039,OSM_plant,OSM:way/958397278,medium,,,,90.0,Solar PV - Single axis tracking,Solar - Solar,Sebastopol Asset Co Pty Ltd ATF Sebastopol Asset Trust,SEBSF1,In Service
+NSW1,Shoalhaven,,,,,,,,,165.0,Storage - Pumped hydro,Hydro - Water,Origin Energy Eraring Pty Ltd,SHGEN,In Service
+NSW1,Shoalhaven Expansion,-34.78,150.4,manual,Tallowa Dam / Shoalhaven scheme,high,shared_boundary,ILW,keyword: Shoalhaven Expansion; capacity: 235.0,235.0,Storage - Pumped hydro,Hydro - Water,Origin Energy,,Publicly Announced
+NSW1,Shoalhaven Starches Cogeneration Plant,,,,,,,,,,,,,,
+NSW1,Silver City Energy Storage,,,,,,,,,200.0,Storage - Other,Other - Other,A-CAES NSW PTY LTD,,Anticipated
+NSW1,Silverleaf Solar Farm - KCI,,,,,,,,,120.0,Solar PV - Fixed,Solar - Solar,International Power (Australia) Pty Ltd,,Publicly Announced
+NSW1,Silverton Wind Farm,-31.7816917,141.270202,OSM_plant,OSM:relation/11358378,medium,,,,198.94,Wind Turbine - Onshore,Wind - Wind,PARF Company 8 Pty Ltd as trustee for the Silverton Project Trust,STWF1,In Service
+NSW1,Smithfield BESS,,,,,,,,,86.4,Storage - Battery,Other - Other,Smithfield BESS Pty Limited,,Committed
+NSW1,Smithfield Energy Facility,,,,,,,,,125.7,Turbine - OCGT,Fossil - Natural Gas Pipeline,Smithfield Power Generation Pty Ltd,SITHE01,In Service
+NSW1,Snowy 2.0,,,,,,,,,,,,,,
+NSW1,Snowy 2.0.,,,,,,,,,1468.0,Storage - Pumped hydro,Hydro - Water,Snowy Hydro Ltd,,Committed¹ 
+NSW1,South Coree BESS,,,,,,,,,84.0,Storage - Battery,Other - Other,Samsung C&T Renewable Energy Australia Pty Ltd,,Publicly Announced
+NSW1,South Kempsey BESS,,,,,,,,,200.0,Storage - Battery,Other - Other,Macleay Ventures Pty Ltd.,,Publicly Announced
+NSW1,South Keswick Solar Farm,-32.2729058,148.6586267,OSM_plant,OSM:way/881597200,medium,,,,13.9,Solar PV - Single axis tracking,Solar - Solar,Dubbo Solar Hub Pty Ltd,SKSF1,In Service
+NSW1,South Pacific Offshore Wind Project,,,,,,,,,1601.25,Wind Turbine - Offshore,Wind - Wind,South Pacific OWP Project Pty Ltd,,Publicly Announced
+NSW1,Spicers Creek Wind Farm,,,,,,,,,702.0,Wind Turbine - Onshore,Wind - Wind,Squadron Energy Services Pty Ltd,,Publicly Announced
+NSW1,Springdale Solar Farm,,,,,,,,,100.0,Solar PV - Single axis tracking,Solar - Solar,Utilacor Pty Ltd,,Publicly Announced
+NSW1,Springdale Solar Farm - KCI,,,,,,,,,100.0,Solar PV - Fixed,Solar - Solar,RES Australia Pty Ltd,,Publicly Announced
+NSW1,St George Leagues Club,,,,,,,,,,,,,,
+NSW1,"St George Leagues Club - Kogarah, NSW",,,,,,,,,,,,,,
+NSW1,St George Leagues Club_x000D_,,,,,,,,,,,,,,
+NSW1,Stockland Development Wetherill Park,,,,,,,,,,,,,,
+NSW1,Stoney Creek BESS,,,,,,,,,125.0,Storage - Battery,Solar - Solar,Stoney Creek BESS Pty Ltd,,Publicly Announced
+NSW1,Strafford Renewable Energy Hub - Pumped Hydro,,,,,,,,,200.0,Storage - Pumped hydro,Hydro - Water,Yancoal,,Publicly Announced
+NSW1,Stratford Renewable Energy Hub,-32.2,151.95,manual,Gloucester/Stratford NSW Major Projects,medium,shared_boundary,HCC,keyword: Stratford; capacity: 400.0,400.0,Solar PV - Fixed,Solar - Solar,Yancoal Australia Limited,,Publicly Announced
+NSW1,Strontian Solar BESS,,,,,,,,,333.0,Storage - Battery,Solar - Solar,Strontian Solar Pty Ltd,,Publicly Announced
+NSW1,Strontian Solar Farm,,,,,,,,,327.6,Solar PV - Fixed,Solar - Solar,Strontian Solar Pty Ltd,,Publicly Announced
+NSW1,Stubbo BESS,,,,,,,,,200.0,Storage - Battery,Other - Other,Stubbo 1 Pty Ltd. ACN 658 322 457 as The Trustee for Stubbo 1 Solar Project Trust,,Publicly Announced
+NSW1,Stubbo Solar Farm,-32.2459754,149.5788373,OSM_plant,OSM:relation/17728463,medium,,,,202.0,Solar PV - Single axis tracking,Solar - Solar,ACEN AUSTRALIA,STUBSF1,In Commissioning
+NSW1,Summer Hill,,,,,,,,,,,,,,
+NSW1,Summerhill,-32.891372,151.6493438,OSM_plant,OSM:way/911050589,medium,,,,,,,,,
+NSW1,Summerhill Solar Farm,-32.891372,151.6493438,OSM_plant,OSM:way/911050589,medium,,,,,,,,,
+NSW1,Summerville SF,,,,,,,,,,,,,,
+NSW1,Summerville Solar Farm,,,,,,,,,90.0,Solar PV - Fixed,Solar - Solar,ESCO Solar Farm 5 Pty Ltd,,Publicly Announced
+NSW1,Sundown Hybrid Facility,,,,,,,,,360.0,Solar PV - Fixed,Solar - Solar, Canadian Solar,,Publicly Announced
+NSW1,Sundown SF(Canadian Solar),,,,,,,,,,,,,,
+NSW1,Sundown Solar Farm,,,,,,,,,,,,,,
+NSW1,Sunraysia BESS,,,,,,,,,,,,,,
+NSW1,Sunraysia Solar Farm,-34.8043837,143.4901118,OSM_plant,OSM:way/710054263,medium,,,,228.8,Solar PV - Single axis tracking,Solar - Solar,Sunraysia Solar Project Pty Ltd,SUNRSF1,In Service
+NSW1,Suntop Solar Farm,-32.581824,148.8271836,OSM_plant,OSM:way/948170857,medium,,,,150.0,Solar PV - Single axis tracking,Solar - Solar,Suntop SF Pty Ltd As Trustee For The Suntop Asset,SUNTPSF1,In Service
+NSW1,Suntop Solar Farm Pty Ltd,-32.581824,148.8271836,OSM_plant,OSM:way/948170857,medium,,,,,,,,,
+NSW1,Swallow Tail BESS,,,,,,,,,375.0,Storage - Battery,Other - Other,AMPYR,,Publicly Announced
+NSW1,Tabulam BESS,,,,,,,,,120.0,Storage - Battery,Other - Other,Elgin Energy Pty Ltd,,Publicly Announced
+NSW1,Tabulam Solar Farm,,,,,,,,,126.0,Solar PV - Fixed,Solar - Solar,Elgin Energy Pty Ltd,,Publicly Announced
+NSW1,Tahmoor,,,,,,,,,7.46,Reciprocating Engine - Spark ignition,Fossil - Waste Coal Mine Gas,EDL TT Pty Ltd,TAHMOOR,In Service
+NSW1,Talbingo BESS,,,,,,,,,400.0,Storage - Battery,Other - Other,Talbingo Battery Pty Ltd ATF Talbingo Battery Trust,,Publicly Announced
+NSW1,Tallawang BESS,,,,,,,,,,,,,,
+NSW1,Tallawang Solar And BESS,,,,,,,,,672.0,Solar PV - Fixed,Solar - Solar,Enel Green Power Australia Pty Ltd,,Publicly Announced
+NSW1,Tallawarra,-34.5225862,150.8071235,OSM_plant,OSM:way/535791203,medium,,,,400.0,Turbine - CCGT,Fossil - Natural Gas Pipeline,EnergyAustralia Tallawarra Pty Ltd,TALWA1,In Service
+NSW1,Tallawarra B,,,,,,,,,320.0,Turbine - OCGT,Fossil - Natural Gas Pipeline,EnergyAustralia Tallawarra Pty Ltd ,TALWB1,In Service
+NSW1,Tamworth BESS,,,,,,,,,,,,,,
+NSW1,Tamworth BESS - Gmr Energy,,,,,,,,,,,,,,
+NSW1,Tamworth BESS - Valent,,,,,,,,,,,,,,
+NSW1,Tamworth BESS Project 1 Pty Ltd,,,,,,,,,100.0,Storage - Battery,Other - Other,Tamworth BESS Project 1 Pty Ltd,,Anticipated
+NSW1,Tamworth BESS Project 2 Pty Ltd,,,,,,,,,100.0,Storage - Battery,Other - Other,valent-energy_nr,,Anticipated
+NSW1,Tamworth Energy Reserve - KCI,,,,,,,,,299.7,Storage - Battery,Other - Other,The Trustee for Equis Energy (Ausralia) Ngumi 4 Asset Trust,,Publicly Announced
+NSW1,Tamworth Solar Farm,,,,,,,,,,,,,,
+NSW1,Tara Springs Wind Farm,,,,,,,,,,,,,,
+NSW1,Taralga Wind Farm,-34.4176226,149.8683965,OSM_plant,OSM:relation/9700298,medium,,,,42.0,Wind Turbine - Onshore,Wind - Wind,Energy Pacific Vic Pty Ltd,TARALGA1,In Service
+NSW1,Tarleigh Park Solar Farm,,,,,,,,,,,,,,
+NSW1,Taronga Western Plains Zoo,,,,,,,,,,,,,,
+NSW1,Tchelery BESS,,,,,,,,,300.0,Storage - Battery,Other - Other,Neoen Australia Pty Ltd,,Publicly Announced
+NSW1,Tchelery Wind Farm,,,,,,,,,599.99,Wind Turbine - Onshore,Wind - Wind,Neoen Australia Pty Ltd,,Publicly Announced
+NSW1,Tchelery Wind Farm - KCI,,,,,,,,,,,,,,
+NSW1,Tenterfield Solar Farm,,,,,,,,,29.4,Solar PV - Fixed,Solar - Solar,Enerparc Australia Pty Ltd,,Publicly Announced
+NSW1,Teralba,-32.9456032,151.611986,OSM_plant,OSM:way/488348079,medium,,,,,,,,,
+NSW1,Territory Battery,,,,,,,,,200.0,Storage - Battery,Other - Other, Neoen Australia Pty Ltd,,Publicly Announced
+NSW1,Texas BESS,,,,,,,,,400.0,Storage - Battery,Solar - Solar,FRV,,Publicly Announced
+NSW1,Texas Solar Farm,,,,,,,,,150.0,Solar PV - Fixed,Solar - Solar,FRV,,Publicly Announced
+NSW1,The Drop,,,,,,,,,2.5,Hydro - Run of River,Hydro - Water,Pacific Hydro Investments Pty Ltd,THEDROP1,In Service
+NSW1,The Plains,,,,,,,,,1260.0,Solar PV - Single axis tracking,Solar - Solar,Engie,,Publicly Announced
+NSW1,Thunderbolt Energy Hub,,,,,,,,,,,,,,
+NSW1,Thunderbolt Wind Farm,,,,,,,,,210.0,Wind Turbine - Onshore,Wind - Wind, Neoen Australia Pty Ltd,,Publicly Announced
+NSW1,Tilbuster Solar Farm,,,,,,,,,248.82,Solar PV - Fixed,Solar - Solar,Enerparc Australia Pty Ltd,,Committed
+NSW1,Tirranna BESS - KCI,,,,,,,,,400.0,Storage - Battery,Other - Other,StorEnergy 2 Pty Ltd,,Publicly Announced
+NSW1,Todae Solar CSU,,,,,,,,,,,,,,
+NSW1,Todae Solar PE - Llandilo,,,,,,,,,,,,,,
+NSW1,Todae Solar SV - Mater Clinic,,,,,,,,,,,,,,
+NSW1,Todae Solar SV - Mater Hospital,,,,,,,,,,,,,,
+NSW1,Todae Solar- PF Minchinbury,,,,,,,,,,,,,,
+NSW1,Tomago BESS,,,,,,,,,500.0,Storage - Battery,Other - Other,AGL,,Publicly Announced
+NSW1,Tomago BESS (AGL),,,,,,,,,,,,,,
+NSW1,Tomago GT,,,,,,,,,,,,,,
+NSW1,Tower,,,,,,,,,41.2,Reciprocating Engine - Spark ignition,Fossil - Waste Coal Mine Gas,EDL CSM NSW Pty Ltd,TOWER,In Service
+NSW1,Tumut 3,-35.6111482,148.2917198,OSM_plant,OSM:way/208357823,medium,,,,1500.0,Hydro - Dam,Hydro - Water,Snowy Hydro Ltd,TUMUT3,In Service
+NSW1,Tumut Pulp and Paper Mill,,,,,,,,,,,,,,
+NSW1,UNSW C25,,,,,,,,,,,,,,
+NSW1,Ulladulla Offshore Wind Farm,,,,,,,,,2000.0,Wind Turbine - Offshore,Wind - Wind,OceanEx Energy,,Publicly Announced
+NSW1,Upper Hunter BESS,,,,,,,,,400.0,Storage - Battery,Other - Other,Maizewood Pty Ltd.,,Publicly Announced
+NSW1,Upper Hunter Energy Park - Solar,,,,,,,,,10.0,Solar PV - Fixed,Solar - Solar,Upper Hunter Energy Park Pty Ltd,,Publicly Announced
+NSW1,Upper Hunter Energy Park - Wind,,,,,,,,,75.6,Wind Turbine - Onshore,Wind - Wind,Upper Hunter Energy Park Pty Ltd,,Publicly Announced
+NSW1,Upper Tumut,,,,,,,,,328.0,Hydro - Dam,Hydro - Water,Snowy Hydro Ltd,UPPTUMUT,In Service
+NSW1,Uranquinty,-35.1801542,147.2156517,OSM_plant,OSM:way/172230180,medium,,,,173.0,Turbine - OCGT,Fossil - Natural Gas Pipeline,Origin Energy Uranquinty Power Pty Ltd,URANQ11,In Service
+NSW1,Uungala Wind Farm,,,,,,,,,,,,,,
+NSW1,Uungula BESS,,,,,,,,,400.0,Storage - Battery,Other - Other,Squadron Energy Services Pty Ltd,,Publicly Announced
+NSW1,Uungula Wind Farm,,,,,,,,,414.0,Wind Turbine - Onshore,Wind - Wind,Uungula Wind Farm Pty Ltd,,Committed
+NSW1,Vales Point B,,,,,,,,,660.0,Turbine - Steam Sub Critical,Fossil - Black Coal,Delta Electricity,VP5,In Service
+NSW1,Vales Point BESS,,,,,,,,,400.0,Storage - Battery,Other - Other,Delta Power and Energy (Vales Point) Pty Ltd trading as Delta Electricity,,Publicly Announced
+NSW1,Vales Point Solar,,,,,,,,,55.0,Solar PV - Fixed,Solar - Solar,Delta Electricity,,Publicly Announced
+NSW1,Valley of the Winds,,,,,,,,,452.0,Wind Turbine - Onshore,Wind - Wind,ACEN Renewables,,Anticipated
+NSW1,Vineyard BESS,,,,,,,,,200.0,Storage - Battery,Other - Other,Global Power Generation Australia Pty Ltd,,Publicly Announced
+NSW1,Wagga North BESS (IB Vogt) - KCI,,,,,,,,,120.12,Storage - Battery,Other - Other,Ib vogt Development Australia Pty Ltd,,Publicly Announced
+NSW1,Wagga North BESS - KCI,,,,,,,,,105.0,Storage - Battery,Solar - Solar,ZEN Energy Future Pty Ltd,,Publicly Announced
+NSW1,Wagga North Battery Energy Storage System,,,,,,,,,120.0,Storage - Battery,Other - Other,AE BESS 2 Pty Ltd,,Publicly Announced
+NSW1,Wagga North Solar Farm,,,,,,,,,36.01,Solar PV - Single axis tracking,Solar - Solar,Wagga Wagga Operationsco Pty Ltd as trustree for Wagga Wagga Operations Trust,WAGGNSF1,In Commissioning
+NSW1,Wagga North Solar Farm BESS,,,,,,,,,15.0,Storage - Battery,Solar - Solar, Wagga Wagga Operationsco Pty Ltd as trustee for the Wagga Wagga Operations Trust,,Publicly Announced
+NSW1,Wagga Wagga BESS,,,,,,,,,415.0,Storage - Battery,Other - Other,tetrisenergy_nr,,Publicly Announced
+NSW1,Wagga Wagga BESS (KCI),,,,,,,,,,,,,,
+NSW1,Wagga Wagga Renewable Project,,,,,,,,,,,,,,
+NSW1,Wagga Wagga Solar Farm,-35.0708705,147.4392451,OSM_plant,OSM:way/948711059,medium,,,,,,,,,
+NSW1,Wagga Wagga Solar Project,,,,,,,,,,,,,,
+NSW1,Walcha Energy Project - Brackendale North Wind Farm,,,,,,,,,,,,,,
+NSW1,Walcha Energy Project - Brackendale South Wind Farm,,,,,,,,,,,,,,
+NSW1,Walcha Energy Project - Kangaroo Hills Wind Farm,,,,,,,,,,,,,,
+NSW1,Walcha Energy Project - Ruby Hills Wind Farm,,,,,,,,,,,,,,
+NSW1,Walcha Energy Project - Salisbury East Solar,,,,,,,,,,,,,,
+NSW1,Walcha Energy Project - Salisbury East Solar 350MW,,,,,,,,,,,,,,
+NSW1,Walcha Energy Project - Salisbury West Solar,,,,,,,,,,,,,,
+NSW1,Walcha Energy Project - St Leonards Wind Farm,,,,,,,,,,,,,,
+NSW1,Walcha Energy Project - Tia Wind Farm,,,,,,,,,,,,,,
+NSW1,Walcha Energy Project - Winterbourne Wind Farm,,,,,,,,,,,,,,
+NSW1,Walcha Energy Project - Woolbrook Wind Farm,,,,,,,,,,,,,,
+NSW1,Walcha Energy Project Storage - Dungowan PHES,,,,,,,,,,,,,,
+NSW1,Walcha Energy Project Storage - Salisbury BESS,,,,,,,,,,,,,,
+NSW1,Walgett Solar Farm,,,,,,,,,,,,,,
+NSW1,Walla Walla Solar Farm,-35.7481068,146.9656769,OSM_plant,OSM:way/1303191900,medium,,,,151.97,Solar PV - Single axis tracking,Solar - Solar,FRV Australia (Walla Walla Asset Co Pty Ltd (ACN 634 728 868) as trustee for the Walla Walla Asset Trust),WLWLSF1,In Commissioning
+NSW1,Wallabadah BESS,,,,,,,,,400.0,Storage - Battery,Other - Other,North Harbour Clean Energy P/L,,Publicly Announced
+NSW1,Wallaroo Solar Farm,,,,,,,,,122.4,Solar PV - Single axis tracking,Solar - Solar,New Energy development and Univergy Solar Joint venture (SPV) Wallaroo Solar Farm Pty Ltd,,Publicly Announced
+NSW1,Wallerawang 9 BESS,,,,,,,,,300.0,Storage - Battery,Other - Other,Greenspot Wallerawang Pty Ltd as trustee for the Greenspot Wallerawang Unit Trust,,Publicly Announced
+NSW1,Wallerawang BESS,,,,,,,,,,,,,,
+NSW1,Wallgrove Grid Battery project,,,,,,,,,50.0,Storage - Battery,Other - Other,TransGrid,WALGRV1,In Service
+NSW1,Wandoona Solar Farm,,,,,,,,,,,,,,
+NSW1,Waratah Super Battery,-33.2152883,151.5434745,OSM_plant,OSM:way/1148721358,medium,,,,850.18,Storage - Battery,Other - Other,Munmorah Battery ProjectCo Pty Ltd,WTAHB1,Committed
+NSW1,Waratah Super Battery 350MW,-33.2152883,151.5434745,OSM_plant,OSM:way/1148721358,medium,,,,,,,,,
+NSW1,Waratah Super Battery 700MW,-33.2152883,151.5434745,OSM_plant,OSM:way/1148721358,medium,,,,,,,,,
+NSW1,Wattle Creek Energy Hub - Battery Storage,,,,,,,,,350.0,Storage - Battery,Other - Other,Wattle Creek Energy Hub P/L,,Publicly Announced
+NSW1,Wattle Creek Energy Hub - Solar / BESS,,,,,,,,,265.0,Solar PV - Fixed,Solar - Solar,Wattle Creek Energy Hub P/L,,Publicly Announced
+NSW1,Wee Jasper Wind Farm,,,,,,,,,350.0,Wind Turbine - Onshore,Wind - Wind,tetrisenergy_nr,,Publicly Announced
+NSW1,Wee Waa Solar Farm,,,,,,,,,,,,,,
+NSW1,Wellington A-CAES,,,,,,,,,500.0,Storage - Other,Other - Other,Hydrostor Australia Holdings P/L,,Publicly Announced
+NSW1,Wellington BESS,,,,,,,,,,,,,,
+NSW1,Wellington BESS - Stage 1,,,,,,,,,300.0,Storage - Battery,Other - Other,AMPYR,,Publicly Announced
+NSW1,Wellington BESS - Stage 2,,,,,,,,,200.0,Storage - Battery,Other - Other,AMPYR Australia Pty Ltd,,Publicly Announced
+NSW1,Wellington BESS 2,,,,,,,,,,,,,,
+NSW1,Wellington BESS 2 - KCI,,,,,,,,,,,,,,
+NSW1,Wellington North BESS,,,,,,,,,,,,,,
+NSW1,Wellington North BESS - KCI,,,,,,,,,500.0,Storage - Battery,Other - Other, Lightsource Development Services Australia Pty Ltd,,Publicly Announced
+NSW1,Wellington North Solar Farm,-32.4966434,148.9574508,OSM_plant,OSM:way/1010640605,medium,,,,300.0,Solar PV - Fixed,Solar - Solar,AGL Hydro Partnership,,Publicly Announced
+NSW1,Wellington North Solar Farm (AGL),-32.4966434,148.9574508,OSM_plant,OSM:way/1010640605,medium,,,,,,,,,
+NSW1,Wellington North Solar Farm (AGL) _x000D_,-32.4966434,148.9574508,OSM_plant,OSM:way/1010640605,medium,,,,,,,,,
+NSW1,Wellington North Solar Farm (Lightsource),-32.4966434,148.9574508,OSM_plant,OSM:way/1010640605,medium,,,,436.8,Solar PV - Single axis tracking,Solar - Solar,Wellington North Solar Farm Pty Ltd,WELNSF1,In Service
+NSW1,Wellington Solar Farm,-32.5154765,148.9552621,OSM_plant,OSM:relation/12789236,medium,,,,216.08,Solar PV - Single axis tracking,Solar - Solar,Lightsource Australia SPV 4 Pty Ltd,WELLSF1,In Service
+NSW1,Wellington Town BESS - KCI,,,,,,,,,,,,,,
+NSW1,West Illawarra Leagues Club,,,,,,,,,1.43,Reciprocating Engine - Compression ignition,Fossil - Diesel,Western Suburbs Leagues Club,WESTILL1,In Service
+NSW1,West Nowra Landfill Gas Power Generation Facility,,,,,,,,,,,,,,
+NSW1,West Wellington Wind Farm,,,,,,,,,468.0,Wind Turbine - Onshore,Wind - Wind,Mint Renewables,,Publicly Announced
+NSW1,West Wyalong BESS,,,,,,,,,50.0,Storage - Battery,Other - Other,Lightsource BP,,Publicly Announced
+NSW1,West Wyalong Solar Farm,-33.809558,147.3249433,OSM_plant,OSM:way/1301425139,medium,,,,105.27,Solar PV - Single axis tracking,Solar - Solar,West Wyalong Fund Pty Ltd,WSTWYSF1,In Service
+NSW1,"Western Suburbs Leagues Club - Campbelltown, NSW",,,,,,,,,,,,,,
+NSW1,"Western Suburbs Leagues Club - Illawarra - Unanderra, NSW",,,,,,,,,,,,,,
+NSW1,Western Sydney Energy & Resource Recovery Centre,,,,,,,,,58.0,Other - Other,Other - Other, Western Sydney Energy & Resource Recovery Centre ,,Publicly Announced
+NSW1,Western Sydney Pumped Hydro Project,,,,,,,,,1000.0,Storage - Pumped hydro,Hydro - Water,Zen Energy Retail Pty Ltd,,Publicly Announced
+NSW1,White Rock Solar Farm,-29.7642547,151.5530784,OSM_plant,OSM:way/698045659,medium,,,,20.0,Solar PV - Fixed,Solar - Solar,White Rock Wind Farm Pty Ltd,WRSF1,In Service
+NSW1,White Rock Wind Farm - Stage 1,-29.8300118,151.5642607,OSM_plant,OSM:relation/10038622,medium,,,,175.0,Wind Turbine - Onshore,Wind - Wind,CECEP Wind Power Australia Pty Ltd,WRWF1,In Service
+NSW1,White Rock Wind Farm - Stage 2,-29.8300118,151.5642607,OSM_plant,OSM:relation/10038622,medium,,,,352.5,Wind Turbine - Onshore,Wind - Wind,White Rock Wind Farm Pty Ltd,,Publicly Announced
+NSW1,Wilga Park Power Station A,-30.363281,149.6774453,OSM_plant,OSM:way/372238239,medium,,,,6.0,Reciprocating Engine - Spark ignition,Fossil - Coal Seam Methane,Santos,,In Service
+NSW1,Wilga Park Power Station B,-30.363281,149.6774453,OSM_plant,OSM:way/372238239,medium,,,,6.0,Reciprocating Engine - Spark ignition,Fossil - Coal Seam Methane,Santos,,In Service
+NSW1,Willavale BESS,,,,,,,,,300.0,Storage - Battery,Other - Other,X-Elio Willavale Park Trust,,Publicly Announced
+NSW1,Willavale Solar Farm,,,,,,,,,50.0,Solar PV - Fixed,Solar - Solar,X-Elio Australia Pty Ltd,,Publicly Announced
+NSW1,Williamsdale BESS,,,,,,,,,250.0,Storage - Battery,Other - Other,EKU Energy,,Publicly Announced
+NSW1,Williamsdale Solar Farm,-35.570942,149.1285484,OSM_plant,OSM:way/499868652,medium,,,,,,,,,
+NSW1,Winterbourne Wind Farm,,,,,,,,,731.6,Wind Turbine - Onshore,Wind - Wind,WinterbourneWind Pty Ltd,,Publicly Announced
+NSW1,Wollar BESS,,,,,,,,,300.0,Storage - Battery,Other - Other,Wollar Solar Finance Pty Ltd.,,Publicly Announced
+NSW1,Wollar Solar Farm,-32.4165706,149.9364994,OSM_plant,OSM:way/946792950,medium,,,,280.0,Solar PV - Single axis tracking,Solar - Solar,Wollar Solar Development Pty Ltd,WOLARSF1,Committed
+NSW1,Wollongong Offshore Wind,,,,,,,,,,,,,,
+NSW1,Wongalea BESS,,,,,,,,,300.0,Storage - Battery,Other - Other,Eku Energy Projects (Australia) as trustee for the Eku Energy Projects (Australia) Trust,,Publicly Announced
+NSW1,Woodland BESS,,,,,,,,,250.0,Storage - Battery,Other - Other, Risen Energy (Australia) Pty Ltd ,,Publicly Announced
+NSW1,Woodlawn Bioreactor Energy Generation,-35.0630386,149.5701658,OSM_plant,OSM:way/229824066,medium,,,,7.46,Reciprocating Engine - Spark ignition,Renewable Biomass or Waste - Biogas,Veolia Environmental Services Aust P/L,WDLNGN01,In Service
+NSW1,Woodlawn Wind Farm,-35.0923674,149.5724613,OSM_plant,OSM:relation/9722330,medium,,,,48.3,Wind Turbine - Onshore,Wind - Wind,Woodlawn Wind Pty Ltd,WOODLWN1,In Service
+NSW1,Woy Woy Renewable Energy Facility,,,,,,,,,,,,,,
+NSW1,Wyalong Solar Farm,-33.809558,147.3249433,OSM_plant,OSM:way/1301425139,medium,,,,62.32,Solar PV - Single axis tracking,Solar - Solar,Wyalong Solar Farm Pty Ltd as the trustee for the Wyalong Solar Farm Unit Trust,WYASF1,In Service
+NSW1,Wyangala A,,,,,,,,,20.0,Hydro - Dam,Hydro - Water,Hydro Power Pty Ltd,WYANGALA,In Service
+NSW1,Wyangala B,,,,,,,,,4.0,Hydro - Dam,Hydro - Water,AGL,WYANGALB,In Service
+NSW1,Wyong,,,,,,,,,,,,,,
+NSW1,Yambla Range BESS,,,,,,,,,100.0,Storage - Battery,Other - Other,tetrisenergy_nr,,Publicly Announced
+NSW1,Yambla Range Wind Farm,,,,,,,,,200.0,Wind Turbine - Onshore,Wind - Wind,tetrisenergy_nr,,Publicly Announced
+NSW1,Yanco BESS,,,,,,,,,249.92,Storage - Battery,Other - Other,Acenergy Pty Ltd,,Publicly Announced
+NSW1,Yanco Delta Wind Farm,,,,,,,,,1497.6,Wind Turbine - Onshore,Wind - Wind,Yanco Delta Wind Farm Pty Ltd,,Publicly Announced
+NSW1,Yanco Delta Wind Farm Stage 1 - Battery,,,,,,,,,,,,,,
+NSW1,Yanco Delta Wind Farm Stage 1 - Battery - KCI,,,,,,,,,,,,,,
+NSW1,Yanco Solar Farm,,,,,,,,,60.0,Solar PV - Single axis tracking,Solar - Solar,Origin Energy,,Publicly Announced
+NSW1,Yarrabee Solar Power Project,-34.95,146.3,manual,"Yarrabee Park, Morundah NSW — 23km from Narrandera (NSW Planning Portal project 3901 / Origin Energy acquisition 2020)",high,prior,SW-NSW,NSW prior,584.43,Solar PV - Single axis tracking,Solar - Solar,Origin Energy,,Publicly Announced
+NSW1,Yass Solar Farm,,,,,,,,,,,,,,
+NSW1,Yass Solar Farm - KCI,,,,,,,,,,,,,,
+QLD1,Aldoga Solar Farm,-23.946,151.16,manual,Aldoga SF EIS — Gladstone area,high,qld_control,CQ,QLD canonical control — Gladstone area,387.01,Solar PV - Single axis tracking,Solar - Solar,Acciona Energy Australia Global Pty Ltd,ALDGASF1,Anticipated
+QLD1,Kogan Creek,-26.828,150.745,manual,Kogan Creek PS Wikipedia,high,qld_control,WD,QLD canonical control — Chinchilla/Kogan,744.0,Turbine - Steam Super Critical,Fossil - Black Coal,Kogan Creek Power Station Pty Ltd,KPP_1,In Service
+QLD1,MacIntyre Wind Farm,-28.396,151.205,manual,MacIntyre WF EIS — Karara/Warwick area,high,qld_control,SD,QLD canonical control — Southern Downs,923.4,Wind Turbine - Onshore,Wind - Wind,Macintyre Windfarm Pty Ltd and Arc Energy Macintyre Pty Ltd,MCINTYR1,Committed*
+QLD1,Stanwell,-23.546,150.336,manual,Stanwell PS Wikipedia,high,qld_control,CQ,QLD canonical control — Stanwell Rockhampton,365.0,Turbine - Steam Sub Critical,Fossil - Black Coal,Stanwell Corporation Limited,STAN-1,In Service
+QLD1,Western Downs Green Power Hub,-26.674,150.58,manual,Neoen Western Downs GPH — Brigalow,high,qld_control,WD,QLD canonical control — Darling Downs area,,,,,,
+SA1,AGL Battery (Maoneng),,,,,,,,,,,,,,
+SA1,AGL VPP,,,,,,,,,,,,,,
+SA1,Adelaide Airport,,,,,,,,,,,,,,
+SA1,Adelaide Desalination Plant,-35.0996277,138.482704,OSM_plant,OSM:relation/12798948,medium,,,,13.75,Storage - Battery,Other - Other,South Australian Water Corporation,ADPBA1,In Service
+SA1,Adelaide Zoo Solar System,,,,,,,,,,,,,,
+SA1,Angaston,-34.5033859,139.0245755,OSM_plant,OSM:way/715631438,medium,,,,30.8,Reciprocating Engine - Compression ignition,Fossil - Diesel,Snowy Hydro Ltd,ANGAST1,In Service
+SA1,Augusta BESS,,,,,,,,,270.0,Storage - Battery,Other - Other,Augusta BESS Pty Ltd,,Publicly Announced
+SA1,Aurora Solar Energy Project - Phase 1,,,,,,,,,140.0,Storage - Battery,Other - Other,SiliconAurora,,Publicly Announced
+SA1,Australia Plains Solar Farm,,,,,,,,,200.0,Solar PV - Single axis tracking,Solar - Solar,Gree,,Publicly Announced
+SA1,BESS Blacktop,,,,,,,,,,,,,,
+SA1,BHP Olympic Dam Backup Generation,,,,,,,,,,,,,,
+SA1,Barker Inlet Power Station,-34.8037002,138.5236033,OSM_plant,OSM:way/831284070,medium,,,,210.0,Reciprocating Engine - Spark ignition,Fossil - Natural Gas Pipeline,AGL Barker Inlet Pty Ltd,BARKIPS1,In Service
+SA1,Barker Inlet Power Station 2,-34.8037002,138.5236033,OSM_plant,OSM:way/831284070,medium,,,,280.0,Turbine - OCGT,Fossil - Natural Gas Pipeline,AGL Energy Limited,,Publicly Announced
+SA1,Barn Hill,,,,,,,,,186.0,Wind Turbine - Onshore,Wind - Wind,Barn HIll Wind Farm Pty Ltd,,Publicly Announced
+SA1,Barn Hill BESS,,,,,,,,,270.0,Storage - Battery,Other - Other,AGL Energy Limited,,Publicly Announced
+SA1,Baroota Pumped Hydro Project,,,,,,,,,250.0,Hydro - Dam,Hydro - Water,ACEN Renewables,,Publicly Announced
+SA1,Blacktop BESS - KCI,,,,,,,,,100.0,Storage - Battery,Other - Other, BESS Officer Pty Ltd,,Publicly Announced
+SA1,Blanche BESS - KCI,,,,,,,,,128.0,Storage - Battery,Other - Other,Blanche BESS Pty Ltd as trustee for Blanche BESS Trust,,Publicly Announced
+SA1,Blue Lake Milling Power Plant,,,,,,,,,,,,,,
+SA1,Blyth BESS,,,,,,,,,200.0,Storage - Battery,Other - Other,Blyth Battery P/L as trustee for Blyth Battery Trust,BLYTHB1,In Service
+SA1,Blyth West BESS,,,,,,,,,,,,,,
+SA1,Bolivar Power Station,,,,,,,,,128.4,Turbine - OCGT,Fossil - Natural Gas Pipeline,Iberdrola Australia Energy Markets Pty Limited,BOLIVPS1,In Service
+SA1,Bolivar Waste Water Treatment,,,,,,,,,8.25,Storage - Battery,Other - Other,South Australian Water Corporation,BOWWBA1,In Service
+SA1,Bordertown Power Station Gen,,,,,,,,,,,,,,
+SA1,Bridle Track Solar Project,,,,,,,,,300.0,Solar PV - Single axis tracking,Solar - Solar,ACEN Renewables,,Publicly Announced
+SA1,Brinkworth BESS,,,,,,,,,249.98,Storage - Battery,Other - Other,Brinkworth Solar Farm Pty Ltd,,Publicly Announced
+SA1,Brinkworth BESS - Storage - KCI,,,,,,,,,,,,,,
+SA1,Bundey BESS and Solar Project,,,,,,,,,600.0,Solar PV - Fixed,Solar - Solar,Genaspi Energy Group Pty Ltd,,Publicly Announced
+SA1,Bundey Energy Hub Battery Energy Storage A,,,,,,,,,,,,,,
+SA1,Bundy Energy Hub A (BESS),,,,,,,,,250.0,Storage - Battery,Other - Other,Syn-Co Global,,Publicly Announced
+SA1,Bundy Energy Hub B (BESS),,,,,,,,,250.0,Storage - Battery,Other - Other,SynCo Global,,Publicly Announced
+SA1,Bungala BESS,,,,,,,,,,,,,,
+SA1,Bungala One Solar Farm,,,,,,,,,135.0,Solar PV - Single axis tracking,Solar - Solar,Bungala One Operations Pty Ltd as trustee for the Bungala One Operations Trust,BNGSF1,In Service
+SA1,Bungala Three Battery Energy Storage System,,,,,,,,,,,,,,
+SA1,Bungala Three Solar Power Plant,,,,,,,,,,,,,,
+SA1,Bungala Two Solar Farm,,,,,,,,,135.0,Solar PV - Single axis tracking,Solar - Solar,Bungala Two Operations Pty Ltd as trustee for the Bungala Two Operations Trust,BNGSF2,In Service
+SA1,Bungama BESS,,,,,,,,,,,,,,
+SA1,Bungama BESS (ARENA ),,,,,,,,,200.0,Storage - Battery,Other - Other,Bungama Bess Trust,,Publicly Announced
+SA1,Bungama Solar,,,,,,,,,280.02,Solar PV - Single axis tracking,Solar - Solar,Bungama Project (Solar) Operations Pty Ltd,,Publicly Announced
+SA1,Canunda,-37.6874819,140.3513764,OSM_plant,OSM:relation/9032513,medium,,,,46.0,Wind Turbine - Onshore,Wind - Wind,Canunda Power Pty Ltd,CNUNDAWF,In Service
+SA1,Carmody BESS,,,,,,,,,,,,,,
+SA1,Carmody's Hill,,,,,,,,,,,,,,
+SA1,Carmody's Hill BESS,,,,,,,,,118.02,Storage - Battery,Other - Other,Georgetown Hills Renewable Energy Pty Ltd as trustee for the Georgetown Hills Renewable Energy Trust,,Publicly Announced
+SA1,Carmody's Hill Wind Farm,,,,,,,,,247.0,Wind Turbine - Onshore,Wind - Wind,Georgetown Hills Renewable Energy Pty Ltd as trustee for the Georgetown Hills Renewable Energy Trust,,Publicly Announced
+SA1,Carmodys Hill Wind Farm,,,,,,,,,,,,,,
+SA1,Cathedral Rocks,-34.856,135.582,manual,Cathedral Rocks WF OSM (Port Lincoln),high,prior,EYR,SA prior — Port Lincoln Eyre Pen,62.0,Wind Turbine - Onshore,Wind - Wind,JV Cathedral Rock Investments Pty Ltd  - Acciona Energy Australia Global Pty Ltd and EnergyAustralia Pty Ltd,CATHROCK,In Service
+SA1,Ceduna BESS,,,,,,,,,25.0,Storage - Battery,Other - Other,tetrisenergy_nr,,Publicly Announced
+SA1,Ceduna Solar Farm,,,,,,,,,200.0,Solar PV - Fixed,Solar - Solar,tetrisenergy_nr,,Publicly Announced
+SA1,Ceduna Wind Farm,,,,,,,,,400.0,Wind Turbine - Onshore,Wind - Wind,tetrisenergy_nr,,Publicly Announced
+SA1,Chaff Mill (Mintaro) BESS,,,,,,,,,,,,,,
+SA1,Chaff Mill (Mintaro) Solar Farm,,,,,,,,,,,,,,
+SA1,Christies Beach Wastewater Treatment Plant,-35.1244555,138.4722932,OSM_plant,OSM:relation/12798956,medium,,,,3.0,Storage - Battery,Other - Other,South Australian Water Corporation,CBWWBA1,In Commissioning
+SA1,Clements Gap - BESS,,,,,,,,,60.0,Storage - Battery,Other - Other,Pacific Hydro Clements Gap Pty Ltd,,Committed
+SA1,Clements Gap Wind Farm,,,,,,,,,56.7,Wind Turbine - Onshore,Wind - Wind,Pacific Hydro Clements Gap Pty Ltd,CLEMGPWF,In Service
+SA1,Coopers Co-gen,,,,,,,,,,,,,,
+SA1,Crystal Brook Energy Park - BESS,,,,,,,,,,,,,,
+SA1,Crystal Brook Energy Park - Solar,,,,,,,,,,,,,,
+SA1,Crystal Brook Energy Park - Wind,,,,,,,,,,,,,,
+SA1,Cultana Pumped Hydro Energy Storage,,,,,,,,,,,,,,
+SA1,Cultana Solar Farm,,,,,,,,,357.45,Solar PV - Single axis tracking,Solar - Solar,Cultana Solar Project Company Pty Ltd as trustee for the Cultana Solar Farm Trust,,Publicly Announced
+SA1,Dalrymple BESS,-34.9339538,137.743531,OSM_plant,OSM:way/711568924,medium,,,,30.0,Storage - Battery,Other - Other,ElectraNet,DALNTH1,In Service
+SA1,Davenport BESS,,,,,,,,,270.0,Storage - Battery,Other - Other,Green Gold Energy Pty Ltd,,Publicly Announced
+SA1,Direk BESS,,,,,,,,,20.0,Storage - Battery,Other - Other,BESS DIREK PTY LTD,,Publicly Announced
+SA1,Dry Creek BESS,,,,,,,,,,,,,,
+SA1,Dry Creek BESS - KCI,,,,,,,,,,,,,,
+SA1,Dry Creek GT,,,,,,,,,52.0,Turbine - OCGT,Fossil - Natural Gas Pipeline,Synergen Power Pty Ltd,DRYCGT1,In Service
+SA1,Emeroo BESS,,,,,,,,,61.46,Storage - Battery,Other - Other,Potentia Energy Group Pty Ltd,,Publicly Announced
+SA1,Emeroo BESS (Bungala),-32.475,137.9,manual,"Bungala SF area, Port Augusta — Emeroo BESS",medium,shared_boundary,MN,keyword: Bungala; capacity: nan,,,,,,
+SA1,Exmoor,,,,,,,,,,,,,,
+SA1,GEP - SRBE1,,,,,,,,,,,,,,
+SA1,Geranium Plains Solar and BESS,,,,,,,,,250.0,Solar PV - Single axis tracking,Solar - Solar, Risen Energy (Australia) Pty Ltd,,Publicly Announced
+SA1,Goat Hill Pumped Hydro,,,,,,,,,230.0,Storage - Pumped hydro,Hydro - Water,Altura Group,,Publicly Announced
+SA1,Gould Creek BESS,,,,,,,,,215.0,Storage - Battery,Other - Other,Gould Creek BESS Project Pty Ltd,,Publicly Announced
+SA1,Goyder BESS,,,,,,,,,300.0,Storage - Battery,Other - Other,Neoen Australia Pty Ltd,,Publicly Announced
+SA1,Goyder North Renewable Energy Facility,,,,,,,,,600.0,Wind Turbine - Onshore,Wind - Wind,Neoen Australia,,Publicly Announced
+SA1,Goyder North Stage 1 Wind farm - KCI,,,,,,,,,,,,,,
+SA1,Goyder South Hub - BESS,,,,,,,,,,,,,,
+SA1,Goyder South Hub - Solar,,,,,,,,,,,,,,
+SA1,Goyder South Hub - Wind,,,,,,,,,,,,,,
+SA1,Goyder South Wind Farm 1A,,,,,,,,,209.0,Wind Turbine - Onshore,Wind - Wind,Goyder Wind Farm 1A Pty Ltd as trustee for Goyder Wind Farm 1A Trust,GSWF1A,In Commissioning
+SA1,Goyder South Wind Farm 1B,,,,,,,,,203.5,Wind Turbine - Onshore,Wind - Wind,Goyder Wind Farm 1B Pty Ltd as trustee for Goyder Wind Farm 1B Trust,GSWF1B1,In Commissioning
+SA1,Goyder South hub - BESS,,,,,,,,,,,,,,
+SA1,Goyder South hub - Solar,,,,,,,,,,,,,,
+SA1,Goyder South hub - Wind,,,,,,,,,,,,,,
+SA1,Green Hydrogen Power Station,,,,,,,,,,,,,,
+SA1,Hallett 4 North Brown Hill,,,,,,,,,132.3,Wind Turbine - Onshore,Wind - Wind,Brown Hill North Pty Ltd,NBHWF1,In Service
+SA1,Hallett 5 The Bluff WF,,,,,,,,,52.5,Wind Turbine - Onshore,Wind - Wind,Eurus Energy,BLUFF1,In Service
+SA1,Hallett BESS,,,,,,,,,50.0,Storage - Battery,Other - Other,EnergyAustralia Hallett Pty Ltd,,Publicly Announced
+SA1,Hallett GT,,,,,,,,,51.0,Turbine - OCGT,Fossil - Natural Gas Pipeline,EnergyAustralia Hallett Pty Ltd,AGLHAL,In Service
+SA1,Hallett Stage 1 Brown Hill,,,,,,,,,94.5,Wind Turbine - Onshore,Wind - Wind,Palisade Investment Partner Limited,HALLWF1,In Service
+SA1,Hallett Stage 2 Hallett Hill,,,,,,,,,71.4,Wind Turbine - Onshore,Wind - Wind,Infrastructure Capital Group Limited,HALLWF2,In Service
+SA1,Happy Valley Reservoir,,,,,,,,,11.0,Storage - Battery,Other - Other,South Australian Water Corporation,HVWWBA1,In Service
+SA1,Harrogate BESS,,,,,,,,,269.95,Storage - Battery,Other - Other,Enel Green Power Australia Pty Ltd,,Publicly Announced
+SA1,Heathgate Resources Beverley mine - BESS,,,,,,,,,,,,,,
+SA1,Highbury Pumped Hydro Energy Storage,,,,,,,,,,,,,,
+SA1,Hornsdale Power Reserve Unit 1,-33.0864969,138.5187457,OSM_plant,OSM:relation/11985017,medium,,,,100.0,Storage - Battery,Other - Other,Hornsdale Power Reserve Pty Ltd,HPR1,In Service
+SA1,Hornsdale Wind Farm Stage 1,,,,,,,,,102.4,Wind Turbine - Onshore,Wind - Wind,HWF 1 Pty Ltd,HDWF1,In Service
+SA1,Hornsdale Wind Farm Stage 2,,,,,,,,,102.4,Wind Turbine - Onshore,Wind - Wind,HWF 2 Pty Ltd,HDWF2,In Service
+SA1,Hornsdale Wind Farm Stage 3,,,,,,,,,112.0,Wind Turbine - Onshore,Wind - Wind,HWF 3 Pty Ltd,HDWF3,In Service
+SA1,Hydrogen Jobs Plan,,,,,,,,,,,,,,
+SA1,Kanmantoo,,,,,,,,,,,,,,
+SA1,Keyneton Wind Farm,,,,,,,,,,,,,,
+SA1,Kincraig BESS,,,,,,,,,4.2,Storage - Battery,Other - Other,acepower_NR,,Publicly Announced
+SA1,Kingfisher Solar Storage - Solar,,,,,,,,,,Solar PV - Single axis tracking,Solar - Solar,Lyon Solar,,Publicly Announced
+SA1,Kingfisher Solar Storage - Storage,,,,,,,,,100.0,Storage - Battery,Other - Other,Lyon Solar,,Publicly Announced
+SA1,Kingscote Power Station,,,,,,,,,,,,,,
+SA1,Koolunga Battery Energy Storage System 1,,,,,,,,,100.0,Storage - Battery,Other - Other,Equis Energy (Australia) Projects (Ngumi 6) Pty Ltd as trustee for the Equis Energy (Australia) Ngumi 6 Asset Trust,,Publicly Announced
+SA1,Koolunga Battery Energy Storage System 2,,,,,,,,,100.0,Storage - Battery,Other - Other,Equis Energy (Australia) Projects (Ngumi 6) Pty Ltd as trustee for the Equis Energy (Australia) Ngumi 6 Asset Trust,,Publicly Announced
+SA1,LINCOLN GAP BESSBDU,,,,,,,,,10.0,Storage - Battery,Other - Other,Lincoln Gap Wind Farm (Operations) Pty Ltd,LGAPBS1,Anticipated
+SA1,Ladbroke Grove,-37.4563215,140.7821835,OSM_plant,OSM:way/831284065,medium,,,,40.0,Turbine - OCGT,Fossil - Natural Gas Pipeline,Origin Energy Power Limited,LADBROK1,In Service
+SA1,Lake Bonney 1 Wind Farm,,,,,,,,,80.5,Wind Turbine - Onshore,Wind - Wind,Lake Bonney Wind Power Pty Ltd,LKBONNY1,In Service
+SA1,Lake Bonney 2 Wind Farm,,,,,,,,,159.0,Wind Turbine - Onshore,Wind - Wind,Lake Bonney Wind Power Pty Ltd,LKBONNY2,In Service
+SA1,Lake Bonney 3 Wind Farm,,,,,,,,,39.0,Wind Turbine - Onshore,Wind - Wind,Lake Bonney Wind Power Pty Ltd,LKBONNY3,In Service
+SA1,Lake Bonney BESS1,,,,,,,,,,,,,,
+SA1,Lake Bonney Battery Energy Storage,-37.7389793,140.3868101,OSM_plant,OSM:way/948580926,medium,,,,25.0,Storage - Battery,Other - Other,Lake Bonney BESS Pty Limited ,LBB1,In Service
+SA1,Leigh Creek Energy Project,,,,,,,,,45.0,Turbine - Steam Sub Critical,Other - Other,Leigh Creek Energy,,Publicly Announced
+SA1,Lincoln Gap Wind Farm - BESS,-32.5642267,137.5576693,OSM_plant,OSM:way/1303395300,medium,,,,,,,,,
+SA1,Lincoln Gap Wind Farm - Stage 2,-32.5527974,137.5545635,OSM_plant,OSM:relation/9744431,medium,,,,86.4,Wind Turbine - Onshore,Wind - Wind,Lincoln Gap Wind Farm Pty Ltd,LGAPWF2,In Service
+SA1,Lincoln Gap Wind Farm - stage 1,-32.5527974,137.5545635,OSM_plant,OSM:relation/9744431,medium,,,,126.0,Wind Turbine - Onshore,Wind - Wind,Lincoln Gap Wind Farm Pty Ltd,LGAPWF1,In Service
+SA1,Lincoln Gap Wind Farm - stage 2,-32.5527974,137.5545635,OSM_plant,OSM:relation/9744431,medium,,,,,,,,,
+SA1,Lincoln Gap Wind Farm stage 3,-32.5527974,137.5545635,OSM_plant,OSM:relation/9744431,medium,,,,277.2,Wind Turbine - Onshore,Wind - Wind,Lincoln Gap 3 Wind Farm Pty Ltd,,Publicly Announced
+SA1,Lindley BESS,,,,,,,,,100.0,Storage - Battery,Other - Other,NEMMCO,,Publicly Announced
+SA1,Lionsgate Battery,,,,,,,,,150.0,Storage - Battery,Other - Other,CEP Energy,,Publicly Announced
+SA1,Lonsdale,-35.1097019,138.4910172,OSM_plant,OSM:way/261015393,medium,,,,20.16,Reciprocating Engine - Compression ignition,Fossil - Diesel,Lumo Generation SA Pty Ltd,LONSDALE,In Service
+SA1,Mannum Adelaide Pumping Station No 2 - MAPL2 (Palmer),-34.92,139.3,manual,"Mannum, eastern SA",high,prior,EXCLUDE-pumping,Pumping station — should be excluded by filter,16.5,Solar PV - Single axis tracking,Solar - Solar,South Australian Water Corporation,MAPS2PV1,In Service
+SA1,Mannum Adelaide Pumping Station No 3 - MAPL3 (Kanmantoo),,,,,,,,,,,,,,
+SA1,Mannum Adelaide Pumping Station No 3 - MAPL3 (Tungkillo),,,,,,,,,16.5,Solar PV - Single axis tracking,Solar - Solar,South Australian Water Corporation,MAPS3PV1,In Service
+SA1,Mannum BESS,,,,,,,,,100.0,Storage - Battery,Other - Other,Mannum Stage 2 Battery SubCo Pty Ltd as Trustee for The Mannum Stage 2 Battery Unit Trust,,Anticipated
+SA1,Mannum Solar Farm,-35.0862169,139.2622548,OSM_plant,OSM:way/1049867291,medium,,,,,,,,,
+SA1,Mannum Solar Farm 2,-34.9146786,139.2683894,OSM_plant,OSM:way/1388680382,medium,,,,29.99,Solar PV - Single axis tracking,Solar - Solar,Mannum Stage 2 SubCo Pty Ltd as trustee for the Mannum Stage 2 Unit Trust,MANNSF2,In Commissioning
+SA1,Marcollat Energy Hub (Stage 1),,,,,,,,,400.0,Storage - Battery,Other - Other,BE PRO MC1 PTY LTD,,Publicly Announced
+SA1,Marcollat Energy Hub (stage 2),,,,,,,,,400.0,Storage - Battery,Other - Other,Bison Energy,,Publicly Announced
+SA1,Marcollat Energy Hub(Stage 1),,,,,,,,,,,,,,
+SA1,Markaranka Solar and Storage,,,,,,,,,375.0,Solar PV - Single axis tracking,Solar - Solar,Monash Energy Pty Ltd,,Publicly Announced
+SA1,Middleback Ranges Pumped Hydro,,,,,,,,,,,,,,
+SA1,Mintaro GT,,,,,,,,,90.0,Turbine - OCGT,Fossil - Natural Gas Pipeline,Synergen Power Pty Ltd,MINTARO,In Service
+SA1,Mobilong BESS,,,,,,,,,180.16,Storage - Battery,Other - Other,Mobilong ProjectCo Pty Ltd,,Publicly Announced
+SA1,Monash Solar Farm,,,,,,,,,,,,,,
+SA1,Monash Solar Farm - KCI,,,,,,,,,100.0,Solar PV - Fixed,Solar - Solar, 1265 Warnecke Rd Pty Ltd,,Publicly Announced
+SA1,Morgan Battery,,,,,,,,,30.0,Storage - Battery,Other - Other,NEMMCO,,Publicly Announced
+SA1,Morgan Long Duration Energy Storage - KCI,,,,,,,,,40.0,Storage - Battery,Other - Other,Origin Energy,,Publicly Announced
+SA1,Morgan Solar,-34.025,139.66,manual,Morgan SA — Riverland,high,shared_boundary,MN,keyword: Morgan Solar; capacity: 108.0,108.0,Solar PV - Fixed,Solar - Solar,Green Gold Energy Pty Ltd,,Publicly Announced
+SA1,Morgan To Whyalla Pipeline No 1 PS And Water Filtration Plant,-34.0,139.66,manual,Morgan SA (pipeline origin),high,prior,EXCLUDE-pipeline,Pipeline PS — should be excluded by filter,5.5,Solar PV - Single axis tracking,Solar - Solar,South Australian Water Corporation,MWPS1PV1,In Service
+SA1,Morgan To Whyalla Pipeline No 2 PS,-34.0,138.7,manual,Pipeline midpoint near Burra,medium,prior,EXCLUDE-pipeline,Pipeline PS — should be excluded by filter,5.5,Solar PV - Single axis tracking,Solar - Solar,South Australian Water Corporation,MWPS2PV1,In Service
+SA1,Morgan To Whyalla Pipeline No 3 PS,-33.5,138.1,manual,Pipeline midpoint,medium,prior,EXCLUDE-pipeline,Pipeline PS — should be excluded by filter,7.5,Solar PV - Single axis tracking,Solar - Solar,South Australian Water Corporation,MWPS3PV1,In Service
+SA1,Morgan To Whyalla Pipeline No 4 PS,-33.2,137.8,manual,Pipeline near Whyalla,medium,prior,EXCLUDE-pipeline,Pipeline PS — should be excluded by filter,5.5,Solar PV - Single axis tracking,Solar - Solar,South Australian Water Corporation,MWPS4PV1,In Service
+SA1,Mt Millar,,,,,,,,,,,,,,
+SA1,Mt Millar Wind Farm,,,,,,,,,72.28,Wind Turbine - Onshore,Wind - Wind,MT MILLAR WIND FARM PTY LTD,MTMILLAR,In Service
+SA1,Murray Bridge - Onkaparinga Pipeline Pump 2,,,,,,,,,13.75,Solar PV - Single axis tracking,Solar - Solar,South Australian Water Corporation,MBPS2PV1,In Service
+SA1,Murray Bridge Hahndorf Pumping Station 2 Solar,,,,,,,,,,,,,,
+SA1,Murray Bridge Hahndorf Pumping Station 2 Solar - KCI,,,,,,,,,,,,,,
+SA1,NAWMA,,,,,,,,,,,,,,
+SA1,NAWMA - LFG - SOLAR,,,,,,,,,,,,,,
+SA1,NAWMA Balefill Site Uleybury,,,,,,,,,,,,,,
+SA1,North West Bend Substation,,,,,,,,,,,,,,
+SA1,North West Bend Substation Solar,,,,,,,,,,,,,,
+SA1,Osborne,-34.7976776,138.5079348,OSM_plant,OSM:way/172717085,medium,,,,118.0,Turbine - CCGT,Fossil - Natural Gas Pipeline,Osborne Cogeneration Pty Ltd,OSB-AG,In Service - Announced Withdrawal (Permanent)
+SA1,Osborne BESS,,,,,,,,,300.0,Storage - Battery,Other - Other,Osboourne Cogeneration P/L,,Publicly Announced
+SA1,Pacific Green Energy Park - Limestone Coast North,,,,,,,,,250.0,Storage - Battery,Other - Other,Pacific Green,,Publicly Announced
+SA1,Pacific Green Energy Park - Limestone Coast West,,,,,,,,,250.0,Storage - Battery,Other - Other,Pacific Green,,Publicly Announced
+SA1,Pallamana Solar Farm,,,,,,,,,,,,,,
+SA1,Palmer Wind Farm,,,,,,,,,274.0,Wind Turbine - Onshore,Wind - Wind,Tilt Renewables Australia Pty Ltd,,Publicly Announced
+SA1,Para Hill BESS,,,,,,,,,300.0,Storage - Battery,Other - Other,X-Elio Australia Pty Ltd,,Publicly Announced
+SA1,Para Substation/Gould Creek BESS,,,,,,,,,,,,,,
+SA1,Pedler Creek,,,,,,,,,,,,,,
+SA1,Pelican Point,-34.7653029,138.5052912,OSM_plant,OSM:way/83656868,medium,,,,358.0,Turbine - CCGT,Fossil - Natural Gas Pipeline,Pelican Point Power Limited,PPCCGT,In Service
+SA1,Pelican Point BESS,,,,,,,,,200.0,Storage - Battery,Other - Other,Engie,,Publicly Announced
+SA1,Pelican Point S2,,,,,,,,,,,,,,
+SA1,Penfield BESS,,,,,,,,,20.0,Storage - Battery,Other - Other,BESS PENFIELD PTY LTD,,Publicly Announced
+SA1,Peterborough Solar Farm,-32.979091,138.8154578,OSM_plant,OSM:way/612106758,medium,,,,,,,,,
+SA1,Planet Ark Power and Schneider Electric - PV and Battery Microgrid,,,,,,,,,,,,,,
+SA1,Playford Battery,,,,,,,,,100.0,Storage - Battery,Other - Other,CFG,,Publicly Announced
+SA1,Port Augusta Renewable Energy Park - Solar,-32.5572169,137.8589026,OSM_plant,OSM:relation/12767275,medium,shared_boundary,MN,keyword: Port Augusta; capacity: 99.0,99.0,Solar PV - Fixed,Solar - Solar,PAREP 1 Pty Ltd,PAREPS1,In Service
+SA1,Port Augusta Renewable Energy Park - Wind,-32.5981951,137.904187,OSM_plant,OSM:relation/12767276,medium,shared_boundary,MN,keyword: Port Augusta; capacity: 201.0,201.0,Wind Turbine - Onshore,Wind - Wind,PAREP 1 Pty Ltd,PAREPW1,In Service
+SA1,Port Augusta Solar Farm (KCI),-32.5,137.78,manual,Port Augusta city centre,high,shared_boundary,MN,keyword: Port Augusta; capacity: 300.0,300.0,Solar PV - Fixed,Solar - Solar,Edify Energy Pty Ltd,,Publicly Announced
+SA1,Port Lincoln GT,,,,,,,,,50.0,Turbine - OCGT,Fossil - Diesel,Synergen Power Pty Ltd,POR01,In Service - Announced Withdrawal (Permanent)
+SA1,Port Paterson BESS,,,,,,,,,70.0,Storage - Battery,Other - Other,Green Gold Energy,,Publicly Announced
+SA1,Port Pirie,,,,,,,,,,,,,,
+SA1,Port Pirie Solar Farm - KCI,,,,,,,,,300.0,Solar PV - Fixed,Solar - Solar, Trafigura Hydrogen Australia,,Publicly Announced
+SA1,Port Stanvac 1,,,,,,,,,56.52,Reciprocating Engine - Compression ignition,Fossil - Diesel,Snowy Hydro Ltd,PTSTAN1,In Service
+SA1,Project Monash - Solar - KCI,,,,,,,,,375.0,Solar PV - Fixed,Solar - Solar,Monash Renewables Pty Ltd,,Publicly Announced
+SA1,Project Monash - Storage - KCI,,,,,,,,,125.0,Storage - Battery,Other - Other,Monash Renewables Pty Ltd,,Publicly Announced
+SA1,Quarantine,-34.7793959,138.5227539,OSM_plant,OSM:way/172714958,medium,,,,165.0,Turbine - OCGT,Fossil - Natural Gas Pipeline,Origin Energy Power Limited,QPS1,In Service
+SA1,RMGE94,,,,,,,,,,,,,,
+SA1,Redmud Green Energy 10,,,,,,,,,,,,,,
+SA1,Redmud Green Energy 11,,,,,,,,,,,,,,
+SA1,Redmud Green Energy 12,,,,,,,,,,,,,,
+SA1,Redmud Green Energy 13,,,,,,,,,,,,,,
+SA1,Redmud Green Energy 14,,,,,,,,,,,,,,
+SA1,Redmud Green Energy 4,,,,,,,,,,,,,,
+SA1,Redmud Green Energy 5,,,,,,,,,,,,,,
+SA1,Redmud Green Energy 6,,,,,,,,,,,,,,
+SA1,Redmud Green Energy 7,,,,,,,,,,,,,,
+SA1,Redmud Green Energy 8,,,,,,,,,,,,,,
+SA1,Redmud Green Energy 9,,,,,,,,,,,,,,
+SA1,Reeves Plains OCGT - stage 1,,,,,,,,,150.0,Turbine - OCGT,Fossil - Natural Gas Pipeline,Alinta Energy Reeves Plains Pty Ltd,,Publicly Announced
+SA1,Reeves Plains OCGT - stage 2,,,,,,,,,150.0,Turbine - OCGT,Fossil - Natural Gas Pipeline,Alinta Energy Reeves Plains Pty Ltd,,Publicly Announced
+SA1,Reeves Plains Power Station BESS,,,,,,,,,250.0,Storage - Battery,Other - Other,Alinta Energy,,Publicly Announced
+SA1,Riverland Solar Storage - Solar,,,,,,,,,330.0,Solar PV - Single axis tracking,Solar - Solar,Lyon Solar,,Publicly Announced
+SA1,Riverland Solar Storage - Storage,,,,,,,,,100.0,Storage - Battery,Other - Other,Lyon Solar,,Publicly Announced
+SA1,Robertstown BESS,,,,,,,,,400.0,Storage - Battery,Other - Other,StorEnergy 4 Pty Ltd,,Publicly Announced
+SA1,Robertstown Solar,,,,,,,,,500.0,Solar PV - Single axis tracking,Solar - Solar,Robertstown Project (Solar) Operations Pty Ltd,,Publicly Announced
+SA1,Robertstown Solar Farm,,,,,,,,,,,,,,
+SA1,SA Aquatic & Leasure Centre,,,,,,,,,,,,,,
+SA1,SA Government Virtual Power Plant - stage 1,,,,,,,,,,,,,,
+SA1,SA Government Virtual Power Plant - stage 2,,,,,,,,,,,,,,
+SA1,SA Government Virtual Power Plant - stage 3,,,,,,,,,,,,,,
+SA1,SA Water PV Plant,,,,,,,,,,,,,,
+SA1,SSE Whyalla Solar Farm,-33.03,137.58,manual,Whyalla city centre,high,shared_boundary,MN,keyword: Whyalla; capacity: nan,,,,,,
+SA1,Seacliff Mini Hydro,,,,,,,,,,,,,,
+SA1,Seaford Renewable Energy Facility,,,,,,,,,,,,,,
+SA1,Simply Energy VPP,,,,,,,,,,,,,,
+SA1,Snapper Point Power Station,-34.7644136,138.5083254,OSM_plant,OSM:way/1071991892,medium,,,,123.2,Turbine - OCGT,Fossil - Natural Gas,Port Adelaide Energy Pty Ltd,SNAPPER1,In Service
+SA1,Snowtown North Solar Farm,,,,,,,,,44.0,Solar PV - Fixed,Solar - Solar,Tilt Renewables,,Publicly Announced
+SA1,Snowtown North Solar Farm - BESS,,,,,,,,,100.0,Storage - Battery,Other - Other,Tilt Renewables,,Publicly Announced
+SA1,Snowtown S2 Wind Farm,,,,,,,,,144.0,Wind Turbine - Onshore,Wind - Wind,Snowtown Wind Farm Stage 2 Pty Ltd,SNOWNTH1,In Service
+SA1,Snowtown Wind Farm,-33.7242133,138.1497083,OSM_plant,OSM:relation/9034052,medium,,,,98.7,Wind Turbine - Onshore,Wind - Wind,Snowtown Wind Farm Pty Ltd,SNOWTWN1,In Service
+SA1,Snuggery,,,,,,,,,63.0,Turbine - OCGT,Fossil - Diesel,Synergen Power Pty Ltd,SNUG1,In Service - Announced Withdrawal (Permanent)
+SA1,Solar River Solar And BESS Project,,,,,,,,,255.76,Solar PV - Single axis tracking,Solar - Solar,Zen Energy Retail Pty Ltd,,Publicly Announced
+SA1,South East BESS - Storage - KCI,,,,,,,,,200.0,Storage - Battery,Other - Other,Equis Energy (Australia) Projects (Ngumi 8) Pty Ltd as trustee for the Equis Energy(Australia) Ngumi 8 Asset Trust,,Publicly Announced
+SA1,South Hummocks BESS,,,,,,,,,,,,,,
+SA1,Starfish Hill,-35.5662698,138.1419657,OSM_plant,OSM:relation/9892674,medium,,,,33.0,Wind Turbine - Onshore,Wind - Wind,Ratch Australia,STARHLWF,In Service
+SA1,Stony Gap,,,,,,,,,,,,,,
+SA1,Sturt Solar,,,,,,,,,300.0,Solar PV - Single axis tracking,Solar - Solar,Sturt Solar PTY LTD,,Publicly Announced
+SA1,Summerfield,,,,,,,,,,,,,,
+SA1,Summerfield BESS,,,,,,,,,120.0,Storage - Battery,Other - Other,CI Summerfield BESS Pty Ltd (ACN 656 223 773) as trustee for the CI Summerfield BESS Trust,,Publicly Announced
+SA1,Summerfield BESS - KCI,,,,,,,,,,,,,,
+SA1,Tailem Bend - Solar,-35.2715626,139.485948,OSM_plant,OSM:way/708047845,medium,,,,108.0,Solar PV - Fixed,Solar - Solar,Vena Energy,TBSF1,In Service
+SA1,Tailem Bend Battery Project,,,,,,,,,41.5,Storage - Battery,Other - Other,Vena Energy,TB2BG1,Committed
+SA1,Tailem Bend Stage 2 Solar Project,,,,,,,,,105.0,Solar PV - Single axis tracking,Solar - Solar,Vena Energy,TB2SF1,In Commissioning
+SA1,Tailem Bend Stage 3,,,,,,,,,204.0,Storage - Battery,Other - Other,TBSOL,,Publicly Announced
+SA1,Tatiara Meats,,,,,,,,,0.5,Reciprocating Engine - Compression ignition,Fossil - Diesel,Vibe Energy Pty Ltd,TATIARA1,In Service
+SA1,Templers B BESS,,,,,,,,,200.0,Storage - Battery,Other - Other,BORAL,,Publicly Announced
+SA1,Templers BESS,-34.4629304,138.7648475,OSM_plant,OSM:way/1301922802,medium,,,,111.0,Storage - Battery,Other - Other,ZEN Energy Future Pty Ltd,,In Commissioning
+SA1,Templers BESS - KCI,-34.4629304,138.7648475,OSM_plant,OSM:way/1301922802,medium,,,,,,,,,
+SA1,Templers BESS(GreenPower),-34.4629304,138.7648475,OSM_plant,OSM:way/1301922802,medium,,,,,,,,,
+SA1,Temporary Generation North,,,,,,,,,,,,,,
+SA1,Temporary Generation South,,,,,,,,,,,,,,
+SA1,Temporary Generation South (Bolivar),,,,,,,,,,,,,,
+SA1,Terminal Storage MinI Hydro,,,,,,,,,,,,,,
+SA1,Terminal Storage Mini Hydro,,,,,,,,,,,,,,
+SA1,The Solar River Project - Stage 1,,,,,,,,,200.0,Solar PV - Fixed,Solar - Solar,The Solar River Project Pty Ltd,,Publicly Announced
+SA1,The Solar River Project - Stage 2,,,,,,,,,200.0,Solar PV - Fixed,Solar - Solar,The Solar River Project Pty Ltd,,Publicly Announced
+SA1,Torrens Island A,,,,,,,,,,,,,,
+SA1,Torrens Island B,,,,,,,,,200.0,Turbine - Steam Sub Critical,Fossil - Natural Gas Pipeline,AGL SA Generation Pty Limited ,TORRB1,In Service - Announced Withdrawal (Permanent)
+SA1,Torrens Island BESS,,,,,,,,,250.7,Storage - Battery,Other - Other,TIPSCO,TIB1,In Service
+SA1,Tungkillo BESS - KCI,,,,,,,,,,,,,,
+SA1,Tungkillo South BESS,,,,,,,,,270.0,Storage - Battery,Other - Other,RES Australia Pty Ltd,,Publicly Announced
+SA1,Twin Creek Wind Farm,,,,,,,,,,,,,,
+SA1,UniSA Solar project,,,,,,,,,,,,,,
+SA1,VS1 Solar Farm,,,,,,,,,,,,,,
+SA1,Vast Solar 1,,,,,,,,,34.0,Solar Thermal - Other,Solar - Solar, Vast Solar 1 Pty Ltd,,Publicly Announced
+SA1,Vast Solar1 Pty Ltd,,,,,,,,,,,,,,
+SA1,Vast Solar1 Pty Ltd - KCI,,,,,,,,,,,,,,
+SA1,Vast Solar1 Pty Ltd - Thermal - KCI,,,,,,,,,,,,,,
+SA1,"Vibe Energy - Bordertown Power Station Gen - Bordertown, SA",,,,,,,,,,,,,,
+SA1,"Vibe Energy - Tatiara Meat Gen - Borderdown, SA",,,,,,,,,,,,,,
+SA1,Waterloo Wind Farm,-33.9845929,138.9131991,OSM_plant,OSM:relation/9028743,medium,,,,111.0,Wind Turbine - Onshore,Wind - Wind,Waterloo Windfarm Pty Ltd,WATERLWF,In Service
+SA1,Wattle Point,-35.1263814,137.7137546,OSM_plant,OSM:relation/8402178,medium,,,,90.75,Wind Turbine - Onshore,Wind - Wind,Infrastructure Capital Group,WPWF,In Service
+SA1,Whyalla,-33.9735697,139.1934863,OSM_plant,OSM:way/983912336,medium,shared_boundary,MN,keyword: Whyalla; capacity: 140.0,140.0,Solar PV - Fixed,Solar - Solar,Adani,,Publicly Announced
+SA1,Whyalla BESS,-33.03,137.58,manual,Whyalla city centre,high,shared_boundary,MN,keyword: Whyalla; capacity: nan,,,,,,
+SA1,Whyalla BESS - KCI,-33.03,137.58,manual,Whyalla city centre,high,shared_boundary,MN,keyword: Whyalla; capacity: 100.0,100.0,Storage - Battery,Other - Other, BESS Kalkallo Pty Ltd,,Publicly Announced
+SA1,Whyalla Solar Farm,-33.03,137.58,manual,Whyalla city centre,high,shared_boundary,MN,keyword: Whyalla; capacity: nan,,,,,,
+SA1,Willogoleche Wind Farm,-33.4153631,138.8462002,OSM_plant,OSM:relation/12814833,medium,,,,95.75,Wind Turbine - Onshore,Wind - Wind,Willogoleche Power Pty Ltd,WGWF1,In Service
+SA1,Wingfield 1,,,,,,,,,4.1,Reciprocating Engine - Spark ignition,Renewable Biomass or Waste - Landfill Gas,EDL LFG SA Pty Ltd,,In Service
+SA1,Wingfield 2,,,,,,,,,4.1,Reciprocating Engine - Spark ignition,Renewable Biomass or Waste - Landfill Gas,EDL LFG SA Pty Ltd,,In Service
+SA1,Woakwine Wind Farm,,,,,,,,,,,,,,
+SA1,YES Sunlands,,,,,,,,,,,,,,
+SA1,Yadnarie Solar Farm,,,,,,,,,192.0,Solar PV - Fixed,Solar - Solar,Photon Energy Group,,Publicly Announced
+SA1,Yalumba Winery Solar system (Angaston),,,,,,,,,,,,,,
+SA1,Yalumba Winery Solar system (Oxford Landing),,,,,,,,,,,,,,
+SA1,Yoorndoo Ilga Solar - KCI,-33.4,138.95,manual,"Hallett area, MN",low,shared_boundary,MN,keyword: Yoorndoo Ilga; capacity: 250.0,250.0,Solar PV - Fixed,Solar - Solar,Yoorndoo Ilga Solar Pty Ltd,,Publicly Announced
+SA1,Yorke Peninsula Wind Farm,,,,,,,,,748.8,Wind Turbine - Onshore,Wind - Wind,Yorke Peninsula Wind Farm Project Pty Ltd,,Publicly Announced
+SA1,Yumali BESS,,,,,,,,,95.0,Storage - Battery,Other - Other,tetrisenergy_nr,,Publicly Announced
+SA1,Yumali Wind Farm,,,,,,,,,302.0,Wind Turbine - Onshore,Wind - Wind,tetrisenergy_nr,,Publicly Announced
+SA1,Zero Cost Energy Future,,,,,,,,,,,,,,
+TAS1,Bashan 1 Wind Farm,,,,,,,,,460.2,Wind Turbine - Onshore,Wind - Wind,Goldwind Australia,,Publicly Announced
+TAS1,Bashan 2 Wind Farm,,,,,,,,,,,,,,
+TAS1,Bass Offshore Wind Energy Project,,,,,,,,,500.0,Wind Turbine - Offshore,Wind - Wind, Nexsphere Pty Ltd,,Publicly Announced
+TAS1,Bastyan,-41.7360577,145.5320468,OSM_plant,OSM:way/230333203,medium,,,,79.9,Hydro - Dam,Hydro - Water,Hydro-Electric Corporation,BASTYAN,In Service
+TAS1,Battery of the Nation - Stage 1,,,,,,,,,,,,,,
+TAS1,Battery of the Nation - Stage 2a,,,,,,,,,,,,,,
+TAS1,Battery of the Nation - Stage 2b,,,,,,,,,750.0,Storage - Pumped hydro,Hydro - Water,Hydro Tasmania,,Publicly Announced
+TAS1,Battery of the Nation - Stage 3a,,,,,,,,,,,,,,
+TAS1,Battery of the Nation - Stage 3b,,,,,,,,,750.0,Storage - Pumped hydro,Hydro - Water,Hydro Tasmania,,Publicly Announced
+TAS1,Bell Bay BESS,,,,,,,,,100.0,Storage - Battery,Other - Other,Equis Energy (Australia) Projects (Ngumi 6) Pty Ltd as trustee for the Equis Energy(Australia) Ngumi 6 Asset Trust,,Publicly Announced
+TAS1,Bell Bay Three,,,,,,,,,40.0,Turbine - OCGT,Fossil - Natural Gas Pipeline,AETV Pty Ltd,BBTHREE1,In Service
+TAS1,Bellbay Wind Farm,,,,,,,,,,,,,,
+TAS1,Bellbay Wind Farm (Low Heads Wind Farm Stage 2),,,,,,,,,224.0,Wind Turbine - Onshore,Wind - Wind,The Trustee for Equis Wind (Australia) LHWF2 Asset Trust,,Publicly Announced
+TAS1,Bridgewater BESS,,,,,,,,,,,,,,
+TAS1,Butlers Gorge,,,,,,,,,12.2,Hydro - Dam,Hydro - Water,Hydro-Electric Corporation,BUTLERSG,In Service
+TAS1,Catagunya / Liapootah / Wayatinah,,,,,,,,,55.8,Hydro - Dam,Hydro - Water,Hydro-Electric Corporation,LI_WY_CA,In Service
+TAS1,Cattle Hill Wind Farm,-42.1492111,146.7059036,OSM_plant,OSM:relation/12256998,medium,,,,144.0,Wind Turbine - Onshore,Wind - Wind,Wild Cattle Hill Pty Ltd,CTHLWF1,In Service
+TAS1,Cellars Hill BESS,,,,,,,,,,,,,,
+TAS1,Cellars Hill Wind Farm,,,,,,,,,,,,,,
+TAS1,Cethana,-41.4808044,146.1345108,OSM_plant,OSM:way/552021425,medium,,,,85.0,Hydro - Dam,Hydro - Water,Hydro-Electric Corporation,CETHANA,In Service
+TAS1,Cethana Pumped Hydro Option,,,,,,,,,750.0,Storage - Pumped hydro,Hydro - Water,Hydro-Electric Corporation,,Publicly Announced
+TAS1,Cimitiere Plains Solar Farm,,,,,,,,,288.12,Solar PV - Fixed,Solar - Solar,Sun Spot 9 Pty Ltd,,Publicly Announced
+TAS1,Cluny,-42.5064404,146.6810358,OSM_plant,OSM:way/548367444,medium,,,,19.0,Hydro - Dam,Hydro - Water,Hydro-Electric Corporation,CLUNY,In Service
+TAS1,Copping Renewable Energy Facility,,,,,,,,,,,,,,
+TAS1,Derwent Valley Wind Farm,,,,,,,,,150.0,Wind Turbine - Onshore,Wind - Wind, West Coast Renewable Energy,,Publicly Announced
+TAS1,Devils Gate,-41.3505018,146.2633859,OSM_plant,OSM:way/174435064,medium,,,,60.0,Hydro - Dam,Hydro - Water,Hydro-Electric Corporation,DEVILS_G,In Service
+TAS1,Fisher,-41.6732784,146.2684648,OSM_plant,OSM:way/183424318,medium,,,,43.2,Hydro - Dam,Hydro - Water,Hydro-Electric Corporation,FISHER,In Service
+TAS1,GEP - TNTH1,,,,,,,,,,,,,,
+TAS1,GEP - TNTH2,,,,,,,,,,,,,,
+TAS1,George Town BESS - KCI,,,,,,,,,350.0,Storage - Battery,Other - Other,Recurrent Energy,,Publicly Announced
+TAS1,George Town Battery System,,,,,,,,,,,,,,
+TAS1,George Town Solar,,,,,,,,,,,,,,
+TAS1,George Town Solar Farm,,,,,,,,,,,,,,
+TAS1,George Town Wind Farm,,,,,,,,,232.0,Wind Turbine - Onshore,Wind - Wind, West Coast Renewables,,Publicly Announced
+TAS1,Glenorchy,,,,,,,,,,,,,,
+TAS1,Glenorchy Renewable Energy Facility,,,,,,,,,,,,,,
+TAS1,Gordon,-42.7405158,145.9828316,OSM_plant,OSM:way/404661179,medium,,,,432.0,Hydro - Dam,Hydro - Water,Hydro-Electric Corporation,GORDON,In Service
+TAS1,Granville Harbour Wind Farm,-41.7805906,145.0476874,OSM_plant,OSM:relation/13987548,medium,,,,111.6,Wind Turbine - Onshore,Wind - Wind,Granville Harbour Operations Pty Ltd as trustee for Granville Harbour Operations Trust,GRANWF1,In Service
+TAS1,Great Lakes BESS,,,,,,,,,,,,,,
+TAS1,Great Lakes Battery,,,,,,,,,100.0,Storage - Battery,Other - Other,Neoen Australia Pty Ltd,,Publicly Announced
+TAS1,Guildford Wind Farm,,,,,,,,,525.6,Wind Turbine - Onshore,Wind - Wind,ARK Energy Corporation Pty Ltd,,Publicly Announced
+TAS1,Hellyer Wind Farm,,,,,,,,,155.0,Wind Turbine - Onshore,Wind - Wind,ARK Energy Corporation Pty Ltd,,Publicly Announced
+TAS1,Hobart,,,,,,,,,,,,,,
+TAS1,Hobart Show Grounds BESS,,,,,,,,,11.0,Storage - Battery,Other - Other,Gravitas,,Publicly Announced
+TAS1,Hollow Tree Wind Farm,,,,,,,,,421.2,Wind Turbine - Onshore,Wind - Wind,Goldwind Australia,,Publicly Announced
+TAS1,John Butters,-42.1548942,145.5345078,OSM_plant,OSM:way/435730139,medium,,,,144.0,Hydro - Dam,Hydro - Water,Hydro-Electric Corporation,JBUTTERS,In Service
+TAS1,LST02 Data Hall BESS,,,,,,,,,24.0,Storage - Battery,Other - Other,Firmus Grid P/L,,Publicly Announced
+TAS1,Lake Echo,-42.2536426,146.6206275,OSM_plant,OSM:way/88199376,medium,,,,32.4,Hydro - Dam,Hydro - Water,Hydro-Electric Corporation,LK_ECHO,In Service
+TAS1,Lake Margaret,-42.0045779,145.5436884,OSM_plant,OSM:way/792847201,medium,,,,,,,,,
+TAS1,Lemonthyme / Wilmot,,,,,,,,,51.0,Hydro - Dam,Hydro - Water,Hydro-Electric Corporation,LEM_WIL,In Service
+TAS1,Low Head Wind Farm,,,,,,,,,,,,,,
+TAS1,Low Head Wind Farm - KCI,,,,,,,,,,,,,,
+TAS1,Low Head Wind Farm - Stage 1,,,,,,,,,,,,,,
+TAS1,Low Head Wind Farm Stg II - KCI,,,,,,,,,,,,,,
+TAS1,Lower Lake Margaret,-42.0148718,145.5263239,OSM_plant,OSM:way/792848702,medium,,,,,,,,,
+TAS1,Mackintosh,-41.6997403,145.6461537,OSM_plant,OSM:way/557523518,medium,,,,79.9,Hydro - Dam,Hydro - Water,Hydro-Electric Corporation,MACKNTSH,In Service
+TAS1,McRobies Gully Renewable Energy Facility,,,,,,,,,,,,,,
+TAS1,Meadowbank,-42.6111696,146.8457001,OSM_plant,OSM:way/548702984,medium,,,,40.0,Hydro - Dam,Hydro - Water,Hydro-Electric Corporation,MEADOWBK,In Service
+TAS1,Midlands Hydro,,,,,,,,,6.0,Hydro - Dam,Hydro - Water,TBA,,In Service
+TAS1,Musselroe Wind Farm,-40.7799095,148.0373312,OSM_plant,OSM:relation/8199159,medium,,,,168.0,Wind Turbine - Onshore,Wind - Wind,Musselroe Wind Farm Pty Ltd,MUSSELR1,In Service
+TAS1,North East Wind - KCI,,,,,,,,,7.2,Wind Turbine - Onshore,Wind - Wind,ACEN North East Tasmania Pty Ltd,,Publicly Announced
+TAS1,Northern Midlands Solar Farm,,,,,,,,,,,,,,
+TAS1,Northern Midlands Solar Farm - KCI,,,,,,,,,360.8,Solar PV - Single axis tracking,Solar - Solar,Northern Midlands Solar Farm Tas Pty Ltd (ACN 684 471 627) as trustee for the Northern Midlands Solar Farm Unit Trust (ABN 26 279 618 811),,Anticipated
+TAS1,Palmerston BESS (Akaysha),,,,,,,,,100.05,Storage - Battery,Other - Other,Palmerston ProjectCo Pty Ltd,,Publicly Announced
+TAS1,Palmerston Battery Energy Storage System - Akaysha,,,,,,,,,,,,,,
+TAS1,Palmerston Big Battery,,,,,,,,,,,,,,
+TAS1,Palmerston Big Battery - KCI,,,,,,,,,,,,,,
+TAS1,Paloona,-41.2827066,146.2490084,OSM_plant,OSM:way/174434679,medium,,,,28.0,Hydro - Dam,Hydro - Water,Hydro-Electric Corporation,PALOONA,In Service
+TAS1,Poatina,-41.8115136,146.919066,OSM_plant,OSM:way/258724408,medium,,,,200.0,Hydro - Dam,Hydro - Water,Hydro-Electric Corporation,POAT110,In Service
+TAS1,Port Latta Wind Farm,,,,,,,,,21.0,Wind Turbine - Onshore,Wind - Wind,Oz Green Energy I Pty Ltd,,Anticipated
+TAS1,Reece,-41.7237387,145.1360115,OSM_plant,OSM:way/230333200,medium,,,,115.6,Hydro - Dam,Hydro - Water,Hydro-Electric Corporation,REECE1,In Service
+TAS1,Remount,,,,,,,,,,,,,,
+TAS1,Remount Power Station,,,,,,,,,,,,,,
+TAS1,Repulse,-42.5076954,146.6470435,OSM_plant,OSM:way/548367439,medium,,,,28.0,Hydro - Dam,Hydro - Water,Hydro-Electric Corporation,REPULSE,In Service
+TAS1,Robbins Island Wind Farm,,,,,,,,,929.0,Wind Turbine - Onshore,Wind - Wind,ACEN Robbins Island PTY LTD,,Publicly Announced
+TAS1,Rowallan,-41.7295505,146.2176625,OSM_plant,OSM:way/435724533,medium,,,,10.5,Hydro - Dam,Hydro - Water,Hydro-Electric Corporation,ROWALLAN,In Service
+TAS1,Rowallan Pumped Hydro Option,,,,,,,,,750.0,Storage - Pumped hydro,Hydro - Water,Hydro-Electric Corporation,,Publicly Announced
+TAS1,St Patrick's College Launceston,,,,,,,,,,,,,,
+TAS1,St Patricks Plains Wind Farm,,,,,,,,,291.4,Wind Turbine - Onshore,Wind - Wind,ARK Energy Corporation Pty Ltd,,Publicly Announced
+TAS1,Tamar Valley BESS,,,,,,,,,,,,,,
+TAS1,Tamar Valley Combined Cycle,,,,,,,,,140.0,Turbine - CCGT,Fossil - Natural Gas Pipeline,AETV Pty Ltd,TVCC201,In Service
+TAS1,Tamar Valley Peaking,,,,,,,,,58.0,Turbine - OCGT,Fossil - Natural Gas Pipeline,AETV Pty Ltd,TVPP104,In Service
+TAS1,Tarraleah,-42.3012952,146.457417,OSM_plant,OSM:way/208526639,medium,,,,90.0,Hydro - Dam,Hydro - Water,Hydro-Electric Corporation,TARRALEA,In Service
+TAS1,Tarraleah Redevelopment,,,,,,,,,200.0,Hydro - Dam,Hydro - Water,HYDROTAS,,Publicly Announced
+TAS1,Tods Corner,,,,,,,,,,,,,,
+TAS1,Trevallyn,-41.4226295,147.111785,OSM_plant,OSM:way/194226014,medium,,,,53.0,Hydro - Dam,Hydro - Water,Hydro-Electric Corporation,TREVALLN,In Service
+TAS1,Triabunna Wind Farm,,,,,,,,,32.0,Wind Turbine - Onshore,Wind - Wind,Triabunna Wind Pty Ltd,,Publicly Announced
+TAS1,Tribute,-41.8158324,145.6501782,OSM_plant,OSM:way/557883068,medium,,,,82.8,Hydro - Dam,Hydro - Water,Hydro-Electric Corporation,TRIBUTE,In Service
+TAS1,Tribute Pumped Hydro Option,,,,,,,,,750.0,Storage - Pumped hydro,Hydro - Water,Hydro-Electric Corporation,,Publicly Announced
+TAS1,Tungatinah,-42.2968068,146.4565925,OSM_plant,OSM:way/208526892,medium,,,,125.0,Hydro - Dam,Hydro - Water,Hydro-Electric Corporation,TUNGATIN,In Service
+TAS1,Weasel Solar Farm And BESS - KCI,,,,,,,,,144.16,Solar PV - Fixed,Solar - Solar,Weasel Solar Farm P/L,,Publicly Announced
+TAS1,Wesley Vale Solar,,,,,,,,,,,,,,
+TAS1,Wesley Vale Solar Farm,,,,,,,,,,,,,,
+TAS1,Western Plains Wind Farm,,,,,,,,,50.4,Wind Turbine - Onshore,Wind - Wind,ARK Energy Corporation Pty Ltd,,Publicly Announced
+TAS1,Whaleback Ridge Wind Farm - KCI,,,,,,,,,288.0,Wind Turbine - Onshore,Wind - Wind,West Coast Renewables Energy Pty Ltd,,Publicly Announced
+TAS1,Woolnorth Studland Bay / Bluff Point,,,,,,,,,75.0,Wind Turbine - Onshore,Wind - Wind,Woolnorth Wind Farm Finance Pty Ltd,WOOLNTH1,In Service
+VIC1,200 Victoria St,,,,,,,,,,,,,,
+VIC1,321 Exhibition Street Trigen,,,,,,,,,,,,,,
+VIC1,990 Latrobe St,,,,,,,,,,,,,,
+VIC1,Acacia Offshore Wind Farm - KCI,,,,,,,,,,,,,,
+VIC1,Aeroten Leongatha Solar,,,,,,,,,,,,,,
+VIC1,Alberton Wind Farm,,,,,,,,,122.4,Wind Turbine - Onshore,Wind - Wind,Synergy Wind Pty Ltd,,Publicly Announced
+VIC1,Altona BESS,,,,,,,,,100.0,Storage - Battery,Other - Other,Ausnet Transmission Group Pty Ltd,,Publicly Announced
+VIC1,Altona BESS - KCI,,,,,,,,,,,,,,
+VIC1,Ararat SynCon,,,,,,,,,,,,,,
+VIC1,Ararat Wind Farm,-37.2216126,143.0595606,OSM_plant,OSM:relation/8144683,medium,,,,240.0,Wind Turbine - Onshore,Wind - Wind,Ararat Wind Farm Pty Ltd,ARWF1,In Service
+VIC1,AusNet Services Deakin University Victoria Geelong PV Plant,,,,,,,,,,,,,,
+VIC1,Avonbank Load Connection,,,,,,,,,,,,,,
+VIC1,Axedale Solar Farm,,,,,,,,,140.0,Storage - Battery,Other - Other,UPC Renewables Australia,,Publicly Announced
+VIC1,Bairnsdale,-37.8429187,147.5638557,OSM_plant,OSM:way/429890045,medium,,,,47.0,Turbine - OCGT,Fossil - Natural Gas Pipeline,Alinta DEBO,BDL01,In Service
+VIC1,Bairnsdale BESS,,,,,,,,,65.0,Storage - Battery,Other - Other,Bison Energy,,Publicly Announced
+VIC1,Bald Hills Wind Farm,-38.7725427,145.940902,OSM_plant,OSM:relation/8107552,medium,,,,106.6,Wind Turbine - Onshore,Wind - Wind,Bald Hills Wind Farm Pty Ltd,BALDHWF1,In Service
+VIC1,Ballarat,-37.5676045,143.919894,OSM_plant,OSM:way/729800387,medium,,,,,,,,,
+VIC1,Ballarat Base Hospital,,,,,,,,,,,,,,
+VIC1,Ballarat Base Hospital Plant,,,,,,,,,1.6,Reciprocating Engine - Compression ignition,Fossil - Diesel,Ballarat Health Services,BBASEHOS,In Service
+VIC1,Ballarat Energy Storage System,-37.5676045,143.919894,OSM_plant,OSM:way/729800387,medium,,,,30.0,Storage - Battery,Other - Other,Ausnet Transmission Group Pty Ltd,BALB1,In Service
+VIC1,Ballarat North BESS,,,,,,,,,,,,,,
+VIC1,Ballarat Renewable Energy Hub,,,,,,,,,,,,,,
+VIC1,Ballarat Renewable Energy Hub - BESS - KCI,,,,,,,,,,,,,,
+VIC1,Ballarat Renewable Energy Hub - Solar - KCI,,,,,,,,,,,,,,
+VIC1,Banimboola,-36.5343422,147.45934,OSM_plant,OSM:way/397386746,medium,,,,10.0,Hydro - Dam,Hydro - Water,AGL Hydro Partnership,BAPS,In Service
+VIC1,Bannerton Solar Park,-34.6865391,142.7796722,OSM_plant,OSM:way/723022474,medium,,,,100.0,Solar PV - Single axis tracking,Solar - Solar,Foresight Solar Australia Pty Ltd,BANN1,In Service
+VIC1,Baranduda Electrical Energy Reserve,,,,,,,,,544.36,Storage - Battery,Other - Other, Birdwood Energy Reserve Pty Ltd (ACN 658 507 441) as Trustee for Birdwood Energy Reserve Trust,BEER01,Publicly Announced
+VIC1,Barnawartha Solar & Energy Storage,,,,,,,,,64.02,Solar PV - Single axis tracking,Solar - Solar,Barnawartha Solar Pty Ltd,,Publicly Announced
+VIC1,Bass Strait,,,,,,,,,,,,,,
+VIC1,Bayswood Timber Hallam VIC,,,,,,,,,,,,,,
+VIC1,Beaconhills College Berwick,,,,,,,,,,,,,,
+VIC1,Ben More,,,,,,,,,,,,,,
+VIC1,Bendigo,,,,,,,,,,,,,,
+VIC1,Bennetts Creek BESS,,,,,,,,,100.0,Storage - Battery,Other - Other,Bennetts Creek Energy Project Pty Ltd in its capacity as Trustee for the Bennetts Creek Energy Project Trust,,Anticipated
+VIC1,Berrimal Wind Farm,,,,,,,,,,,,,,
+VIC1,Berrybank 1 BESS - Storage - KCI,,,,,,,,,60.0,Storage - Battery,Other - Other,Global Power Generation Australia Pty Ltd,,Publicly Announced
+VIC1,Berrybank Wind Farm,,,,,,,,,180.6,Wind Turbine - Onshore,Wind - Wind,Berrbank Development Pty ltd,BRYB1WF1,In Service
+VIC1,Berwick,,,,,,,,,,,,,,
+VIC1,Birdwood Energy Reserve,,,,,,,,,,,,,,
+VIC1,Birdwood Energy Reserve - KCI,,,,,,,,,,,,,,
+VIC1,Birkins Solar Farm,,,,,,,,,,,,,,
+VIC1,Birkins Solar Farm - Hydrogen - KCI,,,,,,,,,,,,,,
+VIC1,Birkins Solar Farm - Solar - KCI,,,,,,,,,,,,,,
+VIC1,Birkins Solar Farm - Storage - KCI,,,,,,,,,199.5,Storage - Battery,Solar - Solar, FRV Services Australia Pty Ltd,BIRKBESS,Publicly Announced
+VIC1,Blue Mackerel North Off Shore Wind Farm,,,,,,,,,1819.0,Wind Turbine - Offshore,Wind - Wind,Arup Australia Pty Ltd,,Publicly Announced
+VIC1,Bogong / Mackay,,,,,,,,,160.02,Hydro - Dam,Hydro - Water,AGL Hydro Partnership,MCKAY1,In Service
+VIC1,Bookaar Solar Farm,,,,,,,,,230.0,Solar PV - Fixed,Solar - Solar,Bookaar Renewables Pty ltd ,,Publicly Announced
+VIC1,Boort Wind Farm,,,,,,,,,8.0,Wind Turbine - Onshore,Wind - Wind,feraaustralia_nr,,Publicly Announced
+VIC1,Boronia Mini Hydro,,,,,,,,,,,,,,
+VIC1,Boulka Park BESS,,,,,,,,,250.0,Storage - Battery,Other - Other,The Trustee for X-ELIO BOULKA PARK TRUST,,Publicly Announced
+VIC1,Boulka Park Solar Farm,,,,,,,,,100.0,Solar PV - Single axis tracking,Solar - Solar,The Trustee for X-ELIO BOULKA PARK TRUST,,Publicly Announced
+VIC1,Bridgewater,-38.3625698,141.3868955,OSM_plant,OSM:relation/8156499,medium,,,,,,,,,
+VIC1,Broadmeadows,,,,,,,,,,,,,,
+VIC1,Broken Creek Solar Farm - KCI,,,,,,,,,173.0,Solar PV - Fixed,Solar - Solar,BSR EPC Pty Limited,,Publicly Announced
+VIC1,Brooklyn,-37.8190945,144.8304304,OSM_plant,OSM:way/94325438,medium,,,,,,,,,
+VIC1,Brooklyn LFG U1-3,,,,,,,,,2.83,Reciprocating Engine - Spark ignition,Other - Other,EDL LFG Vic Pty Ltd,BROOKLYN,In Service
+VIC1,Bulgana Green Power Hub - BESS,-37.0381627,142.9835576,OSM_plant,OSM:way/1302376631,medium,,,,20.0,Storage - Battery,Other - Other,Bulgana Wind Farm Pty Ltd,BULBES1,In Service
+VIC1,Bulgana Green Power Hub - Wind Farm,-37.1099771,142.9404317,OSM_plant,OSM:relation/12810875,medium,,,,204.4,Wind Turbine - Onshore,Wind - Wind,Bulgana Wind Farm Pty Ltd,BULGANA1,In Service
+VIC1,Bunurong 260 kW Solar PV Bangholme,,,,,,,,,,,,,,
+VIC1,CARINA WEST H2E,,,,,,,,,,,,,,
+VIC1,Campbells Forest Solar Farm,,,,,,,,,205.0,Solar PV - Single axis tracking,Solar - Solar,4067 Pyramid Development Pty Ltd,,Publicly Announced
+VIC1,Camperdown  BESS - Quintas,,,,,,,,,,,,,,
+VIC1,Camperdown BESS - Quintas,,,,,,,,,75.0,Storage - Battery,Other - Other,Camperdown BESS Pty Ltd,,Publicly Announced
+VIC1,Cape Winds Offshore Wind Farm,,,,,,,,,1995.0,Wind Turbine - Offshore,Wind - Wind,NeuGen Technology P/L,,Publicly Announced
+VIC1,Carag SF,,,,,,,,,,,,,,
+VIC1,Cardinia Creek Mini-Hydro,,,,,,,,,,,,,,
+VIC1,Carisbrook Solar Farm,,,,,,,,,,,,,,
+VIC1,Carwarp BESS,,,,,,,,,30.0,Storage - Battery,Other - Other,Canadian Solar,,Publicly Announced
+VIC1,Carwarp Solar Farm - Stage I,,,,,,,,,150.0,Solar PV - Single axis tracking,Solar - Solar,Canadian Solar (Australia) Pty Ltd,,Publicly Announced
+VIC1,Carwarp Solar Farm - Stage II,,,,,,,,,150.0,Solar PV - Single axis tracking,Solar - Solar,Canadian Solar (Australia) Pty Ltd,,Publicly Announced
+VIC1,Cedar Meats Solar Geelong,,,,,,,,,,,,,,
+VIC1,Challicum Hills,-37.3833181,143.1058455,OSM_plant,OSM:relation/8144682,medium,,,,52.5,Wind Turbine - Onshore,Wind - Wind,Pacific Hydro Challicum Hills Pty Ltd,-,In Service
+VIC1,Chepstowe Wind Farm - VIC,-37.5959991,143.4951288,OSM_plant,OSM:relation/12814642,medium,,,,6.15,Wind Turbine - Onshore,Wind - Wind,Chepstowe Wind Farm Pty Ltd,CHPSTWF1,In Service
+VIC1,Cherry Tree Wind Farm,-37.1020154,145.265823,OSM_plant,OSM:relation/12806522,medium,,,,57.6,Wind Turbine - Onshore,Wind - Wind,Cherry Tree Wind Farm Pty Limited A.T.F. Cherry Tree Project Trust,CHYTWF1,In Service
+VIC1,Clayton,,,,,,,,,12.0,Reciprocating Engine - Spark ignition,Renewable Biomass or Waste - Landfill Gas,EDL LFG Vic Pty Ltd,CLAYTON,Withdrawn - Permanent
+VIC1,Clover,-36.7852566,147.2204664,OSM_plant,OSM:way/506189906,medium,,,,29.0,Hydro - Dam,Hydro - Water,AGL Hydro Partnership,CLOVER,In Service
+VIC1,Cobden BESS - Quintas,,,,,,,,,60.0,Storage - Battery,Other - Other,Cobden BESS Pty Ltd,,Publicly Announced
+VIC1,Codrington Wind Farm,-38.2851793,141.9594493,OSM_plant,OSM:relation/8142591,medium,,,,18.2,Wind Turbine - Onshore,Wind - Wind,Energy Pacific (Vic) Pty Ltd,CODRNGTON,In Service
+VIC1,Cohuna Solar Farm,-35.8868142,144.2178045,OSM_plant,OSM:relation/12789144,medium,,,,31.16,Solar PV - Single axis tracking,Solar - Solar,Cohuna Solar Farm Pty Ltd as trustee for the Cohuna Solar Farm Trust,COHUNSF1,In Commissioning
+VIC1,Congupna Solar Farm,,,,,,,,,,,,,,
+VIC1,Connewarren BESS,,,,,,,,,549.84,Storage - Battery,Other - Other,Akaysha Energy Pty Ltd,,Publicly Announced
+VIC1,Connewarren BESS - KCI,,,,,,,,,,,,,,
+VIC1,Cooba Solar Farm,,,,,,,,,,,,,,
+VIC1,Cooba Solar Farm - KCI,,,,,,,,,319.2,Solar PV - Single axis tracking,Solar - Solar, Venn Energy Pty Ltd / Cooba Solar Project Pty Ltd,,Publicly Announced
+VIC1,Coonawarren BESS - KCI,,,,,,,,,,,,,,
+VIC1,Coonooer Bridge Wind Farm,-36.4263842,143.3684837,OSM_plant,OSM:relation/12810647,medium,,,,19.8,Wind Turbine - Onshore,Wind - Wind,Coonooer Bridge Wind Farm Pty Ltd,CBWF1,In Service
+VIC1,Corio,,,,,,,,,,,,,,
+VIC1,Corop BESS,,,,,,,,,400.0,Storage - Battery,Other - Other,Leeson Solar Pty Ltd.,,Publicly Announced
+VIC1,Corop Solar Farm,,,,,,,,,400.0,Solar PV - Fixed,Solar - Solar,Leeson Solar Pty Ltd.,,Publicly Announced
+VIC1,Cranbourne BESS (Macquarie),,,,,,,,,150.0,Storage - Battery,Other - Other, Macquarie Corporate Holdings Pty Ltd,,Publicly Announced
+VIC1,Cranbourne BESS (Macquarie) - KCI,,,,,,,,,,,,,,
+VIC1,Cranbourne BESS (Maoneng),,,,,,,,,,,,,,
+VIC1,Crowlands Wind Farm,-37.1134035,143.152526,OSM_plant,OSM:relation/10364013,medium,,,,79.95,Wind Turbine - Onshore,Wind - Wind,Pacific Hydro Crowlands Pty Ltd,CROWLWF1,In Service
+VIC1,Crown Melbourne,,,,,,,,,,,,,,
+VIC1,Dalvui BESS,,,,,,,,,250.0,Storage - Battery,Other - Other,Tilt Renewables Australia Pty Ltd,,Publicly Announced
+VIC1,Dandenong PEP,,,,,,,,,,,,,,
+VIC1,Darlington Wind Farm,,,,,,,,,,,,,,
+VIC1,Darlington Wind Farm - GPG,,,,,,,,,360.0,Wind Turbine - Onshore,Wind - Wind,globalpower-generation_NR,,Publicly Announced
+VIC1,Darnum BESS,,,,,,,,,240.0,Storage - Battery,Other - Other,samsung_NR,,Publicly Announced
+VIC1,Dartmouth,-36.5564244,147.5203413,OSM_plant,OSM:way/239029214,medium,,,,185.0,Hydro - Dam,Hydro - Water,AGL Hydro Partnership,DARTM1,In Service
+VIC1,Deal 1 (West) Off Shore Wind Farm,,,,,,,,,2970.0,Wind Turbine - Offshore,Wind - Wind,BayWa r.e. Australia Offshore Wind Projects 1 Pty Ltd,,Publicly Announced
+VIC1,Deal 2 (East) Off Shore Wind Farm,,,,,,,,,2968.0,Wind Turbine - Offshore,Wind - Wind,BayWa r.e. Australia Offshore Wind Projects 2 Pty Ltd,,Publicly Announced
+VIC1,Dederang BESS,,,,,,,,,200.0,Storage - Battery,Other - Other,Mint Renewables,,Publicly Announced
+VIC1,Dederang BESS (Trina),,,,,,,,,,,,,,
+VIC1,Dederang BESS - KCI,,,,,,,,,,,,,,
+VIC1,Dederang Big BESS - KCI,,,,,,,,,,,,,,
+VIC1,Deer Park BESS,,,,,,,,,,,,,,
+VIC1,Deer Park Battery Energy Storage System,,,,,,,,,,,,,,
+VIC1,Delburn Wind Farm,,,,,,,,,217.8,Wind Turbine - Onshore,Wind - Wind,Delburn Wind Farm Pty Ltd,,Publicly Announced
+VIC1,Derby Solar Farm,,,,,,,,,,,,,,
+VIC1,Derby Solar Farm & BESS,,,,,,,,,95.1,Solar PV - Single axis tracking,Solar - Solar,DERBY SOLAR PROJECT PTY LTD ,,Anticipated
+VIC1,Diapur Wind Farm,,,,,,,,,8.0,Wind Turbine - Onshore,Wind - Wind,Diapur Wind Farm Pty Ltd,DIAPURWF1,In Service
+VIC1,Doreen BESS,,,,,,,,,800.0,Storage - Battery,Other - Other,BZ Renewables Holdings Pty Ltd,,Publicly Announced
+VIC1,Drysdale,,,,,,,,,,,,,,
+VIC1,Dundonnell Wind Farm,-37.8702986,142.97571,OSM_plant,OSM:relation/13987550,medium,,,,168.0,Wind Turbine - Onshore,Wind - Wind,Tilt Renewables,DUNDWF1,In Service
+VIC1,East Shepparton Renewable Energy Hub,,,,,,,,,,,,,,
+VIC1,East Shepparton Renewable Energy Hub - Battery - KCI,,,,,,,,,,,,,,
+VIC1,East Shepparton Renewable Energy Hub - Solar - KCI,,,,,,,,,,,,,,
+VIC1,Eildon,-37.2431229,145.8973504,OSM_plant,OSM:way/1226453355,medium,,,,60.0,Hydro - Dam,Hydro - Water,AGL Hydro Partnership,EILDON1,In Service
+VIC1,Eildon Pondage Power Station (EPPS),-37.2431229,145.8973504,OSM_plant,OSM:way/1226453355,medium,,,,4.5,Hydro - Run of River,Hydro - Water,Pacific Hydro Investments Pty Ltd,EILDON3,In Service
+VIC1,Elaine BESS,,,,,,,,,311.14,Storage - Battery,Other - Other,Elaine ProjectCo Pty Ltd,,Publicly Announced
+VIC1,Elaine Battery Energy Storage System,,,,,,,,,,,,,,
+VIC1,Elaine Solar Farm & BESS Hybrid,,,,,,,,,125.0,Solar PV - Fixed,Solar - Solar, Elgin Energy Pty Ltd,,Publicly Announced
+VIC1,Elaine Solar Farm & BESS Hybrid - KCI,,,,,,,,,,,,,,
+VIC1,Elaine Wind Farm,-37.7574232,143.9981905,OSM_plant,OSM:relation/12770988,medium,,,,83.6,Wind Turbine - Onshore,Wind - Wind,Northleaf /InfraRed/Macquarie Capital,ELAINWF1,In Service
+VIC1,Epworth Hospital - East Melbourne - Freemasons,,,,,,,,,,,,,,
+VIC1,Epworth Hospital - Geelong - Waurn Ponds,,,,,,,,,,,,,,
+VIC1,Everleigh Solar Farm & BESS - KCI,,,,,,,,,200.0,Solar PV - Fixed,Solar - Solar,Everleigh Solar Park Pty Ltd,,Publicly Announced
+VIC1,Ferguson North Wind Farm,,,,,,,,,,,,,,
+VIC1,Ferguson South Wind Farm,,,,,,,,,,,,,,
+VIC1,Ferguson Wind Farm,-38.6101142,143.1790894,OSM_plant,OSM:relation/12817151,medium,,,,12.0,Wind Turbine - Onshore,Wind - Wind,Ferguson Wind Farm Pty Ltd,FNWF1,In Service
+VIC1,Flavorite Marketing,,,,,,,,,,,,,,
+VIC1,Fosterville SF and BESS,,,,,,,,,119.0,Storage - Battery,Other - Other,FRV Services Australia,FTVBESS,Publicly Announced
+VIC1,Frasers Solar Farm,,,,,,,,,77.0,Solar PV - Single axis tracking,Solar - Solar,Frasers Lane Development Pty Ltd,,Anticipated
+VIC1,Fulham Solar Farm,,,,,,,,,,,,,,
+VIC1,Fulham Solar Farm And BESS,,,,,,,,,100.8,Storage - Battery,Solar - Solar,Fulham Solar Farm Pty Ltd (ATF Fulham Solar Farm Trust),,Committed
+VIC1,GEP - VAGL1,,,,,,,,,,,,,,
+VIC1,GEP - VBGL1,,,,,,,,,,,,,,
+VIC1,GEP - VPTL2,,,,,,,,,,,,,,
+VIC1,GEP - VSIR3,,,,,,,,,,,,,,
+VIC1,GEP - VSIR4,,,,,,,,,,,,,,
+VIC1,GV Community Energy,,,,,,,,,,,,,,
+VIC1,Gannawarra Energy Storage System,-35.734202,143.7800636,OSM_plant,OSM:way/722260728,medium,,,,25.33,Storage - Battery,Other - Other,GESS ProjectCo,GANNB1,In Service
+VIC1,Gannawarra Solar Farm,-35.7291297,143.7831643,OSM_plant,OSM:way/722260732,medium,,,,55.0,Solar PV - Single axis tracking,Solar - Solar,Gannawarra Solar Farm Pty Ltd,GANNSF1,In Service
+VIC1,Geelong BESS,,,,,,,,,250.0,Storage - Battery,Other - Other,Elgin EnergyP/L,,Publicly Announced
+VIC1,Gippsland A&B - Wind - KCI,,,,,,,,,,,,,,
+VIC1,Gippsland C - Wind - KCI,,,,,,,,,,,,,,
+VIC1,Gippsland Dawn Offshore Wind Project,,,,,,,,,2100.0,Wind Turbine - Offshore,Wind - Wind,Gippsland Dawn OWP Project Pty Ltd,,Publicly Announced
+VIC1,Gippsland offshore wind farm,,,,,,,,,,,,,,
+VIC1,Girgarre Solar Farm,-36.4103889,144.9867584,OSM_plant,OSM:way/1050964708,medium,,,,93.48,Solar PV - Single axis tracking,Solar - Solar,Giragarre Solar Farm Pty Ltd as trustee for Giragarre Solar Farm Trust,GIRGSF,In Commissioning
+VIC1,Glenbrae BESS,,,,,,,,,250.0,Storage - Battery,Other - Other,Acenergy,,Publicly Announced
+VIC1,Glenmaggie Hydro,,,,,,,,,1.9,Hydro - Dam,Hydro - Water,Pacific Hydro Investments Pty Ltd,GLENMAG1,In Service
+VIC1,Glenrowan BESS,,,,,,,,,450.24,Storage - Battery,Other - Other,Akaysha Energy Pty Ltd,,Publicly Announced
+VIC1,Glenrowan BESS (KCI),,,,,,,,,,,,,,
+VIC1,Glenrowan BESS - Storage - KCI,,,,,,,,,400.0,Storage - Battery,Other - Other,Enervest Pty Ltd,,Publicly Announced
+VIC1,Glenrowan Solar Farm,,,,,,,,,126.0,Solar PV - Single axis tracking,Solar - Solar,Glenrowan Solar Farm Pty Ltd as trustee for Glenrowan Solar Farm Trust,GLENSF1,In Service
+VIC1,Glenrowan Sun Farm,,,,,,,,,,,,,,
+VIC1,Glenrowan West Solar Farm,-36.4932068,146.1572525,OSM_plant,OSM:relation/12769363,medium,,,,132.0,Solar PV - Single axis tracking,Solar - Solar,Glenrowan Sun Farm Pty Ltd,GLRWNSF1,In Service
+VIC1,Glenrowan West Sun Farm,,,,,,,,,,,,,,
+VIC1,Gnarwarre BESS Facility,,,,,,,,,290.0,Storage - Battery,Other - Other,FRV SA Pty Ltd,,Anticipated
+VIC1,Gnotuk,,,,,,,,,,,,,,
+VIC1,Golden Plains BESS,,,,,,,,,150.0,Storage - Battery,Other - Other,Tag Energy Australia P/L,,Publicly Announced
+VIC1,Golden Plains Wind Farm,,,,,,,,,,,,,,
+VIC1,Golden Plains Wind Farm East,,,,,,,,,260.4,Wind Turbine - Onshore,Wind - Wind,Golden Plains WF1 Pty Ltd as trustee for the Golden Plains WF1 Unit Trust,GPWFEST1,In Commissioning
+VIC1,Golden Plains Wind Farm West,,,,,,,,,557.07,Wind Turbine - Onshore,Wind - Wind,Golden Plains WF2 Unit Trust,,Committed
+VIC1,Goorambat BESS,,,,,,,,,,,,,,
+VIC1,Goorambat BESS (Lighthouse),,,,,,,,,800.0,Storage - Battery,Other - Other,Lightsource Development Services Australia,,Publicly Announced
+VIC1,Goorambat East Solar Farm,,,,,,,,,,,,,,
+VIC1,Goorambat East Solar Farm (ENGIE),,,,,,,,,250.0,Solar PV - Single axis tracking,Solar - Solar,Engie,,Committed
+VIC1,Grahamvale BESS - KCI,,,,,,,,,100.0,Storage - Battery,Other - Other,AE BESS 3 Pty Ltd as Trustee for AE BESS 3 Unit Trust,,Publicly Announced
+VIC1,Great Eastern Offshore Wind - KCI,,,,,,,,,2508.0,Wind Turbine - Offshore,Wind - Wind,GIG Australian Offshore Wind Energy Holdings Pty Ltd,,Publicly Announced
+VIC1,Greater Gippsland Offshore Wind,,,,,,,,,,,,,,
+VIC1,Greater Gippsland Offshore Wind Project,,,,,,,,,,,,,,
+VIC1,Greater Southern Offshore Wind,,,,,,,,,,,,,,
+VIC1,Greater Southern Offshore Wind - KCI,,,,,,,,,1500.0,Wind Turbine - Offshore,Wind - Wind, Greater Southern Offshore Wind Farm Project Co Pty Ltd,,Publicly Announced
+VIC1,HYMIVC06 Belgrave-Hallam Rd Micro Hydro,,,,,,,,,0.25,Hydro - Dam,Hydro - Water,South East Water Corporation,HLMSEW01,In Service
+VIC1,Hallam Road,,,,,,,,,8.98,Reciprocating Engine - Spark ignition,Renewable Biomass or Waste - Landfill Gas,LMS Energy Pty Ltd,HALAMRD1,In Service
+VIC1,Halys BESS (X-Elio),,,,,,,,,300.0,Storage - Battery,Other - Other,X-Elio Australia Pty Ltd,,Publicly Announced
+VIC1,Hastings Generation Site,,,,,,,,,28.66,Turbine - OCGT,Fossil - N/A,Esso Australia Resources,,Publicly Announced
+VIC1,Haunted Gully BESS,,,,,,,,,,,,,,
+VIC1,Haunted Gully BESS - KCI,,,,,,,,,400.0,Storage - Battery,Other - Other, Vena Energy Services (Australia) Pty Ltd,,Publicly Announced
+VIC1,Hawkesdale BESS - Storage - KCI,,,,,,,,,,,,,,
+VIC1,Hawkesdale Wind Farm,,,,,,,,,96.6,Wind Turbine - Onshore,Wind - Wind,Hawkesdale Asset Pty Ltd as trustee for Hawkesdale Asset Trust,HD1WF1,In Service
+VIC1,Hazelwood BESS (Ironwood) - KCI,,,,,,,,,,,,,,
+VIC1,Hazelwood BESS - KCI,,,,,,,,,150.0,Storage - Battery,Other - Other,International Power (Australia) Pty Ltd,,Publicly Announced
+VIC1,Hazelwood Battery Energy Storage System (HBESS),,,,,,,,,200.07,Storage - Battery,Other - Other,Hazelwood BESS Project Co Pty Ltd as trustee for the HBESS Asset Trust,HBESS1,In Service
+VIC1,Hazelwood Battery Energy Storage System Facility,,,,,,,,,,,,,,
+VIC1,Hazelwood North Solar Farm - KCI,,,,,,,,,480.0,Solar PV - Fixed,Solar - Solar,Manthos Investments Pty Ltd,,Publicly Announced
+VIC1,Hexham,,,,,,,,,763.0,Wind Turbine - Onshore,Wind - Wind,Wind Prospect WA Pty Ltd,,Publicly Announced
+VIC1,Heywood Terminal Station BESS,,,,,,,,,,,,,,
+VIC1,Heywood Terminal Station BESS - KCI,,,,,,,,,,,,,,
+VIC1,Horsham  BESS,,,,,,,,,,,,,,
+VIC1,Horsham BESS,,,,,,,,,100.0,Storage - Battery,Other - Other,ESCO Solar Farm 7 Trust,,Publicly Announced
+VIC1,Horsham Solar Farm,,,,,,,,,118.8,Solar PV - Single axis tracking,Solar - Solar,ESCO SOLAR FARM 7 PTY LTD,,Committed
+VIC1,Horsham TS Syncon,,,,,,,,,,,,,,
+VIC1,Hume Dam VIC,,,,,,,,,29.0,Hydro - Dam,Hydro - Water,GSP Energy Pty Ltd,HUMEV,In Service
+VIC1,Inverleigh Solar Farm,,,,,,,,,22.0,Solar PV - Fixed,Solar - Solar,TBA,,Publicly Announced
+VIC1,Inverleigh Wind Farm,,,,,,,,,91.5,Wind Turbine - Onshore,Wind - Wind,Inverleigh Wind Farm Pty Ltd,,Anticipated
+VIC1,Inverliegh Wind Farm Storage,,,,,,,,,,,,,,
+VIC1,JL King & Co 150kW- Solar-,,,,,,,,,,,,,,
+VIC1,Jeeralang A,,,,,,,,,53.0,Turbine - OCGT,Fossil - Natural Gas Pipeline,EnergyAustralia Ecogen Py Ltd,JLA01,In Service
+VIC1,Jeeralang B,,,,,,,,,76.0,Turbine - OCGT,Fossil - Natural Gas Pipeline,EnergyAustralia Ecogen Pty Ltd,JLB01,In Service
+VIC1,Jeeralang BESS (Maoneng),,,,,,,,,,,,,,
+VIC1,Jeeralang Battery,,,,,,,,,,,,,,
+VIC1,Jessica Way Truganina Solar,,,,,,,,,,,,,,
+VIC1,Joel BESS,,,,,,,,,296.7,Storage - Battery,Other - Other,ACEnergy Pty Ltd,,Publicly Announced
+VIC1,KIEWA VALLEY BESS,,,,,,,,,500.0,Storage - Battery,Other - Other,KIEWA VALLEY BESS NOMINEES PTY LTD on behalf of KIEWA VALLEY BESS Trust        ,,Publicly Announced
+VIC1,Karadoc Solar Farm,-34.410302,142.2489536,OSM_plant,OSM:way/948942301,medium,,,,104.5,Solar PV - Single axis tracking,Solar - Solar,Iraak Sun Farm Pty Ltd,KARSF1,In Service
+VIC1,Kentbruck Green Power Hub,,,,,,,,,600.0,Wind Turbine - Onshore,Wind - Wind,Neoen Australia Pty Ltd,,Publicly Announced
+VIC1,Kerang BESS,,,,,,,,,103.04,Storage - Battery,Other - Other,Kerang Bess Pty Ltd,,Publicly Announced
+VIC1,Kerang BESS (BSR),,,,,,,,,300.0,Storage - Battery,Other - Other,British Solar Renewables,,Publicly Announced
+VIC1,Kerang East Solar Farm,,,,,,,,,,,,,,
+VIC1,Kerang East Storage System,,,,,,,,,,,,,,
+VIC1,Kerang East Storage System - KCI,,,,,,,,,,,,,,
+VIC1,Kerang Hybrid,,,,,,,,,3.31,Solar PV - Single axis tracking,Solar - Solar,Kerang Power Pty Ltd,,Publicly Announced
+VIC1,Kerang Solar Farm,,,,,,,,,,,,,,
+VIC1,Kerang Solar Farm Green Switch,,,,,,,,,,,,,,
+VIC1,Kiamal BESS,,,,,,,,,238.59,Storage - Battery,Other - Other,TotalEnergies Renewables Australia,KIAMBE,Publicly Announced
+VIC1,Kiamal Solar Farm - Stage 1,-35.0214842,142.29806,OSM_plant,OSM:way/948954306,medium,,,,199.95,Solar PV - Single axis tracking,Solar - Solar,KSF Project Nominees Pty Ltd ATF KSF Project Trust,KIAMSF1,In Service
+VIC1,Kiamal Solar Farm - Stage 2,,,,,,,,,,,,,,
+VIC1,Kiata Wind Farm,-36.396047,141.7534941,OSM_plant,OSM:relation/12810529,medium,,,,31.05,Wind Turbine - Onshore,Wind - Wind,Kiata ProjectCo Pty Ltd atf Kiata Project Trust,KiataWF1,In Service
+VIC1,Koorangie BESS Stage 2,-35.85,143.91,manual,Edify Koorangie ESS — Kerang area,high,prior,MR,VIC prior — Kerang area,150.0,Storage - Battery,Other - Other,Edify Energy Pty Ltd,,Publicly Announced
+VIC1,Koorangie Energy Storage System,-35.85,143.91,manual,Edify Koorangie ESS — Kerang area,high,prior,MR,VIC prior — Kerang area,185.0,Storage - Battery,Other - Other,Shell Energy,KESSB1,Committed
+VIC1,Koyuga Nanneella Wind Farm,,,,,,,,,400.0,Wind Turbine - Onshore,Wind - Wind,FERA Australia Pty Ltd,,Publicly Announced
+VIC1,Kut Wut Brataualung,,,,,,,,,2205.0,Wind Turbine - Offshore,Wind - Wind,Kut-Wut Brataualung Pty Ltd as trustee for the Kut-Wut Brataualung Trust,,Publicly Announced
+VIC1,Kyabram Wind Farm,,,,,,,,,,,,,,
+VIC1,LYA BESS,-38.26,146.59,manual,Loy Yang A PS coords,high,prior,GIP,VIC prior — Loy Yang A area,200.0,Storage - Battery,Other - Other,LOYYANGA,,Publicly Announced
+VIC1,LaTrobe Valley BESS,,,,,,,,,100.0,Storage - Battery,Other - Other,Tilt Renewables Australia Pty Ltd,LVES1,Committed
+VIC1,Lambing Gully BESS,,,,,,,,,100.0,Storage - Battery,Other - Other,tetrisenergy_nr,,Publicly Announced
+VIC1,Lambing Gully Wind Farm,,,,,,,,,310.0,Wind Turbine - Onshore,Wind - Wind,tetrisenergy_nr,,Publicly Announced
+VIC1,Lancaster Solar Farm,,,,,,,,,80.04,Solar PV - Single axis tracking,Solar - Solar,Lancaster Solar Farm Pty Ltd as trustee for the Lancaster Solar Farm Trust,,Anticipated
+VIC1,Latrobe Solar Farm,,,,,,,,,400.0,Solar PV - Single axis tracking,Solar - Solar,Canadian Solar (Australia) Pty Ltd,,Publicly Announced
+VIC1,Laverton North,-37.8417434,144.7889043,OSM_plant,OSM:way/235401746,medium,,,,156.0,Turbine - OCGT,Fossil - Natural Gas Pipeline,Snowy Hydro Ltd,LNGS1,In Service
+VIC1,Learmonth BESS,,,,,,,,,268.0,Storage - Battery,Other - Other,The Trustee for Learmonth BESS Holdings Unit Trust,,Publicly Announced
+VIC1,Leonards Hill,,,,,,,,,4.1,Wind Turbine - Onshore,Wind - Wind,Hepburn Community Wind Park Co-operative Limited,HEPWIND1,In Service
+VIC1,Little River BESS,,,,,,,,,350.0,Storage - Battery,Other - Other,ACEnergy Pty Ltd,,Publicly Announced
+VIC1,Little River Solar Farm,,,,,,,,,,,,,,
+VIC1,Little River Solar Farm - KCI,,,,,,,,,279.0,Solar PV - Fixed,Solar - Solar, Clean Technology Partners,,Publicly Announced
+VIC1,Longford,,,,,,,,,,,,,,
+VIC1,Lovely Banks Renewable Energy Hub,,,,,,,,,,,,,,
+VIC1,Lovely Banks Renewable Energy Hub - KCI,,,,,,,,,400.0,Storage - Battery,Other - Other, Syncline Energy Pty Ltd,,Publicly Announced
+VIC1,Loy Yang A Power Station,-38.2537507,146.5742585,OSM_plant,OSM:way/146581906,medium,,,,560.0,Turbine - Steam Sub Critical,Fossil - Brown Coal,AGL Loy Yang Marketing Pty Ltd,LYA1,In Service
+VIC1,Loy Yang B,-38.256264,146.5846793,OSM_plant,OSM:way/418338492,medium,,,,580.0,Turbine - Steam Sub Critical,Fossil - Brown Coal,Gippsland Power Pty Ltd ABN 30 077 851 079 / LYB Ventures Australia Pty Ltd ABN 57 055 984 499 / Traralgon Power Pty Ltd ABN 64 056 292 623 / Latrobe Power Pty Ltd ABN 42 055 983 563 / LYB Australia Limited ABN 87 055 563 785,LOYYB1,In Service
+VIC1,Loy Yang B Power Station - BESS Stage 1 - KCI,-38.256264,146.5846793,OSM_plant,OSM:way/418338492,medium,,,,250.0,Storage - Battery,Other - Other,Alinta Energy Clean Energy Development Pty Ltd,,Publicly Announced
+VIC1,Loy Yang B Upgrade,,,,,,,,,,,,,,
+VIC1,Loy Yang BESS,,,,,,,,,,,,,,
+VIC1,Lubeck Wind Farm,,,,,,,,,,,,,,
+VIC1,Lubeck Wind Farm - KCI,,,,,,,,,,,,,,
+VIC1,Macarthur Wind Farm,-38.0324033,142.1782496,OSM_plant,OSM:relation/8156501,medium,,,,420.0,Wind Turbine - Onshore,Wind - Wind,Macarthur Wind Farm Pty Ltd and Meridian Wind Macarthur Pty Ltd,MACARTH1,In Service
+VIC1,Mallee Solar Farm,,,,,,,,,,,,,,
+VIC1,Mallee Solar Farm - KCI,,,,,,,,,,,,,,
+VIC1,Malunga BESS - KCI,,,,,,,,,,,,,,
+VIC1,Malunga Nine Mile BESS - KCI,,,,,,,,,500.0,Storage - Battery,Other - Other,Green Switch Energy Pty Ltd,,Publicly Announced
+VIC1,Mansfield Solar Farm,,,,,,,,,,,,,,
+VIC1,Mansfield Solar Farm - Solar - KCI,,,,,,,,,350.0,Solar PV - Fixed,Solar - Solar, Biscon Energy Australia Pty Ltd,,Publicly Announced
+VIC1,Mansfield Solar Farm - Storage - KCI,,,,,,,,,,Storage - Battery,Other - Other, Biscon Energy Australia Pty Ltd,,Publicly Announced
+VIC1,Maroona Wind Farm,,,,,,,,,6.9,Wind Turbine - Onshore,Wind - Wind,Myamba Developments Pty Ltd,,In Service
+VIC1,Maryvale Energy From Waste,,,,,,,,,70.0,Turbine - Steam Super Critical,Renewable Biomass or Waste - Municipal Solid Waste,Maryvale Energy from Waste Project Company,,Publicly Announced
+VIC1,Meadow Creek Solar Farm,,,,,,,,,,,,,,
+VIC1,Meadow Creek Solar Farm - KCI,,,,,,,,,180.0,Solar PV - Fixed,Solar - Solar, Clean Technologies Partners,,Publicly Announced
+VIC1,Meering BESS,,,,,,,,,250.0,Storage - Battery,Wind - Wind,Virya Energy Pty Ltd,,Publicly Announced
+VIC1,Meering Wind Farm,,,,,,,,,1500.0,Wind Turbine - Onshore,Wind - Wind,Virya Energy Pty Ltd,,Publicly Announced
+VIC1,Melbourne Grid Battery - KCI,,,,,,,,,0.0,Storage - Battery,Other - Other,Lumea,,Publicly Announced
+VIC1,Melbourne Regional Landfill,,,,,,,,,8.88,Reciprocating Engine - Spark ignition,Renewable Biomass or Waste - Landfill Gas,Landfill Operations Pty Ltd,,In Service
+VIC1,Melbourne Renewable Energy Complex,,,,,,,,,250.0,Storage - Battery,Other - Other,Elgin Energy Pty Ltd,,Publicly Announced
+VIC1,Melbourne Renewable Energy Complex - KCI,,,,,,,,,,,,,,
+VIC1,Melbourne Renewable Energy Hub,,,,,,,,,,,,,,
+VIC1,Melbourne Renewable Energy Hub - Side A,,,,,,,,,600.0,Storage - Battery,Other - Other,MREH Pty Ltd as trustee for MREH Asset Trust,,Committed
+VIC1,Melbourne Renewable Energy Hub - Side B,,,,,,,,,600.0,Storage - Battery,Other - Other,MREH Pty Ltd as trustee for MREH Asset Trust,,Publicly Announced
+VIC1,Melbourne Solar Farm,,,,,,,,,,,,,,
+VIC1,Melbourne Solar Farm - KCI,,,,,,,,,350.0,Solar PV - Fixed,Solar - Solar, Emergent Technologies,,Publicly Announced
+VIC1,Melton Renewable Energy Hub,,,,,,,,,,,,,,
+VIC1,Merbein Solar Farm,,,,,,,,,,,,,,
+VIC1,Meredith Wind Farm,,,,,,,,,,,,,,
+VIC1,Meredith Wind Farm - KCI,,,,,,,,,342.0,Wind Turbine - Onshore,Wind - Wind, Acciona Energy Global Australia,,Publicly Announced
+VIC1,Midland Highway Orrvale,,,,,,,,,,,,,,
+VIC1,Mildura Power Station,,,,,,,,,9.6,Solar PV - Single axis tracking,Solar - Solar,Ceramet,,Publicly Announced
+VIC1,Moira Solar Farm,,,,,,,,,,,,,,
+VIC1,Mokoan Solar Farm,-36.48881,146.1241642,OSM_plant,OSM:way/1373586887,medium,,,,,,,,,
+VIC1,Mokoan Solar Farm (LightsourceBP),-36.48881,146.1241642,OSM_plant,OSM:way/1373586887,medium,,,,46.0,Solar PV - Single axis tracking,Solar - Solar,EE Solar 6 Pty Ltd as trustee for EE Solar 6 Trust,MOKOSF1,In Commissioning
+VIC1,Mologa BESS,,,,,,,,,250.0,Storage - Battery,Other - Other,Potentia Energy Group P/L,,Publicly Announced
+VIC1,Monash BESS,,,,,,,,,,,,,,
+VIC1,Moonah Solar Farm,,,,,,,,,,,,,,
+VIC1,Moonah Solar Farm - KCI,,,,,,,,,176.4,Solar PV - Single axis tracking,Solar - Solar, Venn Energy Pty Ltd / Moonah Solar Project Pty Ltd,,Publicly Announced
+VIC1,Moorabool BESS,,,,,,,,,300.0,Storage - Battery,Other - Other,Neoen Australia Pty Ltd,MOORBESS,Publicly Announced
+VIC1,Moorabool Wind Farm,-37.6980469,144.165613,OSM_plant,OSM:relation/12002723,medium,,,,312.0,Wind Turbine - Onshore,Wind - Wind,Moorabool Wind Farm Interface Company Pty Ltd,MOORAWF1,In Service
+VIC1,Moreton Hill Wind Farm,,,,,,,,,387.6,Wind Turbine - Onshore,Wind - Wind,Moreton Hill Wind Farm Nominees Pty Ltd,,Publicly Announced
+VIC1,Mornington BESS,,,,,,,,,240.0,Storage - Battery,Other - Other,Mornington BESS Project Pty Ltd as Trustee of Mornington BESS Project Trust,,Committed
+VIC1,Mornington Waste Disposal Facility,,,,,,,,,,,,,,
+VIC1,Mortlake,-38.1485895,142.8405896,OSM_plant,OSM:relation/12811443,medium,,,,292.0,Turbine - OCGT,Fossil - Natural Gas Pipeline,Origin Energy Power Limited,MORTLK11,In Service
+VIC1,Mortlake BESS,,,,,,,,,,,,,,
+VIC1,Mortlake Battery,,,,,,,,,300.0,Storage - Battery,Other - Other,BORAL,,Committed*
+VIC1,Mortlake Energy Hub,,,,,,,,,333.64,Solar PV - Single axis tracking,Solar - Solar,brightnightpower_NR,,Anticipated
+VIC1,Mortlake South Wind Farm,-38.1485895,142.8405896,OSM_plant,OSM:relation/12811443,medium,,,,157.5,Wind Turbine - Onshore,Wind - Wind,Mortlake South Wind Farm Pty Ltd,MRTLSWF1,In Service
+VIC1,Mortons Lane Wind Farm,-37.8396321,142.4627158,OSM_plant,OSM:relation/8144686,medium,,,,19.5,Wind Turbine - Onshore,Wind - Wind,Mortons Lane Windfarm Pty Ltd,MLWF1,In Service
+VIC1,Morwell BESS,,,,,,,,,784.8,Storage - Battery,Other - Other,ACE Power Development 2 Pty Ltd,,Publicly Announced
+VIC1,Morwell Battery Energy Storage System,,,,,,,,,,,,,,
+VIC1,Morwell Battery Energy System,,,,,,,,,,,,,,
+VIC1,Morwell Solar,,,,,,,,,,,,,,
+VIC1,Mount Fyans,,,,,,,,,459.0,Wind Turbine - Onshore,Wind - Wind,Woolnorth Wind Farm Holding,,Publicly Announced
+VIC1,Mount Fyans Wind Farm 2.0,,,,,,,,,750.0,Storage - Battery,Other - Other,Woolnorth Wing Farm Holding Pty Ltd,,Publicly Announced
+VIC1,Mount Waverley Mini Hydro,,,,,,,,,,,,,,
+VIC1,Mt Doran BESS,,,,,,,,,200.0,Storage - Battery,Other - Other,Iberdrola Australia Development Pty Ltd,,Publicly Announced
+VIC1,Mt Gellibrand Wind Farm,,,,,,,,,138.6,Wind Turbine - Onshore,Wind - Wind,ACCIONA Energy,MTGELWF1,In Service
+VIC1,Mt Mercer BESS,,,,,,,,,80.0,Storage - Battery,Other - Other,Foresight Australia,,Publicly Announced
+VIC1,Mt Mercer Wind Farm,,,,,,,,,131.2,Wind Turbine - Onshore,Wind - Wind,Mt Mercer Windfarm Pty Ltd,MERCER01,In Service
+VIC1,Murra Warra Solar Farm,,,,,,,,,,,,,,
+VIC1,Murra Warra Wind Farm - stage 1,-36.4269561,142.3155287,OSM_plant,OSM:relation/11358379,medium,,,,225.7,Wind Turbine - Onshore,Wind - Wind,Murra Warra Project Co Pty Ltd,MUWAWF1,In Service
+VIC1,Murra Warra Wind Farm - stage 2,-36.4269561,142.3155287,OSM_plant,OSM:relation/11358379,medium,,,,209.0,Wind Turbine - Onshore,Wind - Wind,Murra Warra II Project Co Pty Ltd as Trustee for the Murra Warra II Project Trust,MUWAWF2,In Service
+VIC1,Murray 1,-36.2468296,148.1902002,OSM_plant,OSM:way/174879640,medium,,,,950.0,Hydro - Dam,Hydro - Water,Snowy Hydro Ltd,MURRAY,In Service
+VIC1,Murray 2,-36.242469,148.1363948,OSM_plant,OSM:way/174879638,medium,,,,600.0,Hydro - Dam,Hydro - Water,Snowy Hydro Ltd,MURRAY,In Service
+VIC1,Muskerry Solar Power Station - KCI,,,,,,,,,200.0,Solar PV - Fixed,Solar - Solar,Edify Energy Pty Ltd,,Publicly Announced
+VIC1,Naring Solar Farm,,,,,,,,,,,,,,
+VIC1,Naroghid,,,,,,,,,,,,,,
+VIC1,Navarre Wind Farm,,,,,,,,,,,,,,
+VIC1,Newhaven College,,,,,,,,,,,,,,
+VIC1,Newport,-37.8413958,144.8950298,OSM_plant,OSM:way/243897689,medium,,,,500.0,Turbine - Steam Sub Critical,Fossil - Natural Gas Pipeline,EnergyAustralia Ecogen Pty Ltd,NPS,In Service
+VIC1,Newport BESS - KCI,,,,,,,,,,,,,,
+VIC1,Newport Battery Energy Storage System,,,,,,,,,,,,,,
+VIC1,Nhill Wind Farm,-36.3425807,141.4347013,OSM_plant,OSM:relation/12817439,medium,,,,,,,,,
+VIC1,Normanville Energy Park - Wind (KCI),,,,,,,,,120.0,Wind Turbine - Onshore,Wind - Wind,Westwind Development Pty Ltd,,Publicly Announced
+VIC1,North Yarragon BESS - KCI,,,,,,,,,210.0,Storage - Battery,Other - Other,Zen Energy,,Publicly Announced
+VIC1,Nowingi Solar Farm - Edify (KCI),,,,,,,,,750.0,Solar PV - Fixed,Solar - Solar,Edify Energy Pty Ltd,,Publicly Announced
+VIC1,Nowingi Solar Storage - Solar,,,,,,,,,250.0,Solar PV - Single axis tracking,Solar - Solar,Lyon Solar,,Publicly Announced
+VIC1,Nowingi Solar Storage - Storage,,,,,,,,,80.0,Storage - Battery,Other - Other,Lyon Solar,,Publicly Announced
+VIC1,Numurkah Solar Farm,-36.1599165,145.4770342,OSM_plant,OSM:relation/12771291,medium,,,,101.08,Solar PV - Single axis tracking,Solar - Solar,Numurkah Solar Farm Pty Ltd,NUMURSF1,In Service
+VIC1,Nyaninyuk Wind Farm,,,,,,,,,302.1,Wind Turbine - Onshore,Wind - Wind,Acciona Energy,,Publicly Announced
+VIC1,Oaklands Hill Wind Farm,-37.6761505,142.5581493,OSM_plant,OSM:relation/8144685,medium,,,,67.2,Wind Turbine - Onshore,Wind - Wind,Oaklands Hill Wind farm pty ltd,OAKLAND1,In Service
+VIC1,Orsted Gippsland A&B Windfarm,,,,,,,,,2819.9,Wind Turbine - Offshore,Wind - Wind,orsted_nr,,Publicly Announced
+VIC1,Orsted Gippsland C Windfarm,,,,,,,,,2819.9,Wind Turbine - Offshore,Wind - Wind,orsted_nr,,Publicly Announced
+VIC1,Ouyen Solar Farm,,,,,,,,,,,,,,
+VIC1,Pacific Green Energy Park Portland West,,,,,,,,,1000.0,Storage - Battery,Other - Other,Pacific Green Energy Park Portland West Trust,,Publicly Announced
+VIC1,Pacific Green Energy Park – Portland,,,,,,,,,960.0,Storage - Battery,Other - Other,Pacific Green Energy Park Cascade Trust,,Publicly Announced
+VIC1,Penshurst,,,,,,,,,,,,,,
+VIC1,Perry Bridge Solar Farm,,,,,,,,,,,,,,
+VIC1,Philip Island BESS,,,,,,,,,5.0,Storage - Battery,Other - Other,Mondo Power,PIBESS1,In Service
+VIC1,Philip Island Community Energy Storage System,,,,,,,,,,,,,,
+VIC1,Pine Lodge 2 BESS - KCI,,,,,,,,,453.6,Storage - Battery,Other - Other,ACEnergy Pty Ltd,,Publicly Announced
+VIC1,Pine Lodge BESS,,,,,,,,,250.0,Storage - Battery,Other - Other,ENERGY STORAGE PROJECT NO 6 PTY LTD,,Anticipated
+VIC1,Port Phillip Heads Tidal Energy Project,,,,,,,,,,,,,,
+VIC1,Portland BESS,,,,,,,,,,,,,,
+VIC1,Portland Renewables Project - KCI,,,,,,,,,0.0,Storage - Battery,Other - Other,HAMR Energy Pty Ltd,,Publicly Announced
+VIC1,Portland Wind Farm,,,,,,,,,151.7,Wind Turbine - Onshore,Wind - Wind,Pacific Hydro Portland Wind Farm Pty Ltd,PORTWF,In Service
+VIC1,Portland Wind Farm - KCI,,,,,,,,,495.0,Wind Turbine - Onshore,Wind - Wind, Vic Offshore Windfarm Pty Ltd,,Publicly Announced
+VIC1,Prairie Solar Farm,,,,,,,,,250.0,Solar PV - Single axis tracking,Solar - Solar,Pacific Hydro Australia Developments Pty Ltd,,Publicly Announced
+VIC1,Puzzle Range BESS,,,,,,,,,50.0,Storage - Battery,Other - Other,tetrisenergy_nr,,Publicly Announced
+VIC1,Puzzle Range Wind Farm,,,,,,,,,350.0,Wind Turbine - Onshore,Wind - Wind,tetrisenergy_nr,,Publicly Announced
+VIC1,Qenos Cogeneration Facility,,,,,,,,,,,,,,
+VIC1,Quandong Solar Farm,,,,,,,,,350.0,Solar PV - Fixed,Solar - Solar,Emergent Technologies,,Publicly Announced
+VIC1,REWASTE WOLLERT,,,,,,,,,,,,,,
+VIC1,Rangebank BESS,-38.0851742,145.2599864,OSM_plant,OSM:way/1294703081,medium,,,,200.0,Storage - Battery,Other - Other,Cranbourne BESS Project Co Pty Ltd,RANGEB1,In Service
+VIC1,Ravenswood BESS,,,,,,,,,20.0,Storage - Battery,Other - Other,FRV Services Australia,,Anticipated
+VIC1,Ravenswood Solar Farm - FRV,,,,,,,,,63.0,Solar PV - Fixed,Solar - Solar,FRV Services Australia,,Anticipated
+VIC1,Red Cliffs Solar & BESS - KCI,,,,,,,,,,,,,,
+VIC1,Redcliffs Solar & BESS,,,,,,,,,,,,,,
+VIC1,Redcliffs Solar & BESS - KCI,,,,,,,,,,,,,,
+VIC1,Rifle Butts Wind Farm,,,,,,,,,40.0,Wind Turbine - Onshore,Wind - Wind,NewEn,,Publicly Announced
+VIC1,Riverside BESS - Storage - KCI,,,,,,,,,250.0,Storage - Battery,Other - Other,Enervest Pty Ltd,,Publicly Announced
+VIC1,Rubicon BESS,,,,,,,,,310.8,Storage - Battery,Other - Other,samsung_NR,,Publicly Announced
+VIC1,Rubicon Mountain Streams,,,,,,,,,13.5,Hydro - Dam,Hydro - Water,AGL Hydro Partnership,RUBICON,In Service
+VIC1,Rubicon Solar Farm,,,,,,,,,126.0,Solar PV - Single axis tracking,Solar - Solar,samsung_NR,,Publicly Announced
+VIC1,Ryan Corner Wind Farm,,,,,,,,,218.4,Wind Turbine - Onshore,Wind - Wind,Ryan Corner Development Pty Ltd,RYANCWF1,In Commissioning
+VIC1,SALE HOSPITAL - SOLAR,,,,,,,,,,,,,,
+VIC1,SCS Shepparton,,,,,,,,,,,,,,
+VIC1,SEC Renewable Energy Hub,,,,,,,,,100.0,Storage - Battery,Other - Other,SEC,,Publicly Announced
+VIC1,Salt Creek Wind Farm,-37.917,142.782,manual,Salt Creek WF OSM relation,high,prior,SW-VIC,VIC prior — Hamilton area,54.0,Wind Turbine - Onshore,Wind - Wind,Salt Creek Wind Farm Pty Ltd,SALTCRK1,In Service
+VIC1,Seadragon offshore wind project,,,,,,,,,,,,,,
+VIC1,Seadragon project,,,,,,,,,,,,,,
+VIC1,Seaspray Off Shore Wind Farm,,,,,,,,,3000.0,Wind Turbine - Offshore,Wind - Wind,BayWa r.e. Australia Offshore Wind Projects 3 Pty Ltd,,Publicly Announced
+VIC1,Seymour Wind Farm,,,,,,,,,920.0,Wind Turbine - Onshore,Wind - Wind,Seymour Wind Pty Ltd,,Publicly Announced
+VIC1,Seymour Wind Farm - KCI,,,,,,,,,,,,,,
+VIC1,Shamic Sheetmetal,,,,,,,,,,,,,,
+VIC1,Shepparton,,,,,,,,,,,,,,
+VIC1,Shepparton Solar Farm,,,,,,,,,,,,,,
+VIC1,Shepparton Wastewater Treatment Facility,,,,,,,,,1.1,Reciprocating Engine - Spark ignition,Renewable Biomass or Waste - Biogas,Diamond Energy Pty Ltd,,In Service
+VIC1,Somerton,-37.6316151,144.9528442,OSM_plant,OSM:way/242552875,medium,,,,170.0,Turbine - OCGT,Fossil - Natural Gas Pipeline,AGL Hydro partnership,AGLSOM,In Service
+VIC1,South Morang Battery Energy Storage System,,,,,,,,,,,,,,
+VIC1,Southern Ocean,,,,,,,,,,,,,,
+VIC1,Southern Winds Offshore Wind,,,,,,,,,1155.0,Wind Turbine - Offshore,Wind - Wind,Southern Winds OWP Project Pty Ltd,,Publicly Announced
+VIC1,Spinifex Offshore Wind Farm,,,,,,,,,1200.0,Wind Turbine - Offshore,Wind - Wind,Alinta Energy Retail Sales Pty Ltd,,Publicly Announced
+VIC1,Springvale,,,,,,,,,,,,,,
+VIC1,Springvale Energy Hub,,,,,,,,,115.0,Storage - Battery,Other - Other,progresspower_nr,,Publicly Announced
+VIC1,Springvale Energy Hub - BESS,,,,,,,,,,,,,,
+VIC1,Stanhope BESS Project,,,,,,,,,,,,,,
+VIC1,Stanhope BESS Project 01,,,,,,,,,20.0,Storage - Battery,Solar - Solar,Globird Energy Pty Ltd,SHBESS01,Publicly Announced
+VIC1,Stanhope BESS Project 02,,,,,,,,,,,,,,
+VIC1,Stanhope Solar Farm,,,,,,,,,5.0,Solar PV - Fixed,Solar - Solar,globirdenergy_NR,,Publicly Announced
+VIC1,Star of The South,,,,,,,,,,,,,,
+VIC1,Star of the South Wind Farm,,,,,,,,,2205.0,Wind Turbine - Offshore,Wind - Wind,Star of the South Wind Farm Pty Ltd as trustee for the Star of the South Trust,SOTS1,Publicly Announced
+VIC1,Stockyard Hill Wind Farm,-37.5498108,143.337861,OSM_plant,OSM:relation/12815258,medium,,,,456.96,Wind Turbine - Onshore,Wind - Wind,Stockyard Hill Wind Farm Pty Ltd,STOCKYD1,In Service
+VIC1,Stonehaven Gas Turbines,,,,,,,,,,,,,,
+VIC1,Stonehaven Gas Turbines - KCI,,,,,,,,,220.0,Turbine - OCGT,Other - Other, APA Power Holdings Pty Ltd,,Publicly Announced
+VIC1,Swan Hill Solar Farm 1 Unit 1,-35.3424715,143.5178218,OSM_plant,OSM:way/733254929,medium,,,,,,,,,
+VIC1,Swan Hill Solar Farm 2 Unit 1,-35.3424715,143.5178218,OSM_plant,OSM:way/733254929,medium,,,,,,,,,
+VIC1,Symex,,,,,,,,,,,,,,
+VIC1,Tarong BESS,,,,,,,,,,,,,,
+VIC1,Tarrone BESS - Storage - KCI,,,,,,,,,200.0,Storage - Battery,Other - Other,Global Power Generation Australia Pty Ltd,,Publicly Announced
+VIC1,Tarrone GT,,,,,,,,,600.0,Turbine - OCGT,Fossil - Natural Gas Pipeline,AGL Energy Limited,,Publicly Announced
+VIC1,Tarrone Wind Farm,,,,,,,,,,,,,,
+VIC1,Tatura Biomass Generator,,,,,,,,,1.1,Reciprocating Engine - Spark ignition,Renewable Biomass or Waste - Biogas,Diamond Energy Pty Ltd,,In Service
+VIC1,Tatura East Solar Farm,,,,,,,,,,,,,,
+VIC1,Terang BESS,,,,,,,,,144.4,Storage - Battery,Other - Other,frv_NR,TRGBESS,Anticipated
+VIC1,Terang Battery Energy Storage System,,,,,,,,,,,,,,
+VIC1,Terang Battery Energy Storage System (Tilt Renewables),,,,,,,,,,,,,,
+VIC1,Terang Terminal Station,,,,,,,,,,,,,,
+VIC1,Thomastown BESS,,,,,,,,,300.0,Storage - Battery,Other - Other,Ausnet Transmission Group Pty Ltd,,Publicly Announced
+VIC1,Thomastown Terminal Station,,,,,,,,,,,,,,
+VIC1,Thomastown Terminal Station - KCI,,,,,,,,,,,,,,
+VIC1,Timboon West Wind Farm,-38.5326674,142.9152245,OSM_plant,OSM:relation/12817459,medium,,,,7.2,Wind Turbine - Onshore,Wind - Wind,Timboon West Wind Farm Pty Ltd,TIMWEST,In Service
+VIC1,Todae Solar - Nillumbik,,,,,,,,,,,,,,
+VIC1,Todae Solar SV - Eltham,,,,,,,,,,,,,,
+VIC1,Todae Solar – La Trobe University Bendigo,,,,,,,,,,,,,,
+VIC1,Todae Solar – La Trobe University Wodonga,,,,,,,,,,,,,,
+VIC1,Toolern Vale BESS,,,,,,,,,25.0,Storage - Battery,Other - Other,tetrisenergy_nr,,Publicly Announced
+VIC1,Toolern Vale Solar Farm,,,,,,,,,15.0,Solar PV - Fixed,Solar - Solar,tetrisenergy_nr,,Publicly Announced
+VIC1,Toolern Vale Solar Farm_SS,,,,,,,,,15.0,Solar PV - Fixed,Solar - Solar,tetrisenergy_nr,,Publicly Announced
+VIC1,Toora,-38.6449923,146.3428464,OSM_plant,OSM:relation/7917337,medium,,,,21.0,Wind Turbine - Onshore,Wind - Wind,Ratch Australia,TOORAWF,In Service
+VIC1,Tramway BESS,,,,,,,,,,,,,,
+VIC1,Tramway Road BESS,,,,,,,,,300.0,Storage - Battery,Other - Other,Eku Energy Projects (Australia) Pty Ltd as trustee for the Eku Energy Projects Australia Trust,,Publicly Announced
+VIC1,Traralgon Network Support Station,,,,,,,,,10.0,Reciprocating Engine - Spark ignition,Fossil - Natural Gas,NovaPower Pty Ltd,TGNSS1,In Service
+VIC1,Tulkara Wind Farm,,,,,,,,,,,,,,
+VIC1,Tulkara Wind Farm - KCI,,,,,,,,,,,,,,
+VIC1,Tyabb Terminal Station,,,,,,,,,,,,,,
+VIC1,University of Melbourne Archives Brunswick,,,,,,,,,,,,,,
+VIC1,University of Melbourne McCoy Carlton,,,,,,,,,,,,,,
+VIC1,University of Melbourne Performing Arts Centre Southbank,,,,,,,,,,,,,,
+VIC1,University of Melbourne Peter Hall Parkville,,,,,,,,,,,,,,
+VIC1,University of Melbourne Sports Centre Parkville,,,,,,,,,,,,,,
+VIC1,University of Melbourne The Spot Carlton,,,,,,,,,,,,,,
+VIC1,Valley Power,-38.2537102,146.5889084,OSM_plant,OSM:way/420651432,medium,,,,50.0,Turbine - OCGT,Fossil - Natural Gas Pipeline,Snowy Hydro Ltd,VPGS1,In Service
+VIC1,Vawdrey Manufacturing,,,,,,,,,,,,,,
+VIC1,Victorian Big Battery,,,,,,,,,300.0,Storage - Battery,Other - Other,Victorian Big Battery Pty Ltd,VBB1,In Service
+VIC1,Victorian Big Battery 2,,,,,,,,,,,,,,
+VIC1,Victorian Big Battery 2 - Storage - KCI,,,,,,,,,,,,,,
+VIC1,Wangaratta Solar Farm,,,,,,,,,,,,,,
+VIC1,Wantirna Mini Hydro,,,,,,,,,,,,,,
+VIC1,Warracknabeal Wind Farm,,,,,,,,,1500.0,Wind Turbine - Onshore,Wind - Wind,WestWind Energy Pty Ltd,,Publicly Announced
+VIC1,Warrenheip BESS,,,,,,,,,240.0,Storage - Battery,Other - Other,AE Solar 6 Pty Ltd as Trustee for AE Solar 6 Unit Trust,,Publicly Announced
+VIC1,Watta Wella Power Station,,,,,,,,,306.0,Wind Turbine - Onshore,Wind - Wind, RES Australia Pty Ltd,,Publicly Announced
+VIC1,Watta Wella Wind Farm - KCI,,,,,,,,,376.0,Wind Turbine - Onshore,Wind - Wind,RES Australia Pty Ltd,,Publicly Announced
+VIC1,Waubra,-37.348915,143.6039866,OSM_plant,OSM:relation/8144684,medium,,,,93.0,Wind Turbine - Onshore,Wind - Wind,Pyrenees Wind Energy Developments,WAUBRAWF,In Service
+VIC1,Waubra BESS - KCI,,,,,,,,,200.0,Storage - Battery,Other - Other,Acciona Energy Australia Global,,Publicly Announced
+VIC1,Waubra North Wind Farm,,,,,,,,,,,,,,
+VIC1,Waubra North Wind Farm - KCI,,,,,,,,,,,,,,
+VIC1,Wemen Solar Farm,-34.797409,142.5468508,OSM_plant,OSM:relation/10040373,medium,,,,97.5,Solar PV - Single axis tracking,Solar - Solar,Wemen Asset Co Pty Ltd as Trustee to Wemen Solar Unit Trust,WEMENSF1,In Service
+VIC1,Wemen TS Syncon,,,,,,,,,,,,,,
+VIC1,West Kiewa,-36.7600101,147.185743,OSM_plant,OSM:way/107270533,medium,,,,34.0,Hydro - Dam,Hydro - Water,AGL Hydro Partnership,WKIEWA1,In Service
+VIC1,West Mokoan BESS,,,,,,,,,,,,,,
+VIC1,West Mokoan Solar Farm,-36.48881,146.1241642,OSM_plant,OSM:way/1373586887,medium,,,,400.4,Solar PV - Single axis tracking,Solar - Solar,West Mokoan Solar Farm,,Publicly Announced
+VIC1,Willatook,,,,,,,,,354.0,Wind Turbine - Onshore,Wind - Wind,Wind Prospect WA Pty Ltd,,Publicly Announced
+VIC1,William Hovel,,,,,,,,,1.8,Hydro - Run of River,Hydro - Water,Pacific Hydro Investments Pty Ltd,WILLHOV1,In Service
+VIC1,Willowvale Solar Farm - KCI,,,,,,,,,200.0,Solar PV - Fixed,Solar - Solar,Elgin Energy Pty Ltd,,Publicly Announced
+VIC1,Wimmera Plains BESs,,,,,,,,,100.0,Storage - Battery,Other - Other,BayWA r.e Projects Australia Pty Ltd,,Publicly Announced
+VIC1,Wimmera Plains Wind Farm,,,,,,,,,,,,,,
+VIC1,Wimmera Plains Wind Farm - KCI,,,,,,,,,312.0,Wind Turbine - Onshore,Wind - Wind, Wimmera Plains Energy Facility Pty Ltd,,Publicly Announced
+VIC1,Winchelsea Gas Turbines,,,,,,,,,,,,,,
+VIC1,Winchelsea Gas Turbines - KCI,,,,,,,,,220.0,Turbine - OCGT,Other - Other, APA Power Holdings Pty Ltd,,Publicly Announced
+VIC1,Winton BESS,,,,,,,,,120.0,Storage - Battery,Other - Other,AE BESS 10 as Trustee for AE BESS 10 Unit Trust,,Publicly Announced
+VIC1,Winton BESS - KCI,,,,,,,,,,,,,,
+VIC1,Winton Energy Reserve 1,,,,,,,,,200.0,Storage - Battery,Other - Other,Lochard Energy,,Publicly Announced
+VIC1,Winton North Solar Farm,,,,,,,,,100.0,Solar PV - Fixed,Solar - Solar,EE Solar 12 Pty Ltd as trustee for the EE Solar 12 Trust,,Publicly Announced
+VIC1,Winton Solar Farm,-36.50417,146.1244958,OSM_plant,OSM:way/948218698,medium,,,,85.0,Solar PV - Single axis tracking,Solar - Solar,Winton Asset Co. Pty Ltd as Trustee of the Winton Asset Trust,WINTSF1,In Service
+VIC1,Wodonga BESS,,,,,,,,,250.0,Storage - Battery,Other - Other,IBERDROLA AUSTRALIA DEVELOPMENT PTY LIMITED,,Publicly Announced
+VIC1,Wodonga BESS - KCI,,,,,,,,,,,,,,
+VIC1,Wodonga Solar Farm,,,,,,,,,76.0,Solar PV - Single axis tracking,Solar - Solar,Wodonga Solar Power ,,Publicly Announced
+VIC1,Wollert,-37.5831127,145.0484465,OSM_plant,OSM:way/948393160,medium,,,,7.86,Reciprocating Engine - Spark ignition,Renewable Biomass or Waste - Landfill Gas,LMS Energy Pty Ltd,,In Service
+VIC1,Wollert Gas Turbine,,,,,,,,,,,,,,
+VIC1,Wollert Gas Turbine - KCI,,,,,,,,,600.0,Turbine - OCGT,Other - Other, APA Power Holdings Pty Ltd,,Publicly Announced
+VIC1,Wombelano Wind Farm,,,,,,,,,24.0,Wind Turbine - Onshore,Wind - Wind,Wind Projects Australia Project 1 Pty Ltd,,Publicly Announced
+VIC1,Wonthaggi Wind Farm,-38.6047497,145.5448715,OSM_plant,OSM:relation/8107551,medium,,,,12.0,Wind Turbine - Onshore,Wind - Wind,Vision Super Pty Ltd,WONWP,In Service
+VIC1,Woolsthorpe Wind Farm,,,,,,,,,72.0,Wind Turbine - Onshore,Wind - Wind,Woolsthorpe Wind Farm Pty Ltd,,Anticipated
+VIC1,Wooreen Energy Storage System,,,,,,,,,350.0,Storage - Battery,Other - Other,EnergyAustralia Holdings Limited,,Committed*
+VIC1,Wunghnu Solar Farm,-36.1644374,145.3935262,OSM_plant,OSM:way/1360858893,medium,,,,93.5,Solar PV - Single axis tracking,Solar - Solar,Sun Spot 3 Pty Ltd,WUNUSF1,In Commissioning
+VIC1,Wyndham Renewable Energy Facility,,,,,,,,,,,,,,
+VIC1,Yallourn 220kV Connection Gas Turbine,,,,,,,,,,,,,,
+VIC1,Yallourn 220kV Connection Gas Turbine - KCI,,,,,,,,,,,,,,
+VIC1,Yallourn 500kV Connection Gas Turbine,,,,,,,,,,,,,,
+VIC1,Yallourn 500kV Connection Gas Turbine - KCI,,,,,,,,,,,,,,
+VIC1,Yallourn W,-38.1779798,146.3420491,OSM_plant,OSM:way/133972914,medium,,,,375.0,Turbine - Steam Sub Critical,Fossil - Brown Coal,EnergyAustralia Yallourn Pty Ltd,YWPS1,In Service - Announced Withdrawal (Permanent)
+VIC1,Yaloak South Wind Farm,-37.726597,144.2578419,OSM_plant,OSM:relation/10364033,medium,,,,28.7,Wind Turbine - Onshore,Wind - Wind,Pacific Hydro Yaloak South Pty Ltd,,In Service
+VIC1,Yambuk,-38.3071314,142.0089579,OSM_plant,OSM:relation/8142592,medium,,,,30.0,Wind Turbine - Onshore,Wind - Wind,Energy Pacific Vic Pty Ltd,YAMBUKWF,In Service
+VIC1,Yarrawonga,-36.0093971,145.9994849,OSM_plant,OSM:way/835602089,medium,,,,9.5,Hydro - Dam,Hydro - Water,AGL Hydro Partnership,-,In Service
+VIC1,Yatpool Solar Farm,-34.3964493,142.1737615,OSM_plant,OSM:way/948341077,medium,,,,50.0,Solar PV - Single axis tracking,Solar - Solar,Yatpool Sun Farm Pty Ltd,YATSF1,In Service
+VIC1,Yawong Wind Farm,-36.4811615,143.3666053,OSM_plant,OSM:relation/12771008,medium,,,,7.2,Wind Turbine - Onshore,Wind - Wind,Yawong Wind Farm Pty Ltd,YAWWF1,In Service
+VIC1,Yendon Wind Farm,-37.6263436,144.0305525,OSM_plant,OSM:relation/10054299,medium,,,,144.4,Wind Turbine - Onshore,Wind - Wind,Northleaf /InfraRed/Macquarie Capital,YENDWF1,In Service
+VIC1,Zilzie Winery Solar System,,,,,,,,,,,,,,

@@ -99,6 +99,16 @@ def spatial_match(
     s_geo = subs.dropna(subset=["lat", "lon"]).copy()
     s_geo["lat"] = s_geo["lat"].astype(float)
     s_geo["lon"] = s_geo["lon"].astype(float)
+    # Exclude interconnector terminals from the candidate set — a project near
+    # Heywood/Murraylink/Basslink/Terranora should snap to the nearest *real*
+    # generation substation, not the cross-region DC/AC link terminal.
+    if "interconnector_terminal" in s_geo.columns:
+        ic = s_geo["interconnector_terminal"].astype(str).str.lower().isin(["true", "1", "yes"])
+        n_ic = int(ic.sum())
+        if n_ic:
+            print(f"Excluding {n_ic} interconnector-terminal substations from candidate set",
+                  file=sys.stderr)
+        s_geo = s_geo[~ic].copy()
     out_rows = []
     for _, p in projects.iterrows():
         site = p.get("site_name", "")

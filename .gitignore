@@ -32,3 +32,4 @@ venv/
 scratch/
 notes.local.md
 data/rez/osm_cache/
+data/rez/sld_pages/

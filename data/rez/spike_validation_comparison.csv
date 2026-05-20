@@ -1,64 +1,64 @@
-site_name,region,spike_class,my_manual_call,spatial_join_call,nearest_substation,nearest_substation_rez,distance_km,catchment_confidence,agreement,disagreement_category,project_coord_source,project_lat,project_lon,exclusion_pattern_matched
-Pottinger Energy Park - Wind - KCI,NSW1,prior,SW-NSW,NEW,Quirindi,NEW,27.44,medium,N,rez_mismatch_SW-NSW_vs_NEW,manual,-31.3,150.5,
-Pottinger Energy Park - Battery - KCI,NSW1,prior,SW-NSW,NEW,Quirindi,NEW,27.44,medium,N,rez_mismatch_SW-NSW_vs_NEW,manual,-31.3,150.5,
-Pottinger Energy Park - Solar - KCI,NSW1,prior,SW-NSW,NEW,Quirindi,NEW,27.44,medium,N,rez_mismatch_SW-NSW_vs_NEW,manual,-31.3,150.5,
-Hanworth Battery,NSW1,prior,Unclassified,HCC,Glenbawn,HCC,37.18,medium,N,spatial_assigned_user_skipped,manual,-31.8,150.85,
-Glenbawn Pumped Hydro Project,NSW1,prior,Unclassified,HCC,Glenbawn,HCC,9.61,high,N,spatial_assigned_user_skipped,manual,-32.1,151.1,
-Goulburn River Solar Farm And BESS,NSW1,prior,CWO,HCC,Bylong,HCC,7.31,high,N,rez_mismatch_CWO_vs_HCC,manual,-32.35,150.1,
-Yarrabee Solar Power Project,NSW1,prior,SW-NSW,NEW,Bayswater,NEW,9.84,high,N,rez_mismatch_SW-NSW_vs_NEW,manual,-32.4,151.05,
-Bayswater,NSW1,prior,NEW,NEW,Bayswater,NEW,0.64,high,Y,agree,manual,-32.395,150.95,
-LYA BESS,VIC1,prior,GIP,GIP,Loy Yang,GIP,1.62,high,Y,agree,manual,-38.26,146.59,
-Koorangie Energy Storage System,VIC1,prior,MR,MR,Kerang,MR,8.97,high,Y,agree,manual,-35.85,143.91,
-Koorangie BESS Stage 2,VIC1,prior,MR,MR,Kerang,MR,8.97,high,Y,agree,manual,-35.85,143.91,
-Cathedral Rocks,SA1,prior,EYR,EYR,Port Lincoln,EYR,26.77,medium,Y,agree,manual,-34.856,135.582,
-Salt Creek Wind Farm,VIC1,prior,SW-VIC,SW-VIC,Salt Creek,SW-VIC,1.7,high,Y,agree,manual,-37.917,142.782,
-Mannum Adelaide Pumping Station No 2 - MAPL2 (Palmer),SA1,prior,EXCLUDE-pumping,Unclassified,,,,excluded,Y,agree,manual,-34.92,139.3,Pumping Station
-Morgan To Whyalla Pipeline No 1 PS And Water Filtration Plant,SA1,prior,EXCLUDE-pipeline,Unclassified,,,,excluded,Y,agree,manual,-34.0,139.66,Pipeline No 1 PS
-Morgan To Whyalla Pipeline No 2 PS,SA1,prior,EXCLUDE-pipeline,Unclassified,,,,excluded,Y,agree,manual,-34.0,138.7,Pipeline No 2 PS
-Morgan To Whyalla Pipeline No 3 PS,SA1,prior,EXCLUDE-pipeline,Unclassified,,,,excluded,Y,agree,manual,-33.5,138.1,Pipeline No 3 PS
-Morgan To Whyalla Pipeline No 4 PS,SA1,prior,EXCLUDE-pipeline,Unclassified,,,,excluded,Y,agree,manual,-33.2,137.8,Pipeline No 4 PS
-Western Downs Green Power Hub,QLD1,qld_control,WD,WD,Western Downs Switching Station,WD,0.0,high,Y,agree,manual,-26.674,150.58,
-MacIntyre Wind Farm,QLD1,qld_control,SD,SD,Karara,SD,24.53,medium,Y,agree,manual,-28.396,151.205,
-Kogan Creek,QLD1,qld_control,WD,WD,Kogan Creek,WD,0.0,high,Y,agree,manual,-26.828,150.745,
-Aldoga Solar Farm,QLD1,qld_control,CQ,CQ,Aldoga,CQ,0.0,high,Y,agree,manual,-23.946,151.16,
-Stanwell,QLD1,qld_control,CQ,CQ,Stanwell,CQ,0.0,high,Y,agree,manual,-23.546,150.336,
-Pottinger Energy Park - Wind - KCI,NSW1,shared_boundary,NEW,NEW,Quirindi,NEW,27.44,medium,Y,agree,manual,-31.3,150.5,
-Hanworth Battery,NSW1,shared_boundary,CWO,HCC,Glenbawn,HCC,37.18,medium,N,rez_mismatch_CWO_vs_HCC,manual,-31.8,150.85,
-Glenbawn Pumped Hydro Project,NSW1,shared_boundary,NEW,HCC,Glenbawn,HCC,9.61,high,N,rez_mismatch_NEW_vs_HCC,manual,-32.1,151.1,
-Bayswater,NSW1,shared_boundary,NEW,NEW,Bayswater,NEW,0.64,high,Y,agree,manual,-32.395,150.95,
-Goulburn River Solar Farm And BESS,NSW1,shared_boundary,HCC,HCC,Bylong,HCC,7.31,high,Y,agree,manual,-32.35,150.1,
-Yarrabee Solar Power Project,NSW1,shared_boundary,CWO,NEW,Bayswater,NEW,9.84,high,N,rez_mismatch_CWO_vs_NEW,manual,-32.4,151.05,
-Pottinger Energy Park - Battery - KCI,NSW1,shared_boundary,NEW,NEW,Quirindi,NEW,27.44,medium,Y,agree,manual,-31.3,150.5,
-Stratford Renewable Energy Hub,NSW1,shared_boundary,HCC,HCC,Stroud,HCC,16.54,high,Y,agree,manual,-32.2,151.95,
-Bowmans Creek Wind Farm,NSW1,shared_boundary,NEW,NEW,Bayswater,NEW,14.53,high,Y,agree,manual,-32.4,151.1,
-Port Augusta Solar Farm (KCI),SA1,shared_boundary,MN,MN,Davenport,MN,5.07,high,Y,agree,manual,-32.5,137.78,
-Maxwell Downs Solar Farm - KCI,NSW1,shared_boundary,CWO,HCC,Muswellbrook,HCC,8.69,high,N,rez_mismatch_CWO_vs_HCC,manual,-32.3,150.95,
-Pottinger Energy Park - Solar - KCI,NSW1,shared_boundary,NEW,NEW,Quirindi,NEW,27.44,medium,Y,agree,manual,-31.3,150.5,
-Mullion Creek Wind Farm,NSW1,shared_boundary,CWO,CWO,Orange,CWO,2.72,high,Y,agree,manual,-33.25,149.11,
-Yoorndoo Ilga Solar - KCI,SA1,shared_boundary,MN,MN,Mokota,MN,19.84,high,Y,agree,manual,-33.4,138.95,
-Shoalhaven Expansion,NSW1,shared_boundary,ILW,CWO,Garoo,CWO,9.74,high,N,rez_mismatch_ILW_vs_CWO,manual,-34.78,150.4,
-Port Augusta Renewable Energy Park - Wind,SA1,shared_boundary,MN,MN,Davenport,MN,10.99,high,Y,agree,OSM_plant,-32.5981951,137.904187,
-LYA BESS,VIC1,shared_boundary,CN-VIC,GIP,Loy Yang,GIP,1.62,high,N,rez_mismatch_CN-VIC_vs_GIP,manual,-38.26,146.59,
-Koorangie Energy Storage System,VIC1,shared_boundary,CN-VIC,MR,Kerang,MR,8.97,high,N,rez_mismatch_CN-VIC_vs_MR,manual,-35.85,143.91,
-Koorangie BESS Stage 2,VIC1,shared_boundary,CN-VIC,MR,Kerang,MR,8.97,high,N,rez_mismatch_CN-VIC_vs_MR,manual,-35.85,143.91,
-Whyalla,SA1,shared_boundary,MN,MN,Bundey,MN,6.06,high,Y,agree,OSM_plant,-33.9735697,139.1934863,
-Bodangora Wind Farm,NSW1,shared_boundary,CWO,CWO,Wellington,CWO,17.35,high,Y,agree,OSM_plant,-32.398724,149.0685725,
-Morgan Solar,SA1,shared_boundary,MN,MN,Bundey,MN,41.75,medium,Y,agree,manual,-34.025,139.66,
-Whyalla BESS - KCI,SA1,shared_boundary,MN,MN,Whyalla,MN,2.28,high,Y,agree,manual,-33.03,137.58,
-Port Augusta Renewable Energy Park - Solar,SA1,shared_boundary,MN,MN,Davenport,MN,4.91,high,Y,agree,OSM_plant,-32.5572169,137.8589026,
-Cathedral Rocks,SA1,shared_boundary,MN,EYR,Port Lincoln,EYR,26.77,medium,N,rez_mismatch_MN_vs_EYR,manual,-34.856,135.582,
-Salt Creek Wind Farm,VIC1,shared_boundary,WV,SW-VIC,Salt Creek,SW-VIC,1.7,high,N,rez_mismatch_WV_vs_SW-VIC,manual,-37.917,142.782,
-Mannum Adelaide Pumping Station No 2 - MAPL2 (Palmer),SA1,shared_boundary,MN,Unclassified,,,,excluded,N,spatial_unclassified_user_assigned,manual,-34.92,139.3,Pumping Station
-Morgan To Whyalla Pipeline No 3 PS,SA1,shared_boundary,MN,Unclassified,,,,excluded,N,spatial_unclassified_user_assigned,manual,-33.5,138.1,Pipeline No 3 PS
-Morgan To Whyalla Pipeline No 4 PS,SA1,shared_boundary,MN,Unclassified,,,,excluded,N,spatial_unclassified_user_assigned,manual,-33.2,137.8,Pipeline No 4 PS
-Morgan To Whyalla Pipeline No 2 PS,SA1,shared_boundary,MN,Unclassified,,,,excluded,N,spatial_unclassified_user_assigned,manual,-34.0,138.7,Pipeline No 2 PS
-Morgan To Whyalla Pipeline No 1 PS And Water Filtration Plant,SA1,shared_boundary,MN,Unclassified,,,,excluded,N,spatial_unclassified_user_assigned,manual,-34.0,139.66,Pipeline No 1 PS
-Maxwell Solar Farm,NSW1,shared_boundary,CWO,HCC,Muswellbrook,HCC,8.69,high,N,rez_mismatch_CWO_vs_HCC,manual,-32.3,150.95,
-SSE Whyalla Solar Farm,SA1,shared_boundary,MN,MN,Whyalla,MN,2.28,high,Y,agree,manual,-33.03,137.58,
-Whyalla Solar Farm,SA1,shared_boundary,MN,MN,Whyalla,MN,2.28,high,Y,agree,manual,-33.03,137.58,
-Goulburn River BESS,NSW1,shared_boundary,CWO,HCC,Bylong,HCC,7.31,high,N,rez_mismatch_CWO_vs_HCC,manual,-32.35,150.1,
-Goulburn River SF,NSW1,shared_boundary,CWO,HCC,Bylong,HCC,7.31,high,N,rez_mismatch_CWO_vs_HCC,manual,-32.35,150.1,
-Emeroo BESS (Bungala),SA1,shared_boundary,MN,EYR,Emeroo,EYR,8.32,high,N,rez_mismatch_MN_vs_EYR,manual,-32.475,137.9,
-Whyalla BESS,SA1,shared_boundary,MN,MN,Whyalla,MN,2.28,high,Y,agree,manual,-33.03,137.58,
-Maxwell Downs Bess - KCI,NSW1,shared_boundary,CWO,HCC,Muswellbrook,HCC,8.69,high,N,rez_mismatch_CWO_vs_HCC,manual,-32.3,150.95,
-Hanworth BESS - KCI,NSW1,shared_boundary,CWO,HCC,Glenbawn,HCC,37.18,medium,N,rez_mismatch_CWO_vs_HCC,manual,-31.8,150.85,
+site_name,region,spike_class,my_manual_call,spatial_join_call,nearest_substation,nearest_substation_rez,distance_km,catchment_confidence,agreement,disagreement_category,project_coord_source,project_lat,project_lon,exclusion_pattern_matched,adjudicated_rez,adjudication_confidence,adjudication_flag,adjudication_note,v2_rez,v2_conf,v2_sub,v2_dist,change_from_v1
+Pottinger Energy Park - Wind - KCI,NSW1,prior,SW-NSW,NEW,Quirindi,NEW,27.44,medium,N,rez_mismatch_SW-NSW_vs_NEW,manual,-31.3,150.5,,NEW,medium,,Adjudicated: Liverpool Plains is NEW REZ. SW-NSW prior was a slip.,NEW,high,Garoo,19.0,unchanged
+Pottinger Energy Park - Battery - KCI,NSW1,prior,SW-NSW,NEW,Quirindi,NEW,27.44,medium,N,rez_mismatch_SW-NSW_vs_NEW,manual,-31.3,150.5,,NEW,medium,,Adjudicated: Liverpool Plains is NEW REZ. SW-NSW prior was a slip.,NEW,high,Garoo,19.0,unchanged
+Pottinger Energy Park - Solar - KCI,NSW1,prior,SW-NSW,NEW,Quirindi,NEW,27.44,medium,N,rez_mismatch_SW-NSW_vs_NEW,manual,-31.3,150.5,,NEW,medium,,Adjudicated: Liverpool Plains is NEW REZ. SW-NSW prior was a slip.,NEW,high,Garoo,19.0,unchanged
+Hanworth Battery,NSW1,prior,Unclassified,HCC,Glenbawn,HCC,37.18,medium,N,spatial_assigned_user_skipped,manual,-31.8,150.85,,HCC,medium,distance_edge_medium_37km,"Adjudicated to HCC; distance from nearest substation (Glenbawn) is 37km, at edge of medium band.",NEW,medium,Central South Hub (Hub 1),30.47,flipped
+Glenbawn Pumped Hydro Project,NSW1,prior,Unclassified,HCC,Glenbawn,HCC,9.61,high,N,spatial_assigned_user_skipped,manual,-32.1,151.1,,HCC,high,,Adjudicated to HCC; project is at Glenbawn dam — spatial is obviously correct.,HCC,high,Glenbawn,9.61,unchanged
+Goulburn River Solar Farm And BESS,NSW1,prior,CWO,HCC,Bylong,HCC,7.31,high,N,rez_mismatch_CWO_vs_HCC,manual,-32.35,150.1,,,unresolved,contested_boundary_pending_method_3,Adjudication deferred: CWO/HCC boundary; Method 3 (MMSDM CONNECTIONPOINTID) to resolve in Phase 3.,HCC,high,Bylong,7.31,unchanged
+Yarrabee Solar Power Project,NSW1,prior,SW-NSW,NEW,Bayswater,NEW,9.84,high,N,rez_mismatch_SW-NSW_vs_NEW,manual,-32.4,151.05,,SW-NSW,high,,"Project identity verified (Origin Energy, Yarrabee Park Morundah, Riverina). User SW-NSW call CORRECT; my Phase 1 spatial result reflected a wrong coord. Coord fixed in project_coordinates.csv to (-34.950, 146.300).",SW-NSW,medium,Narrandera,31.66,flipped
+Bayswater,NSW1,prior,NEW,NEW,Bayswater,NEW,0.64,high,Y,agree,manual,-32.395,150.95,,NEW,,,,HCC,high,Bayswater,0.64,flipped
+LYA BESS,VIC1,prior,GIP,GIP,Loy Yang,GIP,1.62,high,Y,agree,manual,-38.26,146.59,,GIP,,,,GIP,high,Loy Yang,1.62,unchanged
+Koorangie Energy Storage System,VIC1,prior,MR,MR,Kerang,MR,8.97,high,Y,agree,manual,-35.85,143.91,,MR,,,,MR,high,Kerang,8.97,unchanged
+Koorangie BESS Stage 2,VIC1,prior,MR,MR,Kerang,MR,8.97,high,Y,agree,manual,-35.85,143.91,,MR,,,,MR,high,Kerang,8.97,unchanged
+Cathedral Rocks,SA1,prior,EYR,EYR,Port Lincoln,EYR,26.77,medium,Y,agree,manual,-34.856,135.582,,EYR,,,,EYR,medium,Port Lincoln,26.77,unchanged
+Salt Creek Wind Farm,VIC1,prior,SW-VIC,SW-VIC,Salt Creek,SW-VIC,1.7,high,Y,agree,manual,-37.917,142.782,,SW-VIC,,,,SW-VIC,high,Salt Creek,1.7,unchanged
+Mannum Adelaide Pumping Station No 2 - MAPL2 (Palmer),SA1,prior,EXCLUDE-pumping,Unclassified,,,,excluded,Y,agree,manual,-34.92,139.3,Pumping Station,EXCLUDE-pumping,,,,Unclassified,excluded,,,unchanged
+Morgan To Whyalla Pipeline No 1 PS And Water Filtration Plant,SA1,prior,EXCLUDE-pipeline,Unclassified,,,,excluded,Y,agree,manual,-34.0,139.66,Pipeline No 1 PS,EXCLUDE-pipeline,,,,Unclassified,excluded,,,unchanged
+Morgan To Whyalla Pipeline No 2 PS,SA1,prior,EXCLUDE-pipeline,Unclassified,,,,excluded,Y,agree,manual,-34.0,138.7,Pipeline No 2 PS,EXCLUDE-pipeline,,,,Unclassified,excluded,,,unchanged
+Morgan To Whyalla Pipeline No 3 PS,SA1,prior,EXCLUDE-pipeline,Unclassified,,,,excluded,Y,agree,manual,-33.5,138.1,Pipeline No 3 PS,EXCLUDE-pipeline,,,,Unclassified,excluded,,,unchanged
+Morgan To Whyalla Pipeline No 4 PS,SA1,prior,EXCLUDE-pipeline,Unclassified,,,,excluded,Y,agree,manual,-33.2,137.8,Pipeline No 4 PS,EXCLUDE-pipeline,,,,Unclassified,excluded,,,unchanged
+Western Downs Green Power Hub,QLD1,qld_control,WD,WD,Western Downs Switching Station,WD,0.0,high,Y,agree,manual,-26.674,150.58,,WD,,,,WD,high,Western Downs Switching Station,0.0,unchanged
+MacIntyre Wind Farm,QLD1,qld_control,SD,SD,Karara,SD,24.53,medium,Y,agree,manual,-28.396,151.205,,SD,,,,SD,medium,Karara,24.53,unchanged
+Kogan Creek,QLD1,qld_control,WD,WD,Kogan Creek,WD,0.0,high,Y,agree,manual,-26.828,150.745,,WD,,,,WD,high,Kogan Creek,0.0,unchanged
+Aldoga Solar Farm,QLD1,qld_control,CQ,CQ,Aldoga,CQ,0.0,high,Y,agree,manual,-23.946,151.16,,CQ,,,,CQ,high,Aldoga,0.0,unchanged
+Stanwell,QLD1,qld_control,CQ,CQ,Stanwell,CQ,0.0,high,Y,agree,manual,-23.546,150.336,,CQ,,,,CQ,high,Stanwell,0.0,unchanged
+Pottinger Energy Park - Wind - KCI,NSW1,shared_boundary,NEW,NEW,Quirindi,NEW,27.44,medium,Y,agree,manual,-31.3,150.5,,NEW,medium,,Adjudicated: Liverpool Plains is NEW REZ. SW-NSW prior was a slip.,NEW,high,Garoo,19.0,unchanged
+Hanworth Battery,NSW1,shared_boundary,CWO,HCC,Glenbawn,HCC,37.18,medium,N,rez_mismatch_CWO_vs_HCC,manual,-31.8,150.85,,HCC,medium,distance_edge_medium_37km,"Adjudicated to HCC; distance from nearest substation (Glenbawn) is 37km, at edge of medium band.",NEW,medium,Central South Hub (Hub 1),30.47,flipped
+Glenbawn Pumped Hydro Project,NSW1,shared_boundary,NEW,HCC,Glenbawn,HCC,9.61,high,N,rez_mismatch_NEW_vs_HCC,manual,-32.1,151.1,,HCC,high,,Adjudicated to HCC; project is at Glenbawn dam — spatial is obviously correct.,HCC,high,Glenbawn,9.61,unchanged
+Bayswater,NSW1,shared_boundary,NEW,NEW,Bayswater,NEW,0.64,high,Y,agree,manual,-32.395,150.95,,NEW,,,,HCC,high,Bayswater,0.64,flipped
+Goulburn River Solar Farm And BESS,NSW1,shared_boundary,HCC,HCC,Bylong,HCC,7.31,high,Y,agree,manual,-32.35,150.1,,,unresolved,contested_boundary_pending_method_3,Adjudication deferred: CWO/HCC boundary; Method 3 (MMSDM CONNECTIONPOINTID) to resolve in Phase 3.,HCC,high,Bylong,7.31,unchanged
+Yarrabee Solar Power Project,NSW1,shared_boundary,CWO,NEW,Bayswater,NEW,9.84,high,N,rez_mismatch_CWO_vs_NEW,manual,-32.4,151.05,,SW-NSW,high,,"Project identity verified (Origin Energy, Yarrabee Park Morundah, Riverina). User SW-NSW call CORRECT; my Phase 1 spatial result reflected a wrong coord. Coord fixed in project_coordinates.csv to (-34.950, 146.300).",SW-NSW,medium,Narrandera,31.66,flipped
+Pottinger Energy Park - Battery - KCI,NSW1,shared_boundary,NEW,NEW,Quirindi,NEW,27.44,medium,Y,agree,manual,-31.3,150.5,,NEW,medium,,Adjudicated: Liverpool Plains is NEW REZ. SW-NSW prior was a slip.,NEW,high,Garoo,19.0,unchanged
+Stratford Renewable Energy Hub,NSW1,shared_boundary,HCC,HCC,Stroud,HCC,16.54,high,Y,agree,manual,-32.2,151.95,,HCC,,,,HCC,high,Stroud,16.54,unchanged
+Bowmans Creek Wind Farm,NSW1,shared_boundary,NEW,NEW,Bayswater,NEW,14.53,high,Y,agree,manual,-32.4,151.1,,NEW,,,,HCC,high,Liddell,11.58,flipped
+Port Augusta Solar Farm (KCI),SA1,shared_boundary,MN,MN,Davenport,MN,5.07,high,Y,agree,manual,-32.5,137.78,,MN,,,,EYR,high,Port Augusta,0.0,flipped
+Maxwell Downs Solar Farm - KCI,NSW1,shared_boundary,CWO,HCC,Muswellbrook,HCC,8.69,high,N,rez_mismatch_CWO_vs_HCC,manual,-32.3,150.95,,CWO,,,,HCC,high,Muswellbrook,8.69,unchanged
+Pottinger Energy Park - Solar - KCI,NSW1,shared_boundary,NEW,NEW,Quirindi,NEW,27.44,medium,Y,agree,manual,-31.3,150.5,,NEW,medium,,Adjudicated: Liverpool Plains is NEW REZ. SW-NSW prior was a slip.,NEW,high,Garoo,19.0,unchanged
+Mullion Creek Wind Farm,NSW1,shared_boundary,CWO,CWO,Orange,CWO,2.72,high,Y,agree,manual,-33.25,149.11,,CWO,,,,CWO,high,Orange,2.72,unchanged
+Yoorndoo Ilga Solar - KCI,SA1,shared_boundary,MN,MN,Mokota,MN,19.84,high,Y,agree,manual,-33.4,138.95,,MN,,,,MN,high,Hallett,6.52,unchanged
+Shoalhaven Expansion,NSW1,shared_boundary,ILW,CWO,Garoo,CWO,9.74,high,N,rez_mismatch_ILW_vs_CWO,manual,-34.78,150.4,,ILW,,,,ILW,high,Shoalhaven Expansion,0.0,flipped
+Port Augusta Renewable Energy Park - Wind,SA1,shared_boundary,MN,MN,Davenport,MN,10.99,high,Y,agree,OSM_plant,-32.5981951,137.904187,,MN,,,,MN,high,Davenport,10.99,unchanged
+LYA BESS,VIC1,shared_boundary,CN-VIC,GIP,Loy Yang,GIP,1.62,high,N,rez_mismatch_CN-VIC_vs_GIP,manual,-38.26,146.59,,CN-VIC,,,,GIP,high,Loy Yang,1.62,unchanged
+Koorangie Energy Storage System,VIC1,shared_boundary,CN-VIC,MR,Kerang,MR,8.97,high,N,rez_mismatch_CN-VIC_vs_MR,manual,-35.85,143.91,,CN-VIC,,,,MR,high,Kerang,8.97,unchanged
+Koorangie BESS Stage 2,VIC1,shared_boundary,CN-VIC,MR,Kerang,MR,8.97,high,N,rez_mismatch_CN-VIC_vs_MR,manual,-35.85,143.91,,CN-VIC,,,,MR,high,Kerang,8.97,unchanged
+Whyalla,SA1,shared_boundary,MN,MN,Bundey,MN,6.06,high,Y,agree,OSM_plant,-33.9735697,139.1934863,,MN,,,,MN,high,Bundey,6.06,unchanged
+Bodangora Wind Farm,NSW1,shared_boundary,CWO,CWO,Wellington,CWO,17.35,high,Y,agree,OSM_plant,-32.398724,149.0685725,,CWO,,,,CWO,high,Wellington,17.35,unchanged
+Morgan Solar,SA1,shared_boundary,MN,MN,Bundey,MN,41.75,medium,Y,agree,manual,-34.025,139.66,,MN,,,,MN,medium,Bundey,41.75,unchanged
+Whyalla BESS - KCI,SA1,shared_boundary,MN,MN,Whyalla,MN,2.28,high,Y,agree,manual,-33.03,137.58,,MN,,,,MN,high,Whyalla,2.28,unchanged
+Port Augusta Renewable Energy Park - Solar,SA1,shared_boundary,MN,MN,Davenport,MN,4.91,high,Y,agree,OSM_plant,-32.5572169,137.8589026,,MN,,,,MN,high,Davenport,4.91,unchanged
+Cathedral Rocks,SA1,shared_boundary,MN,EYR,Port Lincoln,EYR,26.77,medium,N,rez_mismatch_MN_vs_EYR,manual,-34.856,135.582,,MN,,,,EYR,medium,Port Lincoln,26.77,unchanged
+Salt Creek Wind Farm,VIC1,shared_boundary,WV,SW-VIC,Salt Creek,SW-VIC,1.7,high,N,rez_mismatch_WV_vs_SW-VIC,manual,-37.917,142.782,,WV,,,,SW-VIC,high,Salt Creek,1.7,unchanged
+Mannum Adelaide Pumping Station No 2 - MAPL2 (Palmer),SA1,shared_boundary,MN,Unclassified,,,,excluded,N,spatial_unclassified_user_assigned,manual,-34.92,139.3,Pumping Station,MN,,,,Unclassified,excluded,,,unchanged
+Morgan To Whyalla Pipeline No 3 PS,SA1,shared_boundary,MN,Unclassified,,,,excluded,N,spatial_unclassified_user_assigned,manual,-33.5,138.1,Pipeline No 3 PS,MN,,,,Unclassified,excluded,,,unchanged
+Morgan To Whyalla Pipeline No 4 PS,SA1,shared_boundary,MN,Unclassified,,,,excluded,N,spatial_unclassified_user_assigned,manual,-33.2,137.8,Pipeline No 4 PS,MN,,,,Unclassified,excluded,,,unchanged
+Morgan To Whyalla Pipeline No 2 PS,SA1,shared_boundary,MN,Unclassified,,,,excluded,N,spatial_unclassified_user_assigned,manual,-34.0,138.7,Pipeline No 2 PS,MN,,,,Unclassified,excluded,,,unchanged
+Morgan To Whyalla Pipeline No 1 PS And Water Filtration Plant,SA1,shared_boundary,MN,Unclassified,,,,excluded,N,spatial_unclassified_user_assigned,manual,-34.0,139.66,Pipeline No 1 PS,MN,,,,Unclassified,excluded,,,unchanged
+Maxwell Solar Farm,NSW1,shared_boundary,CWO,HCC,Muswellbrook,HCC,8.69,high,N,rez_mismatch_CWO_vs_HCC,manual,-32.3,150.95,,CWO,,,,HCC,high,Muswellbrook,8.69,unchanged
+SSE Whyalla Solar Farm,SA1,shared_boundary,MN,MN,Whyalla,MN,2.28,high,Y,agree,manual,-33.03,137.58,,MN,,,,MN,high,Whyalla,2.28,unchanged
+Whyalla Solar Farm,SA1,shared_boundary,MN,MN,Whyalla,MN,2.28,high,Y,agree,manual,-33.03,137.58,,MN,,,,MN,high,Whyalla,2.28,unchanged
+Goulburn River BESS,NSW1,shared_boundary,CWO,HCC,Bylong,HCC,7.31,high,N,rez_mismatch_CWO_vs_HCC,manual,-32.35,150.1,,CWO,,,,HCC,high,Bylong,7.31,unchanged
+Goulburn River SF,NSW1,shared_boundary,CWO,HCC,Bylong,HCC,7.31,high,N,rez_mismatch_CWO_vs_HCC,manual,-32.35,150.1,,CWO,,,,HCC,high,Bylong,7.31,unchanged
+Emeroo BESS (Bungala),SA1,shared_boundary,MN,EYR,Emeroo,EYR,8.32,high,N,rez_mismatch_MN_vs_EYR,manual,-32.475,137.9,,MN,,,,EYR,high,Emeroo,8.32,unchanged
+Whyalla BESS,SA1,shared_boundary,MN,MN,Whyalla,MN,2.28,high,Y,agree,manual,-33.03,137.58,,MN,,,,MN,high,Whyalla,2.28,unchanged
+Maxwell Downs Bess - KCI,NSW1,shared_boundary,CWO,HCC,Muswellbrook,HCC,8.69,high,N,rez_mismatch_CWO_vs_HCC,manual,-32.3,150.95,,CWO,,,,HCC,high,Muswellbrook,8.69,unchanged
+Hanworth BESS - KCI,NSW1,shared_boundary,CWO,HCC,Glenbawn,HCC,37.18,medium,N,rez_mismatch_CWO_vs_HCC,manual,-31.8,150.85,,CWO,,,,NEW,medium,Central South Hub (Hub 1),30.47,flipped

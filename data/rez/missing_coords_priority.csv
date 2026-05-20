@@ -1,0 +1,51 @@
+state,rez_code,substation,substation_type,confidence_default,sld_verified,priority_score,source_document,notes
+VIC,SW-VIC,Mortlake South,energy hub,medium,real_substation,130,Public records,
+SA,MN,Heywood,interconnector,medium,real_substation,100,Public records,Cross-border
+VIC,SW-VIC,Bulgana,wind/BESS,medium,real_substation,100,Public records,Already in WV — kept in WV by priority
+NSW,CWO,Ilford,energy hub,medium,real_substation,30,Public records (Ilford Green Energy Hub),
+SA,MN,North Brown Hill,existing,high,real_substation,10,ElectraNet TAPR 2024,
+TAS,TAS-NW,Catagunya,existing,high,real_substation,10,TasNetworks APR 2025,
+NSW,SW-NSW,Albury,load/border,medium,real_substation,0,Public records,
+NSW,CWO,Bodangora,wind farm/town,medium,real_substation,0,Public records (Bodangora WF — Infigen/Iberdrola near Wellington),
+NSW,SW-NSW,Bodangora,wind farm,medium,real_substation,0,Public records,Already CWO
+NSW,NEW,Boggabri,town,medium,real_substation,0,AEMO ISP 2024 A3 N2,
+NSW,ILW,Capital Wind Farm,wind farm,medium,real_substation,0,Public records,Could be SW-NSW
+NSW,HCC,Colongra,existing gas,medium,real_substation,0,Public records (Colongra GT),
+NSW,SW-NSW,Coppabella,wind farm,medium,real_substation,0,Public records (Coppabella WF),
+NSW,CWO,Goulburn River,river/project area,medium,real_substation,0,Public records,
+NSW,HCC,Goulburn River Solar,solar/BESS,medium,real_substation,0,Public records,Border case
+NSW,CWO,Goulburn River Solar,solar/BESS,medium,real_substation,0,Public records,
+NSW,NEW,Granite Hills,wind farm,medium,real_substation,0,Public records (Granite Hills WF),
+NSW,NEW,Hills of Gold,wind farm,medium,real_substation,0,Public records (Hills of Gold WF),
+NSW,SW-NSW,Hume Dam,hydro/storage,medium,real_substation,0,Public records,
+NSW,HCC,Kurri Kurri,town,medium,real_substation,0,Public records,
+NSW,CWO,Nevertire,solar farm,medium,real_substation,0,Public records (Nevertire SF),
+NSW,SW-NSW,Nyngan,solar plant,medium,real_substation,0,Public records (Nyngan Solar Plant),Could be CWO
+NSW,CWO,Orana,region,medium,real_substation,0,EnergyCo CWO,
+NSW,NEW,Ruby Hills,wind farm,medium,real_substation,0,Public records (Ruby Hills North/South WF),Border — flagged
+NSW,NEW,Salt Creek,project area,medium,real_substation,0,Public records,
+NSW,SW-NSW,Silverton,wind farm,medium,real_substation,0,Public records (Silverton WF),
+NSW,SW-NSW,Snowy 2.0,pumped hydro,medium,real_substation,0,Transgrid TAPR 2024,
+NSW,SW-NSW,Yambla Range,wind farm,medium,real_substation,0,Public records (Yambla Range WF),
+SA,MN,Bluff,wind farm,medium,real_substation,0,Public records,
+SA,MN,Brown Hill,wind farm,medium,real_substation,0,Public records,
+SA,SE-SA,Canunda,wind farm,medium,real_substation,0,Public records,
+SA,MN,Dry Creek,GT,medium,real_substation,0,Public records (Dry Creek GT),Load-area
+SA,MN,Hallett 1,wind farm,medium,real_substation,0,Public records,
+SA,MN,Hallett 2,wind farm,medium,real_substation,0,Public records,
+SA,MN,Hallett 4,wind farm,medium,real_substation,0,Public records,
+SA,SE-SA,Ladbroke Grove,gas station,medium,real_substation,0,Public records (Ladbroke Grove),
+SA,MN,Lake Bonney 1,wind farm,medium,real_substation,0,Public records,Belongs to SE-SA
+SA,MN,Lonsdale,OCGT,medium,real_substation,0,Public records,
+SA,RIV,Morgan Battery,BESS,medium,real_substation,0,Public records (Morgan Battery),
+SA,RIV,Morgan Long Duration,LDES,medium,real_substation,0,Public records (Morgan LDES — KCI),
+SA,MN,Morgan Solar,solar,medium,real_substation,0,Public records,
+SA,RIV,Morgan Solar,solar,medium,real_substation,0,Public records,
+SA,SE-SA,Murray Bridge,town/BESS,medium,real_substation,0,Public records,
+SA,MN,Quarantine,existing gas,medium,real_substation,0,Public records (Quarantine PS),Load-area
+SA,SE-SA,Starfish Hill,wind farm,medium,real_substation,0,Public records (Starfish Hill WF),
+SA,MN,Willogoleche,wind farm,medium,real_substation,0,Public records (Willogoleche WF),
+VIC,MR,Bannerton,solar/wind cluster,medium,real_substation,0,Public records,
+VIC,CN-VIC,Clayton,hydro,medium,real_substation,0,Public records,
+VIC,MR,Gannawarra,solar/storage,medium,real_substation,0,Public records (Gannawarra SF/ESS),
+VIC,WV,Halys,BESS,medium,real_substation,0,Public records (Halys BESS X-Elio),
