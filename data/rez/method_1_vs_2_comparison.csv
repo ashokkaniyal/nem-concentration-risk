@@ -1,0 +1,583 @@
+region,site_name,method_1_catchment,method_1_confidence,method_1_matched_keyword,method_2_catchment,method_2_confidence,method_2_nearest_substation,method_2_distance_km,agree,disagreement_class,disagreement_severity,best_capacity_mw
+NSW1,Acacia SF,Unclassified,review,,NEW,high,Central Hub (Hub 5),9.24,N,excluded_method_1,medium,
+NSW1,Aquila Wind,NEW,medium,Aquila,CWO,medium,Molong,34.91,N,boundary_swap,low,200.0
+NSW1,Aquila Wind Farm,NEW,medium,Aquila,CWO,medium,Wellington,30.64,N,boundary_swap,low,
+NSW1,Armidale BESS (Elgin),NEW,high,Armidale,NEW,high,Armidale,3.69,Y,,,200.0
+NSW1,Armidale Pumped Hydro,NEW,high,Armidale,NEW,medium,Metz,46.64,Y,,,
+NSW1,Arundel BESS,Unclassified,review,,SW-NSW,high,Wagga,7.21,N,excluded_method_1,medium,300.0
+NSW1,Avonlie Solar Farm,SW-NSW,medium,Avonlie,SW-NSW,high,Lockhart,18.11,Y,,,254.1
+NSW1,Bango Wind Farm,SW-NSW,medium,Bango,SW-NSW,high,Rye Park,11.81,Y,,,
+NSW1,Bannaby BESS,ILW,medium,Bannaby,ILW,medium,Bannaby,5.12,Y,,,700.0
+NSW1,Bannaby BESS (AMPYR) - KCI,ILW,medium,Bannaby,ILW,medium,Bannaby,8.24,Y,,,
+NSW1,Bayswater,NEW,review,Bayswater,HCC,high,Bayswater,0.64,N,boundary_swap,low,685.0
+NSW1,Belhaven Renewable Project,NEW,medium,Belhaven,SW-NSW,high,Wagga,2.02,N,corridor_misread,high,408.0
+NSW1,Bellambi Heights Renewables Project,NEW,medium,Bellambi Heights,CWO,high,Beryl,3.4,N,boundary_swap,low,408.0
+NSW1,Bells Mountain,Unclassified,review,,HCC,high,Muswellbrook,2.66,N,excluded_method_1,medium,
+NSW1,Bells Mountain Pumped Hydro,Unclassified,review,,HCC,high,Muswellbrook,6.93,N,excluded_method_1,medium,
+NSW1,Ben Bullen BESS,CWO,medium,Ben Bullen,CWO,medium,Wallerawang,26.44,Y,,,200.0
+NSW1,Bendemeer Renewable Energy Hub - Solar - KCI,NEW,medium,Bendemeer,NEW,high,Bendemeer,1.85,Y,,,218.0
+NSW1,Bendemeer Renewable Energy Hub - Wind - KCI,NEW,medium,Bendemeer,NEW,high,Bendemeer,10.23,Y,,,380.0
+NSW1,Beresfield BESS,HCC,medium,Beresfield,HCC,high,Beresfield,0.55,Y,,,225.6
+NSW1,Beryl Solar Farm,CWO,medium,Beryl,CWO,high,Beryl,1.25,Y,,,98.4
+NSW1,Biala Wind Farm,Unclassified,review,,SW-NSW,high,Gullen Range,9.92,N,excluded_method_1,medium,
+NSW1,Birriwa BESS,CWO,medium,Birriwa,CWO,high,Merotherie,8.23,Y,,,600.0
+NSW1,Birriwa Solar Farm,CWO,medium,Birriwa,CWO,high,Merotherie,8.23,Y,,,600.0
+NSW1,Blayney,Unclassified,review,,CWO,medium,Orange,39.79,N,excluded_method_1,medium,
+NSW1,Blind Creek SF,SW-NSW,medium,Blind Creek,ILW,high,Capital,5.33,N,boundary_swap,low,
+NSW1,Blowering,SW-NSW,medium,Blowering,SW-NSW,high,Blowering,0.08,Y,,,80.0
+NSW1,Boco Rock Wind Farm,SW-NSW,medium,Boco Rock,SW-NSW,high,Boco Rock,2.91,Y,,,98.6
+NSW1,Bodangora Wind Farm,CWO,review,Bodangora,CWO,high,Wellington,17.35,Y,,,113.19
+NSW1,Bomen Solar Farm,SW-NSW,medium,Bomen,SW-NSW,high,Bomen,4.27,Y,,,121.0
+NSW1,Bookham WF & BESS,SW-NSW,medium,Bookham,SW-NSW,medium,Burrinjuck,21.42,Y,,,760.0
+NSW1,Bowmans Creek Wind Farm,NEW,review,Bowmans Creek,HCC,high,Liddell,11.58,N,boundary_swap,low,346.64
+NSW1,Broken Hill,SW-NSW,medium,Broken Hill,SW-NSW,high,Broken Hill,0.03,Y,,,50.0
+NSW1,Broken Hill Energy Storage Centre,SW-NSW,medium,Broken Hill,SW-NSW,high,Broken Hill,6.92,Y,,,
+NSW1,Broken Hill Solar Plant,SW-NSW,medium,Broken Hill,SW-NSW,high,Broken Hill,2.49,Y,,,53.0
+NSW1,Burgmanns BESS,HCC,medium,Burgmanns,NEW,high,Tamworth,4.47,N,boundary_swap,low,200.0
+NSW1,Buronga BESS - Storage - KCI,SW-NSW,high,Buronga,SW-NSW,high,Buronga,10.29,Y,,,300.0
+NSW1,Burrendong,CWO,medium,Burrendong,CWO,medium,Wellington,20.44,Y,,,19.0
+NSW1,Burrendong WF,CWO,medium,Burrendong,CWO,medium,Wellington,31.13,Y,,,
+NSW1,Burrinjuck,SW-NSW,medium,Burrinjuck,SW-NSW,high,Burrinjuck,0.23,Y,,,20.0
+NSW1,Canyonleigh BESS,ILW,medium,Canyonleigh,ILW,high,Marulan,8.75,Y,,,300.0
+NSW1,Capital Battery,ILW,medium,Capital,ILW,high,Sutton Forest,17.37,Y,,,100.32
+NSW1,Capital East Solar Farm P1,ILW,medium,Capital,ILW,high,Capital,2.3,Y,,,2.0
+NSW1,Capital East Solar Farm P2,ILW,medium,Capital,ILW,high,Capital,2.3,Y,,,
+NSW1,Capital Wind Farm,ILW,medium,Capital Wind Farm,ILW,high,Capital,6.51,Y,,,140.7
+NSW1,Central West Pumped Hydro,CWO,medium,Central West,CWO,medium,Mt Piper,21.58,Y,,,325.0
+NSW1,Coleambally Solar Farm,SW-NSW,medium,Coleambally,SW-NSW,high,Coleambally,2.91,Y,,,150.3
+NSW1,Collector,SW-NSW,medium,Collector,SW-NSW,high,Cullerin,7.07,Y,,,226.8
+NSW1,Colongra,HCC,medium,Colongra,HCC,high,Munmorah,0.48,Y,,,181.0
+NSW1,Copeton,NEW,medium,Copeton,NEW,high,Copeton,0.03,Y,,,20.0
+NSW1,Corowa Solar Farm,SW-NSW,medium,Corowa,SW-NSW,high,Corowa,2.93,Y,,,36.01
+NSW1,Crookwell,SW-NSW,medium,Crookwell,SW-NSW,high,Crookwell,3.69,Y,,,
+NSW1,Crookwell 2 Wind Farm,SW-NSW,medium,Crookwell,SW-NSW,high,Crookwell,3.69,Y,,,96.04
+NSW1,Crookwell 3 Wind Farm,SW-NSW,medium,Crookwell,SW-NSW,high,Crookwell,3.54,Y,,,57.6
+NSW1,Crudine Ridge Wind Farm,CWO,medium,Crudine Ridge,CWO,medium,Mudgee,37.45,Y,,,141.71
+NSW1,Culcairn Solar Farm,SW-NSW,medium,Culcairn,SW-NSW,high,Culcairn,8.96,Y,,,349.98
+NSW1,Cullerin Range Wind Farm,SW-NSW,medium,Cullerin,SW-NSW,high,Cullerin,1.21,Y,,,30.0
+NSW1,Darlington Point BESS,SW-NSW,high,Darlington Point,SW-NSW,medium,Griffith,22.26,Y,,,
+NSW1,Darlington Point Energy Storage System,SW-NSW,high,Darlington Point,SW-NSW,high,Darlington Point,0.22,Y,,,25.0
+NSW1,Darlington Point Solar Farm,SW-NSW,high,Darlington Point,SW-NSW,high,Darlington Point,2.63,Y,,,274.97
+NSW1,Deargee Solar And BESS,CWO,medium,Deargee,NEW,medium,Northern Hub (Hub 10),21.63,N,boundary_swap,low,700.0
+NSW1,Devlins Bridge Battery Storage,CWO,medium,Devlins,SW-NSW,high,Balranald,19.32,N,boundary_swap,low,600.0
+NSW1,Dubbo Solar Hub,CWO,medium,Dubbo,CWO,high,Dubbo,2.75,Y,,,
+NSW1,EIWA Richmond Valley BESS,Unclassified,review,,Unclassified,Unclassified,Tenterfield,103.35,Y,,,300.0
+NSW1,Edderton Hybrid Facility - BESS,NEW,medium,Edderton,HCC,high,Bayswater,11.96,N,boundary_swap,low,350.0
+NSW1,Eglington Solar Farm,Unclassified,review,,CWO,medium,Orange,41.95,N,excluded_method_1,medium,
+NSW1,Eraring,HCC,high,Eraring,HCC,high,Eraring,0.1,Y,,,720.0
+NSW1,Eraring Big Battery,HCC,high,Eraring,HCC,high,Eraring,0.38,Y,,,460.0
+NSW1,Eraring Big Battery – Stage 1,HCC,high,Eraring,HCC,high,Eraring,0.36,Y,,,
+NSW1,Eraring Big Battery – Stage 2,HCC,high,Eraring,HCC,high,Eraring,0.38,Y,,,
+NSW1,Eraring Big Battery – Stage 3,HCC,high,Eraring,HCC,high,Eraring,0.44,Y,,,
+NSW1,Euston Wind Farm - KCI,SW-NSW,medium,Euston,SW-NSW,review,Buronga,68.96,Y,,,330.0
+NSW1,Finley Solar Farm,SW-NSW,medium,Finley,SW-NSW,high,Finley,1.31,Y,,,162.36
+NSW1,Flyers Creek Wind Farm,CWO,medium,Flyers Creek,CWO,medium,Orange,31.08,Y,,,145.54
+NSW1,Galore Energy Project - Solar And BESS - KCI,Unclassified,review,,SW-NSW,high,Lockhart,4.7,N,excluded_method_1,medium,
+NSW1,Glenbawn,HCC,medium,Glenbawn,HCC,high,Glenbawn,0.03,Y,,,5.0
+NSW1,Glenbawn Pumped Hydro Project,NEW,review,Glenbawn Pumped Hydro,HCC,high,Glenbawn,9.61,N,boundary_swap,low,770.0
+NSW1,Glenellen Solar Farm,SW-NSW,medium,Glenellen,SW-NSW,high,Jindera,1.73,Y,,,200.0
+NSW1,Glennies Creek,HCC,medium,Glennies Creek,HCC,high,Singleton,9.34,Y,,,12.78
+NSW1,Glennis Creek Pumped Hydro Project,HCC,medium,Glennis Creek,HCC,medium,Liddell,25.97,Y,,,642.0
+NSW1,Goonumbla Solar Farm,CWO,medium,Goonumbla,CWO,high,Parkes,1.66,Y,,,69.75
+NSW1,Goulburn River BESS,CWO,review,Goulburn River,HCC,high,Bylong,7.31,N,boundary_swap,low,
+NSW1,Goulburn River SF,CWO,review,Goulburn River,HCC,high,Bylong,7.31,N,boundary_swap,low,
+NSW1,Goulburn River Solar Farm And BESS,HCC,review,Goulburn River Solar,HCC,high,Bylong,7.31,Y,,,588.0
+NSW1,Great Western Battery Project,SW-NSW,medium,Great Western,CWO,medium,Wallerawang,1.2,N,boundary_swap,low,500.0
+NSW1,Griffith Solar Farm,SW-NSW,medium,Griffith,SW-NSW,high,Griffith,1.22,Y,,,27.19
+NSW1,Gulgong Solar Project,CWO,medium,Gulgong,CWO,medium,Beryl,6.8,Y,,,
+NSW1,Gullen Range Battery Energy System,SW-NSW,medium,Gullen Range,SW-NSW,high,Gullen Range,8.09,Y,,,500.0
+NSW1,Gullen Range Wind Farm,SW-NSW,medium,Gullen Range,SW-NSW,high,Gullen Range,0.87,Y,,,140.0
+NSW1,Gullen Range Wind Farm 2,SW-NSW,medium,Gullen Range,SW-NSW,high,Gullen Range,0.87,Y,,,110.67
+NSW1,Gullen Range Wind Farm 2 _x000D_,SW-NSW,medium,Gullen Range,SW-NSW,high,Gullen Range,0.87,Y,,,
+NSW1,Gunnedah Solar Farm,NEW,medium,Gunnedah,NEW,high,Gunnedah,4.27,Y,,,110.0
+NSW1,Gunning Solar Farm (Photon),SW-NSW,medium,Gunning,SW-NSW,medium,Cullerin,21.42,Y,,,
+NSW1,Gunning Wind Farm,SW-NSW,medium,Gunning,SW-NSW,high,Gunning,1.74,Y,,,30.0
+NSW1,Guthega,SW-NSW,medium,Guthega,SW-NSW,high,Guthega,0.07,Y,,,60.0
+NSW1,Hanworth BESS - KCI,CWO,review,Hanworth,NEW,medium,Central South Hub (Hub 1),30.47,N,boundary_swap,low,
+NSW1,Hanworth Battery,CWO,review,Hanworth,NEW,medium,Central South Hub (Hub 1),30.47,N,boundary_swap,low,1200.0
+NSW1,Hargraves BESS,CWO,medium,Hargraves,CWO,medium,Mudgee,29.11,Y,,,300.0
+NSW1,Hills of Gold Wind Farm,NEW,medium,Hills of Gold,NEW,high,Central South Hub (Hub 1),9.94,Y,,,400.0
+NSW1,Hillston Sun Farm,SW-NSW,medium,Hillston,SW-NSW,high,Hillston,2.12,Y,,,110.0
+NSW1,Holbrook SF,Unclassified,review,,SW-NSW,high,Uranquinty,11.31,N,excluded_method_1,medium,
+NSW1,Hunter Power Station,HCC,medium,Hunter,HCC,high,Maitland,9.73,Y,,,375.0
+NSW1,Jemalong Solar,CWO,medium,Jemalong,CWO,high,Jemalong,3.38,Y,,,55.0
+NSW1,Jeremiah WF,NEW,medium,Jeremiah,SW-NSW,medium,Blowering,38.71,N,corridor_misread,high,
+NSW1,Jindera BESS - Storage - KCI,SW-NSW,medium,Jindera,SW-NSW,high,Jindera,0.43,Y,,,250.0
+NSW1,Jounama,SW-NSW,medium,Jounama,SW-NSW,high,Jounama,0.27,Y,,,14.4
+NSW1,Junction Rivers,CWO,medium,Junction Rivers,SW-NSW,high,Balranald,8.73,N,boundary_swap,low,
+NSW1,Junction Rivers Wind And BESS,CWO,medium,Junction Rivers,SW-NSW,high,Balranald,8.73,N,boundary_swap,low,595.2
+NSW1,Junee Solar Farm,SW-NSW,medium,Junee,SW-NSW,high,Junee,5.6,Y,,,36.01
+NSW1,Kangaroo Valley BESS,ILW,medium,Kangaroo Valley,ILW,high,Kangaroo Valley,1.89,Y,,,364.8
+NSW1,Keepit,NEW,medium,Keepit,NEW,high,Keepit,0.17,Y,,,7.2
+NSW1,Kingswood BESS,SW-NSW,medium,Kingswood,NEW,high,Tamworth,4.87,N,corridor_misread,high,250.0
+NSW1,Kurri Kurri Battery,HCC,medium,Kurri Kurri,HCC,medium,Maitland,11.52,Y,,,1200.0
+NSW1,Kurri Kurri OCGT,HCC,medium,Kurri Kurri,HCC,high,Maitland,9.73,Y,,,
+NSW1,Lake Lyell Pumped Hydro,CWO,medium,Lake Lyell,CWO,high,Mt Piper,4.89,Y,,,385.0
+NSW1,Lake Victoria Energy Park - KCI,SW-NSW,medium,Lake Victoria,SW-NSW,review,Buronga,83.97,Y,,,1087.5
+NSW1,Liddell,HCC,high,Liddell,HCC,high,Liddell,1.49,Y,,,
+NSW1,Liddell BESS,HCC,high,Liddell,HCC,high,Liddell,1.49,Y,,,500.0
+NSW1,Liddell Solar Farm - KCI,HCC,high,Liddell,HCC,high,Liddell,1.49,Y,,,
+NSW1,Limondale Solar Farm 1,SW-NSW,medium,Limondale,SW-NSW,high,Balranald,2.21,Y,,,230.0
+NSW1,Limondale Solar Farm 2,SW-NSW,medium,Limondale,SW-NSW,high,Balranald,2.21,Y,,,28.98
+NSW1,Lindsay Gap BESS,CWO,medium,Lindsay Gap,NEW,medium,Quirindi,14.62,N,boundary_swap,low,450.0
+NSW1,Maison Dieu BESS,HCC,medium,Maison Dieu,HCC,medium,Singleton,1.7,Y,,,500.0
+NSW1,Mallee Wind Farm - Storage - KCI,SW-NSW,medium,Mallee,SW-NSW,high,Buronga,17.51,Y,,,
+NSW1,Mandurama Wind Farm,CWO,medium,Mandurama,CWO,medium,Orange,41.96,Y,,,250.0
+NSW1,Manildra Solar Farm,CWO,medium,Manildra,CWO,high,Manildra,0.73,Y,,,50.0
+NSW1,Marulan,ILW,medium,Marulan,ILW,high,Marulan,1.46,Y,,,
+NSW1,Marulan - OCGT/CCGT,ILW,medium,Marulan,ILW,medium,Marulan,11.48,Y,,,800.0
+NSW1,Maxwell Downs Bess - KCI,CWO,review,Maxwell Downs,HCC,high,Muswellbrook,8.69,N,boundary_swap,low,
+NSW1,Maxwell Downs Solar Farm - KCI,CWO,review,Maxwell Downs,HCC,high,Muswellbrook,8.69,N,boundary_swap,low,300.0
+NSW1,Maxwell Solar Farm,CWO,review,Maxwell,HCC,high,Muswellbrook,8.69,N,boundary_swap,low,
+NSW1,McCullys Gap BESS,NEW,medium,McCullys Gap,HCC,high,Muswellbrook,1.06,N,boundary_swap,low,400.0
+NSW1,Merriwa BESS 1,HCC,medium,Merriwa,HCC,medium,Merriwa,0.79,Y,,,
+NSW1,Merriwa SF,HCC,medium,Merriwa,HCC,medium,Merriwa,0.79,Y,,,
+NSW1,Merriwa Solar Farm,HCC,medium,Merriwa,HCC,medium,Merriwa,0.77,Y,,,
+NSW1,Merriwa Solar Farm - BESS,HCC,medium,Merriwa,HCC,medium,Merriwa,0.79,Y,,,
+NSW1,Merriwa Solar Farm and BESS,HCC,medium,Merriwa,HCC,medium,Merriwa,0.77,Y,,,500.0
+NSW1,Metz Solar Farm,NEW,high,Metz,NEW,high,Metz,1.48,Y,,,135.0
+NSW1,Middlebrook SF & BESS,Unclassified,review,,NEW,high,Central Hub (Hub 5),17.22,N,excluded_method_1,medium,
+NSW1,Molong Solar Farm,CWO,medium,Molong,CWO,high,Molong,1.28,Y,,,36.08
+NSW1,Moree Solar Farm,NEW,medium,Moree,NEW,high,Moree,9.33,Y,,,56.0
+NSW1,Mount Lambie Wind Farm,CWO,medium,Mount Lambie,CWO,high,Mt Piper,5.84,Y,,,200.0
+NSW1,Mt Piper,CWO,medium,Mt Piper,CWO,high,Wallerawang,6.95,Y,,,730.0
+NSW1,Mugga Lane,Unclassified,review,,ILW,medium,Williamsdale,20.65,N,excluded_method_1,medium,
+NSW1,Mullion Creek Wind Farm,CWO,review,Mullion Creek,CWO,high,Orange,2.72,Y,,,250.14
+NSW1,Munmorah BESS,HCC,high,Munmorah,HCC,high,Munmorah,0.31,Y,,,
+NSW1,Muswellbrook PRO BESS,HCC,medium,Muswellbrook,HCC,high,Muswellbrook,1.06,Y,,,400.0
+NSW1,Muswellbrook Pumped Hydro,HCC,medium,Muswellbrook,HCC,high,Muswellbrook,3.25,Y,,,400.0
+NSW1,Muswellbrook Pumped Hydro - Storage - KCI,HCC,medium,Muswellbrook,HCC,high,Muswellbrook,2.66,Y,,,
+NSW1,Myrtle Creek BESS,Unclassified,review,,NEW,review,Tenterfield,88.76,N,excluded_method_1,medium,275.0
+NSW1,NSW Gas Peaker,SW-NSW,medium,NSW Gas Peaker,Unclassified,Unclassified,Jemalong,121.03,N,excluded_method_2,medium,500.0
+NSW1,Narromine Solar Farm,CWO,medium,Narromine,CWO,high,Narromine,1.92,Y,,,9.2
+NSW1,Nevertire Solar Farm,CWO,medium,Nevertire,CWO,review,Narromine,68.89,Y,,,104.64
+NSW1,New England Solar Farm,NEW,high,New England,NEW,high,Uralla,1.96,Y,,,320.0
+NSW1,New England Solar Farm BESS,NEW,high,New England,NEW,high,Uralla,1.96,Y,,,100.0
+NSW1,Newcastle Gas Peaker,HCC,medium,Newcastle,HCC,high,Tomago,1.12,Y,,,
+NSW1,Nonowie Wind Farm,SW-NSW,medium,Nonowie,MN,review,Whyalla,12.63,N,genuine_disagreement,high,1015.0
+NSW1,Nottingham Park Solar Farm - KCI,NEW,medium,Nottingham Park,CWO,high,Oxley,11.82,N,boundary_swap,low,210.0
+NSW1,Nymboida,Unclassified,review,,NEW,medium,Dorrigo,45.2,N,excluded_method_1,medium,
+NSW1,Nyngan Solar Plant,SW-NSW,medium,Nyngan,Unclassified,Unclassified,Narromine,133.16,N,excluded_method_2,medium,102.03
+NSW1,Oaky,Unclassified,review,,NEW,medium,Metz,21.27,N,excluded_method_1,medium,
+NSW1,Oven Mountain Pumped Storage,NEW,medium,Oven Mountain,NEW,medium,Metz,46.64,Y,,,900.0
+NSW1,Oxley Solar Farm,CWO,medium,Oxley,NEW,high,Metz,6.11,N,boundary_swap,low,300.0
+NSW1,Parkes Solar Farm,CWO,medium,Parkes,CWO,high,Parkes,1.59,Y,,,49.5
+NSW1,Phoenix Pumped Hydro Project,NEW,medium,Phoenix Pumped Hydro,CWO,medium,Wellington,32.97,N,boundary_swap,low,810.0
+NSW1,Pindari,Unclassified,review,,NEW,medium,Dumaresq,22.23,N,excluded_method_1,medium,5.77
+NSW1,Port Kembla Power Station,ILW,medium,Port Kembla,ILW,high,Wollongong,2.76,Y,,,660.0
+NSW1,Pottinger Energy Park - Battery - KCI,NEW,review,Pottinger Energy Park,NEW,high,Garoo,19.0,Y,,,499.8
+NSW1,Pottinger Energy Park - Solar - KCI,NEW,review,Pottinger Energy Park,NEW,high,Garoo,19.0,Y,,,299.52
+NSW1,Pottinger Energy Park - Wind - KCI,NEW,review,Pottinger Energy Park,NEW,high,Garoo,19.0,Y,,,1300.0
+NSW1,Quorn Park Solar Farm,Unclassified,review,,CWO,high,Parkes,2.95,N,excluded_method_1,medium,
+NSW1,Redbank,HCC,medium,Redbank,HCC,high,Singleton,5.36,Y,,,151.0
+NSW1,Richmond Valley BESS,Unclassified,review,,NEW,review,Tenterfield,90.32,N,excluded_method_1,medium,275.0
+NSW1,Richmond Valley Solar Farm,Unclassified,review,,NEW,review,Tenterfield,88.76,N,excluded_method_1,medium,252.0
+NSW1,Riverina Energy Storage System,SW-NSW,medium,Riverina,SW-NSW,high,Darlington Point,0.29,Y,,,
+NSW1,Riverina Energy Storage System 1,SW-NSW,medium,Riverina,SW-NSW,high,Darlington Point,0.29,Y,,,60.0
+NSW1,Riverina Energy Storage System 2,SW-NSW,medium,Riverina,SW-NSW,high,Darlington Point,0.29,Y,,,65.0
+NSW1,Royalla Solar Farm,Unclassified,review,,ILW,high,Williamsdale,10.65,N,excluded_method_1,medium,20.0
+NSW1,Ruby Hills Wind Farm 700MW,NEW,medium,Ruby Hills,NEW,high,Walcha,17.8,Y,,,
+NSW1,Rye Park Wind Farm,SW-NSW,medium,Rye Park,SW-NSW,high,Rye Park,6.59,Y,,,396.0
+NSW1,Salisbury BESS,NEW,medium,Salisbury,NEW,high,Uralla,9.62,Y,,,200.0
+NSW1,Salisbury East Solar 350MW,NEW,medium,Salisbury,NEW,medium,New England,19.85,Y,,,
+NSW1,Salisbury West Solar 350MW,NEW,medium,Salisbury,NEW,medium,New England,19.85,Y,,,
+NSW1,Sandy Creek Solar Farm,CWO,medium,Sandy Creek,CWO,high,Elong Elong,8.14,Y,,,700.0
+NSW1,Sapphire Wind Farm,NEW,high,Sapphire,NEW,high,Sapphire,3.19,Y,,,270.0
+NSW1,Sebastopol Solar Farm,SW-NSW,medium,Sebastopol,SW-NSW,medium,Junee,28.14,Y,,,90.0
+NSW1,Shoalhaven Expansion,ILW,review,Shoalhaven Expansion,ILW,high,Shoalhaven Expansion,0.0,Y,,,235.0
+NSW1,Silverton Wind Farm,SW-NSW,medium,Silverton,SW-NSW,medium,Broken Hill,26.75,Y,,,198.94
+NSW1,Snowy 2.0,SW-NSW,medium,Snowy 2.0,SW-NSW,high,Tumut,14.84,Y,,,
+NSW1,Snowy 2.0.,SW-NSW,medium,Snowy 2.0,SW-NSW,high,Tumut,14.84,Y,,,1468.0
+NSW1,South Keswick Solar Farm,Unclassified,review,,CWO,high,Dubbo,2.75,N,excluded_method_1,medium,13.9
+NSW1,Strafford Renewable Energy Hub - Pumped Hydro,CWO,medium,Strafford,HCC,medium,Stroud,23.71,N,boundary_swap,low,200.0
+NSW1,Stratford Renewable Energy Hub,HCC,review,Stratford,HCC,high,Stroud,16.54,Y,,,400.0
+NSW1,Strontian Solar BESS,NEW,medium,Strontian,SW-NSW,high,Lockhart,13.85,N,corridor_misread,high,333.0
+NSW1,Stubbo BESS,CWO,medium,Stubbo,CWO,high,Uarbry West,13.01,Y,,,200.0
+NSW1,Stubbo Solar Farm,CWO,medium,Stubbo,CWO,high,Beryl,15.87,Y,,,202.0
+NSW1,Summerhill,Unclassified,review,,HCC,high,Waratah,6.11,N,excluded_method_1,medium,
+NSW1,Summerhill Solar Farm,Unclassified,review,,HCC,high,Waratah,6.11,N,excluded_method_1,medium,
+NSW1,Sundown Hybrid Facility,NEW,medium,Sundown Hybrid,NEW,high,White Rock,2.96,Y,,,360.0
+NSW1,Sundown SF(Canadian Solar),NEW,medium,Sundown,NEW,high,White Rock,2.96,Y,,,
+NSW1,Sunraysia Solar Farm,SW-NSW,medium,Sunraysia,SW-NSW,high,Balranald,4.52,Y,,,228.8
+NSW1,Suntop Solar Farm,CWO,medium,Suntop,CWO,high,Wellington,14.13,Y,,,150.0
+NSW1,Suntop Solar Farm Pty Ltd,CWO,medium,Suntop,CWO,high,Wellington,14.13,Y,,,
+NSW1,Swallow Tail BESS,SW-NSW,medium,Swallow Tail,ILW,high,Bannaby,5.12,N,boundary_swap,low,375.0
+NSW1,Talbingo BESS,SW-NSW,medium,Talbingo,SW-NSW,medium,Jounama,2.45,Y,,,400.0
+NSW1,Tallawang Solar And BESS,CWO,medium,Tallawang Solar,CWO,high,Beryl,5.55,Y,,,672.0
+NSW1,Tallawarra,ILW,medium,Tallawarra,ILW,high,Tallawarra,0.05,Y,,,400.0
+NSW1,Tallawarra B,ILW,medium,Tallawarra,ILW,high,Tallawarra,0.12,Y,,,320.0
+NSW1,Tamworth BESS,NEW,high,Tamworth,NEW,high,Tamworth,4.87,Y,,,
+NSW1,Tamworth BESS - Gmr Energy,NEW,high,Tamworth,NEW,high,Tamworth,4.47,Y,,,
+NSW1,Tamworth BESS - Valent,NEW,high,Tamworth,NEW,high,Tamworth,2.57,Y,,,
+NSW1,Taralga Wind Farm,SW-NSW,medium,Taralga,SW-NSW,high,Taralga,1.56,Y,,,42.0
+NSW1,Tchelery BESS,SW-NSW,medium,Tchelery,SW-NSW,review,Balranald,58.27,Y,,,300.0
+NSW1,Teralba,Unclassified,review,,HCC,high,Newcastle,5.1,N,excluded_method_1,medium,
+NSW1,Texas BESS,NEW,medium,Texas BESS,NEW,medium,Texas BESS,3.22,Y,,,400.0
+NSW1,Thunderbolt Energy Hub,NEW,medium,Thunderbolt,NEW,high,Northern Hub (Hub 10),16.88,Y,,,
+NSW1,Thunderbolt Wind Farm,NEW,medium,Thunderbolt,NEW,high,Bendemeer,12.52,Y,,,210.0
+NSW1,Tirranna BESS - KCI,SW-NSW,medium,Tirranna,SW-NSW,medium,Goulburn,7.27,Y,,,400.0
+NSW1,Tomago BESS,HCC,high,Tomago,HCC,high,Tomago,1.39,Y,,,500.0
+NSW1,Tumut 3,SW-NSW,medium,Tumut,SW-NSW,high,Talbingo,0.84,Y,,,1500.0
+NSW1,Uranquinty,SW-NSW,medium,Uranquinty,SW-NSW,high,Uranquinty,3.58,Y,,,173.0
+NSW1,Uungala Wind Farm,Unclassified,review,,CWO,medium,Wellington,20.98,N,excluded_method_1,medium,
+NSW1,Uungula BESS,CWO,medium,Uungula,CWO,medium,Wellington,20.98,Y,,,400.0
+NSW1,Vales Point B,HCC,high,Vales Point,HCC,high,Vales Point,0.14,Y,,,660.0
+NSW1,Vales Point BESS,HCC,high,Vales Point,HCC,high,Vales Point,0.31,Y,,,400.0
+NSW1,Wagga Wagga BESS,SW-NSW,high,Wagga Wagga,SW-NSW,high,Bomen,2.93,Y,,,415.0
+NSW1,Wagga Wagga Solar Farm,SW-NSW,high,Wagga Wagga,SW-NSW,high,Bomen,2.92,Y,,,
+NSW1,Walcha Energy Project - Ruby Hills Wind Farm,NEW,medium,Ruby Hills,NEW,high,Walcha,17.8,Y,,,
+NSW1,Walcha Energy Project - Salisbury East Solar,NEW,medium,Salisbury,NEW,medium,New England,19.85,Y,,,
+NSW1,Walcha Energy Project - Salisbury East Solar 350MW,NEW,medium,Salisbury,NEW,medium,New England,19.85,Y,,,
+NSW1,Walcha Energy Project - Salisbury West Solar,NEW,medium,Salisbury,NEW,medium,New England,19.85,Y,,,
+NSW1,Walcha Energy Project - Winterbourne Wind Farm,NEW,medium,Winterbourne,NEW,high,Walcha,1.48,Y,,,
+NSW1,Walla Walla Solar Farm,SW-NSW,medium,Walla Walla,SW-NSW,high,Culcairn,12.23,Y,,,151.97
+NSW1,Wallerawang 9 BESS,CWO,medium,Wallerawang,CWO,high,Wallerawang,0.47,Y,,,300.0
+NSW1,Wallerawang BESS,CWO,medium,Wallerawang,CWO,high,Wallerawang,0.53,Y,,,
+NSW1,Waratah Super Battery,HCC,high,Waratah,HCC,high,Munmorah,0.71,Y,,,850.18
+NSW1,Waratah Super Battery 350MW,HCC,high,Waratah,HCC,high,Munmorah,0.71,Y,,,
+NSW1,Waratah Super Battery 700MW,HCC,high,Waratah,HCC,high,Munmorah,0.71,Y,,,
+NSW1,Wattle Creek Energy Hub - Battery Storage,CWO,medium,Wattle Creek,ILW,high,Marulan,1.46,N,corridor_misread,high,350.0
+NSW1,Wattle Creek Energy Hub - Solar / BESS,CWO,medium,Wattle Creek,ILW,high,Marulan,8.75,N,corridor_misread,high,265.0
+NSW1,Wee Jasper Wind Farm,SW-NSW,medium,Wee Jasper,SW-NSW,high,Burrinjuck,14.86,Y,,,350.0
+NSW1,Wellington BESS,CWO,medium,Wellington,CWO,high,Wellington,10.1,Y,,,
+NSW1,Wellington BESS - Stage 1,CWO,medium,Wellington,CWO,high,Wellington,10.1,Y,,,300.0
+NSW1,Wellington BESS - Stage 2,CWO,medium,Wellington,CWO,high,Wellington,3.46,Y,,,200.0
+NSW1,Wellington North BESS,CWO,medium,Wellington,CWO,high,Wellington,3.94,Y,,,
+NSW1,Wellington North BESS - KCI,CWO,medium,Wellington,CWO,high,Wellington,3.94,Y,,,500.0
+NSW1,Wellington North Solar Farm,CWO,medium,Wellington,CWO,high,Wellington,3.42,Y,,,300.0
+NSW1,Wellington North Solar Farm (AGL),CWO,medium,Wellington,CWO,high,Wellington,3.42,Y,,,
+NSW1,Wellington North Solar Farm (AGL) _x000D_,CWO,medium,Wellington,CWO,high,Wellington,3.42,Y,,,
+NSW1,Wellington North Solar Farm (Lightsource),CWO,medium,Wellington,CWO,high,Wellington,3.42,Y,,,436.8
+NSW1,Wellington Solar Farm,CWO,medium,Wellington,CWO,high,Wellington,1.48,Y,,,216.08
+NSW1,West Wyalong Solar Farm,SW-NSW,medium,West Wyalong,SW-NSW,high,West Wyalong,16.13,Y,,,105.27
+NSW1,Western Sydney Pumped Hydro Project,ILW,medium,Western Sydney,SW-NSW,medium,Tower,31.36,N,boundary_swap,low,1000.0
+NSW1,White Rock Solar Farm,NEW,medium,White Rock,NEW,high,White Rock,7.23,Y,,,20.0
+NSW1,White Rock Wind Farm - Stage 1,NEW,medium,White Rock,NEW,high,White Rock,1.6,Y,,,175.0
+NSW1,White Rock Wind Farm - Stage 2,NEW,medium,White Rock,NEW,high,White Rock,1.6,Y,,,352.5
+NSW1,Wilga Park Power Station A,Unclassified,review,,NEW,high,Narrabri,12.64,N,excluded_method_1,medium,6.0
+NSW1,Wilga Park Power Station B,Unclassified,review,,NEW,high,Narrabri,12.64,N,excluded_method_1,medium,6.0
+NSW1,Willavale BESS,CWO,medium,Willavale,SW-NSW,high,Cullerin,14.56,N,boundary_swap,low,300.0
+NSW1,Wollar Solar Farm,CWO,high,Wollar,CWO,high,Wollar,1.65,Y,,,280.0
+NSW1,Wongalea BESS,CWO,medium,Wongalea,NEW,high,Armidale,3.28,N,boundary_swap,low,300.0
+NSW1,Woodland BESS,SW-NSW,medium,Woodland,SW-NSW,medium,Griffith,22.26,Y,,,250.0
+NSW1,Woodlawn Wind Farm,SW-NSW,medium,Woodlawn,SW-NSW,high,Woodlawn,3.83,Y,,,48.3
+NSW1,Wyalong Solar Farm,SW-NSW,medium,Wyalong,SW-NSW,high,West Wyalong,16.13,Y,,,62.32
+NSW1,Yambla Range Wind Farm,SW-NSW,medium,Yambla Range,SW-NSW,high,Jindera,15.27,Y,,,200.0
+NSW1,Yanco Delta Wind Farm Stage 1 - Battery,SW-NSW,medium,Yanco,SW-NSW,medium,Finley,41.09,Y,,,
+NSW1,Yanco Delta Wind Farm Stage 1 - Battery - KCI,SW-NSW,medium,Yanco,SW-NSW,medium,Finley,41.09,Y,,,
+NSW1,Yarrabee Solar Power Project,CWO,review,Yarrabee Solar,SW-NSW,medium,Narrandera,31.66,N,boundary_swap,low,584.43
+QLD1,Aldoga Solar Farm,CQ,high,Aldoga,CQ,high,Aldoga,0.0,Y,,,535.21
+QLD1,Kogan Creek,WD,high,Kogan Creek,WD,high,Kogan Creek,0.0,Y,,,744.0
+QLD1,MacIntyre Wind Farm,SD,high,MacIntyre,SD,medium,Karara,24.53,Y,,,923.4
+QLD1,Stanwell,CQ,high,Stanwell,CQ,high,Stanwell,0.0,Y,,,365.0
+QLD1,Western Downs Green Power Hub,WD,high,Western Downs,WD,high,Western Downs Switching Station,0.0,Y,,,400.0
+SA1,Angaston,MN,medium,Angaston,MN,high,Angaston,0.08,Y,,,30.8
+SA1,Augusta BESS,MN,medium,Augusta,MN,high,Davenport,1.95,Y,,,270.0
+SA1,Australia Plains Solar Farm,MN,medium,Australia Plains,MN,medium,Bundey,8.68,Y,,,200.0
+SA1,Barker Inlet Power Station,MN,medium,Barker Inlet,MN,high,Torrens Island,0.4,Y,,,210.0
+SA1,Barker Inlet Power Station 2,MN,medium,Barker Inlet,MN,high,Torrens Island,0.4,Y,,,280.0
+SA1,Barn Hill BESS,EYR,medium,Barn Hill,MN,high,Clements Gap,9.05,N,boundary_swap,low,270.0
+SA1,Blyth West BESS,MN,high,Blyth,MN,high,Blyth,7.5,Y,,,
+SA1,Bridle Track Solar Project,MN,medium,Bridle Track,MN,high,Baroota,9.03,Y,,,300.0
+SA1,Brinkworth BESS - Storage - KCI,MN,medium,Brinkworth,MN,medium,Brinkworth,6.33,Y,,,
+SA1,Bundey BESS and Solar Project,MN,high,Bundey,MN,high,Bundey,6.09,Y,,,600.0
+SA1,Bundey Energy Hub Battery Energy Storage A,MN,high,Bundey,MN,high,Bundey,0.0,Y,,,
+SA1,Bundy Energy Hub A (BESS),MN,medium,Bundy Energy Hub,MN,high,Bundey,5.96,Y,,,250.0
+SA1,Bundy Energy Hub B (BESS),MN,medium,Bundy Energy Hub,MN,high,Bundey,5.96,Y,,,250.0
+SA1,Bungala Three Battery Energy Storage System,MN,medium,Bungala,MN,high,Davenport,2.43,Y,,,
+SA1,Bungama BESS,MN,high,Bungama,MN,medium,Bungama,0.96,Y,,,
+SA1,Bungama BESS (ARENA ),MN,high,Bungama,MN,medium,Bungama,0.96,Y,,,200.0
+SA1,Canunda,SE-SA,medium,Canunda,SE-SA,high,Snuggery,6.29,Y,,,46.0
+SA1,Cathedral Rocks,MN,review,Cathedral Rocks,EYR,medium,Port Lincoln,26.77,N,boundary_swap,low,62.0
+SA1,Ceduna Solar Farm,EYR,medium,Ceduna,Unclassified,Unclassified,Wudinna,195.85,N,excluded_method_2,medium,200.0
+SA1,Ceduna Wind Farm,EYR,medium,Ceduna,Unclassified,Unclassified,Wudinna,195.89,N,excluded_method_2,medium,400.0
+SA1,Cultana Pumped Hydro Energy Storage,MN,medium,Cultana,MN,high,Davenport,8.8,Y,,,
+SA1,Dalrymple BESS,SE-SA,medium,Dalrymple,SE-SA,high,Dalrymple,0.24,Y,,,30.0
+SA1,Davenport BESS,MN,medium,Davenport,MN,high,Davenport,2.43,Y,,,270.0
+SA1,Emeroo BESS (Bungala),MN,review,Bungala,EYR,high,Emeroo,8.32,N,boundary_swap,low,
+SA1,Geranium Plains Solar and BESS,MN,medium,Geranium Plains,MN,medium,Robertstown,6.12,Y,,,250.0
+SA1,Goat Hill Pumped Hydro,MN,medium,Goat Hill,EYR,high,Lincoln Gap,9.01,N,boundary_swap,low,230.0
+SA1,Gould Creek BESS,MN,medium,Gould Creek,MN,medium,Para,1.71,Y,,,215.0
+SA1,Goyder BESS,MN,medium,Goyder,MN,high,Bundey,0.64,Y,,,300.0
+SA1,Goyder North Stage 1 Wind farm - KCI,MN,medium,Goyder North,MN,high,Mokota,14.76,Y,,,
+SA1,Goyder South Hub - BESS,MN,medium,Goyder South,MN,medium,Mokota,22.46,Y,,,
+SA1,Goyder South Hub - Solar,MN,medium,Goyder South,MN,medium,Mokota,22.46,Y,,,
+SA1,Goyder South hub - BESS,MN,medium,Goyder South,MN,medium,Mokota,22.46,Y,,,
+SA1,Goyder South hub - Solar,MN,medium,Goyder South,MN,medium,Mokota,22.46,Y,,,
+SA1,Goyder South hub - Wind,MN,medium,Goyder South,MN,medium,Mokota,22.46,Y,,,
+SA1,Highbury Pumped Hydro Energy Storage,Unclassified,review,,MN,high,Adelaide,12.69,N,excluded_method_1,medium,
+SA1,Hornsdale Power Reserve Unit 1,MN,high,Hornsdale,MN,high,Mount Lock,0.26,Y,,,100.0
+SA1,Kanmantoo,Unclassified,review,,SE-SA,medium,Mobilong,23.96,N,excluded_method_1,medium,
+SA1,Ladbroke Grove,SE-SA,medium,Ladbroke Grove,SE-SA,medium,South East,31.23,Y,,,40.0
+SA1,Lake Bonney Battery Energy Storage,SE-SA,medium,Lake Bonney,SE-SA,high,Snuggery,8.72,Y,,,25.0
+SA1,Lincoln Gap Wind Farm - BESS,EYR,medium,Lincoln Gap,EYR,high,Lincoln Gap,0.06,Y,,,
+SA1,Lincoln Gap Wind Farm - Stage 2,EYR,medium,Lincoln Gap,EYR,high,Lincoln Gap,1.34,Y,,,86.4
+SA1,Lincoln Gap Wind Farm - stage 1,EYR,medium,Lincoln Gap,EYR,high,Lincoln Gap,1.34,Y,,,126.0
+SA1,Lincoln Gap Wind Farm - stage 2,EYR,medium,Lincoln Gap,EYR,high,Lincoln Gap,1.34,Y,,,
+SA1,Lincoln Gap Wind Farm stage 3,EYR,medium,Lincoln Gap,EYR,high,Lincoln Gap,1.34,Y,,,277.2
+SA1,Lonsdale,MN,medium,Lonsdale,MN,high,Port Stanvac,0.14,Y,,,20.16
+SA1,Mannum Solar Farm,MN,medium,Mannum,SE-SA,high,Mobilong,2.42,N,boundary_swap,low,
+SA1,Mannum Solar Farm 2,MN,medium,Mannum,MN,high,Mannum,0.44,Y,,,29.99
+SA1,Marcollat Energy Hub (Stage 1),SE-SA,medium,Marcollat,SE-SA,review,Keith,52.4,Y,,,400.0
+SA1,Marcollat Energy Hub (stage 2),SE-SA,medium,Marcollat,SE-SA,review,Keith,52.4,Y,,,400.0
+SA1,Marcollat Energy Hub(Stage 1),SE-SA,medium,Marcollat,SE-SA,review,Keith,52.4,Y,,,
+SA1,Morgan Solar,MN,review,Morgan Solar,MN,medium,Bundey,41.75,Y,,,108.0
+SA1,Osborne,MN,medium,Osborne,MN,high,Torrens Island,1.19,Y,,,118.0
+SA1,Osborne BESS,MN,medium,Osborne,MN,high,Torrens Island,2.18,Y,,,300.0
+SA1,Pacific Green Energy Park - Limestone Coast North,SE-SA,medium,Limestone Coast,SE-SA,high,South East,5.58,Y,,,250.0
+SA1,Pacific Green Energy Park - Limestone Coast West,SE-SA,medium,Limestone Coast,SE-SA,high,South East,5.58,Y,,,250.0
+SA1,Para Hill BESS,MN,high,Para,MN,high,Para,1.9,Y,,,300.0
+SA1,Para Substation/Gould Creek BESS,MN,high,Para,MN,medium,Para,1.71,Y,,,
+SA1,Pelican Point,MN,medium,Pelican Point,MN,high,Pelican Point,0.15,Y,,,358.0
+SA1,Pelican Point BESS,MN,medium,Pelican Point,MN,high,Pelican Point,0.34,Y,,,200.0
+SA1,Pelican Point S2,MN,medium,Pelican Point,MN,high,Pelican Point,0.19,Y,,,
+SA1,Peterborough Solar Farm,Unclassified,review,,MN,medium,Mount Lock,29.87,N,excluded_method_1,medium,
+SA1,Port Augusta Renewable Energy Park - Solar,MN,review,Port Augusta,MN,high,Davenport,4.91,Y,,,99.0
+SA1,Port Augusta Renewable Energy Park - Wind,MN,review,Port Augusta,MN,high,Davenport,10.99,Y,,,201.0
+SA1,Port Augusta Solar Farm (KCI),MN,review,Port Augusta,EYR,high,Port Augusta,0.0,N,boundary_swap,low,300.0
+SA1,Port Pirie,MN,medium,Port Pirie,MN,high,Port Pirie,0.89,Y,,,
+SA1,Port Pirie Solar Farm - KCI,MN,medium,Port Pirie,MN,medium,Port Pirie,0.89,Y,,,300.0
+SA1,Project Monash - Solar - KCI,RIV,medium,Monash,RIV,high,Monash,3.89,Y,,,375.0
+SA1,Quarantine,MN,medium,Quarantine,MN,high,Pelican Point,2.11,Y,,,165.0
+SA1,Reeves Plains Power Station BESS,MN,medium,Reeves Plains,MN,high,Templers,15.14,Y,,,250.0
+SA1,Riverland Solar Storage - Solar,RIV,high,Riverland,MN,medium,Bundey,42.74,N,boundary_swap,low,330.0
+SA1,Robertstown BESS,MN,high,Robertstown,MN,high,Robertstown,5.86,Y,,,400.0
+SA1,SSE Whyalla Solar Farm,MN,review,Whyalla,MN,high,Whyalla,2.28,Y,,,
+SA1,Snapper Point Power Station,MN,medium,Snapper Point,MN,high,Pelican Point,0.18,Y,,,123.2
+SA1,Snowtown Wind Farm,MN,high,Snowtown,MN,high,Snowtown North,1.46,Y,,,98.7
+SA1,Starfish Hill,SE-SA,medium,Starfish Hill,MN,review,Port Stanvac,59.86,N,boundary_swap,low,33.0
+SA1,Summerfield,MN,medium,Summerfield,MN,high,Mannum,4.44,Y,,,
+SA1,Tailem Bend - Solar,SE-SA,high,Tailem Bend,SE-SA,high,Tailem Bend,0.58,Y,,,108.0
+SA1,Tailem Bend Stage 3,SE-SA,high,Tailem Bend,SE-SA,medium,Tailem Bend,4.5,Y,,,204.0
+SA1,Templers B BESS,MN,high,Templers,MN,medium,Templers,3.27,Y,,,200.0
+SA1,Templers BESS,MN,high,Templers,MN,high,Templers,0.33,Y,,,111.0
+SA1,Templers BESS - KCI,MN,high,Templers,MN,high,Templers,0.33,Y,,,
+SA1,Templers BESS(GreenPower),MN,high,Templers,MN,high,Templers,0.33,Y,,,
+SA1,The Solar River Project - Stage 1,MN,medium,Solar River,MN,medium,Bundey,21.66,Y,,,200.0
+SA1,The Solar River Project - Stage 2,MN,medium,Solar River,MN,medium,Bundey,21.66,Y,,,200.0
+SA1,Torrens Island B,MN,medium,Torrens Island,MN,medium,Torrens Island,0.47,Y,,,200.0
+SA1,Tungkillo BESS - KCI,SE-SA,high,Tungkillo,SE-SA,high,Tungkillo,6.23,Y,,,
+SA1,Tungkillo South BESS,SE-SA,high,Tungkillo,SE-SA,high,Tungkillo,11.48,Y,,,270.0
+SA1,Waterloo Wind Farm,MN,high,Waterloo,MN,high,Waterloo,3.66,Y,,,111.0
+SA1,Wattle Point,MN,medium,Wattle Point,MN,high,Wattle Point,1.92,Y,,,90.75
+SA1,Whyalla,MN,review,Whyalla,MN,high,Bundey,6.06,Y,,,140.0
+SA1,Whyalla BESS,MN,review,Whyalla,MN,high,Whyalla,2.28,Y,,,
+SA1,Whyalla BESS - KCI,MN,review,Whyalla,MN,high,Whyalla,2.28,Y,,,100.0
+SA1,Whyalla Solar Farm,MN,review,Whyalla,MN,high,Whyalla,2.28,Y,,,
+SA1,Willogoleche Wind Farm,MN,medium,Willogoleche,MN,high,Hallett,3.34,Y,,,95.75
+SA1,Yoorndoo Ilga Solar - KCI,MN,review,Yoorndoo Ilga,MN,high,Hallett,6.52,Y,,,250.0
+SA1,Yumali Wind Farm,SE-SA,medium,Yumali,SE-SA,medium,Tailem Bend,35.64,Y,,,302.0
+TAS1,Bastyan,TAS-NW,high,(TAS region),TAS-NW,review,Hampshire Hills,54.34,Y,,,79.9
+TAS1,Cattle Hill Wind Farm,TAS-NW,high,(TAS region),TAS-NW,medium,Tungatinah,26.31,Y,,,144.0
+TAS1,Cethana,TAS-NW,high,(TAS region),TAS-NW,high,Cethana,0.24,Y,,,85.0
+TAS1,Cluny,TAS-NW,high,(TAS region),TAS-NW,high,Cluny,0.13,Y,,,19.0
+TAS1,Devils Gate,TAS-NW,high,(TAS region),TAS-NW,high,Sheffield,4.0,Y,,,60.0
+TAS1,Fisher,TAS-NW,high,(TAS region),TAS-NW,medium,Cethana,24.32,Y,,,43.2
+TAS1,George Town BESS - KCI,TAS-NW,high,(TAS region),TAS-NW,high,George Town,1.64,Y,,,350.0
+TAS1,George Town Wind Farm,TAS-NW,high,(TAS region),TAS-NW,high,George Town,1.64,Y,,,232.0
+TAS1,Gordon,TAS-NW,high,(TAS region),TAS-NW,review,Butlers Gorge,57.39,Y,,,432.0
+TAS1,Granville Harbour Wind Farm,TAS-NW,high,(TAS region),TAS-NW,review,Hampshire Hills,80.18,Y,,,111.6
+TAS1,Great Lakes BESS,TAS-NW,high,(TAS region),TAS-NW,high,Palmerston,0.01,Y,,,
+TAS1,John Butters,TAS-NW,high,(TAS region),TAS-NW,review,Butlers Gorge,61.15,Y,,,144.0
+TAS1,Lake Echo,TAS-NW,high,(TAS region),TAS-NW,high,Tungatinah,14.31,Y,,,32.4
+TAS1,Lake Margaret,TAS-NW,high,(TAS region),TAS-NW,review,Butlers Gorge,65.99,Y,,,
+TAS1,Lower Lake Margaret,TAS-NW,high,(TAS region),TAS-NW,review,Butlers Gorge,66.78,Y,,,
+TAS1,Mackintosh,TAS-NW,high,(TAS region),TAS-NW,medium,Cethana,47.51,Y,,,79.9
+TAS1,Meadowbank,TAS-NW,high,(TAS region),TAS-NW,high,Cluny,17.94,Y,,,40.0
+TAS1,Musselroe Wind Farm,TAS-NW,high,(TAS region),Unclassified,Unclassified,Tasmania,102.42,N,excluded_method_2,medium,168.0
+TAS1,Palmerston Big Battery,TAS-NW,high,(TAS region),TAS-NW,high,Palmerston,0.01,Y,,,
+TAS1,Palmerston Big Battery - KCI,TAS-NW,high,(TAS region),TAS-NW,high,Palmerston,0.01,Y,,,
+TAS1,Paloona,TAS-NW,high,(TAS region),TAS-NW,high,Sheffield,7.63,Y,,,28.0
+TAS1,Poatina,TAS-NW,high,(TAS region),TAS-NW,high,Palmerston,6.49,Y,,,200.0
+TAS1,Reece,TAS-NW,high,(TAS region),TAS-NW,review,Hampshire Hills,70.53,Y,,,115.6
+TAS1,Repulse,TAS-NW,high,(TAS region),TAS-NW,high,Cluny,2.68,Y,,,28.0
+TAS1,Robbins Island Wind Farm,TAS-NW,high,(TAS region),TAS-NW,medium,Smithton,24.4,Y,,,929.0
+TAS1,Rowallan,TAS-NW,high,(TAS region),TAS-NW,medium,Cethana,28.73,Y,,,10.5
+TAS1,Tarraleah,TAS-NW,high,(TAS region),TAS-NW,high,Tarraleah,0.1,Y,,,90.0
+TAS1,Trevallyn,TAS-NW,high,(TAS region),TAS-NW,high,Trevallyn,0.1,Y,,,53.0
+TAS1,Tribute,TAS-NW,high,(TAS region),TAS-NW,review,Cethana,55.03,Y,,,82.8
+TAS1,Tungatinah,TAS-NW,high,(TAS region),TAS-NW,high,Tungatinah,0.13,Y,,,125.0
+VIC1,Ararat SynCon,WV,high,Ararat,WV,high,Ararat,0.0,Y,,,
+VIC1,Ararat Wind Farm,WV,high,Ararat,WV,high,Crowlands,13.91,Y,,,240.0
+VIC1,Bairnsdale,GIP,medium,Bairnsdale,GIP,high,Bairnsdale,0.22,Y,,,47.0
+VIC1,Bald Hills Wind Farm,GIP,medium,Bald Hills,GIP,high,Bald Hills,2.94,Y,,,106.6
+VIC1,Ballarat,WV,medium,Ballarat,WV,high,Ballarat,0.11,Y,,,
+VIC1,Ballarat Energy Storage System,WV,medium,Ballarat,WV,high,Ballarat,0.11,Y,,,30.0
+VIC1,Banimboola,CN-VIC,medium,Banimboola,CN-VIC,high,Dartmouth,6.02,Y,,,10.0
+VIC1,Bannerton Solar Park,MR,medium,Bannerton,MR,high,Robinvale,7.31,Y,,,100.0
+VIC1,Birdwood Energy Reserve,Unclassified,review,,CN-VIC,high,Wodonga,0.02,N,excluded_method_1,medium,
+VIC1,Birdwood Energy Reserve - KCI,Unclassified,review,,CN-VIC,high,Wodonga,0.02,N,excluded_method_1,medium,
+VIC1,Bookaar Solar Farm,WV,medium,Bookaar,SW-VIC,medium,Camperdown,12.84,N,boundary_swap,low,230.0
+VIC1,Bridgewater,Unclassified,review,,SW-VIC,high,Cape Bridgewater,1.25,N,excluded_method_1,medium,
+VIC1,Brooklyn,Unclassified,review,,SW-VIC,high,Newport,6.02,N,excluded_method_1,medium,
+VIC1,Bulgana Green Power Hub - BESS,WV,medium,Bulgana,WV,high,Bulgana,0.18,Y,,,20.0
+VIC1,Bulgana Green Power Hub - Wind Farm,WV,medium,Bulgana,WV,high,Bulgana,9.03,Y,,,204.4
+VIC1,Campbells Forest Solar Farm,CN-VIC,medium,Campbells Forest,CN-VIC,medium,Bendigo,24.54,Y,,,205.0
+VIC1,Challicum Hills,WV,medium,Challicum Hills,WV,high,Challicum,1.01,Y,,,52.5
+VIC1,Chepstowe Wind Farm - VIC,WV,medium,Chepstowe,WV,medium,Waubra,28.46,Y,,,6.15
+VIC1,Cherry Tree Wind Farm,CN-VIC,medium,Cherry Tree,CN-VIC,high,Seymour,12.3,Y,,,57.6
+VIC1,Clover,CN-VIC,medium,Clover,CN-VIC,high,Clover,0.11,Y,,,29.0
+VIC1,Codrington Wind Farm,SW-VIC,medium,Codrington,SW-VIC,high,Codrington,1.8,Y,,,18.2
+VIC1,Cohuna Solar Farm,MR,medium,Cohuna,MR,high,Cohuna,0.75,Y,,,31.16
+VIC1,Connewarren BESS - KCI,SW-VIC,medium,Connewarren,SW-VIC,high,Mortlake,11.27,Y,,,
+VIC1,Cooba Solar Farm,WV,medium,Cooba,CN-VIC,medium,Fosterville,21.54,N,boundary_swap,low,
+VIC1,Coonooer Bridge Wind Farm,WV,medium,Coonooer Bridge,WV,review,Bulgana,76.01,Y,,,19.8
+VIC1,Corop BESS,CN-VIC,medium,Corop,CN-VIC,medium,Stanhope,14.42,Y,,,400.0
+VIC1,Corop Solar Farm,CN-VIC,medium,Corop,CN-VIC,medium,Stanhope,14.42,Y,,,400.0
+VIC1,Cranbourne BESS (Maoneng),Unclassified,review,,SW-VIC,high,Mornington,9.13,N,excluded_method_1,medium,
+VIC1,Crowlands Wind Farm,WV,high,Crowlands,WV,high,Crowlands,0.9,Y,,,79.95
+VIC1,Dalvui BESS,SW-VIC,medium,Dalvui,SW-VIC,high,Terang,0.0,Y,,,250.0
+VIC1,Dartmouth,CN-VIC,medium,Dartmouth,CN-VIC,high,Dartmouth,0.04,Y,,,185.0
+VIC1,Dederang BESS,CN-VIC,medium,Dederang,CN-VIC,high,Dederang,3.91,Y,,,200.0
+VIC1,Dederang BESS (Trina),CN-VIC,medium,Dederang,CN-VIC,high,Dederang,0.0,Y,,,
+VIC1,Dederang BESS - KCI,CN-VIC,medium,Dederang,CN-VIC,medium,Dederang,3.91,Y,,,
+VIC1,Dederang Big BESS - KCI,CN-VIC,medium,Dederang,CN-VIC,high,Dederang,0.0,Y,,,
+VIC1,Dundonnell Wind Farm,SW-VIC,high,Dundonnell,SW-VIC,high,Salt Creek,18.97,Y,,,168.0
+VIC1,Eildon,CN-VIC,medium,Eildon,CN-VIC,high,Eildon,2.97,Y,,,60.0
+VIC1,Eildon Pondage Power Station (EPPS),CN-VIC,medium,Eildon,CN-VIC,high,Eildon,2.97,Y,,,4.5
+VIC1,Elaine Battery Energy Storage System,WV,medium,Elaine,WV,high,Elaine,4.01,Y,,,
+VIC1,Elaine Wind Farm,WV,medium,Elaine,WV,high,Elaine,3.2,Y,,,83.6
+VIC1,Ferguson Wind Farm,WV,medium,Ferguson,SW-VIC,medium,Cobden,31.82,N,boundary_swap,low,12.0
+VIC1,Gannawarra Energy Storage System,MR,medium,Gannawarra,MR,high,Kerang,14.49,Y,,,25.33
+VIC1,Gannawarra Solar Farm,MR,medium,Gannawarra,MR,high,Kerang,14.4,Y,,,55.0
+VIC1,Geelong BESS,SW-VIC,medium,Geelong,SW-VIC,medium,Geelong,7.53,Y,,,250.0
+VIC1,Girgarre Solar Farm,CN-VIC,medium,Girgarre,CN-VIC,high,Stanhope,3.98,Y,,,93.48
+VIC1,Glenbrae BESS,WV,medium,Glenbrae,WV,high,Waubra,3.34,Y,,,250.0
+VIC1,Glenrowan BESS (KCI),CN-VIC,medium,Glenrowan,CN-VIC,high,Glenrowan,0.09,Y,,,
+VIC1,Glenrowan BESS - Storage - KCI,CN-VIC,medium,Glenrowan,CN-VIC,high,Glenrowan,0.09,Y,,,400.0
+VIC1,Glenrowan West Solar Farm,CN-VIC,medium,Glenrowan,CN-VIC,high,Glenrowan,2.23,Y,,,132.0
+VIC1,Goorambat BESS,CN-VIC,medium,Goorambat,CN-VIC,medium,Goorambat,2.35,Y,,,
+VIC1,Goorambat BESS (Lighthouse),CN-VIC,medium,Goorambat,CN-VIC,medium,Goorambat,2.35,Y,,,800.0
+VIC1,Goorambat East Solar Farm (ENGIE),CN-VIC,medium,Goorambat,CN-VIC,high,Goorambat,1.43,Y,,,250.0
+VIC1,Haunted Gully BESS,WV,medium,Haunted Gully,WV,high,Haunted Gully,0.15,Y,,,
+VIC1,Haunted Gully BESS - KCI,WV,medium,Haunted Gully,WV,high,Haunted Gully,0.15,Y,,,400.0
+VIC1,Hawkesdale BESS - Storage - KCI,SW-VIC,medium,Hawkesdale,SW-VIC,medium,Macarthur,12.94,Y,,,
+VIC1,Hazelwood Battery Energy Storage System (HBESS),GIP,high,Hazelwood,GIP,high,Morwell,2.98,Y,,,200.07
+VIC1,Hazelwood Battery Energy Storage System Facility,GIP,high,Hazelwood,GIP,medium,Morwell,0.7,Y,,,
+VIC1,Hazelwood North Solar Farm - KCI,GIP,high,Hazelwood,GIP,medium,Morwell,0.7,Y,,,480.0
+VIC1,Heywood Terminal Station BESS,SW-VIC,high,Heywood,SW-VIC,medium,Portland,22.87,Y,,,
+VIC1,Heywood Terminal Station BESS - KCI,SW-VIC,high,Heywood,SW-VIC,medium,Portland,22.87,Y,,,
+VIC1,Jeeralang BESS (Maoneng),GIP,medium,Jeeralang,GIP,medium,Jeeralang,0.0,Y,,,
+VIC1,Jeeralang Battery,GIP,medium,Jeeralang,GIP,high,Jeeralang,0.0,Y,,,
+VIC1,Joel BESS,WV,medium,Joel,WV,high,Bulgana,0.01,Y,,,296.7
+VIC1,KIEWA VALLEY BESS,CN-VIC,medium,Kiewa Valley,CN-VIC,high,Dederang,0.0,Y,,,500.0
+VIC1,Karadoc Solar Farm,MR,medium,Karadoc,MR,high,Red Cliffs,13.11,Y,,,104.5
+VIC1,Kentbruck Green Power Hub,GIP,medium,Kentbruck,SW-VIC,medium,Cape Bridgewater,37.48,N,boundary_swap,low,600.0
+VIC1,Kerang BESS (BSR),MR,high,Kerang,MR,medium,Kerang,4.27,Y,,,300.0
+VIC1,Kiamal Solar Farm - Stage 1,MR,medium,Kiamal,MR,high,Ouyen,4.43,Y,,,199.95
+VIC1,Kiata Wind Farm,WV,medium,Kiata,WV,review,Horsham,57.1,Y,,,31.05
+VIC1,Koorangie BESS Stage 2,CN-VIC,review,Koorangie,MR,high,Kerang,8.97,N,boundary_swap,low,150.0
+VIC1,Koorangie Energy Storage System,CN-VIC,review,Koorangie,MR,high,Kerang,8.97,N,boundary_swap,low,185.0
+VIC1,Kyabram Wind Farm,Unclassified,review,,MR,high,Echuca,14.2,N,excluded_method_1,medium,
+VIC1,LYA BESS,CN-VIC,review,LYA,GIP,high,Loy Yang,1.62,N,boundary_swap,low,200.0
+VIC1,Latrobe Solar Farm,GIP,medium,Latrobe,GIP,medium,Morwell,3.41,Y,,,400.0
+VIC1,Laverton North,Unclassified,review,,SW-VIC,high,Newport,9.21,N,excluded_method_1,medium,156.0
+VIC1,Learmonth BESS,WV,medium,Learmonth,WV,high,Waubra,12.46,Y,,,268.0
+VIC1,Little River BESS,SW-VIC,medium,Little River,SW-VIC,medium,Geelong,16.88,Y,,,350.0
+VIC1,Lovely Banks Renewable Energy Hub,WV,medium,Lovely Banks,SW-VIC,high,Moorabool,0.2,N,boundary_swap,low,
+VIC1,Lovely Banks Renewable Energy Hub - KCI,WV,medium,Lovely Banks,SW-VIC,high,Moorabool,0.2,N,boundary_swap,low,400.0
+VIC1,Loy Yang A Power Station,GIP,high,Loy Yang,GIP,high,Loy Yang B,0.31,Y,,,560.0
+VIC1,Loy Yang B,GIP,high,Loy Yang,GIP,high,Loy Yang B,1.18,Y,,,580.0
+VIC1,Loy Yang B Power Station - BESS Stage 1 - KCI,GIP,high,Loy Yang,GIP,high,Loy Yang B,1.18,Y,,,250.0
+VIC1,Loy Yang BESS,GIP,high,Loy Yang,GIP,high,Loy Yang B,0.42,Y,,,
+VIC1,Macarthur Wind Farm,SW-VIC,medium,Macarthur,SW-VIC,high,Macarthur,3.61,Y,,,420.0
+VIC1,Malunga BESS - KCI,Unclassified,review,,SW-VIC,medium,Berrybank,22.55,N,excluded_method_1,medium,
+VIC1,Malunga Nine Mile BESS - KCI,MR,medium,Malunga Nine Mile,SW-VIC,medium,Berrybank,22.55,N,corridor_misread,high,500.0
+VIC1,Mansfield Solar Farm - Solar - KCI,CN-VIC,medium,Mansfield,CN-VIC,medium,Mansfield,1.19,Y,,,350.0
+VIC1,Meering BESS,MR,medium,Meering,MR,medium,Kerang,24.06,Y,,,250.0
+VIC1,Meering Wind Farm,MR,medium,Meering,MR,medium,Kerang,27.47,Y,,,1500.0
+VIC1,Melbourne Renewable Energy Hub,Unclassified,review,,WV,high,Sydenham,6.63,N,excluded_method_1,medium,
+VIC1,Melbourne Renewable Energy Hub - Side A,Unclassified,review,,WV,high,Sydenham,6.63,N,excluded_method_1,medium,600.0
+VIC1,Melbourne Renewable Energy Hub - Side B,Unclassified,review,,WV,high,Sydenham,6.63,N,excluded_method_1,medium,600.0
+VIC1,Melton Renewable Energy Hub,Unclassified,review,,WV,high,Sydenham,6.63,N,excluded_method_1,medium,
+VIC1,Mokoan Solar Farm,CN-VIC,medium,Mokoan,CN-VIC,high,Glenrowan,0.9,Y,,,
+VIC1,Mokoan Solar Farm (LightsourceBP),CN-VIC,medium,Mokoan,CN-VIC,high,Glenrowan,0.9,Y,,,46.0
+VIC1,Mologa BESS,CN-VIC,medium,Mologa,MR,medium,Cohuna,31.3,N,boundary_swap,low,250.0
+VIC1,Moorabool BESS,SW-VIC,high,Moorabool,SW-VIC,high,Moorabool,0.65,Y,,,300.0
+VIC1,Moorabool Wind Farm,SW-VIC,high,Moorabool,SW-VIC,high,Yaloak South,7.4,Y,,,312.0
+VIC1,Mornington BESS,SW-VIC,medium,Mornington,SW-VIC,high,Mornington,10.62,Y,,,240.0
+VIC1,Mortlake,SW-VIC,high,Mortlake,SW-VIC,high,Mortlake,9.23,Y,,,292.0
+VIC1,Mortlake BESS,SW-VIC,high,Mortlake,SW-VIC,high,Mortlake,11.36,Y,,,
+VIC1,Mortlake Battery,SW-VIC,high,Mortlake,SW-VIC,high,Mortlake,11.27,Y,,,300.0
+VIC1,Mortlake South Wind Farm,SW-VIC,high,Mortlake,SW-VIC,high,Mortlake,9.23,Y,,,157.5
+VIC1,Mortons Lane Wind Farm,SW-VIC,medium,Mortons Lane,SW-VIC,high,Mortons Lane,0.57,Y,,,19.5
+VIC1,Mount Fyans Wind Farm 2.0,SW-VIC,medium,Mount Fyans,SW-VIC,high,Mortlake,8.95,Y,,,750.0
+VIC1,Mt Doran BESS,WV,medium,Mt Doran,WV,high,Elaine,6.13,Y,,,200.0
+VIC1,Murra Warra Solar Farm,WV,medium,Murra Warra,WV,medium,Horsham,26.33,Y,,,
+VIC1,Murra Warra Wind Farm - stage 1,WV,medium,Murra Warra,WV,medium,Horsham,33.4,Y,,,225.7
+VIC1,Murra Warra Wind Farm - stage 2,WV,medium,Murra Warra,WV,medium,Horsham,33.4,Y,,,209.0
+VIC1,Murray 1,CN-VIC,medium,Murray 1,MR,high,Murray River,4.75,N,boundary_swap,low,950.0
+VIC1,Murray 2,CN-VIC,medium,Murray 2,MR,high,Murray River,2.0,N,boundary_swap,low,600.0
+VIC1,Muskerry Solar Power Station - KCI,CN-VIC,medium,Muskerry,CN-VIC,high,Fosterville,17.41,Y,,,200.0
+VIC1,Navarre Wind Farm,Unclassified,review,,WV,medium,Bulgana,19.09,N,excluded_method_1,medium,
+VIC1,Newport,SW-VIC,medium,Newport,SW-VIC,high,Newport,0.2,Y,,,500.0
+VIC1,Newport BESS - KCI,SW-VIC,medium,Newport,SW-VIC,medium,Newport,0.24,Y,,,
+VIC1,Newport Battery Energy Storage System,SW-VIC,medium,Newport,SW-VIC,medium,Newport,0.24,Y,,,
+VIC1,Nhill Wind Farm,Unclassified,review,,WV,review,Horsham,83.98,N,excluded_method_1,medium,
+VIC1,North Yarragon BESS - KCI,GIP,medium,North Yarragon,GIP,medium,Yallourn,25.83,Y,,,210.0
+VIC1,Nowingi Solar Farm - Edify (KCI),MR,medium,Nowingi,MR,medium,Hattah,18.36,Y,,,750.0
+VIC1,Nowingi Solar Storage - Solar,MR,medium,Nowingi,MR,high,Hattah,18.87,Y,,,250.0
+VIC1,Numurkah Solar Farm,CN-VIC,medium,Numurkah,CN-VIC,high,Numurkah,10.33,Y,,,101.08
+VIC1,Oaklands Hill Wind Farm,WV,medium,Oaklands Hill,WV,high,Oaklands Hill,0.78,Y,,,67.2
+VIC1,Pacific Green Energy Park Portland West,SW-VIC,high,Portland,SW-VIC,high,Portland,0.14,Y,,,1000.0
+VIC1,Pine Lodge BESS,CN-VIC,medium,Pine Lodge,CN-VIC,high,Shepparton,11.15,Y,,,250.0
+VIC1,Portland BESS,SW-VIC,high,Portland,SW-VIC,high,Portland,0.14,Y,,,
+VIC1,Prairie Solar Farm,CN-VIC,medium,Prairie,MR,medium,Cohuna,36.7,N,boundary_swap,low,250.0
+VIC1,Puzzle Range Wind Farm,WV,medium,Puzzle Range,CN-VIC,medium,Mansfield,33.04,N,boundary_swap,low,350.0
+VIC1,Quandong Solar Farm,MR,medium,Quandong,SW-VIC,medium,Yaloak South,26.38,N,corridor_misread,high,350.0
+VIC1,Rangebank BESS,Unclassified,review,,CN-VIC,medium,Springvale,20.11,N,excluded_method_1,medium,200.0
+VIC1,Salt Creek Wind Farm,WV,review,Salt Creek Wind Farm,SW-VIC,high,Salt Creek,1.7,N,boundary_swap,low,54.0
+VIC1,Somerton,Unclassified,review,,CN-VIC,high,Doreen,16.14,N,excluded_method_1,medium,170.0
+VIC1,Springvale Energy Hub - BESS,CN-VIC,medium,Springvale,CN-VIC,medium,Springvale,4.77,Y,,,
+VIC1,Stockyard Hill Wind Farm,WV,high,Stockyard Hill,WV,medium,Challicum,26.6,Y,,,456.96
+VIC1,Stonehaven Gas Turbines,SW-VIC,medium,Stonehaven,SW-VIC,medium,Geelong,10.88,Y,,,
+VIC1,Stonehaven Gas Turbines - KCI,SW-VIC,medium,Stonehaven,SW-VIC,medium,Geelong,10.88,Y,,,220.0
+VIC1,Swan Hill Solar Farm 1 Unit 1,MR,medium,Swan Hill,MR,high,Swan Hill,0.54,Y,,,
+VIC1,Swan Hill Solar Farm 2 Unit 1,MR,medium,Swan Hill,MR,high,Swan Hill,0.54,Y,,,
+VIC1,Tarrone BESS - Storage - KCI,SW-VIC,high,Tarrone,SW-VIC,high,Tarrone,0.03,Y,,,200.0
+VIC1,Tarrone GT,SW-VIC,high,Tarrone,SW-VIC,high,Tarrone,0.02,Y,,,600.0
+VIC1,Terang Battery Energy Storage System (Tilt Renewables),SW-VIC,medium,Terang,SW-VIC,high,Terang,1.32,Y,,,
+VIC1,Thomastown BESS,Unclassified,review,,CN-VIC,high,Campbells Forest,12.75,N,excluded_method_1,medium,300.0
+VIC1,Thomastown Terminal Station,Unclassified,review,,CN-VIC,high,Campbells Forest,11.98,N,excluded_method_1,medium,
+VIC1,Thomastown Terminal Station - KCI,Unclassified,review,,CN-VIC,high,Campbells Forest,11.98,N,excluded_method_1,medium,
+VIC1,Timboon West Wind Farm,SW-VIC,medium,Timboon West,SW-VIC,medium,Cobden,24.4,Y,,,7.2
+VIC1,Toora,GIP,medium,Toora,GIP,medium,Bald Hills,36.0,Y,,,21.0
+VIC1,Tramway Road BESS,Unclassified,review,,GIP,high,Hazelwood,0.02,N,excluded_method_1,medium,300.0
+VIC1,Tulkara Wind Farm,Unclassified,review,,WV,medium,Bulgana,12.12,N,excluded_method_1,medium,
+VIC1,Tulkara Wind Farm - KCI,Unclassified,review,,WV,medium,Bulgana,12.12,N,excluded_method_1,medium,
+VIC1,Valley Power,GIP,medium,Valley Power,GIP,high,Loy Yang B,1.55,Y,,,50.0
+VIC1,Victorian Big Battery,SW-VIC,medium,Victorian Big Battery,SW-VIC,high,Moorabool,0.65,Y,,,300.0
+VIC1,Victorian Big Battery 2,SW-VIC,medium,Victorian Big Battery,SW-VIC,high,Moorabool,0.65,Y,,,
+VIC1,Victorian Big Battery 2 - Storage - KCI,SW-VIC,medium,Victorian Big Battery,SW-VIC,high,Moorabool,0.65,Y,,,
+VIC1,Warrenheip BESS,WV,medium,Warrenheip,WV,high,Ballarat,0.83,Y,,,240.0
+VIC1,Watta Wella Wind Farm - KCI,SW-VIC,medium,Watta Wella,WV,high,Bulgana,12.02,N,boundary_swap,low,376.0
+VIC1,Waubra,WV,medium,Waubra,WV,high,Waubra,0.78,Y,,,93.0
+VIC1,Waubra BESS - KCI,WV,medium,Waubra,WV,high,Waubra,0.7,Y,,,200.0
+VIC1,Waubra North Wind Farm,WV,medium,Waubra,WV,medium,Waubra,3.56,Y,,,
+VIC1,Wemen Solar Farm,MR,high,Wemen,MR,high,Wemen,2.33,Y,,,97.5
+VIC1,West Kiewa,CN-VIC,medium,West Kiewa,CN-VIC,high,West Kiewa,0.01,Y,,,34.0
+VIC1,West Mokoan BESS,CN-VIC,medium,West Mokoan,CN-VIC,high,Goorambat,7.19,Y,,,
+VIC1,West Mokoan Solar Farm,CN-VIC,medium,West Mokoan,CN-VIC,high,Glenrowan,0.9,Y,,,400.4
+VIC1,Wimmera Plains Wind Farm,WV,medium,Wimmera,WV,high,Horsham,19.55,Y,,,
+VIC1,Winchelsea Gas Turbines,SW-VIC,medium,Winchelsea,SW-VIC,medium,Winchelsea,1.19,Y,,,
+VIC1,Winchelsea Gas Turbines - KCI,SW-VIC,medium,Winchelsea,SW-VIC,medium,Winchelsea,1.19,Y,,,220.0
+VIC1,Winton Energy Reserve 1,CN-VIC,medium,Winton,CN-VIC,high,Glenrowan,8.53,Y,,,200.0
+VIC1,Winton Solar Farm,CN-VIC,medium,Winton,CN-VIC,high,Glenrowan,1.37,Y,,,85.0
+VIC1,Wodonga BESS,CN-VIC,medium,Wodonga,CN-VIC,high,Wodonga,2.92,Y,,,250.0
+VIC1,Wollert,CN-VIC,medium,Wollert,CN-VIC,high,Doreen,7.94,Y,,,7.86
+VIC1,Wollert Gas Turbine,CN-VIC,medium,Wollert,CN-VIC,medium,Doreen,8.9,Y,,,
+VIC1,Wollert Gas Turbine - KCI,CN-VIC,medium,Wollert,CN-VIC,medium,Doreen,8.9,Y,,,600.0
+VIC1,Wonthaggi Wind Farm,GIP,medium,Wonthaggi,GIP,high,Wonthaggi,2.74,Y,,,12.0
+VIC1,Wooreen Energy Storage System,GIP,medium,Wooreen,GIP,high,Jeeralang,0.22,Y,,,350.0
+VIC1,Wunghnu Solar Farm,CN-VIC,medium,Wunghnu,CN-VIC,high,Numurkah,11.77,Y,,,93.5
+VIC1,Yallourn 220kV Connection Gas Turbine,GIP,high,Yallourn,GIP,high,Yallourn,1.08,Y,,,
+VIC1,Yallourn 220kV Connection Gas Turbine - KCI,GIP,high,Yallourn,GIP,high,Yallourn,1.08,Y,,,
+VIC1,Yallourn 500kV Connection Gas Turbine,GIP,high,Yallourn,GIP,high,Yallourn,1.08,Y,,,
+VIC1,Yallourn 500kV Connection Gas Turbine - KCI,GIP,high,Yallourn,GIP,high,Yallourn,1.08,Y,,,
+VIC1,Yallourn W,GIP,high,Yallourn,GIP,high,Yallourn,0.85,Y,,,375.0
+VIC1,Yaloak South Wind Farm,SW-VIC,medium,Yaloak South,SW-VIC,high,Yaloak South,1.52,Y,,,28.7
+VIC1,Yambuk,SW-VIC,medium,Yambuk,SW-VIC,high,Yambuk,1.8,Y,,,30.0
+VIC1,Yarrawonga,CN-VIC,medium,Yarrawonga,CN-VIC,medium,Goorambat,47.02,Y,,,9.5
+VIC1,Yatpool Solar Farm,MR,medium,Yatpool,MR,high,Red Cliffs,12.99,Y,,,50.0
+VIC1,Yawong Wind Farm,WV,medium,Yawong,WV,review,Bulgana,70.54,Y,,,7.2
+VIC1,Yendon Wind Farm,WV,medium,Yendon,WV,high,Ballarat,11.65,Y,,,144.4

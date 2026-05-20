@@ -1,0 +1,42 @@
+region,site_name_or_group,category,note
+NSW1,Moah Creek Solar Farm (RES),out_of_state_bbox,"coord (-23.4335,149.9662) outside panel bbox — held from main file; QLD ~40km W Rockhampton"
+NSW1,Uungala Wind Farm,GEM_only_coord,"GEM/gem.wiki sole source — low confidence, verify"
+VIC1,Wimmera Plains Wind Farm,GEM_only_coord,"GEM/gem.wiki sole source — low confidence, verify"
+VIC1,Campbells Forest Solar Farm,GEM_only_coord,"GEM/gem.wiki sole source — low confidence, verify"
+SA1,Bundy Energy Hub A (BESS),GEM_only_coord,"GEM/gem.wiki sole source — low confidence, verify"
+SA1,Bundy Energy Hub B (BESS),GEM_only_coord,"GEM/gem.wiki sole source — low confidence, verify"
+SA1,Australia Plains Solar Farm,GEM_only_coord,"GEM/gem.wiki sole source — low confidence, verify"
+NSW1,Muswellbrook PRO BESS / McCullys Gap BESS,suspected_duplicate,same BW ESS project at Muswellbrook 330kV SS
+NSW1,Uungala Wind Farm / Uungula Wind Farm / Uungula BESS,suspected_duplicate,Uungala is typo of Uungula; WF+BESS co-located
+NSW1,Wellington BESS variants,suspected_duplicate,Wellington BESS / Stage 1 / Stage 2 / 2 / 2-KCI overlap (Ampyr Wuuluman)
+NSW1,Junction Rivers ×3 + Burrawong BESS Stage 2,suspected_duplicate,"Junction Rivers = former Burrawong WF, Balranald"
+NSW1,Salisbury East/West ×6 (Walcha Energy),suspected_duplicate,all Walcha Salisbury Plains site
+NSW1,Tamworth BESS / Burgmanns / Kingswood,suspected_colocated,"Burgmanns Lane Kingswood cluster, multiple proponents"
+NSW1,Eglinton / Eglington Solar Farm,suspected_duplicate,"spelling variant, Neoen Eglinton"
+NSW1,Snowy 2.0 / Snowy 2.0.,suspected_duplicate,"one Snowy 2.0 PHES, two panel rows"
+NSW1,Hunter Power Station / Kurri Kurri OCGT,suspected_duplicate,same Snowy Hydro Kurri Kurri gas plant
+NSW1,Eraring Big Battery (×3 stages + base),suspected_colocated,Eraring PS battery stages
+VIC1,Birdwood Energy Reserve ×2,suspected_duplicate,Baranduda/Wodonga TS
+VIC1,Corop BESS / Corop Solar Farm,suspected_colocated,BNRG Leeson Corop site
+VIC1,Glenrowan BESS ×2,suspected_duplicate,Akaysha Glenrowan TS
+VIC1,Haunted Gully BESS ×2,suspected_duplicate,Haunted Gully TS
+VIC1,Heywood Terminal Station BESS ×2,suspected_duplicate,Heywood TS
+VIC1,Lovely Banks REH ×2,suspected_duplicate,Moorabool TS
+VIC1,Thomastown Terminal Station ×2,suspected_duplicate,Thomastown TS
+VIC1,Newport BESS ×2,suspected_duplicate,Newport PS
+VIC1,Tramway / Tramway Road BESS,suspected_duplicate,Eku Hazelwood North
+VIC1,Moorabool BESS / Victorian Big Battery 2,suspected_colocated,Moorabool TS
+VIC1,Mortlake BESS / Mortlake Battery,suspected_duplicate,Mortlake PS
+VIC1,Kyabram Wind Farm,name_site_mismatch,"site is Koyuga-Nanneella, not Kyabram town"
+VIC1,Cranbourne BESS (Maoneng),name_site_mismatch,"Maoneng project is Mornington/Tyabb, not Cranbourne"
+VIC1,Jeeralang BESS (Maoneng),attribution_uncertain,"documented Jeeralang battery is EnergyAustralia Wooreen, not Maoneng"
+VIC1,Tulkara/Stonehaven/Winchelsea/Dederang/Morwell ×2 each,suspected_duplicate,base vs KCI twins
+SA1,Marcollat Energy Hub Stage 1 ×2,suspected_duplicate,space vs no-space name variant
+SA1,Bundy Energy Hub A/B + Bundey BESS + Goyder BESS,suspected_colocated,Bundey substation cluster
+SA1,The Solar River Project Stage 1/2,suspected_duplicate,one site N Robertstown
+SA1,Bungama BESS ×2,suspected_duplicate,Bungama nr Port Pirie
+SA1,Para Substation/Gould Creek BESS + Gould Creek BESS,suspected_duplicate,Maoneng Para SS
+SA1,Kanmantoo,status_questionable,AGL terminated PHES; mine resumed
+SA1,Robertstown BESS,geocode_check,"KCI addr ""Bright SA 5381"" — confirm not mis-geocoded to Bright VIC"
+TAS1,Palmerston Big Battery ×2 + Great Lakes BESS,suspected_duplicate,all share Palmerston SS / VBB Pty Ltd T00013
+TAS1,Palmerston location,hint_correction,"near Poatina/Central Highlands, NOT Sheffield as batch hint said"

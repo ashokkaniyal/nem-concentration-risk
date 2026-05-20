@@ -1,0 +1,38 @@
+region,site_name,reason
+NSW1,Kerrawary Power Station,UNRESOLVED
+NSW1,Tara Springs Wind Farm,UNRESOLVED
+NSW1,Armidale BESS (300),UNRESOLVED
+NSW1,Barwon Solar Farm & BESS,UNRESOLVED
+NSW1,Williamsdale BESS,CONCERN_ACT
+NSW1,Rollsville Hybrid Facility - Solar,UNRESOLVED
+NSW1,Wagga Wagga Renewable Project,UNRESOLVED
+NSW1,Burrawong BESS – Stage 2,UNRESOLVED
+NSW1,Junction Rivers BESS – Stage 2,UNRESOLVED
+NSW1,Juno BESS,UNRESOLVED
+NSW1,Territory Battery,CONCERN_ACT
+NSW1,Vineyard BESS,UNRESOLVED
+NSW1,Wellington BESS 2,UNRESOLVED
+NSW1,Wellington BESS 2 - KCI,UNRESOLVED
+VIC1,Portland Wind Farm - KCI,UNRESOLVED
+VIC1,Melbourne Solar Farm,UNRESOLVED
+VIC1,Melbourne Solar Farm - KCI,UNRESOLVED
+VIC1,Lambing Gully Wind Farm,UNRESOLVED
+VIC1,Halys BESS (X-Elio),CONCERN_QLD
+VIC1,Tramway BESS,UNRESOLVED
+VIC1,Little River Solar Farm,UNRESOLVED
+VIC1,Little River Solar Farm - KCI,UNRESOLVED
+VIC1,Ballarat North BESS,UNRESOLVED
+VIC1,Boulka Park BESS,UNRESOLVED
+VIC1,Melbourne Renewable Energy Complex,UNRESOLVED
+VIC1,Riverside BESS - Storage - KCI,UNRESOLVED
+VIC1,Moonah Solar Farm,UNRESOLVED
+VIC1,Morwell Battery Energy Storage System,UNRESOLVED
+VIC1,Morwell Battery Energy System,UNRESOLVED
+VIC1,Mallee Solar Farm - KCI,UNRESOLVED
+VIC1,Everleigh Solar Farm & BESS - KCI,CONCERN_QLD
+VIC1,Willowvale Solar Farm - KCI,UNRESOLVED
+SA1,Sturt Solar,UNRESOLVED
+SA1,SA Government Virtual Power Plant - stage 3,UNRESOLVED
+SA1,Green Hydrogen Power Station,UNRESOLVED
+SA1,South East BESS - Storage - KCI,UNRESOLVED
+TAS1,George Town Solar Farm,UNRESOLVED

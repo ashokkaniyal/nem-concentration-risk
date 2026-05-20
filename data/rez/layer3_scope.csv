@@ -1,0 +1,541 @@
+region,site_name,upper_nameplate_mw,storage_mwh,status_bucket,priority_rank
+VIC1,Acacia Offshore Wind Farm - KCI,3100.0,,Proposed,1
+VIC1,Gippsland A&B - Wind - KCI,2700.0,,Proposed,1
+VIC1,Gippsland C - Wind - KCI,2700.0,,Proposed,1
+VIC1,Great Eastern Offshore Wind - KCI,2508.0,,Proposed,1
+NSW1,Eden Offshore Wind Farm,2000.0,,Proposed,1
+NSW1,Illawarra Offshore Wind Farm,2000.0,,Proposed,1
+NSW1,Novocastrian Offshore Wind Farm,2000.0,,Proposed,1
+NSW1,Ulladulla Offshore Wind Farm,2000.0,,Proposed,1
+VIC1,Star of The South,2000.0,0.0,Proposed,1
+VIC1,Cape Winds Offshore Wind Farm,1995.0,,Proposed,1
+VIC1,Blue Mackerel North Off Shore Wind Farm,1819.0,,Proposed,1
+SA1,Cultana Pumped Hydro Energy Storage,0.0,1800.0,Proposed,1
+NSW1,Wollongong Offshore Wind,1600.0,,Proposed,1
+VIC1,Gippsland offshore wind farm,1500.0,,Proposed,1
+VIC1,Greater Southern Offshore Wind,1500.0,,Proposed,1
+VIC1,Greater Southern Offshore Wind - KCI,1500.0,,Proposed,1
+VIC1,Meering Wind Farm,1500.0,,Proposed,1
+VIC1,Seadragon offshore wind project,1500.0,,Proposed,1
+VIC1,Seadragon project,1500.0,,Proposed,1
+NSW1,Eraring Big Battery – Stage 3,0.0,1400.0,Proposed,1
+NSW1,Hunter Central Coast Offshore Energy (Wind),1400.0,,Proposed,1
+NSW1,Hunter Coast Offshore Wind,1400.0,,Proposed,1
+VIC1,Greater Gippsland Offshore Wind,1300.0,,Proposed,1
+NSW1,Yanco Delta Wind Farm Stage 1 - Battery,1220.0,0.0,Proposed,1
+NSW1,Yanco Delta Wind Farm Stage 1 - Battery - KCI,1220.0,0.0,Proposed,1
+NSW1,Kurri Kurri Battery,1200.0,0.0,Proposed,1
+SA1,Goyder South hub - Wind,1200.0,,Proposed,1
+VIC1,Melbourne Renewable Energy Hub,1200.0,1600.0,Proposed,1
+VIC1,Melton Renewable Energy Hub,1200.0,1600.0,Proposed,1
+VIC1,Spinifex Offshore Wind Farm,1200.0,,Proposed,1
+NSW1,Munmorah BESS,1131.0,0.0,Proposed,1
+NSW1,Nonowie Wind Farm,1015.0,,Proposed,1
+NSW1,Merriwa BESS 1,1000.0,4000.0,Proposed,1
+NSW1,Western Sydney Pumped Hydro Project,1000.0,8000.0,Proposed,1
+VIC1,Pacific Green Energy Park Portland West,1000.0,1000.0,Proposed,1
+VIC1,Portland BESS,1000.0,1744.71,Proposed,1
+VIC1,Yallourn 220kV Connection Gas Turbine,1000.0,,Proposed,1
+VIC1,Yallourn 220kV Connection Gas Turbine - KCI,1000.0,,Proposed,1
+VIC1,Yallourn 500kV Connection Gas Turbine,1000.0,,Proposed,1
+VIC1,Yallourn 500kV Connection Gas Turbine - KCI,1000.0,,Proposed,1
+TAS1,Robbins Island Wind Farm,929.0,,Proposed,1
+NSW1,Oven Mountain Pumped Storage,900.0,7200.0,Proposed,1
+SA1,Goyder South hub - BESS,900.0,,Proposed,1
+NSW1,Combined Cycle Gas,880.0,,Proposed,1
+NSW1,Marulan - OCGT/CCGT,800.0,,Proposed,1
+NSW1,Wandoona Solar Farm,800.0,,Proposed,1
+VIC1,Doreen BESS,800.0,0.0,Proposed,1
+VIC1,Goorambat BESS (Lighthouse),800.0,0.0,Proposed,1
+VIC1,West Mokoan BESS,800.0,0.0,Proposed,1
+NSW1,Mt View Wind Farm (KCI),750.0,,Proposed,1
+VIC1,Mount Fyans Wind Farm 2.0,750.0,0.0,Proposed,1
+VIC1,Nowingi Solar Farm - Edify (KCI),750.0,,Proposed,1
+NSW1,Bannaby BESS,700.0,0.0,Proposed,1
+NSW1,Deargee,700.0,2800.0,Proposed,1
+NSW1,Ruby Hills Wind Farm 700MW,700.0,0.0,Proposed,1
+NSW1,Sandy Creek Solar Farm,700.0,,Proposed,1
+NSW1,Walcha Energy Project - Ruby Hills Wind Farm,700.0,,Proposed,1
+NSW1,Walcha Energy Project - Winterbourne Wind Farm,700.0,,Proposed,1
+NSW1,Port Kembla Power Station,660.0,,Proposed,1
+NSW1,Burrendong WF,651.0,,Proposed,1
+NSW1,Glennis Creek Pumped Hydro Project,642.0,6420.0,Proposed,1
+NSW1,Armidale Pumped Hydro,600.0,0.0,Proposed,1
+NSW1,Birriwa BESS,600.0,600.0,Proposed,1
+NSW1,Birriwa Solar Farm,600.0,,Proposed,1
+NSW1,Devlins Bridge Battery Storage,600.0,0.0,Proposed,1
+SA1,Goyder South Hub - Solar,600.0,,Proposed,1
+SA1,Goyder South hub - Solar,600.0,,Proposed,1
+VIC1,Kentbruck Green Power Hub,600.0,,Proposed,1
+VIC1,Melbourne Renewable Energy Hub - Side B,600.0,2400.0,Proposed,1
+VIC1,Seymour Wind Farm - KCI,600.0,,Proposed,1
+VIC1,Tarrone GT,600.0,,Proposed,1
+VIC1,Victorian Big Battery 2 - Storage - KCI,600.0,0.0,Proposed,1
+VIC1,Wollert Gas Turbine,600.0,,Proposed,1
+VIC1,Wollert Gas Turbine - KCI,600.0,,Proposed,1
+NSW1,Merriwa Solar Farm,550.0,,Proposed,1
+VIC1,Coonawarren BESS - KCI,550.0,0.0,Proposed,1
+VIC1,Navarre Wind Farm,526.0,,Proposed,1
+NSW1,Aquila Wind Farm,500.0,,Proposed,1
+NSW1,Bannaby BESS (AMPYR) - KCI,500.0,0.0,Proposed,1
+NSW1,Bells Mountain,500.0,,Proposed,1
+NSW1,Great Western Battery Project,500.0,2000.0,Proposed,1
+NSW1,Gullen Range Battery Energy System,500.0,500.0,Proposed,1
+NSW1,Liddell Solar Farm - KCI,500.0,,Proposed,1
+NSW1,Maison Dieu BESS,500.0,0.0,Proposed,1
+NSW1,Merriwa Solar Farm and BESS,500.0,,Proposed,1
+NSW1,Muswellbrook Pumped Hydro - Storage - KCI,500.0,,Proposed,1
+NSW1,NSW Energy Cluster,500.0,,Proposed,1
+NSW1,NSW Gas Peaker,500.0,,Proposed,1
+NSW1,Rosedale SF,500.0,,Proposed,1
+NSW1,Tallawang Solar And BESS,500.0,,Proposed,1
+NSW1,Tomago BESS,500.0,2000.0,Proposed,1
+NSW1,Wallerawang BESS,500.0,1000.0,Proposed,1
+NSW1,Wellington North BESS,500.0,,Proposed,1
+NSW1,Wellington North BESS - KCI,500.0,0.0,Proposed,1
+SA1,Bundey Energy Hub Battery Energy Storage A,500.0,0.0,Proposed,1
+TAS1,Bass Offshore Wind Energy Project,500.0,,Proposed,1
+VIC1,Dederang BESS (Trina),500.0,0.0,Proposed,1
+VIC1,Dederang Big BESS - KCI,500.0,0.0,Proposed,1
+VIC1,KIEWA VALLEY BESS,500.0,1000.0,Proposed,1
+VIC1,Malunga BESS - KCI,500.0,0.0,Proposed,1
+VIC1,Malunga Nine Mile BESS - KCI,500.0,0.0,Proposed,1
+VIC1,Portland Wind Farm - KCI,495.0,,Proposed,1
+VIC1,Hazelwood North Solar Farm - KCI,480.0,,Proposed,1
+NSW1,Uungala Wind Farm,477.0,,Proposed,1
+SA1,Bundey BESS and Solar Project,475.0,,Proposed,1
+NSW1,Eraring Big Battery – Stage 1,460.0,920.0,Proposed,1
+NSW1,Lindsay Gap BESS,450.0,450.0,Proposed,1
+NSW1,Marulan,450.0,,Proposed,1
+VIC1,Wimmera Plains Wind Farm,416.0,,Proposed,1
+NSW1,Wagga Wagga BESS,415.0,1660.0,Proposed,1
+VIC1,Hazelwood Battery Energy Storage System Facility,413.0,,Proposed,1
+NSW1,Belhaven Renewable Project,408.0,816.0,Proposed,1
+NSW1,Bellambi Heights Renewables Project,408.0,816.0,Proposed,1
+NSW1,Tara Springs Wind Farm,402.0,,Proposed,1
+VIC1,Birdwood Energy Reserve,402.0,,Proposed,1
+VIC1,Birdwood Energy Reserve - KCI,402.0,0.0,Proposed,1
+NSW1,Blind Creek SF,400.0,,Proposed,1
+NSW1,Bookham WF & BESS,400.0,400.0,Proposed,1
+NSW1,Hills of Gold Wind Farm,400.0,,Proposed,1
+NSW1,McCullys Gap BESS,400.0,800.0,Proposed,1
+NSW1,Merriwa SF,400.0,,Proposed,1
+NSW1,Merriwa Solar Farm - BESS,400.0,0.0,Proposed,1
+NSW1,Muswellbrook PRO BESS,400.0,0.0,Proposed,1
+NSW1,Muswellbrook Pumped Hydro,400.0,3200.0,Proposed,1
+NSW1,Talbingo BESS,400.0,1600.0,Proposed,1
+NSW1,Texas BESS,400.0,0.0,Proposed,1
+NSW1,Tirranna BESS - KCI,400.0,400.0,Proposed,1
+NSW1,Uungula BESS,400.0,400.0,Proposed,1
+NSW1,Vales Point BESS,400.0,0.0,Proposed,1
+SA1,Ceduna Wind Farm,400.0,,Proposed,1
+SA1,Marcollat Energy Hub (Stage 1),400.0,1600.0,Proposed,1
+SA1,Marcollat Energy Hub (stage 2),400.0,0.0,Proposed,1
+SA1,Marcollat Energy Hub(Stage 1),400.0,1600.0,Proposed,1
+SA1,Robertstown BESS,400.0,0.0,Proposed,1
+VIC1,Connewarren BESS - KCI,400.0,0.0,Proposed,1
+VIC1,Corop BESS,400.0,0.0,Proposed,1
+VIC1,Corop Solar Farm,400.0,,Proposed,1
+VIC1,Glenrowan BESS (KCI),400.0,0.0,Proposed,1
+VIC1,Glenrowan BESS - Storage - KCI,400.0,0.0,Proposed,1
+VIC1,Haunted Gully BESS,400.0,,Proposed,1
+VIC1,Haunted Gully BESS - KCI,400.0,0.0,Proposed,1
+VIC1,Hawkesdale BESS - Storage - KCI,400.0,0.0,Proposed,1
+VIC1,Heywood Terminal Station BESS,400.0,,Proposed,1
+VIC1,Heywood Terminal Station BESS - KCI,400.0,0.0,Proposed,1
+VIC1,Jeeralang BESS (Maoneng),400.0,,Proposed,1
+VIC1,Latrobe Solar Farm,400.0,,Proposed,1
+VIC1,Lovely Banks Renewable Energy Hub,400.0,,Proposed,1
+VIC1,Lovely Banks Renewable Energy Hub - KCI,400.0,0.0,Proposed,1
+VIC1,Springvale Energy Hub - BESS,400.0,0.0,Proposed,1
+NSW1,Kerrawary Power Station,385.0,,Proposed,1
+NSW1,Lake Lyell Pumped Hydro,385.0,3080.0,Proposed,1
+NSW1,Bendemeer Renewable Energy Hub - Wind - KCI,380.0,,Proposed,1
+VIC1,Watta Wella Wind Farm - KCI,376.0,,Proposed,1
+NSW1,Swallow Tail BESS,375.0,1500.0,Proposed,1
+SA1,Project Monash - Solar - KCI,375.0,,Proposed,1
+NSW1,Kangaroo Valley BESS,364.8,1000.0,Proposed,1
+NSW1,Sundown Hybrid Facility,360.0,,Proposed,1
+NSW1,Sundown SF(Canadian Solar),360.0,,Proposed,1
+VIC1,Kyabram Wind Farm,360.0,,Proposed,1
+TAS1,George Town Solar Farm,358.0,,Proposed,1
+NSW1,Edderton Hybrid Facility - BESS,350.0,0.0,Proposed,1
+NSW1,Galore Energy Project - Solar And BESS - KCI,350.0,,Proposed,1
+NSW1,Mallee Wind Farm - Storage - KCI,350.0,0.0,Proposed,1
+NSW1,Middlebrook SF & BESS,350.0,,Proposed,1
+NSW1,Moah Creek Solar Farm (RES),350.0,,Proposed,1
+NSW1,Salisbury East Solar 350MW,350.0,0.0,Proposed,1
+NSW1,Salisbury West Solar 350MW,350.0,0.0,Proposed,1
+NSW1,Walcha Energy Project - Salisbury East Solar,350.0,,Proposed,1
+NSW1,Walcha Energy Project - Salisbury East Solar 350MW,350.0,,Proposed,1
+NSW1,Walcha Energy Project - Salisbury West Solar,350.0,,Proposed,1
+NSW1,Wattle Creek Energy Hub - Battery Storage,350.0,1400.0,Proposed,1
+NSW1,Wee Jasper Wind Farm,350.0,,Proposed,1
+TAS1,George Town BESS - KCI,350.0,0.0,Proposed,1
+VIC1,Goorambat BESS,350.0,0.0,Proposed,1
+VIC1,Jeeralang Battery,350.0,1400.0,Proposed,1
+VIC1,Little River BESS,350.0,770.0,Proposed,1
+VIC1,Mansfield Solar Farm - Solar - KCI,350.0,,Proposed,1
+VIC1,Melbourne Solar Farm,350.0,,Proposed,1
+VIC1,Melbourne Solar Farm - KCI,350.0,,Proposed,1
+VIC1,Puzzle Range Wind Farm,350.0,,Proposed,1
+VIC1,Quandong Solar Farm,350.0,,Proposed,1
+NSW1,Strontian Solar BESS,333.0,0.0,Proposed,1
+NSW1,Euston Wind Farm - KCI,330.0,,Proposed,1
+SA1,Riverland Solar Storage - Solar,330.0,,Proposed,1
+NSW1,Central West Pumped Hydro,325.0,,Proposed,1
+NSW1,Deargee Solar And BESS,320.0,,Proposed,1
+SA1,Pelican Point S2,320.0,,Proposed,1
+VIC1,Thomastown Terminal Station,320.0,,Proposed,1
+VIC1,Thomastown Terminal Station - KCI,320.0,0.0,Proposed,1
+VIC1,Lambing Gully Wind Farm,310.0,,Proposed,1
+VIC1,Waubra North Wind Farm,307.0,,Proposed,1
+SA1,Yumali Wind Farm,302.0,,Proposed,1
+NSW1,Acacia SF,300.0,,Proposed,1
+NSW1,Armidale BESS (300),300.0,,Proposed,1
+NSW1,Arundel BESS,300.0,1200.0,Proposed,1
+NSW1,Buronga BESS - Storage - KCI,300.0,0.0,Proposed,1
+NSW1,Canyonleigh BESS,300.0,1200.0,Proposed,1
+NSW1,Darlington Point BESS,300.0,,Proposed,1
+NSW1,EIWA Richmond Valley BESS,300.0,1200.0,Proposed,1
+NSW1,Gunning Solar Farm (Photon),300.0,,Proposed,1
+NSW1,Hargraves BESS,300.0,0.0,Proposed,1
+NSW1,Lake Victoria Energy Park - KCI,300.0,0.0,Proposed,1
+NSW1,Oxley Solar Farm,300.0,,Proposed,1
+NSW1,Tamworth BESS,300.0,600.0,Proposed,1
+NSW1,Tchelery BESS,300.0,1200.0,Proposed,1
+NSW1,Wallerawang 9 BESS,300.0,600.0,Proposed,1
+NSW1,Wellington BESS,300.0,600.0,Proposed,1
+NSW1,Wellington BESS - Stage 1,300.0,600.0,Proposed,1
+NSW1,Willavale BESS,300.0,600.0,Proposed,1
+NSW1,Wongalea BESS,300.0,1200.0,Proposed,1
+SA1,Blyth West BESS,300.0,,Proposed,1
+SA1,Bridle Track Solar Project,300.0,0.0,Proposed,1
+SA1,Bungala Three Battery Energy Storage System,300.0,1200.0,Proposed,1
+SA1,Goyder BESS,300.0,1200.0,Proposed,1
+SA1,Goyder North Stage 1 Wind farm - KCI,300.0,,Proposed,1
+SA1,Highbury Pumped Hydro Energy Storage,300.0,0.0,Proposed,1
+SA1,Osborne BESS,300.0,0.0,Proposed,1
+SA1,Para Hill BESS,300.0,300.0,Proposed,1
+SA1,Port Pirie,300.0,,Proposed,1
+SA1,Port Pirie Solar Farm - KCI,300.0,,Proposed,1
+SA1,Sturt Solar,300.0,,Proposed,1
+SA1,Summerfield,300.0,,Proposed,1
+TAS1,Great Lakes BESS,300.0,0.0,Proposed,1
+TAS1,Palmerston Big Battery,300.0,0.0,Proposed,1
+TAS1,Palmerston Big Battery - KCI,300.0,0.0,Proposed,1
+VIC1,Elaine Battery Energy Storage System,300.0,0.0,Proposed,1
+VIC1,Halys BESS (X-Elio),300.0,600.0,Proposed,1
+VIC1,Kerang BESS (BSR),300.0,0.0,Proposed,1
+VIC1,Moorabool BESS,300.0,1200.0,Proposed,1
+VIC1,Mortlake BESS,300.0,,Proposed,1
+VIC1,Thomastown BESS,300.0,600.0,Proposed,1
+VIC1,Tramway BESS,300.0,1200.0,Proposed,1
+VIC1,Tramway Road BESS,300.0,1200.0,Proposed,1
+VIC1,Victorian Big Battery 2,300.0,1200.0,Proposed,1
+VIC1,Joel BESS,296.7,1000.0,Proposed,1
+NSW1,Jeremiah WF,288.0,,Proposed,1
+VIC1,Little River Solar Farm,279.0,,Proposed,1
+VIC1,Little River Solar Farm - KCI,279.0,,Proposed,1
+NSW1,Myrtle Creek BESS,275.0,2200.0,Proposed,1
+NSW1,Phoenix Pumped Hydro Project,270.0,9720.0,Proposed,1
+SA1,Augusta BESS,270.0,540.0,Proposed,1
+SA1,Barn Hill BESS,270.0,1080.0,Proposed,1
+SA1,Davenport BESS,270.0,540.0,Proposed,1
+SA1,Tungkillo BESS - KCI,270.0,1215.0,Proposed,1
+SA1,Tungkillo South BESS,270.0,1215.0,Proposed,1
+VIC1,Cooba Solar Farm,270.0,,Proposed,1
+VIC1,Learmonth BESS,268.0,1072.0,Proposed,1
+NSW1,Wattle Creek Energy Hub - Solar / BESS,265.0,,Proposed,1
+NSW1,Thunderbolt Energy Hub,260.0,,Proposed,1
+NSW1,Richmond Valley Solar Farm,252.0,,Proposed,1
+NSW1,Barwon Solar Farm & BESS,250.0,,Proposed,1
+NSW1,Bells Mountain Pumped Hydro,250.0,,Proposed,1
+NSW1,Eglington Solar Farm,250.0,,Proposed,1
+NSW1,Holbrook SF,250.0,,Proposed,1
+NSW1,Jindera BESS - Storage - KCI,250.0,0.0,Proposed,1
+NSW1,Kingswood BESS,250.0,500.0,Proposed,1
+NSW1,Mandurama Wind Farm,250.0,,Proposed,1
+NSW1,Newcastle Gas Peaker,250.0,,Proposed,1
+NSW1,Williamsdale BESS,250.0,500.0,Proposed,1
+NSW1,Woodland BESS,250.0,1000.0,Proposed,1
+SA1,Bundy Energy Hub A (BESS),250.0,0.0,Proposed,1
+SA1,Bundy Energy Hub B (BESS),250.0,0.0,Proposed,1
+SA1,Geranium Plains Solar and BESS,250.0,,Proposed,1
+SA1,Kanmantoo,250.0,,Proposed,1
+SA1,Pacific Green Energy Park - Limestone Coast North,250.0,500.0,Proposed,1
+SA1,Pacific Green Energy Park - Limestone Coast West,250.0,500.0,Proposed,1
+SA1,Reeves Plains Power Station BESS,250.0,1000.0,Proposed,1
+VIC1,Ararat SynCon,250.0,,Proposed,1
+VIC1,Ballarat North BESS,250.0,0.0,Proposed,1
+VIC1,Boulka Park BESS,250.0,500.0,Proposed,1
+VIC1,Dalvui BESS,250.0,500.0,Proposed,1
+VIC1,Geelong BESS,250.0,0.0,Proposed,1
+VIC1,Glenbrae BESS,250.0,250.0,Proposed,1
+VIC1,Meering BESS,250.0,1000.0,Proposed,1
+VIC1,Melbourne Renewable Energy Complex,250.0,0.0,Proposed,1
+VIC1,Mologa BESS,250.0,250.0,Proposed,1
+VIC1,Newport BESS - KCI,250.0,0.0,Proposed,1
+VIC1,Newport Battery Energy Storage System,250.0,,Proposed,1
+VIC1,Nowingi Solar Storage - Solar,250.0,,Proposed,1
+VIC1,Prairie Solar Farm,250.0,,Proposed,1
+VIC1,Riverside BESS - Storage - KCI,250.0,0.0,Proposed,1
+VIC1,Wodonga BESS,250.0,500.0,Proposed,1
+SA1,SA Government Virtual Power Plant - stage 3,245.0,,Proposed,1
+NSW1,Eraring Big Battery – Stage 2,240.0,480.0,Proposed,1
+VIC1,Cranbourne BESS (Maoneng),240.0,0.0,Proposed,1
+VIC1,Warrenheip BESS,240.0,240.0,Proposed,1
+VIC1,Tulkara Wind Farm,234.0,,Proposed,1
+VIC1,Tulkara Wind Farm - KCI,234.0,,Proposed,1
+TAS1,George Town Wind Farm,232.0,,Proposed,1
+SA1,Goat Hill Pumped Hydro,230.0,1840.0,Proposed,1
+VIC1,Bookaar Solar Farm,230.0,,Proposed,1
+VIC1,Moonah Solar Farm,230.0,,Proposed,1
+VIC1,Morwell Battery Energy Storage System,230.0,,Proposed,1
+VIC1,Morwell Battery Energy System,230.0,0.0,Proposed,1
+NSW1,Beresfield BESS,225.6,340.0,Proposed,1
+SA1,Para Substation/Gould Creek BESS,225.0,450.0,Proposed,1
+NSW1,Rollsville Hybrid Facility - Solar,220.0,,Proposed,1
+VIC1,Mallee Solar Farm - KCI,220.0,,Proposed,1
+VIC1,Stonehaven Gas Turbines,220.0,,Proposed,1
+VIC1,Stonehaven Gas Turbines - KCI,220.0,,Proposed,1
+VIC1,Winchelsea Gas Turbines,220.0,,Proposed,1
+VIC1,Winchelsea Gas Turbines - KCI,220.0,,Proposed,1
+NSW1,Bendemeer Renewable Energy Hub - Solar - KCI,218.0,,Proposed,1
+NSW1,Wagga Wagga Renewable Project,215.0,,Proposed,1
+SA1,Gould Creek BESS,215.0,430.0,Proposed,1
+NSW1,Nottingham Park Solar Farm - KCI,210.0,,Proposed,1
+NSW1,Thunderbolt Wind Farm,210.0,,Proposed,1
+VIC1,North Yarragon BESS - KCI,210.0,840.0,Proposed,1
+VIC1,Campbells Forest Solar Farm,205.0,0.0,Proposed,1
+SA1,Tailem Bend Stage 3,204.0,408.0,Proposed,1
+NSW1,Aquila Wind,200.0,,Proposed,1
+NSW1,Armidale BESS (Elgin),200.0,0.0,Proposed,1
+NSW1,Ben Bullen BESS,200.0,800.0,Proposed,1
+NSW1,Broken Hill Energy Storage Centre,200.0,,Proposed,1
+NSW1,Burgmanns BESS,200.0,400.0,Proposed,1
+NSW1,Burrawong BESS – Stage 2,200.0,0.0,Proposed,1
+NSW1,Glenellen Solar Farm,200.0,,Proposed,1
+NSW1,Gulgong Solar Project,200.0,,Proposed,1
+NSW1,Junction Rivers,200.0,800.0,Proposed,1
+NSW1,Junction Rivers BESS – Stage 2,200.0,200.0,Proposed,1
+NSW1,Junction Rivers Wind And BESS,200.0,800.0,Proposed,1
+NSW1,Juno BESS,200.0,0.0,Proposed,1
+NSW1,Mount Lambie Wind Farm,200.0,,Proposed,1
+NSW1,Salisbury BESS,200.0,800.0,Proposed,1
+NSW1,Strafford Renewable Energy Hub - Pumped Hydro,200.0,1600.0,Proposed,1
+NSW1,Stubbo BESS,200.0,400.0,Proposed,1
+NSW1,Tamworth BESS - Gmr Energy,200.0,400.0,Proposed,1
+NSW1,Territory Battery,200.0,400.0,Proposed,1
+NSW1,Vineyard BESS,200.0,400.0,Proposed,1
+NSW1,Wellington BESS - Stage 2,200.0,400.0,Proposed,1
+NSW1,Wellington BESS 2,200.0,0.0,Proposed,1
+NSW1,Wellington BESS 2 - KCI,200.0,0.0,Proposed,1
+NSW1,Yambla Range Wind Farm,200.0,,Proposed,1
+SA1,Australia Plains Solar Farm,200.0,,Proposed,1
+SA1,Brinkworth BESS - Storage - KCI,200.0,400.0,Proposed,1
+SA1,Bungama BESS,200.0,,Proposed,1
+SA1,Bungama BESS (ARENA ),200.0,400.0,Proposed,1
+SA1,Ceduna Solar Farm,200.0,,Proposed,1
+SA1,Goyder South Hub - BESS,200.0,0.0,Proposed,1
+SA1,Green Hydrogen Power Station,200.0,,Proposed,1
+SA1,Pelican Point BESS,200.0,0.0,Proposed,1
+SA1,South East BESS - Storage - KCI,200.0,400.0,Proposed,1
+SA1,Templers B BESS,200.0,400.0,Proposed,1
+SA1,The Solar River Project - Stage 1,200.0,,Proposed,1
+SA1,The Solar River Project - Stage 2,200.0,,Proposed,1
+VIC1,Dederang BESS,200.0,400.0,Proposed,1
+VIC1,Dederang BESS - KCI,200.0,0.0,Proposed,1
+VIC1,Everleigh Solar Farm & BESS - KCI,200.0,,Proposed,1
+VIC1,Loy Yang BESS,200.0,0.0,Proposed,1
+VIC1,Mt Doran BESS,200.0,400.0,Proposed,1
+VIC1,Murra Warra Solar Farm,200.0,0.0,Proposed,1
+VIC1,Muskerry Solar Power Station - KCI,200.0,,Proposed,1
+VIC1,Tarrone BESS - Storage - KCI,200.0,400.0,Proposed,1
+VIC1,Terang Battery Energy Storage System (Tilt Renewables),200.0,400.0,Proposed,1
+VIC1,Waubra BESS - KCI,200.0,200.0,Proposed,1
+VIC1,Willowvale Solar Farm - KCI,200.0,,Proposed,1
+VIC1,Winton Energy Reserve 1,200.0,400.0,Proposed,1
+NSW1,Muswellbrook BESS,196.8,300.0,Proposed,1
+NSW1,Finley Solar Project,190.0,,Proposed,1
+NSW1,Dumaresq Solar Farm,188.0,,Proposed,1
+TAS1,Battery of the Nation - Stage 1,187.5,0.0,Proposed,1
+TAS1,Battery of the Nation - Stage 2b,187.5,12000.0,Proposed,1
+TAS1,Battery of the Nation - Stage 3b,187.5,12000.0,Proposed,1
+TAS1,Cethana Pumped Hydro Option,187.5,15000.0,Proposed,1
+TAS1,Rowallan Pumped Hydro Option,187.5,12000.0,Proposed,1
+TAS1,Tribute Pumped Hydro Option,187.5,18750.0,Proposed,1
+VIC1,Meadow Creek Solar Farm,180.0,,Proposed,1
+VIC1,Meadow Creek Solar Farm - KCI,180.0,,Proposed,1
+SA1,Pallamana Solar Farm,176.0,,Proposed,1
+VIC1,Broken Creek Solar Farm - KCI,173.0,,Proposed,1
+NSW1,Ben Bullen Wind Farm,160.0,,Proposed,1
+VIC1,South Morang Battery Energy Storage System,156.0,,Proposed,1
+NSW1,Glen Inness BESS - KCI,152.0,400.0,Proposed,1
+NSW1,Murrumburrah BESS - KCI,152.0,400.0,Proposed,1
+SA1,SA Water PV Plant,152.0,,Proposed,1
+NSW1,Armidale BESS,150.0,300.0,Proposed,1
+NSW1,Armidale BESS (150),150.0,0.0,Proposed,1
+NSW1,Armidale BESS - 150,150.0,300.0,Proposed,1
+NSW1,Deniliquin BESS - Storage - KCI,150.0,0.0,Proposed,1
+NSW1,"Dungowan 3,000 MWH PHES",150.0,3000.0,Proposed,1
+NSW1,Dungowan 3000 MWH PHES,150.0,1500.0,Proposed,1
+NSW1,NSW Diverse Battery,150.0,300.0,Proposed,1
+NSW1,Peel Valley Solar Farm,150.0,,Proposed,1
+NSW1,Texas Solar Farm,150.0,,Proposed,1
+NSW1,Tomago BESS (AGL),150.0,300.0,Proposed,1
+NSW1,Walcha Energy Project Storage - Salisbury BESS,0.0,150.0,Proposed,1
+SA1,Crystal Brook Energy Park - Solar,150.0,,Proposed,1
+SA1,Lionsgate Battery,150.0,0.0,Proposed,1
+SA1,Reeves Plains OCGT - stage 1,150.0,,Proposed,1
+SA1,Reeves Plains OCGT - stage 2,150.0,,Proposed,1
+SA1,Summerfield BESS - KCI,150.0,0.0,Proposed,1
+SA1,Zero Cost Energy Future,150.0,,Proposed,1
+TAS1,Battery of the Nation - Stage 2a,150.0,12000.0,Proposed,1
+TAS1,Battery of the Nation - Stage 3a,150.0,0.0,Proposed,1
+TAS1,Derwent Valley Wind Farm,150.0,,Proposed,1
+VIC1,Ballarat Renewable Energy Hub - BESS - KCI,150.0,0.0,Proposed,1
+VIC1,Carwarp Solar Farm - Stage I,150.0,0.0,Proposed,1
+VIC1,Carwarp Solar Farm - Stage II,150.0,0.0,Proposed,1
+VIC1,Cranbourne BESS (Macquarie),150.0,0.0,Proposed,1
+VIC1,Cranbourne BESS (Macquarie) - KCI,150.0,0.0,Proposed,1
+VIC1,Golden Plains BESS,150.0,600.0,Proposed,1
+VIC1,Hazelwood BESS - KCI,150.0,400.0,Proposed,1
+VIC1,Tarong BESS,150.0,,Proposed,1
+SA1,North West Bend Substation,147.0,,Proposed,1
+SA1,North West Bend Substation Solar,147.0,,Proposed,1
+NSW1,Carrick Solar Farm,144.0,,Proposed,1
+NSW1,Donnybrook project,144.0,,Proposed,1
+NSW1,Wagga Wagga Solar Project,144.0,,Proposed,1
+SA1,Aurora Solar Energy Project - Phase 1,140.0,140.0,Proposed,1
+NSW1,Muswellbrook Solar Farm,135.0,,Proposed,1
+NSW1,Cooma Solar Farm,130.0,0.0,Proposed,1
+NSW1,Ridgey Creek BESS,130.0,0.0,Proposed,1
+SA1,Crystal Brook Energy Park - BESS,130.0,400.0,Proposed,1
+SA1,Blanche BESS - KCI,128.0,0.0,Proposed,1
+NSW1,Maryvale Solar Farm,125.0,,Proposed,1
+NSW1,Narrandera Solar Farm,125.0,,Proposed,1
+NSW1,Queanbeyan BESS (Neoen),125.0,,Proposed,1
+NSW1,Stoney Creek BESS,125.0,1000.0,Proposed,1
+NSW1,Wellington A-CAES,125.0,4000.0,Proposed,1
+SA1,Baroota Pumped Hydro Project,125.0,0.0,Proposed,1
+SA1,Crystal Brook Energy Park - Wind,125.0,,Proposed,1
+SA1,Markaranka Solar and Storage,125.0,,Proposed,1
+SA1,Project Monash - Storage - KCI,125.0,0.0,Proposed,1
+VIC1,Elaine Solar Farm & BESS Hybrid,125.0,,Proposed,1
+VIC1,Elaine Solar Farm & BESS Hybrid - KCI,125.0,,Proposed,1
+VIC1,Kerang East Solar Farm,121.0,,Proposed,1
+NSW1,Apsley BESS Project,120.0,260.0,Proposed,1
+NSW1,Forbes Solar Farm,120.0,,Proposed,1
+NSW1,Moree BESS,120.0,480.0,Proposed,1
+NSW1,Narrabri Solar Farm,120.0,,Proposed,1
+NSW1,Rothby BESS,120.0,0.0,Proposed,1
+NSW1,Silverleaf Solar Farm - KCI,120.0,,Proposed,1
+NSW1,Wagga North Battery Energy Storage System,120.0,0.0,Proposed,1
+SA1,Summerfield BESS,120.0,240.0,Proposed,1
+VIC1,Normanville Energy Park - Wind (KCI),120.0,,Proposed,1
+VIC1,Tyabb Terminal Station,120.0,,Proposed,1
+VIC1,Winton BESS,120.0,480.0,Proposed,1
+VIC1,Winton BESS - KCI,120.0,0.0,Proposed,1
+NSW1,Guunedah Solar Farm,115.0,,Proposed,1
+VIC1,East Shepparton Renewable Energy Hub,115.0,,Proposed,1
+VIC1,East Shepparton Renewable Energy Hub - Solar - KCI,115.0,,Proposed,1
+VIC1,Springvale Energy Hub,115.0,230.0,Proposed,1
+NSW1,Rollsville Hybrid Facility - Battery,110.0,220.0,Proposed,1
+VIC1,Glenrowan Sun Farm,110.0,,Proposed,1
+VIC1,Lubeck Wind Farm,108.0,,Proposed,1
+VIC1,Lubeck Wind Farm - KCI,108.0,,Proposed,1
+NSW1,Wagga North BESS - KCI,105.0,420.0,Proposed,1
+NSW1,Armidale BESS (100),100.0,,Proposed,1
+NSW1,BESS Styx - Storage - KCI,100.0,0.0,Proposed,1
+NSW1,Bendemeer Renewable Energy Hub - Storage - KCI,100.0,0.0,Proposed,1
+NSW1,Bonshaw Solar Farm,100.0,,Proposed,1
+NSW1,Brewongle Solar Farm,100.0,,Proposed,1
+NSW1,Burroway BESS,100.0,400.0,Proposed,1
+NSW1,Coleambally BESS,100.0,400.0,Proposed,1
+NSW1,Cooma Hybrid BESS and Solar Farm (ACEN),100.0,,Proposed,1
+NSW1,Cooma Solar And BESS (ACEN),100.0,,Proposed,1
+NSW1,Cooma Solar Farm (ACEN),100.0,,Proposed,1
+NSW1,Cooma Solar Farm (Lightsource),100.0,,Proposed,1
+NSW1,Daroobalgie Solar Farm,100.0,,Proposed,1
+NSW1,Deniliquin East BESS,100.0,200.0,Proposed,1
+NSW1,Ebor BESS,100.0,0.0,Proposed,1
+NSW1,Griffith BESS,100.0,800.0,Proposed,1
+NSW1,Griffith BESS - KCI,100.0,0.0,Proposed,1
+NSW1,Gundary Solar Farm - KCI,100.0,,Proposed,1
+NSW1,Lismore BESS,100.0,0.0,Proposed,1
+NSW1,Mallee Wind Farm,100.0,200.0,Proposed,1
+NSW1,Mount Lambie BESS,100.0,600.0,Proposed,1
+NSW1,Mumbil Solar Farm,100.0,,Proposed,1
+NSW1,Panorama BESS,100.0,0.0,Proposed,1
+NSW1,Queanbeyan Battery,100.0,200.0,Proposed,1
+NSW1,Springdale Solar Farm,100.0,,Proposed,1
+NSW1,Springdale Solar Farm - KCI,100.0,,Proposed,1
+NSW1,Yambla Range BESS,100.0,800.0,Proposed,1
+SA1,Blacktop BESS - KCI,100.0,0.0,Proposed,1
+SA1,Carmody BESS,100.0,0.0,Proposed,1
+SA1,Chaff Mill (Mintaro) Solar Farm,100.0,,Proposed,1
+SA1,Kingfisher Solar Storage - Storage,100.0,0.0,Proposed,1
+SA1,Koolunga Battery Energy Storage System 1,100.0,200.0,Proposed,1
+SA1,Koolunga Battery Energy Storage System 2,100.0,200.0,Proposed,1
+SA1,Lindley BESS,100.0,200.0,Proposed,1
+SA1,Monash Solar Farm,100.0,,Proposed,1
+SA1,Monash Solar Farm - KCI,100.0,,Proposed,1
+SA1,Playford Battery,100.0,100.0,Proposed,1
+SA1,Riverland Solar Storage - Storage,100.0,0.0,Proposed,1
+SA1,Snowtown North Solar Farm - BESS,100.0,200.0,Proposed,1
+TAS1,Bell Bay BESS,100.0,200.0,Proposed,1
+TAS1,Bridgewater BESS,100.0,0.0,Proposed,1
+TAS1,Great Lakes Battery,100.0,150.0,Proposed,1
+TAS1,Palmerston Battery Energy Storage System - Akaysha,100.0,0.0,Proposed,1
+TAS1,Tarraleah Redevelopment,100.0,,Proposed,1
+VIC1,Altona BESS,100.0,200.0,Proposed,1
+VIC1,Altona BESS - KCI,100.0,0.0,Proposed,1
+VIC1,Birkins Solar Farm,100.0,,Proposed,1
+VIC1,Birkins Solar Farm - Hydrogen - KCI,100.0,,Proposed,1
+VIC1,Boulka Park Solar Farm,100.0,,Proposed,1
+VIC1,Grahamvale BESS - KCI,100.0,0.0,Proposed,1
+VIC1,Kerang East Storage System,100.0,,Proposed,1
+VIC1,Kerang East Storage System - KCI,100.0,0.0,Proposed,1
+VIC1,Lambing Gully BESS,100.0,800.0,Proposed,1
+VIC1,Monash BESS,100.0,200.0,Proposed,1
+VIC1,Naroghid,100.0,,Proposed,1
+VIC1,SEC Renewable Energy Hub,100.0,200.0,Proposed,1
+VIC1,Shepparton Solar Farm,100.0,,Proposed,1
+VIC1,Terang Terminal Station,100.0,,Proposed,1
+VIC1,Wimmera Plains BESs,100.0,400.0,Proposed,1
+VIC1,Winton North Solar Farm,100.0,,Proposed,1
+NSW1,Richmond Valley BESS,275.0,2200.0,Anticipated,2
+VIC1,Pine Lodge BESS,250.0,550.0,Anticipated,2
+NSW1,Eraring Big Battery,240.0,1030.0,Anticipated,2
+NSW1,Tamworth BESS - Valent,200.0,400.0,Anticipated,2
+NSW1,Valley of the Winds,148.0,,Anticipated,2
+NSW1,Hay Sun Farm,110.0,,Anticipated,2
+NSW1,Silver City Energy Storage,100.0,1600.0,Anticipated,2
+NSW1,Tamworth BESS Project 1 Pty Ltd,100.0,100.0,Anticipated,2
+NSW1,Tamworth BESS Project 2 Pty Ltd,100.0,200.0,Anticipated,2
+SA1,Mannum BESS,100.0,200.0,Anticipated,2
+VIC1,Bennetts Creek BESS,100.0,223.0,Anticipated,2
+VIC1,Melbourne Renewable Energy Hub - Side A,600.0,1600.0,Committed,3
+NSW1,Liddell BESS,500.0,1000.0,Committed,3
+NSW1,Hunter Power Station,375.0,,Committed,3
+NSW1,Kurri Kurri OCGT,375.0,,Committed,3
+NSW1,Snowy 2.0.,366.0,116660.0,Committed,3
+VIC1,Wooreen Energy Storage System,350.0,1400.0,Committed,3
+NSW1,Snowy 2.0,340.0,349999.98000000004,Committed,3
+VIC1,Mortlake Battery,300.0,600.0,Committed,3
+VIC1,Goorambat East Solar Farm (ENGIE),250.0,,Committed,3
+VIC1,Mornington BESS,240.0,480.0,Committed,3
+NSW1,Calala Battery Energy Storage System 2 (CABESS2),150.0,300.0,Committed,3
+NSW1,Calala Battery Energy Storage System 1 (CABESS1),100.0,200.0,Committed,3
+VIC1,LaTrobe Valley BESS,100.0,200.0,Committed,3
+NSW1,Mt Piper,730.0,,Existing less Announced Withdrawal,4
+NSW1,Vales Point B,660.0,,Existing less Announced Withdrawal,4
+NSW1,Tallawarra B,320.0,,Existing less Announced Withdrawal,4
+VIC1,Victorian Big Battery,300.0,470.0,Existing less Announced Withdrawal,4
+VIC1,Hazelwood Battery Energy Storage System (HBESS),200.07,162.0,Existing less Announced Withdrawal,4
+TAS1,Tamar Valley Combined Cycle,140.0,,Existing less Announced Withdrawal,4
+SA1,Tailem Bend Stage 2 Solar Project,105.0,,Existing less Announced Withdrawal,4
+NSW1,Liddell,500.0,,Withdrawn,5
+SA1,Torrens Island B,200.0,,Announced Withdrawal,5
+SA1,Torrens Island A,120.0,,Withdrawn,5

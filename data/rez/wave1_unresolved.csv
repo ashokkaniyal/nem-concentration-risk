@@ -1,0 +1,11 @@
+region,site_name,reason
+NSW1,Nonowie Wind Farm,Project resolves to South Australia (~10km W of Whyalla) despite NSW1 region tag — region conflict; not placed in NSW box
+NSW1,Combined Cycle Gas,Generic placeholder name; no proponent/site identifier; no citable location
+NSW1,Mt View Wind Farm (KCI),No citable NSW location found (Cessnock-area Mount View suspected but unconfirmed); KCI placeholder
+NSW1,Wandoona Solar Farm,No NSW project found; only Wandoan QLD matches (wrong state/name)
+NSW1,Deargee,Does not resolve to a verifiable NSW locality or documented project
+NSW1,Rosedale SF,"Ambiguous ""Rosedale"" in NSW (multiple candidates); no unique 500MW project located"
+NSW1,NSW Energy Cluster,Generic placeholder name; no proponent/site/coordinate
+VIC1,Seymour Wind Farm - KCI,Diffuse multi-parcel site NE of Seymour; no published centroid; township proxy would mislead
+VIC1,Coonawarren BESS - KCI,"""Coonawarren"" not a verifiable VIC locality; no project source found"
+VIC1,Doreen BESS,Could not tie 800MW project to a Doreen-located source; locality proxy risks wrong placement

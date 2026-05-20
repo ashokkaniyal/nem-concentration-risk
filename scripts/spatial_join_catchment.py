@@ -93,15 +93,29 @@ def excluded(site_name: str) -> Optional[str]:
 
 def spatial_match(
     projects: pd.DataFrame, subs: pd.DataFrame
-) -> pd.DataFrame:
-    """One row per input project, with assignment and nearest-substation distance."""
+):
+    """One row per input project, with assignment and nearest-substation distance.
+
+    Region-aware: matches against substations in the project's panel-tagged
+    region first. If the nearest in-region substation is >300 km away (or the
+    region has no geocoded substations), falls back to all-region candidates,
+    flags the row as a region mismatch (confidence=review), and records it for
+    region_mismatches.csv.
+
+    Confidence cap: a project whose coord came from a low-confidence locality
+    proxy can never be labelled 'high' even if it lands within 20 km of a
+    substation — capped at 'medium'.
+
+    Returns (results_df, region_mismatches_df).
+    """
+    REGION_TO_STATE = {"NSW1": "NSW", "VIC1": "VIC", "SA1": "SA", "TAS1": "TAS", "QLD1": "QLD"}
+    REGION_FALLBACK_KM = 300.0
+
     # Substations with coordinates only
     s_geo = subs.dropna(subset=["lat", "lon"]).copy()
     s_geo["lat"] = s_geo["lat"].astype(float)
     s_geo["lon"] = s_geo["lon"].astype(float)
-    # Exclude interconnector terminals from the candidate set — a project near
-    # Heywood/Murraylink/Basslink/Terranora should snap to the nearest *real*
-    # generation substation, not the cross-region DC/AC link terminal.
+    # Exclude interconnector terminals from the candidate set.
     if "interconnector_terminal" in s_geo.columns:
         ic = s_geo["interconnector_terminal"].astype(str).str.lower().isin(["true", "1", "yes"])
         n_ic = int(ic.sum())
@@ -109,77 +123,86 @@ def spatial_match(
             print(f"Excluding {n_ic} interconnector-terminal substations from candidate set",
                   file=sys.stderr)
         s_geo = s_geo[~ic].copy()
+
+    def cap_conf(conf: str, source: str, src_conf: str) -> str:
+        """Cap 'high' to 'medium' for low-confidence locality proxies."""
+        if (str(source) == "locality_proxy" and str(src_conf) == "low"
+                and conf == "high"):
+            return "medium"
+        return conf
+
     out_rows = []
+    mismatches = []
     for _, p in projects.iterrows():
         site = p.get("site_name", "")
+        region = p.get("region", "")
+        src = p.get("source", "")
+        src_conf = p.get("confidence", "")
+        base = {
+            "site_name": site, "region": region,
+            "project_lat": p.get("lat"), "project_lon": p.get("lon"),
+            "project_coord_source": src,
+            "spike_class": p.get("spike_class", ""),
+            "expected_catchment": p.get("expected_catchment", ""),
+        }
         # 1. Exclusion filter
         excl = excluded(site)
         if excl:
-            out_rows.append({
-                "site_name": site,
-                "region": p.get("region", ""),
-                "method": "spatial_join_excluded",
-                "transmission_catchment": "Unclassified",
-                "catchment_confidence": "excluded",
-                "nearest_substation": "",
-                "nearest_substation_rez": "",
-                "distance_km": None,
-                "exclusion_pattern_matched": excl,
-                "project_lat": p.get("lat"),
-                "project_lon": p.get("lon"),
-                "project_coord_source": p.get("source", ""),
-                "spike_class": p.get("spike_class", ""),
-                "expected_catchment": p.get("expected_catchment", ""),
-            })
+            out_rows.append({**base, "method": "spatial_join_excluded",
+                             "transmission_catchment": "Unclassified", "catchment_confidence": "excluded",
+                             "nearest_substation": "", "nearest_substation_rez": "", "distance_km": None,
+                             "exclusion_pattern_matched": excl, "region_mismatch": False})
             continue
         # 2. Coordinate check
         try:
-            plat = float(p.get("lat"))
-            plon = float(p.get("lon"))
+            plat = float(p.get("lat")); plon = float(p.get("lon"))
             if math.isnan(plat) or math.isnan(plon):
                 raise ValueError("nan")
         except (TypeError, ValueError):
-            out_rows.append({
-                "site_name": site,
-                "region": p.get("region", ""),
-                "method": "no_coordinate",
-                "transmission_catchment": "Unclassified",
-                "catchment_confidence": "no_coordinate",
-                "nearest_substation": "",
-                "nearest_substation_rez": "",
-                "distance_km": None,
-                "exclusion_pattern_matched": "",
-                "project_lat": p.get("lat"),
-                "project_lon": p.get("lon"),
-                "project_coord_source": p.get("source", ""),
-                "spike_class": p.get("spike_class", ""),
-                "expected_catchment": p.get("expected_catchment", ""),
-            })
+            out_rows.append({**base, "method": "no_coordinate",
+                             "transmission_catchment": "Unclassified", "catchment_confidence": "no_coordinate",
+                             "nearest_substation": "", "nearest_substation_rez": "", "distance_km": None,
+                             "exclusion_pattern_matched": "", "region_mismatch": False})
             continue
-        # 3. Spatial join — haversine to every geocoded substation
-        dists = s_geo.apply(
-            lambda r: haversine_km(plat, plon, r.lat, r.lon), axis=1
-        )
+        # 3. Region-aware spatial join
+        state = REGION_TO_STATE.get(region)
+        in_region = s_geo[s_geo["state"] == state] if state else s_geo.iloc[0:0]
+        region_mismatch = False
+        cand = in_region
+        if len(in_region):
+            dists = in_region.apply(lambda r: haversine_km(plat, plon, r.lat, r.lon), axis=1)
+            d_in = float(dists.min())
+        else:
+            d_in = float("inf")
+        # Fallback: no in-region substations, or nearest in-region is implausibly far
+        if d_in > REGION_FALLBACK_KM:
+            cand = s_geo  # all regions
+            region_mismatch = True
+        dists = cand.apply(lambda r: haversine_km(plat, plon, r.lat, r.lon), axis=1)
         idx_min = dists.idxmin()
         d_min = float(dists.loc[idx_min])
-        nearest = s_geo.loc[idx_min]
-        out_rows.append({
-            "site_name": site,
-            "region": p.get("region", ""),
-            "method": "spatial_join",
-            "transmission_catchment": nearest["rez_code"] if d_min <= 100 else "Unclassified",
-            "catchment_confidence": confidence_from_distance(d_min),
-            "nearest_substation": nearest["substation"],
-            "nearest_substation_rez": nearest["rez_code"],
-            "distance_km": round(d_min, 2),
-            "exclusion_pattern_matched": "",
-            "project_lat": plat,
-            "project_lon": plon,
-            "project_coord_source": p.get("source", ""),
-            "spike_class": p.get("spike_class", ""),
-            "expected_catchment": p.get("expected_catchment", ""),
-        })
-    return pd.DataFrame(out_rows)
+        nearest = cand.loc[idx_min]
+        conf = confidence_from_distance(d_min)
+        if region_mismatch:
+            conf = "review"  # cross-region match is inherently uncertain
+        conf = cap_conf(conf, src, src_conf)
+        catchment = nearest["rez_code"] if d_min <= 100 else "Unclassified"
+        notes = ""
+        if region_mismatch:
+            notes = f"panel region {region} conflicts with location; matched substation in {nearest['state']}"
+            mismatches.append({
+                "site_name": site, "panel_region": region,
+                "matched_state": nearest["state"], "nearest_substation": nearest["substation"],
+                "nearest_substation_rez": nearest["rez_code"], "distance_km": round(d_min, 2),
+                "in_region_nearest_km": round(d_in, 1) if d_in != float("inf") else None,
+                "assigned_catchment": catchment,
+            })
+        out_rows.append({**base, "method": "spatial_join",
+                         "transmission_catchment": catchment, "catchment_confidence": conf,
+                         "nearest_substation": nearest["substation"], "nearest_substation_rez": nearest["rez_code"],
+                         "distance_km": round(d_min, 2), "exclusion_pattern_matched": "",
+                         "region_mismatch": region_mismatch, "notes": notes})
+    return pd.DataFrame(out_rows), pd.DataFrame(mismatches)
 
 
 def main():
@@ -195,14 +218,17 @@ def main():
     print(f"Loaded {len(subs)} substation rows; "
           f"{subs.dropna(subset=['lat','lon']).shape[0]} have coordinates",
           file=sys.stderr)
-    result = spatial_match(projects, subs)
+    result, mismatches = spatial_match(projects, subs)
     result.to_csv(args.out, index=False)
     print(f"\nWrote {len(result)} rows to {args.out}", file=sys.stderr)
+    # Region mismatches side-file
+    mm_path = args.out.parent / "region_mismatches.csv"
+    mismatches.to_csv(mm_path, index=False)
+    print(f"Wrote {len(mismatches)} region mismatches to {mm_path}", file=sys.stderr)
     print("\nMethod summary:", file=sys.stderr)
     print(result["method"].value_counts().to_string(), file=sys.stderr)
     print("\nConfidence summary:", file=sys.stderr)
     print(result["catchment_confidence"].value_counts().to_string(), file=sys.stderr)
-    # Distance distribution for actually-matched rows
     matched = result[result["method"] == "spatial_join"]
     if len(matched):
         print("\nDistance distribution (km) for spatially-matched projects:", file=sys.stderr)
