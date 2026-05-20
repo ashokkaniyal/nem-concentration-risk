@@ -13,6 +13,7 @@ which is precisely why crowding around a corridor matters analytically.
 from __future__ import annotations
 
 import re
+import warnings
 from datetime import datetime
 from pathlib import Path
 from typing import Optional
@@ -148,25 +149,78 @@ def load_all_releases(directory: Path) -> pd.DataFrame:
 
 
 def join_catchment(
-    panel: pd.DataFrame, lookup_path: Path, region: str = "QLD1"
+    panel: pd.DataFrame,
+    lookup_path: Path,
+    regions: Optional[list[str]] = None,
+    region: Optional[str] = None,
 ) -> pd.DataFrame:
-    """Left-join the transmission_catchment lookup onto a panel.
+    """Left-join the NEM-wide cross-validated catchment lookup onto a panel.
 
-    Only `region` rows get joined (default QLD1). Other regions are left alone
-    with NaN catchment, which we tag 'Out of scope' so they don't disappear.
+    Reads the v0.7 canonical schema's final ``catchment`` and
+    ``catchment_confidence`` columns (NOT the legacy ``transmission_catchment``
+    column, which is preserved in the lookup only for traceability). The joined
+    panel exposes the final value under both ``catchment`` and
+    ``transmission_catchment`` (the latter as a backward-compatible alias for
+    downstream code such as ``detect_status_transitions`` and notebook 06).
+
+    Args:
+        panel: long-format project panel (must have ``region`` and ``site_name``).
+        lookup_path: path to ``transmission_catchment_lookup.csv`` (v0.7+).
+        regions: list of AEMO region codes to keep classified, e.g.
+            ``["NSW1", "VIC1"]``. Rows outside the list are overwritten to
+            "Other NEM region" / confidence "n/a". ``None`` (default) applies no
+            region filter — every project keeps its lookup catchment (NEM-wide).
+        region: DEPRECATED single-region string (e.g. "QLD1"). If given, it is
+            treated as ``regions=[region]`` and emits a DeprecationWarning.
+
+    Unmatched rows (in `regions` but absent from the lookup) → catchment
+    "Unclassified", confidence "review". Lookup rows already tagged "unresolved"
+    (the Quandong case) pass through verbatim.
     """
+    if region is not None:
+        warnings.warn(
+            "'region' is deprecated, use 'regions=[...]' for explicit region filtering",
+            DeprecationWarning,
+            stacklevel=2,
+        )
+        if regions is None:
+            regions = [region]
+
     lookup = pd.read_csv(lookup_path)
+
+    # Schema validation — require the v0.7 final columns.
+    if "catchment" not in lookup.columns or "catchment_confidence" not in lookup.columns:
+        legacy = "transmission_catchment" in lookup.columns
+        raise ValueError(
+            f"{lookup_path} is missing the v0.7 final columns "
+            f"('catchment', 'catchment_confidence'). "
+            + (
+                "This looks like a pre-v0.7 lookup with only the legacy "
+                "'transmission_catchment' column. "
+                if legacy else ""
+            )
+            + "Use the NEM-wide cross-validated lookup committed in v0.7 "
+            "(commit 6ca5632); see data/rez/catchment_lookup_schema.md."
+        )
+
     joined = panel.merge(
-        lookup[["site_name", "transmission_catchment", "catchment_confidence"]],
+        lookup[["site_name", "catchment", "catchment_confidence"]],
         on="site_name", how="left",
     )
-    # Tag non-QLD rows as out of scope
-    mask_other_region = joined["region"] != region
-    joined.loc[mask_other_region, "transmission_catchment"] = "Other NEM region"
-    joined.loc[mask_other_region, "catchment_confidence"] = "n/a"
-    # Anything QLD with no lookup match -> Unclassified
-    joined["transmission_catchment"] = joined["transmission_catchment"].fillna("Unclassified")
+
+    # Region filter (only when `regions` given): rows outside the listed regions
+    # are tagged out-of-scope so they don't masquerade as classified.
+    if regions is not None:
+        mask_other = ~joined["region"].isin(regions)
+        joined.loc[mask_other, "catchment"] = "Other NEM region"
+        joined.loc[mask_other, "catchment_confidence"] = "n/a"
+
+    # In-scope rows with no lookup match -> Unclassified.
+    joined["catchment"] = joined["catchment"].fillna("Unclassified")
     joined["catchment_confidence"] = joined["catchment_confidence"].fillna("review")
+
+    # Backward-compatible alias for downstream code that reads transmission_catchment.
+    joined["transmission_catchment"] = joined["catchment"]
     return joined
 
 
