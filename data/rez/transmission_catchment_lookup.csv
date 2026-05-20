@@ -518,7 +518,6 @@ Wandoan South BESS,WD,high,no_coord_m1_backstop,WD,high,,,WD,WD substation/Chinc
 Wandoan South Solar,WD,high,no_coord_m1_backstop,WD,high,,,WD,WD substation/Chinchilla corridor,Wandoan,650.0,Solar PV - Single axis tracking,Solar,Vena Evergy,tier_3,1.0,large_tier3,
 Wandoan South Solar Stage 1,WD,high,no_coord_m1_backstop,WD,high,,,WD,WD substation/Chinchilla corridor,Wandoan,160.0,Solar PV - Single axis tracking,Solar,Vena Evergy,tier_3,0.0,,
 Wandoan South Solar Stage 2,WD,high,no_coord_m1_backstop,WD,high,,,WD,WD substation/Chinchilla corridor,Wandoan,240.0,Solar PV - Single axis tracking,Solar - Solar,TBSOL,tier_3,0.0,,
-Wantirna Mini Hydro,Unclassified,review,no_coord_m1_backstop,Unclassified,review,,,Unclassified,No rule matched — manual review needed,,0.132,Hydro - Dam,Water,TBA,tier_3,0.0,,
 Warwick Solar Farm,SD,high,no_coord_m1_backstop,SD,high,,,SD,Southern Downs corridor (Karara/Warwick/Bulli Creek),Warwick Solar,64.208,Solar PV - Single axis tracking,Solar,The University of Queensland,tier_3,0.0,,
 Western Downs Battery,WD,high,no_coord_m1_backstop,WD,high,,,WD,WD substation/Chinchilla corridor,Western Downs,259.2,Storage - Battery,Other - Other,Western Downs BESS Trust,tier_3,0.0,,
 Western Downs Battery - Stage 1 And 2,WD,high,no_coord_m1_backstop,WD,high,,,WD,WD substation/Chinchilla corridor,Western Downs,254.94,Storage - Battery,Other - Other,Western Downs BESS Pty Ltd as trustee for Western Downs BESS Trust,tier_3,0.0,,

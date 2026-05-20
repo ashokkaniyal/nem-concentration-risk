@@ -1,8 +1,28 @@
 # Catchment lookup schema & provenance guide
 
-How to read `transmission_catchment_lookup.csv` (canonical, NEM-wide as of v0.7)
-and its cross-validation working file `transmission_catchment_lookup_draft_v5.csv`.
-Written for a panel reviewer or future-self auditing how each project got its catchment.
+How to read `transmission_catchment_lookup.csv` (canonical, NEM-wide as of v0.7,
+deduped in v0.7.1) and its cross-validation working file
+`transmission_catchment_lookup_draft_v5.csv`. Written for a panel reviewer or
+future-self auditing how each project got its catchment.
+
+## Catchment universe
+
+**23 REZ catchments** (15 non-QLD + 8 QLD) plus `Unclassified` and `unresolved`.
+
+| State | n | Catchments |
+|---|---:|---|
+| NSW | 5 | CWO, HCC, NEW, SW-NSW, ILW |
+| VIC | 5 | CN-VIC, MR, WV, GIP, SW-VIC |
+| SA | **4** | MN, SE-SA, RIV, **EYR** |
+| TAS | 1 | TAS-NW |
+| QLD | 8 | WD, SD, DD, TG, WG, FNQ, CQ, SEQ |
+
+**Note on the count:** the v0.7 commit message (6ca5632) said "14 NSW/VIC/SA/TAS
+catchments" — that undercounted. The correct non-QLD total is **15**. **EYR**
+(Eyre Peninsula) is the 4th SA catchment, added mid-Phase-2 when ElectraNet
+transmission topology showed the Eyre Peninsula is electrically separate from
+Mid-North (MN) — it connects via Cultana/Davenport on the Upper Spencer Gulf,
+not into the Mid-North 275 kV corridor. EYR is legitimate (24 rows).
 
 ## Columns
 
@@ -29,6 +49,10 @@ Written for a panel reviewer or future-self auditing how each project got its ca
 | **medium** | Single-method or moderate-distance (20-50 km) evidence; locality-proxy coords capped here |
 | **review** | Weak/ambiguous: keyword "judgement call" with no coord, spatial match >50 km, boundary swap with a far coord, or manual region fix |
 | **unresolved** | Neither method substantiated a catchment (1 row: Quandong Solar Farm) |
+
+**Casing convention (v0.7.1):** `catchment_confidence` is **lowercase**:
+`high` / `medium` / `review` / `unresolved`. At join time, `join_catchment`
+adds `n/a` for rows overwritten to "Other NEM region" under a region filter.
 
 ## The 11 merge_rule_applied values
 
@@ -64,13 +88,47 @@ Written for a panel reviewer or future-self auditing how each project got its ca
 - **Method 2 (spatial):** project lat/lon → haversine → nearest substation (region-aware, interconnector-excluded, locality-proxy-capped) → that substation's REZ. Built in `scripts/spatial_join_catchment.py`. Coordinates from `project_coordinates.csv` (590 projects: OSM `power=plant` + hand-compiled Waves 1-2 ≥200 MW). Output: `spatial_join_v3_wave2.csv`.
 - **Cross-validation:** `method_1_vs_2_comparison.csv` (582 intersection) → 11-rule merge → `transmission_catchment_lookup_draft_v5.csv` → canonical.
 
-## Known limitation for downstream code (flagged, not yet fixed)
+## Downstream code status
 
-`src/nem_herding/projects.py::join_catchment(panel, lookup_path, region="QLD1")`
-**defaults to region="QLD1" and tags every non-QLD row as "Other NEM region"**,
-discarding NSW/VIC/SA/TAS catchments. The notebooks
-(`03_western_downs_eda`, `04_framework_tests`, `06_first_entry_tests`) all call it
-with the default. **With the now-NEM-wide canonical, these notebooks will still
-only classify QLD until `join_catchment` is generalised** (e.g. `region=None` to
-join all regions). This is the first task of the next session (re-running
-`06_first_entry_tests.ipynb` NEM-wide).
+`src/nem_herding/projects.py::join_catchment` was **generalised** (signature
+`join_catchment(panel, lookup_path, regions=None, region=None)`): the default
+`regions=None` applies no region filter and preserves every project's catchment
+NEM-wide; it reads the final `catchment`/`catchment_confidence` columns; the old
+`region="QLD1"` keyword still works but emits a `DeprecationWarning`.
+
+**Remaining Turn-2 work (notebooks):** `03_western_downs_eda`,
+`04_framework_tests`, and `06_first_entry_tests` still hard-code
+`QLD_CATCHMENTS = ['WD','SD','DD','TG','WG','FNQ','CQ','SEQ']` and per-state
+grouping. With the generalised `join_catchment`, a bare call is now NEM-wide, so
+these notebooks need their hard-coded QLD lists replaced (and to pass
+`regions=["QLD1"]` explicitly if QLD-only behaviour is intended) before they
+analyse the full 23-catchment NEM set.
+
+## Known data anomalies (accepted edge cases)
+
+Documented in `v07_audit_report.md` and accepted (no fix required):
+
+1. **Nonowie Wind Farm — region/catchment mismatch.** AEMO tags it region
+   `NSW1`, but the project is physically near Whyalla, South Australia. The
+   region-aware spatial join correctly fell back across regions and assigned
+   catchment **MN** (`merge_rule_applied = nonowie_manual`). This is an AEMO
+   panel data error, not a lookup error. A `regions=["NSW1"]`-filtered NSW
+   analysis will therefore contain one MN-catchment project — expected.
+
+2. **Lookup is a snapshot; panel is a 22-release union.** The canonical was
+   built from a point-in-time project set. The panel
+   (`load_all_releases`) is the union across all 22 AEMO releases, so it
+   contains projects (withdrawn, renamed, or backfilled) that have no lookup
+   row. ~41 of 601 QLD panel projects (~7%) resolve to `Unclassified` on join
+   for this reason. Expected and accepted — not a coverage gap in the
+   methodology.
+
+3. **Wantirna Mini Hydro (resolved in v0.7.1).** Previously appeared twice in
+   the canonical (a spurious QLD-section row inherited from draft_v2 plus the
+   correct VIC row), both `Unclassified`, causing +18 join-row inflation. The
+   spurious QLD-section row was dropped in v0.7.1; the canonical now has one
+   Wantirna row. Note the AEMO *panel* still tags Wantirna under both `QLD1`
+   and `VIC1` across releases (an AEMO error) — but with a single lookup row
+   the join no longer inflates.
+
+4. **Casing.** `catchment_confidence` normalised to lowercase in v0.7.1.
