@@ -1,135 +1,154 @@
-# NEM-wide first-entry concentration — multi-resolution finding (notebook 07)
+# NEM-wide first-entry concentration — multi-resolution finding (notebook 07, v0.7.2)
 
-Companion summary to `notebooks/07_nem_first_entry_tests.ipynb`. Built 2026-05-21
-against the v0.7.1 NEM-wide canonical (`transmission_catchment_lookup.csv`, 2,109
-projects; 1,023 high+medium first-entry events post left-censoring).
+Companion summary to `notebooks/07_nem_first_entry_tests.ipynb` (v0.7.2,
+bootstrap-calibrated). Built 2026-05-21 against the v0.7.1 NEM-wide canonical
+(`transmission_catchment_lookup.csv`, 2,109 projects; 1,023 high+medium REZ
+first-entry events post left-censoring).
+
+> **v0.7.2 note.** All per-unit p-values are **parametric-bootstrap calibrated**
+> (B = 10,000), not asymptotic chi-square — the asymptotic test is anti-conservative
+> here because expected per-window counts are small (often <1). Magnitudes are more
+> modest than the v0.7 chi-square version; the qualitative finding is unchanged.
+> Bootstrap floor = 1/(B+1) ≈ 1.0e-4 (a unit "at the floor" has true p < 1e-4).
 
 ---
 
 ## Headline
 
-**The QLD herding mechanism is a NEM-wide phenomenon.** The temporal/spatial
-concentration of early-stage generation first-entries that notebook 06 found in
-Southern QLD is **independently replicated in NSW, VIC and SA**, and is
-**scale-invariant** — overwhelmingly significant at catchment, corridor (cluster)
-and state resolutions alike.
+**The QLD herding mechanism replicates independently across the NEM, and the
+herding-specific signature is present directly.** Two complementary findings, both
+calibrated and both positive:
+
+- **(a) Temporal burstiness within units** — first-entries swing between windows
+  more than exposure predicts. Replicates on **disjoint project sets**: NSW, VIC, SA
+  and QLD each significant (bootstrap p < 1e-4 each).
+- **(b) Cross-catchment concentration within windows** — the *direct* herding test.
+  In **10 of 18** windows, first-entries pile into particular catchments beyond the
+  exposure baseline (calibrated multinomial bootstrap; combined **p ≈ 1.4e-17**).
 
 ---
 
-## §6 multi-resolution comparison (primary: high + medium confidence)
+## Finding (a) — within-unit temporal dispersion (§2–§4)
 
-| Resolution | Units tested | n total | Best individual p (Bonferroni) | # significant (Bonferroni) | Fisher's combined p | Robustness verdict |
-|---|---:|---:|---:|---:|---:|---|
-| **Catchment** (23 REZ) | 21 of 23 | 1,023 | 1.4e-10 | **13** | **5.5e-62** | robust (CWO drops at +review) |
-| **Cluster** (5 corridors) | 5 of 5 | 618 | 5.5e-18 | **5** | **6.2e-44** | robust (5/5 unchanged) |
-| **State** (NSW/VIC/SA/QLD) | 4 | 980 | 6.6e-33 | **4** | **1.3e-38** | robust (4/4 unchanged) |
+| Resolution | Units tested | # significant (Bonferroni, bootstrap) | # at floor | Best p (corrected) | Robustness |
+|---|---:|---:|---:|---:|---|
+| **State** (4, disjoint sets) | 4 | **4** | 4 | 4.0e-4 | identical at +review |
+| **Cluster** (5 corridors) | 5 | **5** | 5 | 5.0e-4 | identical at +review |
+| **Catchment** (23 REZ) | 21 | **12** | 7 | 2.1e-3 | identical set at +review |
 
-*TAS-NW: descriptive only (single-catchment state) — Fano 2.90, CI (1.41, 4.40).*
+Significant catchments (12, identical under both confidence tiers): CN-VIC, CQ, GIP,
+MN, NEW, SD, SEQ, SW-NSW, SW-VIC, TAS-NW, WG, WV. **CWO** is *not* significant under
+the bootstrap (its asymptotic p of 2.3e-3 was a small-cell artifact); FNQ was never
+significant. All 5 corridors and all 4 states sit at the bootstrap floor (true p < 1e-4).
 
-Significant catchments (Bonferroni, α = 0.05/21): CWO, NEW, SW-NSW (NSW);
-CN-VIC, WV, SW-VIC, GIP (VIC); MN (SA); SD, WG, CQ, SEQ (QLD); TAS-NW.
+*TAS-NW: descriptive only (single-catchment state) — Fano 2.57, CI (1.16, 4.10).*
 
-Significant clusters (all 5): Central-Northern NSW, Southern QLD, Western
-Victoria, Northern Victoria, Eastern SA.
+## Finding (b) — within-window cross-catchment concentration (§5, the direct herding test)
+
+For each release window, the observed cross-catchment count vector is compared against
+the exposure-share baseline, calibrated by a **multinomial bootstrap**. Because each
+window's first-entries are a **disjoint** set of projects, combining the per-window
+p-values via Fisher's method is legitimately independent — so this combined figure is a
+genuine probability (floor-limited), not just an evidence index.
+
+- **10 of 18** windows individually significant (calibrated, p < 0.05).
+- Combined across windows: **p ≈ 1.4e-17** (1 window at the 1e-4 floor).
+- Most-concentrated windows — **2021-05, 2022-06, 2023-05, 2024-04, 2025-04** — align
+  with the major policy events in notebook 06's timing analysis (ISP/Roadmap, CIS design,
+  CIS tenders).
+- Asymptotic version (anti-conservative, for reference): 7.97e-37.
+
+This is the herding-specific result: not merely that catchments are busy at different
+times, but that developers crowd the *same* catchments at the *same* moments.
 
 ---
 
 ## Headline narrative (for panel / Akaysha communication)
 
-**The QLD herding mechanism is a NEM-wide phenomenon.** Notebook 06 found that
-early-stage generation projects in Southern QLD crowd into the same transmission
-catchments in the same release windows, beyond what catchment size (exposure)
-predicts — a herding pattern that aligns with policy-event timing and presages
-transmission constraint. Notebook 07 extends that test to the entire National
-Electricity Market using a cross-validated, topology-defensible catchment lookup,
-and finds the same pattern **independently replicated in New South Wales, Victoria
-and South Australia**. The QLD baseline reproduces exactly against the cleaned
-v0.7.1 data (Claim 3 Fisher's combined 7.04e-8, matching notebook 06), confirming
-the extension rests on sound infrastructure.
+**The QLD herding mechanism replicates independently across the NEM, and the
+herding-specific signature is present directly.** Two things are true and they reinforce
+each other. First, early-stage first-entries are **temporally bursty within transmission
+units**, and this replicates on *disjoint project sets*: New South Wales, Victoria and
+South Australia each contain entirely different projects from Queensland and from each
+other, yet all four states independently show significant clustering (parametric-bootstrap
+p < 1e-4 each, after Bonferroni). Three independent jurisdictions reproducing a fourth's
+signal is replication in the strict sense.
 
-**The evidence is overwhelming and scale-invariant.** At the finest resolution,
-13 of 21 individual REZ catchments show statistically significant temporal
-concentration after conservative Bonferroni correction, with a combined Fisher's
-statistic of 5.5e-62 — i.e. the per-window crowding pattern is general across
-renewable-energy zones, not a QLD peculiarity. The pattern holds when catchments
-are aggregated to shared transmission corridors (5 of 5 clusters significant) and
-to whole states (4 of 4 significant). A signal that survives every level of
-aggregation is the signature of a broad structural mechanism, and it is robust to
-classification uncertainty: dropping to the lowest confidence tier leaves the
-conclusion and the significant-unit set essentially unchanged.
+Second — and more directly to the point of *herding* — in specific release windows,
+first-entries concentrate into particular catchments far beyond the exposure baseline
+(10 of 18 windows significant; calibrated combined p ≈ 1.4e-17). It is not merely that
+catchments are busy at different times; developers crowd the *same* catchments at the
+*same* moments, and those moments line up with major policy events. The signal is a
+corridor-level phenomenon: aggregating catchments into the five *a priori* transmission
+corridors, all five are significant at the bootstrap floor, because pooling along a shared
+backbone concentrates rather than dilutes the bursts.
 
-**The corridor result is the mechanistically decisive one.** When catchments that
-hang off a common 330/500 kV backbone are pooled — the Hunter Valley ring
-(Central-Northern NSW), the Western Renewables Link (Western Victoria), the
-northern-Victoria Murray network, the PEC terminus (Eastern SA) and the Southern
-QLD corridor — temporal over-dispersion *strengthens* (Fano 3.7–7.0) rather than
-averaging away. This is precisely what the framework predicts: policy signals
-drive developers to herd into the same transmission corridors within the same
-windows, and those corridors are the ones that subsequently bind. Concentration
-risk in the NEM is a corridor-level phenomenon driven by a common, policy-coupled
-mechanism — observable, replicable, and quantified here at p < 1e-40 at every
-scale of analysis.
+**Statistical honesty.** These conclusions use parametric/multinomial bootstraps rather
+than the asymptotic chi-square, because expected per-window counts are small (often <1),
+which makes asymptotic p-values unreliable and too small. The calibrated magnitudes are
+more modest than a naive chi-square, but the qualitative finding is unchanged and now
+defensible. What this establishes is the **clustering/herding pattern** (Test 4 territory);
+it does **not** by itself establish that clustering *causes* subsequent transmission
+constraint — that causal link is the separate, pre-registered **Test 5 (Claim 4)**.
 
 ---
 
 ## Methodology (short)
 
-- **Unit of analysis:** project *first-entry events* — the earliest AEMO
-  Generation Information release in which a project appears at Proposed/Anticipated
-  status. This is the upstream decision moment (notebook 06's v0.6 refinement),
-  not the lagged status-transition.
-- **Panel:** 22 quarterly AEMO Generation Information releases, phantom-cleaned
-  (`phantom_risk < 2`), left-censored at the 2020-02 panel start.
-- **Catchment assignment:** the v0.7.1 NEM-wide cross-validated lookup (Method 1
-  keyword × Method 2 spatial join, 11-rule merge, SLD-topology adjudication).
-- **Clusters:** 5 multi-catchment transmission corridors derived top-down from
-  the 2019 AEMO SLD + REZ substation backbone (`cluster_definitions_proposal.md`,
-  approved with 3 revisions) — fixed *before* testing to prevent post-hoc cluster
-  engineering. 9 singletons tested at catchment level only.
-- **Statistics (identical to notebook 06):** Fano factor with 2,000-resample
-  bootstrap CI; exposure-controlled Pearson chi-square (per-window counts vs the
-  unit's own exposure-scaled mean rate); per-window concentration chi-square +
-  Fisher's combined across windows. Resolution-level Fisher's combined over tested
-  units; Bonferroni control at α = 0.05/N per resolution.
-- **Thresholds:** n ≥ 10 per unit for formal testing; below-threshold units
-  (RIV n=7, TG n=5) reported descriptively. Analysis windows are the releases
-  carrying ≥1 in-scope first-entry (3 zero-activity re-releases excluded).
+- **Unit of analysis:** project first-entry events (earliest AEMO release at
+  Proposed/Anticipated; nb06's v0.6 refinement), phantom-cleaned, left-censored at the
+  2020-02 panel start.
+- **Two tests:** (a) within-unit temporal dispersion vs the unit's own exposure-scaled
+  rate (parametric Poisson bootstrap, B = 10,000); (b) within-window cross-catchment
+  concentration vs exposure shares (multinomial bootstrap, B = 10,000).
+- **Resolutions:** catchment (23 REZ), cluster (5 corridors from
+  `cluster_definitions_proposal.md`, fixed before testing), state (NSW/VIC/SA/QLD; TAS
+  descriptive). n ≥ 10 per unit for formal testing.
+- **Confidence:** primary `{high, medium}`; robustness adds `review` (§8).
+- **Multiple comparisons:** Bonferroni per resolution (α = 0.05/N).
 
 ---
 
-## QLD baseline replication (methodological-infrastructure check)
+## QLD baseline replication (§1, methodological-infrastructure check)
 
-§1 re-runs notebook 06's QLD-only analysis against the cleaned v0.7.1 canonical:
+§1 re-runs nb06's QLD analysis (asymptotic, by design) against the cleaned v0.7.1 canonical:
 
 | Test | Notebook 06 | v0.7.1 | Match |
 |---|---|---|---|
 | QLD first-entries (n) | 254 | 254 | exact |
-| WD Claim 1b p | 0.0081 | 0.0081 | exact |
-| WG Claim 1b p | 0.0023 | 0.0023 | exact |
-| SD Claim 1b p | 0.00022 | 0.00022 | exact |
-| CQ Claim 1b p | <1e-6 | 2.5e-7 | consistent |
-| **Claim 3 Fisher's combined** | **7e-8** | **7.04e-8** | **exact (3 s.f.)** |
+| WD / WG / SD Claim 1b p | 0.0081 / 0.0023 / 0.00022 | 0.0081 / 0.0023 / 0.00022 | exact |
+| Claim 3 concentration Fisher's combined | 7e-8 | 7.04e-8 | exact (3 s.f.) |
 
-The v0.7.1 cleanup (Wantirna dedup, confidence casing) preserved the QLD
-methodological infrastructure — the NEM-wide extension rests on a sound base.
+Confirms the v0.7.1 cleanup preserved the pipeline. (These §1 numbers are asymptotic and
+carry the small-cell limitation — see the caveats; that is precisely why §2 onward switches
+to bootstrap calibration.)
 
 ---
 
-## Robustness — sensitivity to the confidence filter (§7)
+## Robustness — sensitivity to the confidence filter (§8)
 
-Re-running §2–§6 on `{high, medium, review}` (1,248 first-entries):
+Re-running on `{high, medium, review}`:
 
-| Resolution | Fisher's combined (primary) | Fisher's combined (+review) | # sig (primary → +review) |
-|---|---:|---:|---|
-| Catchment | 5.5e-62 | 1.3e-63 | 13 → 12 |
-| Cluster | 6.2e-44 | 6.2e-45 | 5 → 5 |
-| State | 1.3e-38 | 9.9e-40 | 4 → 4 |
+- **(a) temporal dispersion:** states 4/4, clusters 5/5, and the catchment significant set
+  is **identical** (12 units) under both tiers — a stable core, unlike the asymptotic version
+  where CWO flickered in/out.
+- **(b) within-window concentration:** 11/18 windows significant; calibrated combined
+  p ≈ 1.6e-18.
 
-**Verdict: robust.** The multi-resolution conclusion is unchanged at every
-resolution; clusters stay 5/5 and states 4/4. The only change in the significant
-catchment set is **CWO**, which drops below the Bonferroni line at the +review
-tier — mechanistically consistent, since CWO's significance rests partly on Wave-2
-hand-compiled medium-confidence rows, so diluting with review-tier classifications
-softens its per-window pattern. The signal is **not driven by edge cases**: it is
-carried by the high/medium core and is neither created nor destroyed by adding
-noisy classifications.
+**Verdict: robust.** The result is carried by the high/medium core, not the noisier review
+tier.
+
+---
+
+## Key caveats (full set in notebook §10)
+
+1. Asymptotic chi-square is anti-conservative here (small expected counts) — corrected by
+   bootstrap. Inherited from nb06 (recorded in `catchment_lookup_schema.md`).
+2. Bootstrap floor 1e-4: floored units have true p < 1e-4 but unresolved at B = 10,000.
+3. Cross-unit Fisher figures are **evidence indices, not probabilities** (independence
+   violated by the mechanism; scale with unit count). The §5 within-window combined p **is**
+   a legitimate probability (windows are disjoint event sets).
+4. Cross-resolution agreement is not independent confirmation (clusters/states are sums of
+   the same events); cross-**state** is the genuine independent replication.
+5. Establishes clustering/herding (Test 4), **not** the causal herding → constraint link
+   (Test 5 / Claim 4).

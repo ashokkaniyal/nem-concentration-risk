@@ -1,4 +1,4 @@
-resolution,units_tested,n_total,best_p_corrected,n_sig_bonferroni,fisher_combined_p,concentration_fisher_p
-Catchment (23 REZ),21,1023,1.391316291836001e-10,13,5.507858186850328e-62,7.96792346295542e-37
-Cluster (5),5,618,5.526265304664121e-18,5,6.210882509871513e-44,5.205140604739646e-13
-State (4 incl QLD),4,980,6.552373726184011e-33,4,1.2528143513077247e-38,5.918327467761479e-13
+resolution,units_tested,n_total,n_sig_bonferroni,n_at_floor,best_p_corrected,evidence_index
+"State (4, disjoint)",4,980,4,4,0.00039996000399960006,73.7
+Cluster (5 corridors),5,618,5,5,0.0004999500049995,92.1
+Catchment (23 REZ),21,1023,12,7,0.0020997900209979003,255.3

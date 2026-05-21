@@ -132,3 +132,21 @@ Documented in `v07_audit_report.md` and accepted (no fix required):
    the join no longer inflates.
 
 4. **Casing.** `catchment_confidence` normalised to lowercase in v0.7.1.
+
+## Known methodological issue — downstream notebooks (recorded v0.7.2)
+
+**Notebook 06's per-catchment Claim 1b chi-square is anti-conservative.** The
+exposure-controlled Pearson chi-square dispersion test in `notebooks/06_first_entry_tests.ipynb`
+(and replicated for the QLD baseline in §1 of `notebooks/07_nem_first_entry_tests.ipynb`)
+relies on the asymptotic chi-square distribution, but expected first-entry counts per
+release window are typically below 5 — often below 1. At those counts the statistic's
+right tail is heavier than chi-square, so the **asymptotic p-values are systematically
+too small** (overstatement ranging from ~4–5× for larger catchments to effectively
+unbounded for the strongest units). This affects notebook 06's published per-catchment
+p-values (e.g. WD 0.0081) but **not** its qualitative conclusions.
+
+**Status:** corrected in `notebook 07 v0.7.2`, which replaces the per-unit asymptotic
+test with a parametric Poisson bootstrap (B = 10,000) and the within-window concentration
+test with a multinomial bootstrap (see notebook 07 §10 for the full treatment). Notebook 06
+itself is left unchanged (its QLD result stands qualitatively); this note records the
+limitation so it is not silently re-inherited by future analyses.
