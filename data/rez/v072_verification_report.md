@@ -8,6 +8,13 @@ data (Type I + power), independent manual re-derivation, and a permutation test.
 exact functions, self-checked against committed numbers), `scripts/verify_v072_synthetic.py`,
 `scripts/verify_v072_manual.py`, `scripts/verify_v072_permutation.py`.
 
+**Section-numbering note (v0.7.3).** Section numbers here use the **current v0.7.3 notebook**
+numbering: the within-window cross-catchment concentration test is **§2**; the conditioned
+temporal tests are **§3–§5**. When this battery was first run (against v0.7.2) the within-window
+test was numbered §5 and the then-unconditioned temporal-dispersion test was §2–§4; the latter
+has since been **replaced** by the conditioned test, so it is referred to below as "v0.7.2 §2–§4"
+to distinguish it from the current §3–§5.
+
 ---
 
 ## Verdict (read this first)
@@ -19,12 +26,12 @@ exact functions, self-checked against committed numbers), `scripts/verify_v072_s
 | Type I error — within-window test (synthetic null) | ✅ well-calibrated (FPR 4.5% vs 5% over 200 runs) |
 | Power (synthetic planted clustering) | ✅ detects planted signal in exactly the planted units/windows |
 | Manual re-derivation (independent code) | ✅ exact-seed reproduction matches; high-B confirms within MC noise |
-| Permutation — within-window concentration (§5) | ✅ collapses to null → §5 detects genuine spatial concentration |
-| Permutation — temporal dispersion (§2–§4) | ⚠️ **only drops 12→~7.7 sig units → partly a global temporal trend, not unit-specific** |
+| Permutation — within-window concentration (§2) | ✅ collapses to null → §2 detects genuine spatial concentration |
+| Permutation — temporal dispersion (v0.7.2 §2–§4) | ⚠️ **only drops 12→~7.7 sig units → partly a global temporal trend, not unit-specific** |
 
-**Bottom line.** The **§5 within-window cross-catchment concentration test is fully
+**Bottom line.** The **§2 within-window cross-catchment concentration test is fully
 verified and is the load-bearing, defensible result** (p ≈ 1.4e-17; survives permutation;
-correctly calibrated; strong power). The **§2–§4 within-unit temporal-dispersion results
+correctly calibrated; strong power). The **v0.7.2 §2–§4 within-unit temporal-dispersion results
 are calibrated and reproducible, but the permutation test shows they substantially reflect a
 shared national temporal trend rather than unit-specific herding** — they must be reframed
 before external use (see "Methodology issues", item 1).
@@ -119,7 +126,7 @@ structure). The real v0.7.2 pipeline is then run.
   min 0.053, fraction <0.05 = **0%**.
 - Real combined p was 1.4e-17; the permuted analysis **never approaches it**.
 - ✅ **Spatial concentration is destroyed by the permutation, exactly as it should be.** The
-  §5 result is detecting genuine cross-catchment concentration, not a test artefact. No bug.
+  §2 result is detecting genuine cross-catchment concentration, not a test artefact. No bug.
 
 **(a) Within-unit temporal dispersion under permutation:**
 - Catchments significant: mean **7.7 of 21** (real = 12; range 6–10).
@@ -131,7 +138,7 @@ structure). The real v0.7.2 pipeline is then run.
 
 ## Methodology issues uncovered (honest assessment)
 
-**1. (Material) The §2–§4 temporal-dispersion test conflates a global temporal trend with
+**1. (Material) The v0.7.2 §2–§4 temporal-dispersion test conflates a global temporal trend with
 unit-specific herding.** Under a permutation that destroys all catchment-specific structure
 but preserves window totals, ~7.7 of the 12 significant catchments remain significant. So a
 majority (~64%) of the temporal-dispersion significance is attributable to a *shared national
@@ -143,10 +150,12 @@ simultaneously. **Implication:** "12 of 21 catchments individually significant" 
 read as 12 independent unit-specific herding events; and the cross-state "replication"
 partly reflects a common national driver firing in all states at once. *(That common driver
 may itself be the policy signal — interesting — but it is a different claim from unit-specific
-herding.)* **Fix options:** (i) foreground §5 as the herding test and explicitly down-weight
-§2–§4 to "consistent with clustering, not isolating unit-specific from global-temporal"; or
-(ii) add a global-rate-controlled temporal test (expected_w = (n_w / Σ_u exposure_w) ×
-exposure_w[u], i.e. condition on the window total — which is essentially what §5 already does).
+herding.)* **Fix options:** (i) foreground §2 as the herding test and explicitly down-weight
+the v0.7.2 §2–§4 temporal test to "consistent with clustering, not isolating unit-specific from
+global-temporal"; or (ii) add a global-rate-controlled temporal test (expected_w =
+(n_w / Σ_u exposure_w) × exposure_w[u], i.e. condition on the window total — which is essentially
+what §2 already does). *(v0.7.3 implemented both: option (ii) as the conditioned §3–§5 test, and
+option (i) foregrounding §2 — see the v0.7.3 re-verification section below.)*
 
 **2. (Minor) Near-floor bootstrap p-values are noisy at B = 10,000.** MN's reported 4e-4 has
 a true value ≈5e-5; at B = 10,000 the expected count is <1, so the estimate swings several σ.
@@ -156,7 +165,7 @@ This does not change any significance decision (floor < every Bonferroni thresho
 
 **3. (Already documented, confirmed.) The cross-unit Fisher "evidence indices" are not
 probabilities** (independence violated; scale with unit count) — unchanged from §10 of the
-notebook. The §5 within-window combined p **is** a legitimate probability because windows are
+notebook. The §2 within-window combined p **is** a legitimate probability because windows are
 disjoint event sets; the synthetic-null and permutation checks both confirm it is calibrated.
 
 **No bugs were found.** All three issues are interpretation/limitation matters, not coding
@@ -168,14 +177,14 @@ re-derivation).
 ## What is defensible externally
 
 **Ready now (survives every check):**
-- The **§5 within-window cross-catchment concentration result** — the direct herding test.
+- The **§2 within-window cross-catchment concentration result** — the direct herding test.
   Calibrated (synthetic null), powerful (planted clustering), and verified genuine
   (permutation collapses it to null). Combined p ≈ 1.4e-17, robust to confidence tier
   (§8: 11/18 at +review). This is the headline that should lead any external presentation.
 - The **existence** of NEM-wide, multi-state clustering on disjoint project sets.
 
 **Needs reframing before external use:**
-- The §2–§4 "12/21 catchments / 4/4 states / 5/5 clusters individually significant"
+- The v0.7.2 §2–§4 "12/21 catchments / 4/4 states / 5/5 clusters individually significant"
   temporal-dispersion magnitudes — re-state with the global-trend caveat (issue 1), or add the
   window-total-controlled version of the temporal test.
 - Strong/near-floor per-unit magnitudes — report as thresholds or raise B (issue 2).
@@ -196,7 +205,7 @@ Re-verification script: `scripts/verify_v073_conditioned.py`.
 ## Confirmation criterion — permutation collapse of the conditioned test
 
 The decisive check: re-run the same exposure-baseline label permutation on the **conditioned**
-test. If the fix works it should collapse close to null (the way the within-window §5 test
+test. If the fix works it should collapse close to null (the way the within-window §2 test
 does), unlike the old test's 12 → ~7.7.
 
 | Resolution | Real conditioned-significant | Permuted (20 perms), mean [range] | Nominal | v0.7.2 unconditioned (permuted) |
