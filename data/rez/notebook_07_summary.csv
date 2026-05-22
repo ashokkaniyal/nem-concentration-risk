@@ -1,4 +1,4 @@
-resolution,units_tested,n_total,n_sig_bonferroni,n_at_floor,best_p_corrected,evidence_index
-"State (4, disjoint)",4,980,4,4,0.00039996000399960006,73.7
-Cluster (5 corridors),5,618,5,5,0.0004999500049995,92.1
-Catchment (23 REZ),21,1023,12,7,0.0020997900209979003,255.3
+resolution,units_tested,n_conditioned_sig,best_p_corrected
+"State (4, disjoint)",4,4,3.999960000399996e-05
+Cluster (5),5,4,4.9999500004999955e-05
+Catchment (23 REZ),21,5,0.0004199958000419996
