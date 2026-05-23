@@ -193,3 +193,76 @@ Roughly:
 6. **Section 6** (reproducibility hooks) — final wrapper; depends on 4 and 5.
 
 Test 5 itself does not run until all six items are at **[x]**.
+
+---
+
+# Forward-work additions (recorded 2026-05-22, v0.7.3 era)
+
+*Sections 1–6 above were scoped for the QLD-only Test 5. The NEM-wide extension
+(v0.7.3 Test 4) and the causal framing add the items below. The **RHS-change
+feasibility spike** is the next major piece of work after the v0.7.3 external review.*
+
+## RHS-change feasibility spike (Test 5 prerequisite) **[ ]**
+
+**Status:** Not started. Next major piece of work after the v0.7.3 external review.
+
+**Why it gates Test 5.** Test 5's causal claim (herding → constraint emergence) is
+mediated by network build. A herded corridor only binds when generation growth
+(constraint **LHS**) outpaces transfer-limit growth (constraint **RHS**). Test 5
+cannot be pre-registered until we know whether the RHS / network-build side is
+observable. The spike determines which version of Test 5 is feasible:
+
+- **If legible → strong Test 5:** "binding emerges where LHS herding growth outran
+  RHS build growth."
+- **If not legible → weak Test 5:** "herded corridors bind more often, augmentation
+  unmodelled" (more confounded).
+
+**The idea.** Rather than reconstructing the network-build timeline by scraping TAPRs,
+AEMO augmentation announcements, ISP actionable-project updates, and the Open
+Infrastructure database — a miserable, error-prone data-archaeology job — read network
+changes off the **constraint equations themselves**. MMSDM holds constraint equation
+definitions and RHS values, versioned and effective-dated. Network augmentation
+propagates into constraint equations as: RHS step changes, new constraint equation IDs
+appearing, old IDs retiring, and LHS coefficient (PTDF) shifts.
+
+**The known trap.** RHS values change for many reasons that are **not** network build —
+ambient/dynamic line ratings, plant availability, seasonal re-rating, constraint
+formulation revisions, outage-specific constraints. A naive "RHS changed → augmentation"
+rule would be swamped by false positives. Genuine build is distinguished by:
+**permanence** (a level shift in the floor/typical RHS, not a transient excursion),
+**structural change** (new equation IDs / LHS coefficient changes, not just a different
+number), **correlation with major constraint-set version changes**, and
+**corroboration** against known augmentation events.
+
+**Spike scope (when started).**
+
+- Pick 2–3 corridors with known, well-dated augmentation history — Western Downs area,
+  a NSW corridor (CWO / Wollar–Bayswater area), optionally an SA corridor.
+- Pull constraint equation definitions and RHS history for those corridors' binding
+  constraints from MMSDM.
+- Plot RHS over time; track when constraint IDs appear and retire; inspect whether
+  structural changes are legible against seasonal/ambient noise.
+- Validate candidate network-change events against the handful of known augmentations.
+- Deliver a **yellow/green/red feasibility verdict** — explicitly time-boxed, a
+  feasibility look, **not** the start of building a full RHS-change detector.
+
+**Sequencing.** Self-contained; does **not** depend on the v0.7.3 Test 4 result being
+blessed. Intended to run in parallel with the external review of v0.7.3 (which has
+latency). Requires the `nemc-pipeline` GCP VM restarted (~$55/mo; currently terminated).
+
+## Full prerequisite stack (one-place overview)
+
+The complete set of gates before Test 5 can run, consolidating Sections 1–6 above with
+the v0.7.3-era additions:
+
+| Prerequisite | Status | Where |
+|---|---|---|
+| v0.7.3 Test 4 result through external statistical review | **[~]** in progress | `notebook_07_*`, `notebook_07_brief.md` |
+| Transmission-element-to-catchment lookup (constraint-side analogue of the project-to-catchment lookup; **needs NEM-wide extension** — Section 1 is QLD-only) | **[ ]** | Section 1 |
+| MMSDM / `nem-constraints` constraint schema confirmation (which tables carry constraint definitions, RHS values, effective dates, binding events) | **[ ]** | Section 2 |
+| First-entry herding onsets frozen as a versioned CSV (fixed Test 5 input) | **[ ]** | Section 3 |
+| **RHS-change feasibility spike** (this section) | **[ ]** not started | this section |
+| GCP VM `nemc-pipeline` restart (~$55/mo; currently terminated) | **[ ]** terminated | infra |
+
+*(Pipeline code (Section 4), analysis notebook (Section 5), and reproducibility hooks
+(Section 6) follow once the data-side gates above are met.)*
